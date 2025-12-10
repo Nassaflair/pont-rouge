@@ -15,8 +15,9 @@
                 <!-- Desktop Nav -->
                 <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
                     <NuxtLink to="/etude" class="hover:text-red-900 transition-colors">L'Étude</NuxtLink>
+                    <NuxtLink to="/#equipe" class="hover:text-red-900 transition-colors">Notre équipe</NuxtLink>
                     <div class="relative group">
-                        <button class="hover:text-red-900 transition-colors flex items-center gap-1">Expertises</button>
+                        <NuxtLink to="/domaine-de-competence" class="hover:text-red-900 transition-colors flex items-center gap-1">Domaine de compétence</NuxtLink>
                         <!-- Simple Dropdown for navigation -->
                         <div class="absolute left-0 mt-2 w-48 bg-white border border-slate-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 p-2">
                             <NuxtLink to="/droit-famille" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Famille</NuxtLink>
@@ -28,7 +29,7 @@
                         </div>
                     </div>
                     <NuxtLink to="/honoraires" class="hover:text-red-900 transition-colors">Honoraires</NuxtLink>
-                    <NuxtLink to="/blog" class="hover:text-red-900 transition-colors">Blog &amp; Vidéos</NuxtLink>
+                    <NuxtLink to="/blog" class="hover:text-red-900 transition-colors">Blog</NuxtLink>
                     <NuxtLink to="/contact" class="hover:text-red-900 transition-colors">Contact</NuxtLink>
                 </nav>
 

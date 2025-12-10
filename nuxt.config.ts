@@ -25,12 +25,14 @@ export default defineNuxtConfig({
         { name: "twitter:image", content: "https://pont-rouge-avocats-genève.com/images/og-image.jpg" },
       ],
       script: [
+        { children: "tailwind.config = { darkMode: 'class' }" },
         { src: "https://cdn.tailwindcss.com" },
         { src: "https://unpkg.com/lucide@latest" }
       ],
       style: [
         { children: `
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+          :root { color-scheme: light; }
           body { font-family: 'Inter', sans-serif; font-feature-settings: "cv11", "ss01"; }
           ::-webkit-scrollbar { width: 6px; }
           ::-webkit-scrollbar-track { background: #f1f5f9; }
