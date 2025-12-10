@@ -57,6 +57,16 @@
                                 <p class="text-sm text-red-700 mt-1">{{ error }}</p>
                             </div>
                         </div>
+                        <!-- <div v-if="error" key="success" class="mb-8 p-6 bg-green-50 border border-green-200 rounded-xl flex items-start shadow-sm">
+                            <div class="flex-shrink-0">
+                                <svg class="w-6 h-6 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-base font-semibold text-green-800">Demande envoyée avec succès</h3>
+                                <p class="text-sm text-green-700 mt-1">Nous avons bien reçu votre demande. Un email de confirmation vous a été envoyé.</p>
+                                <button @click="success = false" class="mt-3 text-sm font-medium text-green-800 hover:text-green-900 underline underline-offset-2">Envoyer une autre demande</button>
+                            </div>
+                        </div> -->
                     </TransitionGroup>
 
                     <form v-if="!success" class="space-y-8" @submit.prevent="submitForm" novalidate>
