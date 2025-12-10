@@ -82,7 +82,7 @@ async function ensureSmtpReady() {
     console.error('[CONTACT_API] SMTP Connection Error:', err);
     throw createError({
       statusCode: 503,
-      statusMessage: 'Service de messagerie temporairement indisponible. Veuillez réessayer plus tard.',
+      message: 'Service de messagerie temporairement indisponible. Veuillez réessayer plus tard.',
     });
   }
 }
@@ -105,7 +105,7 @@ export default defineEventHandler(async (event) => {
         const remaining = Math.ceil((RATE_WINDOW_MS - (now - last)) / 1000);
         throw createError({
           statusCode: 429,
-          statusMessage: `Veuillez patienter ${remaining} seconde(s) avant de renvoyer un message.`,
+          message: `Veuillez patienter ${remaining} seconde(s) avant de renvoyer un message.`,
         });
       }
 
@@ -124,7 +124,7 @@ export default defineEventHandler(async (event) => {
 
       throw createError({
         statusCode: 400,
-        statusMessage: 'Validation Error',
+        message: 'Validation Error',
         data: fieldErrors,
       });
     }
@@ -269,7 +269,7 @@ L'équipe Pont-Rouge Avocats`,
 
     throw createError({
       statusCode: 500,
-      statusMessage: 'Une erreur interne est survenue. Veuillez réessayer plus tard.',
+      message: 'Une erreur interne est survenue. Veuillez réessayer plus tard.',
     });
   }
 });
