@@ -138,23 +138,58 @@
                             </div>
                         </div>
 
-                        <div class="group">
-                            <label for="subject" class="block text-sm font-medium text-slate-700 mb-1.5 ml-1">Domaine concerné <span class="text-red-500">*</span></label>
-                            <div class="relative">
-                                <select 
-                                    id="subject" 
-                                    v-model="form.subject" 
-                                    class="w-full rounded-lg border-slate-200 bg-slate-50/50 shadow-sm focus:bg-white focus:border-red-900 focus:ring-4 focus:ring-red-900/10 transition-all duration-200 sm:text-sm py-3 px-4 border appearance-none"
-                                >
-                                    <option>Droit de la Famille / Divorce</option>
-                                    <option>Droit Immobilier / Bail</option>
-                                    <option>Droit des Affaires / Contrats</option>
-                                    <option>Droit du Travail</option>
-                                    <option>Autre demande</option>
-                                </select>
-                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
-                                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        <div class="space-y-2">
+                            <label for="message" class="block text-sm font-medium text-slate-700">Votre affaire en quelques mots <span class="text-red-500">*</span></label>
+                            <textarea 
+                                id="message" 
+                                v-model="form.message" 
+                                rows="4" 
+                                :class="{'!border-red-300 focus:!ring-red-200': fieldErrors.message}"
+                                placeholder="Ex: Je souhaite divorcer, j'ai reçu un commandement de payer..." 
+                                class="block w-full rounded-md border-slate-200 shadow-sm focus:border-red-900 focus:ring-red-900 sm:text-sm py-3 px-3 bg-slate-50 hover:bg-white transition-colors resize-none border"
+                                @input="clearError('message')"
+                            ></textarea>
+                            <p v-if="fieldErrors.message" class="mt-1 text-sm text-red-600 ml-1">{{ fieldErrors.message }}</p>
+                        </div>
+
+                        <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+                            <label class="block text-sm font-medium text-slate-900 mb-3">Etes vous soumis à un délai ? *</label>
+                            <div class="flex items-center gap-6">
+                                <div class="flex items-center">
+                                    <input 
+                                        id="delai-non" 
+                                        name="delai" 
+                                        type="radio" 
+                                        value="non" 
+                                        v-model="form.hasDeadline" 
+                                        class="h-4 w-4 border-slate-300 text-red-900 focus:ring-red-900"
+                                    >
+                                    <label for="delai-non" class="ml-2 block text-sm text-slate-700">Non</label>
                                 </div>
+                                <div class="flex items-center">
+                                    <input 
+                                        id="delai-oui" 
+                                        name="delai" 
+                                        type="radio" 
+                                        value="oui" 
+                                        v-model="form.hasDeadline" 
+                                        class="h-4 w-4 border-slate-300 text-red-900 focus:ring-red-900"
+                                    >
+                                    <label for="delai-oui" class="ml-2 block text-sm text-slate-700">Oui</label>
+                                </div>
+                            </div>
+
+                            <!-- Conditional Field -->
+                            <div v-if="form.hasDeadline === 'oui'" class="mt-4 transition-all duration-300 ease-in-out">
+                                <label for="date-delai" class="block text-xs font-semibold uppercase tracking-wide text-red-800 mb-1">Date du délai (Urgent)</label>
+                                <input 
+                                    type="date" 
+                                    id="date-delai" 
+                                    v-model="form.deadlineDate"
+                                    class="block w-full md:w-1/2 rounded-md border-red-200 shadow-sm focus:border-red-900 focus:ring-red-900 sm:text-sm py-2 px-3 text-red-900 bg-white"
+                                    @input="clearError('deadlineDate')"
+                                >
+                                <p v-if="fieldErrors.deadlineDate" class="mt-1 text-sm text-red-600 ml-1">{{ fieldErrors.deadlineDate }}</p>
                             </div>
                         </div>
 
@@ -216,7 +251,10 @@ const form = reactive({
     lastname: '',
     email: '',
     phone: '',
-    subject: 'Droit de la Famille / Divorce',
+    message: '',
+    hasDeadline: 'non',
+    deadlineDate: '',
+    subject: 'Demande de rendez-vous',
     privacy: false
 });
 
@@ -249,6 +287,16 @@ const validateForm = () => {
 
     if (!form.phone || form.phone.length < 10) {
         fieldErrors.phone = "Un numéro de téléphone valide est requis";
+        isValid = false;
+    }
+
+    if (!form.message.trim() || form.message.length < 10) {
+        fieldErrors.message = "Veuillez décrire brièvement votre situation (min 10 caractères)";
+        isValid = false;
+    }
+
+    if (form.hasDeadline === 'oui' && !form.deadlineDate) {
+        fieldErrors.deadlineDate = "La date du délai est requise";
         isValid = false;
     }
 
@@ -298,6 +346,9 @@ const submitForm = async () => {
         form.lastname = '';
         form.email = '';
         form.phone = '';
+        form.message = '';
+        form.hasDeadline = 'non';
+        form.deadlineDate = '';
         form.privacy = false;
         
         // Scroll to success message
