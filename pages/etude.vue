@@ -334,7 +334,7 @@
     </section>
 
 </template>
-<script lang="ts">
+<script lang="ts" setup>
 
 import ContactForm from '@/components/ContactForm.vue';
 
