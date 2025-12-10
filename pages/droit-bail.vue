@@ -48,7 +48,7 @@
                         <div class="absolute inset-0 bg-red-900/5 rounded-2xl transform translate-x-4 translate-y-4"></div>
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 group">
                             <!-- Image: Keys on contract - High quality, representing security/signing -->
-                            <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/917d6f93-fb36-439a-8c48-884b67b35381_1600w.jpg" alt="Clés sur contrat de bail et sécurité juridique" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out">
+                            <img src="/exp/bail.png" alt="Clés sur contrat de bail et sécurité juridique" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out">
                             
                             <!-- Floating Badge -->
                             <div class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm border border-slate-200 p-4 rounded-lg shadow-lg max-w-xs">

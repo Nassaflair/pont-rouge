@@ -78,7 +78,7 @@
                     <!-- Option A: Time based -->
                     <div class="group p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:border-slate-300 transition-all">
                         <div class="w-10 h-10 bg-white rounded-lg border border-slate-200 flex items-center justify-center mb-6 shadow-sm text-slate-900">
-                            <i data-lucide="clock" class="w-5 h-5"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                         </div>
                         <h3 class="text-lg font-semibold text-slate-900 mb-2">Tarif Horaire Adapté</h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
@@ -94,7 +94,7 @@
                     <!-- Option B: Flat fee -->
                     <div class="group p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:border-slate-300 transition-all">
                         <div class="w-10 h-10 bg-white rounded-lg border border-slate-200 flex items-center justify-center mb-6 shadow-sm text-slate-900">
-                            <i data-lucide="package-check" class="w-5 h-5"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package-check"><path d="m16 16 2 2 4-4"></path><path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path><path d="m3.27 6.96 12 12.01"></path><path d="m2.3 2.12 19.36 19.36"></path></svg>
                         </div>
                         <h3 class="text-lg font-semibold text-slate-900 mb-2">Forfait (Prix Fixe)</h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
@@ -175,7 +175,7 @@
                         </p>
                         <div class="pt-6 border-t border-slate-100">
                             <span class="inline-flex items-center text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-1 rounded">
-                                <i data-lucide="check" class="w-3 h-3 mr-1"></i>
+                                <svg class="w-3 h-3 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                                 Acceptée par le cabinet
                             </span>
                         </div>
@@ -203,24 +203,11 @@
             </div>
         </section>
 
-        <!-- CTA Final -->
-        <section id="contact" class="py-24 bg-white border-t border-slate-100">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 class="text-3xl font-semibold text-slate-900 tracking-tight mb-6">
-                    Ne laissez pas le coût vous priver de justice.
-                </h2>
-                <p class="text-lg text-slate-600 mb-10">
-                    Chaque jour compte. Vérifions vos droits et vos options de financement lors d'une première consultation.
-                </p>
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 inline-block w-full max-w-2xl text-left shadow-lg">
-                     <ContactForm />
-                    <p class="text-center text-xs text-slate-400 mt-4">Paiement sur place (Cash/Carte/Twint) à la fin du rendez-vous.</p>
-                </div>
-            </div>
-        </section>
+        <!-- Main Conversion Section (Formulaire) -->
+        <ContactForm />
   </div>
 </template>
 
 <script setup lang="ts">
-// Page specific logic if any
+import ContactForm from '@/components/ContactForm.vue';
 </script>

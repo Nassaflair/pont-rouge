@@ -49,7 +49,7 @@
                         <div class="absolute inset-0 bg-red-900/5 rounded-2xl transform translate-x-4 translate-y-4"></div>
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 group">
                             <!-- Conceptual Image: Protective/Calm (No gavel/wigs) -->
-                            <img src="https://images.unsplash.com/photo-1629853909186-b413242299fd?q=80&w=2000&auto=format&fit=crop" alt="Protection familiale et divorce" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out">
+                            <img src="/exp/famille.png" alt="Protection familiale et divorce" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out">
                             
                             <!-- Floating Badge -->
                             <div class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm border border-slate-200 p-4 rounded-lg shadow-lg max-w-xs">

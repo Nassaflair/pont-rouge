@@ -14,7 +14,7 @@
 
                 <!-- Desktop Nav -->
                 <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
-                    <NuxtLink to="/" class="hover:text-red-900 transition-colors">Accueil</NuxtLink>
+                    <NuxtLink to="/etude" class="hover:text-red-900 transition-colors">L'Étude</NuxtLink>
                     <div class="relative group">
                         <button class="hover:text-red-900 transition-colors flex items-center gap-1">Expertises</button>
                         <!-- Simple Dropdown for navigation -->
