@@ -41,12 +41,12 @@
                             Prendre rendez-vous
                         </NuxtLink>
                         <!-- Mobile Menu Button -->
-                        <button @click="toggleMobileMenu" class="md:hidden p-2 -mr-2 text-slate-600 hover:text-slate-900 focus:outline-none" aria-label="Menu">
+                        <button @click="toggleMobileMenu" class="md:hidden p-2 -mr-2 text-slate-600 hover:text-red-900 hover:bg-slate-50 rounded-md focus:outline-none transition-all" aria-label="Menu">
                             <span v-if="!isMobileMenuOpen">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
                             </span>
                             <span v-else>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 18 12"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="M6 6 18 18"/></svg>
                             </span>
                         </button>
                     </div>
@@ -117,8 +117,8 @@
 
                         <p>Route des Jeunes 9</p>
                         <p>1227 Les Acacias / Genève</p>
-                        <p class="pt-2">mail : <a href="mailto:info@clegal-avocats.ch" class="hover:text-slate-900 transition-colors underline">info@clegal-avocats.ch</a></p>
-                        <p>tél : <a href="tel:0225121050" class="hover:text-slate-900 transition-colors underline">022 512 10 50</a></p>
+                        <p class="pt-2">Mail : <a href="mailto:info@clegal-avocats.ch" class="hover:text-slate-900 transition-colors underline">info@clegal-avocats.ch</a></p>
+                        <p>Tél : <a href="tel:0225121050" class="hover:text-slate-900 transition-colors underline">022 512 10 50</a></p>
                     </address>
                 </div>
             </div>
