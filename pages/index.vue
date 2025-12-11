@@ -85,73 +85,7 @@
       </div>
     </section>
 
-    <!-- NEW PROFILE SECTION -->
-    <section id="profil" class="py-24 bg-white relative overflow-hidden border-t border-slate-100">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
-                    
-          <!-- Image Column (Portrait) -->
-          <div class="lg:col-span-5 relative mb-12 lg:mb-0 order-1">
-            <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] group border border-slate-100">
-              <img src="/images/mansour_cheema.png" alt="Maître Mansour Cheema" class="object-cover w-full h-full transform transition duration-700 group-hover:scale-105 saturate-0 group-hover:saturate-100">
-                            
-              <!-- Overlay Gradient -->
-              <div class="bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent absolute top-0 right-0 bottom-0 left-0"></div>
-                            
-              <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
-                <div class="w-12 h-1 bg-red-600 mb-4"></div>
-                <p class="text-2xl font-semibold tracking-tight mb-1">Me Mansour Cheema</p>
-                <p class="text-sm font-medium text-slate-300 uppercase tracking-wider">Avocat Associé</p>
-              </div>
-            </div>
-                        
-            <!-- Decorative background elements -->
-            <div class="absolute -top-12 -left-12 w-64 h-64 bg-slate-100 rounded-full blur-3xl -z-10 opacity-60"></div>
-            <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-red-50 rounded-full blur-3xl -z-10 opacity-60"></div>
-          </div>
-        
-          <!-- Content Column -->
-          <div class="lg:col-span-7 order-2">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 border border-slate-200 w-fit mb-6">
-              <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Votre Partenaire de Confiance</span>
-            </div>
-                        
-            <h2 class="md:text-4xl leading-tight text-3xl font-semibold text-slate-900 tracking-tight mb-6">"Le Droit est complexe, votre solution doit être simple."</h2>
-                        
-            <div class="text-base text-slate-600 mb-8 space-y-4 leading-relaxed">
-              <p>Le Droit est complexe, et face à l'incertitude juridique, le doute est légitime. À l'Étude Pont-Rouge Avocats à Genève, nous comprenons la lourdeur des procédures et l'impact que cela a sur votre quotidien. Notre équipe a fait de la clarté sa priorité absolue. Notre mission n'est pas de vous vendre des heures de confusion, mais de transformer cette complexité en une feuille de route intelligible. Vous avez besoin d'une stratégie pour avancer, et nous sommes là pour vous la donner.</p>
-              <p>Je privilégie une approche humaine et accessible. Mon objectif est d'allier l'excellence de la technicité juridique avec un coût maîtrisé et abordable pour les Genevois. Notre stratégie est toujours sur-mesure, mais nos tarifs sont conçus pour être justes. Que ce soit pour négocier un accord favorable ou plaider avec vigueur, vous méritez un avocat qui respecte votre budget tout en vous offrant une défense d'une rigueur absolue.</p>
-            </div>
-        
-            <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 mb-10 border-t border-slate-100 pt-8">
-              <div>
-                <div class="flex items-center gap-2 text-slate-900 font-semibold tracking-tight text-xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-800"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path><path d="M7 21h10"></path><path d="M12 3v18"></path><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"></path></svg>
-                  <span>Expertise</span>
-                </div>
-                <div class="text-xs text-slate-500 mt-1">Droit pénal &amp; civil</div>
-              </div>
-              <div>
-                <div class="flex items-center gap-2 text-slate-900 font-semibold tracking-tight text-xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-800"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-                  <span>Réactivité</span>
-                </div>
-                <div class="text-xs text-slate-500 mt-1">Suivi personnalisé</div>
-              </div>
-              <div>
-                <div class="flex items-center gap-2 text-slate-900 font-semibold tracking-tight text-xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-800"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
-                  <span>Résultats</span>
-                </div>
-                <div class="text-xs text-slate-500 mt-1">Orienté solutions</div>
-              </div>
-            </div>
-        
-            <a href="#contact" class="inline-flex items-center justify-center hover:bg-slate-800 transition-all group text-sm font-medium text-white bg-slate-900 rounded-md pt-3 pr-6 pb-3 pl-6 shadow-sm">1er rendez-vous à CHF 155.-</a>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Services Section -->
     <section class="border-y bg-slate-50 border-slate-200 pt-20 pb-20" id="domaines">
@@ -255,58 +189,18 @@
           </div>
                     
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
-            <!-- Partner 1 -->
-            <div class="group">
-              <a href="#equipe-bio" class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img src="/images/mansour_cheema.png" alt="Partner" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
-              </a>
-              <div class="text-center">
-                <h4 class="text-sm font-semibold text-slate-900">Me Mansour Cheema</h4>
-                <p class="text-xs text-slate-500 mt-1">Avocat au Barreau</p>
+            <div 
+              v-for="(partner, index) in partners" 
+              :key="index"
+              class="group cursor-pointer"
+              @click="openPopup(partner)"
+            >
+              <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
+                <img :src="partner.image" :alt="partner.name" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
               </div>
-            </div>
-
-            <!-- Partner 2 -->
-            <div class="group">
-              <a href="#equipe-bio" class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img src="/images/cyril_marc.png" alt="Partner" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
-              </a>
               <div class="text-center">
-                <h4 class="text-sm font-semibold text-slate-900">Me Cyril-Marc Amberger</h4>
-                <p class="text-xs text-slate-500 mt-1">Avocat au Barreau</p>
-              </div>
-            </div>
-
-            <!-- Partner 3 -->
-            <div class="group">
-              <a href="#equipe-bio" class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img src="/images/tano_barth.png" alt="Partner" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
-              </a>
-              <div class="text-center">
-                <h4 class="text-sm font-semibold text-slate-900">Me Tano Barth</h4>
-                <p class="text-xs text-slate-500 mt-1">Avocat au Barreau</p>
-              </div>
-            </div>
-
-            <!-- Partner 4 -->
-            <div class="group">
-              <a href="#equipe-bio" class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img src="/images/remy_bucheler.png" alt="Partner" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
-              </a>
-              <div class="text-center">
-                <h4 class="text-sm font-semibold text-slate-900">Me Rémy Bucheler</h4>
-                <p class="text-xs text-slate-500 mt-1">Avocat au Barreau</p>
-              </div>
-            </div>
-
-            <!-- Partner 5 -->
-            <div class="group">
-              <a href="#equipe-bio" class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img src="/images/olivier_jacot.png" alt="Partner" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
-              </a>
-              <div class="text-center">
-                <h4 class="text-sm font-semibold text-slate-900">Me Olivier Jacot Des Combes</h4>
-                <p class="text-xs text-slate-500 mt-1">Avocat au Barreau</p>
+                <h4 class="text-sm font-semibold text-slate-900">{{ partner.name }}</h4>
+                <p class="text-xs text-slate-500 mt-1">{{ partner.role }}</p>
               </div>
             </div>
           </div>
@@ -321,25 +215,18 @@
           </div>
 
           <div class="flex flex-wrap justify-center gap-8">
-            <!-- Stagiaire 1 -->
-            <div class="group w-full max-w-[240px]">
-              <a href="#equipe-bio" class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img src="/images/lea_rodrigues.png" alt="Stagiaire" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
-              </a>
-              <div class="text-center">
-                <h4 class="text-sm font-semibold text-slate-900">Me Léa Rodrigues</h4>
-                <p class="text-xs text-slate-500 mt-1">Avocate-stagiaire</p>
+            <div 
+              v-for="(intern, index) in interns"
+              :key="index"
+              class="group w-full max-w-[240px] cursor-pointer"
+              @click="openPopup(intern)"
+            >
+              <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
+                <img :src="intern.image" :alt="intern.name" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
               </div>
-            </div>
-
-            <!-- Stagiaire 2 -->
-            <div class="group w-full max-w-[240px]">
-              <a href="#equipe-bio" class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img src="/images/labaume.png" alt="Stagiaire" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
-              </a>
               <div class="text-center">
-                <h4 class="text-sm font-semibold text-slate-900">Me Jean Labaume</h4>
-                <p class="text-xs text-slate-500 mt-1">Avocat-stagiaire</p>
+                <h4 class="text-sm font-semibold text-slate-900">{{ intern.name }}</h4>
+                <p class="text-xs text-slate-500 mt-1">{{ intern.role }}</p>
               </div>
             </div>
           </div>
@@ -388,11 +275,90 @@
         </a>
     </div>
 
+
+    <PartnerPopup 
+      :is-open="isPopupOpen" 
+      :partner="selectedPartner" 
+      @close="isPopupOpen = false" 
+    />
+
   </div>
 </template>
 
 <script setup lang="ts">
 import ContactForm from '@/components/ContactForm.vue';
+import PartnerPopup from '@/components/PartnerPopup.vue';
+import { ref } from 'vue';
+
+const isPopupOpen = ref(false);
+const selectedPartner = ref(null);
+
+const partners = [
+  {
+    name: "Me Mansour Cheema",
+    role: "Avocat au Barreau",
+    image: "/images/mansour_cheema.png",
+    email: "m.cheema@clegal-avocats.ch",
+    languages: "Français, Anglais, Hindi, Urdu, Punjabi",
+    bio: "Mansour Cheema est titulaire d’un Bachelor en droit délivré par l’Université de Lausanne et d’un Master mention magna cum laude délivré conjointement par les Universités de Lausanne et Zurich et d’un Certificat de spécialisation en matière d’avocature.\n\nDurant ses études, il s’est intéressé aux questions migratoires en travaillant pour le Service d’Aide Juridique aux Exilés (SAJE). Il ensuite accompagné l’application de la nouvelle loi sur l’asile en travaillant en qualité de représentant juridique pour Caritas au sein des Centre fédéraux pour requérants d’asile. Il a effectué son stage au sein d’une Etude de la place genevoise reconnue pour son expertise en droit pénal et en droit de la famille.\n\nAprès avoir fondé son Etude, Me Mansour Cheema a rejoint Pont-Rouge Avocats en qualité d’associé. Il pratique aujourd’hui la représentation dans tous les domaines du droit et bénéficie d’une expertise reconnue en droit des étrangers."
+  },
+  {
+    name: "Me Cyril-Marc Amberger",
+    role: "Avocat au Barreau",
+    image: "/images/cyril_marc.png",
+    email: "amberger@swissavocat.ch",
+    languages: "Français, anglais, allemand, espagnol",
+    bio: "Cyril-Marc Amberger a effectué ses études de droit dans les universités de Genève, Lausanne et Zurich et a obtenu en 2016, un Master avec double mention en droit commercial et en droit international.\n\nDurant ses études, il a travaillé au sein de Lalive à Genève. Après l’obtention de son brevet d’avocat en 2018, il a pratiqué le barreau au sein d’une étude de la place genevoise, avant de rejoindre en 2020 Reymond, Ulmann & Associés à Lausanne."
+  },
+  {
+    name: "Me Tano Barth",
+    role: "Avocat au Barreau",
+    image: "/images/tano_barth.png",
+    email: "tano.barth@pra.law",
+    languages: "Français, anglais, allemand, suisse-allemand, espagnol, néerlandais",
+    bio: "Tano Barth a effectué ses études de droit dans les universités de Genève et Zurich. Il est Docteur en droit et chargé de cours à l’École d’avocature de l’Université de Genève, où il enseigne le droit de la profession d’avocat et intervient dans des cours d’expression orale. Il intervient également à la Faculté de droit de l’Université de Genève dans le cadre du cours Droit et numérique dans le cours intitulé « Pratique du droit et technologies (Legaltech) » et est l’auteur de nombreuses conférences et publication. Il est membre suppléant de l’autorité de surveillance des avocats, la Commission du barreau, et est membre de Commission Innovations et Modernisation du Barreau (CIMBAR) de l’Ordre des avocats de Genève."
+  },
+  {
+    name: "Me Rémy Bucheler",
+    role: "Avocat au Barreau",
+    image: "/images/remy_bucheler.png",
+    email: "remy.bucheler@pra.law",
+    languages: "Français, anglais",
+    bio: "Rémy Bucheler est titulaire d’un Master en finance de HEC Genève et d’un Master en droit obtenu à Genève, Aix et Paris. Il a été distingué à deux reprises pour les meilleurs résultats de diplôme.\n\nDurant ses études, il a effectué ses stages d’avocat en France et en Suisse. Après ses études, il a commencé sa carrière comme collaborateur au sein d’une étude genevoise active en droit des affaires. Il a également conçu et dispensé de nombreuses formations en finance et comptabilité, et a publié de nombreux ouvrages dans ces domaines.\n\nEn janvier 2025, il a été élu juge suppléant au Tribunal civil et a prêté serment devant le Grand Conseil de la République et canton de Genève. Il est membre de l’Ordre des avocats de Genève, de la Fédération suisse des avocats, d’EXPERTSuisse et de SWISCO."
+  },
+  {
+    name: "Me Olivier Jacot Des Combes",
+    role: "Avocat au Barreau",
+    image: "/images/olivier_jacot.png",
+    email: "ojdc@olassocies.ch",
+    languages: "Français",
+    bio: "Olivier Jacot Des Combes a effectué ses études dans les universités de Genève et Lausanne et a obtenu un master en droit et économie de la Faculté des Hautes Études Commerciales de l’Université de Lausanne. En marge de ses études, il effectue un stage au sein d’un cabinet d’avocats de renommée internationale, et œuvre à l’assistance et aux conseils de requérants d’asile au sein d’une permanence juridique spécialisée dans le domaine. Après avoir effectué son stage au sein du Tribunal de première instance, puis d’une prestigieuse Etude de la place, il obtient son brevet d’avocat en 2022."
+  }
+];
+
+const interns = [
+  {
+    name: "Me Léa Rodrigues",
+    role: "Avocate-stagiaire",
+    image: "/images/lea_rodrigues.png",
+    email: "lea.rodrigues@pra.law",
+    languages: "Français, Anglais, Portugais",
+    bio: "Léa Rodrigues a effectué ses études de droit à l’Université de Lausanne, où elle a obtenu un Bachelor, puis un Master avec mention magna cum laude. Elle a ensuite obtenu le Certificat de spécialisation en matière d’avocature auprès de l’Université de Genève.\n\nDurant ses études, elle a travaillé comme assistante administrative à la Clinique de La Source, puis comme secrétaire juridique au sein de l’Étude Palud avocats à Lausanne. Elle a également été greffière ad hoc auprès de la Chambre pénale du Tribunal d’arrondissement de Lausanne, ainsi que greffière stagiaire à la Justice de paix de l’arrondissement de la Sarine, à Fribourg.\n\nElle a rejoint l’Étude en qualité d’avocate-stagiaire à compter du 1er août 2025."
+  },
+  {
+    name: "Me Jean Labaume",
+    role: "Avocat-stagiaire",
+    image: "/images/labaume.png",
+    email: "labaume@swissavocat.ch",
+    languages: "Français, Anglais",
+    bio: "Jean Labaume a effectué ses études de droit à l’Université de Genève, où il a obtenu un Master en droit en juin 2025 avec mention magna cum laude. Il a également obtenu le Certificat de spécialisation en matière d’avocature auprès de l’Université de Genève en 2024.\n\nDurant ses études, il a effectué un stage académique au sein de l’Étude Pont-Rouge Avocats, avant d’y rejoindre l’équipe en tant qu’avocat-stagiaire. Il a également participé en 2024 au prestigieux concours de plaidoirie Nancoz, organisé par l’Ordre des avocats de Genève (ODAGE), ainsi qu’au Swiss Moot Court, où il s’est classé 3ᵉ avec son équipe lors de la phase orale.\n\nIl poursuit son stage d’avocat au sein de l’Étude depuis octobre 2023."
+  }
+];
+
+const openPopup = (partner: any) => {
+  selectedPartner.value = partner;
+  isPopupOpen.value = true;
+};
 
 const handleSubmit = () => {
   // Logic to handle form submission
