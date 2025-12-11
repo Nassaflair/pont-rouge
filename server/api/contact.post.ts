@@ -144,7 +144,7 @@ export default defineEventHandler(async (event) => {
 
     // 2. Notification à l'étude
     await transporter.sendMail({
-      from: '"Pont-Rouge by Clegal-Avocats" <${FIRM_EMAIL}>',
+      from: `"Pont-Rouge by Clegal-Avocats" <${FIRM_EMAIL}>`,
       to: FIRM_EMAIL,
       replyTo: email,
       subject: `Nouveau Lead: ${lastname} ${firstname}`,
