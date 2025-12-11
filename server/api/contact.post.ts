@@ -92,6 +92,8 @@ async function ensureSmtpReady() {
  */
 export default defineEventHandler(async (event) => {
   try {
+    
+    
     /**
      * a) Rate limiting par IP
      */

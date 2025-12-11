@@ -47,6 +47,11 @@ export default defineNuxtConfig({
       ]
     }
   },
+  vite: {
+    server: {
+        allowedHosts: ['georgianna-lowerable-laurene.ngrok-free.dev'],
+    },
+  },
   runtimeConfig: {
     // Private keys (server-side only)
     smtpHost: process.env.SMTP_HOST,

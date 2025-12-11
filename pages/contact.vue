@@ -34,7 +34,7 @@
                                 </div>
                                 <div>
                                     <h2 class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-1">Étude</h2>
-                                    <p class="text-base font-semibold text-slate-900" itemprop="name">Pont-Rouge Avocats <span class="font-normal text-slate-500">by Clegal-Avocats</span></p>
+                                    <p class="text-base font-semibold text-slate-900" itemprop="name">Pont-Rouge <span class="font-normal text-slate-500">by Clegal-Avocats</span></p>
                                 </div>
                             </div>
 
@@ -47,7 +47,7 @@
                                     <h2 class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-1">Adresse</h2>
                                     <p class="text-base font-medium text-slate-900">
                                         <span itemprop="streetAddress">Route des Jeunes 9</span><br>
-                                        <span itemprop="postalCode">1227</span> <span itemprop="addressLocality">Genève</span> (Carouge)
+                                        <span itemprop="postalCode">1227 Les Acacias</span> <span itemprop="addressLocality">Genève</span>
                                     </p>
                                     <p class="text-xs text-slate-500 mt-1">Au cœur du quartier Pont-Rouge.</p>
                                 </div>

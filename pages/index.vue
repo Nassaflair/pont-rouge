@@ -85,7 +85,73 @@
       </div>
     </section>
 
-
+    <!-- NEW PROFILE SECTION -->
+    <section id="profil" class="py-24 bg-white relative overflow-hidden border-t border-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
+                    
+          <!-- Image Column (Portrait) -->
+          <div class="lg:col-span-5 relative mb-12 lg:mb-0 order-1">
+            <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] group border border-slate-100">
+              <img src="/images/mansour_cheema.png" alt="Maître Mansour Cheema" class="object-cover w-full h-full transform transition duration-700 group-hover:scale-105 saturate-0 group-hover:saturate-100">
+                            
+              <!-- Overlay Gradient -->
+              <div class="bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent absolute top-0 right-0 bottom-0 left-0"></div>
+                            
+              <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+                <div class="w-12 h-1 bg-red-600 mb-4"></div>
+                <p class="text-2xl font-semibold tracking-tight mb-1">Me Mansour Cheema</p>
+                <p class="text-sm font-medium text-slate-300 uppercase tracking-wider">Avocat Associé</p>
+              </div>
+            </div>
+                        
+            <!-- Decorative background elements -->
+            <div class="absolute -top-12 -left-12 w-64 h-64 bg-slate-100 rounded-full blur-3xl -z-10 opacity-60"></div>
+            <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-red-50 rounded-full blur-3xl -z-10 opacity-60"></div>
+          </div>
+        
+          <!-- Content Column -->
+          <div class="lg:col-span-7 order-2">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 border border-slate-200 w-fit mb-6">
+              <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Votre Partenaire de Confiance</span>
+            </div>
+                        
+            <h2 class="md:text-4xl leading-tight text-3xl font-semibold text-slate-900 tracking-tight mb-6">"Le Droit est complexe, votre solution doit être simple."</h2>
+                        
+            <div class="text-base text-slate-600 mb-8 space-y-4 leading-relaxed">
+              <p>Le Droit est complexe, et face à l'incertitude juridique, le doute est légitime. À l'Étude Pont-Rouge Avocats à Genève, nous comprenons la lourdeur des procédures et l'impact que cela a sur votre quotidien. Notre équipe a fait de la clarté sa priorité absolue. Notre mission n'est pas de vous vendre des heures de confusion, mais de transformer cette complexité en une feuille de route intelligible. Vous avez besoin d'une stratégie pour avancer, et nous sommes là pour vous la donner.</p>
+              <p>Je privilégie une approche humaine et accessible. Mon objectif est d'allier l'excellence de la technicité juridique avec un coût maîtrisé et abordable pour les Genevois. Notre stratégie est toujours sur-mesure, mais nos tarifs sont conçus pour être justes. Que ce soit pour négocier un accord favorable ou plaider avec vigueur, vous méritez un avocat qui respecte votre budget tout en vous offrant une défense d'une rigueur absolue.</p>
+            </div>
+        
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 mb-10 border-t border-slate-100 pt-8">
+              <div>
+                <div class="flex items-center gap-2 text-slate-900 font-semibold tracking-tight text-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-800"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path><path d="M7 21h10"></path><path d="M12 3v18"></path><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"></path></svg>
+                  <span>Expertise</span>
+                </div>
+                <div class="text-xs text-slate-500 mt-1">Droit pénal &amp; civil</div>
+              </div>
+              <div>
+                <div class="flex items-center gap-2 text-slate-900 font-semibold tracking-tight text-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-800"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                  <span>Réactivité</span>
+                </div>
+                <div class="text-xs text-slate-500 mt-1">Suivi personnalisé</div>
+              </div>
+              <div>
+                <div class="flex items-center gap-2 text-slate-900 font-semibold tracking-tight text-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-800"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                  <span>Résultats</span>
+                </div>
+                <div class="text-xs text-slate-500 mt-1">Orienté solutions</div>
+              </div>
+            </div>
+        
+            <a href="#contact" class="inline-flex items-center justify-center hover:bg-slate-800 transition-all group text-sm font-medium text-white bg-slate-900 rounded-md pt-3 pr-6 pb-3 pl-6 shadow-sm">1er rendez-vous à CHF 155.-</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Services Section -->
     <section class="border-y bg-slate-50 border-slate-200 pt-20 pb-20" id="domaines">

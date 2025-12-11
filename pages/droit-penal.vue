@@ -44,10 +44,10 @@
                         </p>
 
                         <div class="flex flex-col sm:flex-row gap-4 items-start">
-                            <a href="#formulaire"
+                            <NuxtLink to="/droit-penal/#contact"
                                 class="inline-flex items-center justify-center hover:bg-red-800 shadow-red-900/20 hover:shadow-xl transition-all text-sm font-medium text-white bg-red-900 rounded-md pt-4 pr-8 pb-4 pl-8 shadow-lg w-full sm:w-auto">
                                 Prendre rendez-vous (CHF 155.-)
-                            </a>
+                            </NuxtLink>
                             <NuxtLink to="/#domaines"
                                 class="inline-flex items-center justify-center px-6 py-4 text-sm font-medium text-slate-600 bg-white hover:bg-slate-50 border border-slate-200 rounded-md transition-all w-full sm:w-auto">
                                 Nos domaines

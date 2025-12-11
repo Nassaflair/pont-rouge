@@ -8,7 +8,7 @@
                 <div class="flex items-center gap-2">
                     <div class="h-6 w-1 bg-red-900 rounded-full"></div>
                     <NuxtLink to="/" class="text-base font-semibold tracking-tight text-slate-900 uppercase">
-                        Pont-Rouge <span class="text-slate-400 font-normal normal-case">Avocats Genève</span>
+                        Pont-Rouge <span class="text-slate-400 font-normal normal-case">by Clegal-Avocats</span>
                     </NuxtLink>
                 </div>
 
@@ -20,12 +20,12 @@
                         <NuxtLink to="/domaine-de-competence" class="hover:text-red-900 transition-colors flex items-center gap-1">Domaine de compétence</NuxtLink>
                         <!-- Simple Dropdown for navigation -->
                         <div class="absolute left-0 mt-2 w-48 bg-white border border-slate-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 p-2">
-                            <NuxtLink to="/droit-famille" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Famille</NuxtLink>
-                            <NuxtLink to="/droit-travail" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Travail</NuxtLink>
-                            <NuxtLink to="/droit-penal" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Pénal</NuxtLink>
-                            <NuxtLink to="/droit-bail" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Bail</NuxtLink>
-                            <NuxtLink to="/droit-etrangers" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Étrangers</NuxtLink>
-                            <NuxtLink to="/droit-affaires" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Affaires</NuxtLink>
+                            <NuxtLink to="/droit-famille" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Droit de la famille</NuxtLink>
+                            <NuxtLink to="/droit-travail" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Droit du travail</NuxtLink>
+                            <NuxtLink to="/droit-penal" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Droit pénal</NuxtLink>
+                            <NuxtLink to="/droit-bail" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Droit du bail</NuxtLink>
+                            <NuxtLink to="/droit-etrangers" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Droit des étrangers</NuxtLink>
+                            <NuxtLink to="/droit-affaires" class="block px-4 py-2 hover:bg-slate-50 hover:text-red-900 rounded">Droit des affaires</NuxtLink>
                         </div>
                     </div>
                     <NuxtLink to="/honoraires" class="hover:text-red-900 transition-colors">Honoraires</NuxtLink>
@@ -38,7 +38,7 @@
                     <!-- <a href="tel:0225121050" class="hidden lg:block text-sm font-medium text-slate-600 hover:text-slate-900">022 512 10 50</a> -->
                     <div class="flex items-center gap-2">
                         <NuxtLink to="/contact" class="hidden md:inline-flex items-center justify-center px-4 py-2 text-xs font-medium text-white bg-slate-900 hover:bg-slate-800 rounded-md transition-all shadow-sm ring-1 ring-slate-900/5">
-                            Prendre rendez-vous
+                            Prendre rendez-vous (CHF 155.-)
                         </NuxtLink>
                         <!-- Mobile Menu Button -->
                         <button @click="toggleMobileMenu" class="md:hidden p-2 -mr-2 text-slate-600 hover:text-red-900 hover:bg-slate-50 rounded-md focus:outline-none transition-all" aria-label="Menu">
@@ -62,25 +62,26 @@
             <NuxtLink to="/#equipe" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Notre équipe</NuxtLink>
             
             <div class="space-y-4 py-2 border-b border-slate-100">
-                 <div class="font-medium text-slate-900">Domaines de compétence</div>
+                <NuxtLink to="/domaine-de-competence" @click="handleSamePageReload('/domaine-de-competence', $event)" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100 font-medium text-slate-900">Domaines de compétence</NuxtLink>
+                
                  <div class="pl-4 flex flex-col gap-3 text-base">
-                    <NuxtLink to="/droit-famille" class="hover:text-red-900">Famille</NuxtLink>
-                    <NuxtLink to="/droit-travail" class="hover:text-red-900">Travail</NuxtLink>
-                    <NuxtLink to="/droit-penal" class="hover:text-red-900">Pénal</NuxtLink>
-                    <NuxtLink to="/droit-bail" class="hover:text-red-900">Bail</NuxtLink>
-                    <NuxtLink to="/droit-etrangers" class="hover:text-red-900">Étrangers</NuxtLink>
-                    <NuxtLink to="/droit-affaires" class="hover:text-red-900">Affaires</NuxtLink>
+                    <NuxtLink to="/droit-famille" @click="handleSamePageReload('/droit-famille', $event)" class="hover:text-red-900">Droit de la famille</NuxtLink>
+                    <NuxtLink to="/droit-travail" @click="handleSamePageReload('/droit-travail', $event)" class="hover:text-red-900">Droit du travail</NuxtLink>
+                    <NuxtLink to="/droit-penal" @click="handleSamePageReload('/droit-penal', $event)" class="hover:text-red-900">Droit pénal</NuxtLink>
+                    <NuxtLink to="/droit-bail" @click="handleSamePageReload('/droit-bail', $event)" class="hover:text-red-900">Droit du bail</NuxtLink>
+                    <NuxtLink to="/droit-etrangers" @click="handleSamePageReload('/droit-etrangers', $event)" class="hover:text-red-900">Droit des étrangers</NuxtLink>
+                    <NuxtLink to="/droit-affaires" @click="handleSamePageReload('/droit-affaires', $event)" class="hover:text-red-900">Droit des affaires</NuxtLink>
                  </div>
             </div>
 
-            <NuxtLink to="/honoraires" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Honoraires</NuxtLink>
-            <NuxtLink to="/blog" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Blog</NuxtLink>
-            <NuxtLink to="/contact" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Contact</NuxtLink>
+            <NuxtLink to="/honoraires" @click="handleSamePageReload('/honoraires', $event)" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Honoraires</NuxtLink>
+            <NuxtLink to="/blog" @click="handleSamePageReload('/blog', $event)" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Blog</NuxtLink>
+            <NuxtLink to="/contact" @click="handleSamePageReload('/contact', $event)" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Contact</NuxtLink>
         </nav>
 
         <div class="mt-8">
-             <NuxtLink to="/contact" @click="toggleMobileMenu" class="flex items-center justify-center w-full px-4 py-3 text-base font-medium text-white bg-slate-900 hover:bg-slate-800 rounded-md transition-all shadow-sm">
-                Prendre rendez-vous
+             <NuxtLink to="/contact/#contact" @click="toggleMobileMenu" class="flex items-center justify-center w-full px-4 py-3 text-base font-medium text-white bg-slate-900 hover:bg-slate-800 rounded-md transition-all shadow-sm">
+                Prendre rendez-vous (CHF 155.-)
             </NuxtLink>
         </div>
     </div>
@@ -95,7 +96,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
                 <div class="col-span-1 md:col-span-2">
-                    <span class="text-sm font-bold text-slate-900 uppercase tracking-widest">Pont-Rouge </span>Avocats By Clegal-Avocats
+                    <span class="text-sm font-bold text-slate-900 uppercase tracking-widest">Pont-Rouge </span>by Clegal-Avocats
                     <p class="text-sm text-slate-500 max-w-xs mt-4">
                         Cabinet d'avocats généraliste à Genève. Une approche humaine, des tarifs transparents et une défense d'acier pour tous.
                     </p>
@@ -104,7 +105,7 @@
                 <div>
                     <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mb-4">Informations</h3>
                     <ul class="space-y-2 text-sm text-slate-500">
-                        <li><NuxtLink to="/" class="hover:text-red-900">Nos Expertises</NuxtLink></li>
+                        <li><NuxtLink to="/domaine-de-competence" class="hover:text-red-900">Nos Expertises</NuxtLink></li>
                         <li><NuxtLink to="/honoraires" class="hover:text-red-900">Honoraires</NuxtLink></li>
                         <li><NuxtLink to="/contact" class="hover:text-red-900">Assistance Juridique</NuxtLink></li>
                         <li><NuxtLink to="/contact" class="hover:text-red-900">Contact</NuxtLink></li>
@@ -124,7 +125,7 @@
             </div>
             
             <div class="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-xs text-slate-400">© 2025 Pont-Rouge by Clegal-Avocats. Tous droits réservés.</p>
+                <p class="text-xs text-slate-400">© 2026 Pont-Rouge by Clegal-Avocats. Tous droits réservés.</p>
                 <div class="flex gap-4 mt-4 md:mt-0 text-xs text-slate-400">
                     <a href="#" class="hover:text-slate-600">Mentions Légales</a>
                     <a href="#" class="hover:text-slate-600">Confidentialité</a>
@@ -143,6 +144,15 @@ import { useRoute } from 'vue-router';
 declare const lucide: any;
 
 const route = useRoute();
+
+const handleSamePageReload = (path: string, event: MouseEvent) => {
+  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  
+  if (route.path === path) {
+    event.preventDefault();
+    window.location.reload();
+  }
+};
 
 const isMobileMenuOpen = ref(false);
 
