@@ -27,7 +27,8 @@ export default defineNuxtConfig({
       script: [
         { children: "tailwind.config = { darkMode: 'class' }" },
         { src: "https://cdn.tailwindcss.com" },
-        { src: "https://unpkg.com/lucide@latest" }
+        { src: "https://unpkg.com/lucide@latest" },
+        { src: "https://www.google.com/recaptcha/api.js?render=explicit", async: true, defer: true }
       ],
       style: [
         { children: `
@@ -59,7 +60,11 @@ export default defineNuxtConfig({
     smtpUser: process.env.SMTP_USER,
     smtpPass: process.env.SMTP_PASS,
     firmEmail: process.env.FIRM_EMAIL,
+    recaptchaSecretKey: process.env.NUXT_RECAPTCHA_SECRET_KEY,
     // Public keys (client-side)
-    public: {}
+    public: {
+      recaptchaSiteKey: process.env.NUXT_PUBLIC_RECAPTCHA_SITE_KEY
+    }
   }
+  // Trigger rebuild for env vars
 })

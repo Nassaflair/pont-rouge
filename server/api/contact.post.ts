@@ -19,6 +19,7 @@ const contactSchema = z.object({
   privacy: z.boolean().refine(val => val === true, {
     message: "Vous devez accepter la politique de confidentialité",
   }),
+  recaptchaToken: z.string().min(1, { message: "Veuillez valider le filtre anti-robot" }),
 });
 
 type ContactData = z.infer<typeof contactSchema>;
@@ -131,7 +132,29 @@ export default defineEventHandler(async (event) => {
       });
     }
 
-    const { firstname, lastname, email, phone, subject, message, hasDeadline, deadlineDate } = result.data as ContactData;
+    const { firstname, lastname, email, phone, subject, message, hasDeadline, deadlineDate, recaptchaToken } = result.data as ContactData;
+
+    /**
+     * c0) Vérification Recaptcha
+     */
+    const recaptchaSecret = requiredEnv('NUXT_RECAPTCHA_SECRET_KEY');
+    
+    // Appel à l'API Google
+    const verifyResponse = await $fetch<{ success: boolean, 'error-codes'?: string[] }>('https://www.google.com/recaptcha/api/siteverify', {
+        method: 'POST',
+        params: {
+            secret: recaptchaSecret,
+            response: recaptchaToken
+        }
+    });
+
+    if (!verifyResponse.success) {
+        console.warn('[CONTACT_API] Recaptcha failed:', verifyResponse['error-codes']);
+        throw createError({
+            statusCode: 400,
+            message: 'Validation anti-robot échouée. Veuillez réessayer.'
+        });
+    }
 
     /**
      * c) Vérification du SMTP (une seule fois)

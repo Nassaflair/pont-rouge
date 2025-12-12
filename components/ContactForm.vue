@@ -211,6 +211,18 @@
                                     <p v-if="fieldErrors.privacy" class="mt-1 text-sm text-red-600">{{ fieldErrors.privacy }}</p>
                                 </div>
                             </div>
+                            </div>
+
+
+                        <div class="py-0">
+                             <ClientOnly>
+                                <VueRecaptcha 
+                                    :sitekey="siteKey"
+                                    @verify="onVerify" 
+                                    @expired="onExpired"
+                                />
+                            </ClientOnly>
+                            <p v-if="fieldErrors.recaptcha" class="mt-1 text-sm text-red-600">{{ fieldErrors.recaptcha }}</p>
                         </div>
 
                         <button 
@@ -237,9 +249,13 @@
         </div>
     </section>
 </template>
-
 <script setup lang="ts">
-import { ref, reactive } from 'vue';
+import { useFetch, useRuntimeConfig } from 'nuxt/app';
+import { ref, reactive, onMounted } from 'vue';
+import { VueRecaptcha } from 'vue-recaptcha';
+
+const config = useRuntimeConfig();
+const siteKey = config.public.recaptchaSiteKey;
 
 const loading = ref(false);
 const success = ref(false);
@@ -264,6 +280,19 @@ const clearError = (field: string) => {
     }
     error.value = '';
 };
+
+const recaptchaToken = ref('');
+const onVerify = (token: string) => {
+    recaptchaToken.value = token;
+    if (fieldErrors.recaptcha) {
+        delete fieldErrors.recaptcha;
+    }
+};
+
+const onExpired = () => {
+    recaptchaToken.value = '';
+};
+
 
 const validateForm = () => {
     let isValid = true;
@@ -305,6 +334,11 @@ const validateForm = () => {
         isValid = false;
     }
 
+    if (!recaptchaToken.value) {
+        fieldErrors.recaptcha = "Veuillez valider le filtre anti-robot";
+        isValid = false;
+    }
+
     return isValid;
 };
 
@@ -321,7 +355,10 @@ const submitForm = async () => {
     try {
         const { data, error: fetchError } = await useFetch('/api/contact', {
             method: 'POST',
-            body: form
+            body: { 
+                ...form, 
+                recaptchaToken: recaptchaToken.value 
+            }
         });
 
         if (fetchError.value) {
