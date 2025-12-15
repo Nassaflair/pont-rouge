@@ -14,15 +14,18 @@ export default defineNuxtConfig({
         { name: "robots", content: "index, follow" },
         { name: "author", content: "Pont-Rouge Avocats Genève" },
         { name: "theme-color", content: "#ffffff" },
-        { name: "og:title", content: "Pont-Rouge Avocats Genève" },
+        { name: "og:title", content: "PONT-ROUGE by Clegal-Avocats" },
         { name: "og:description", content: "Cabinet d'avocats à Genève. Expertise juridique et conseil stratégique." },
         { name: "og:type", content: "website" },
-        { name: "og:url", content: "https://pont-rouge-avocats-genève.com" },
-        { name: "og:image", content: "https://pont-rouge-avocats-genève.com/images/og-image.jpg" },
+        { name: "og:url", content: "https://clegal-avocats.ch/" },
+        { name: "og:image", content: "https://clegal-avocats.ch/logo.svg" },
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: "Pont-Rouge Avocats Genève" },
+        { name: "twitter:title", content: "PONT-ROUGE by Clegal-Avocats" },
         { name: "twitter:description", content: "Cabinet d'avocats à Genève. Expertise juridique et conseil stratégique." },
-        { name: "twitter:image", content: "https://pont-rouge-avocats-genève.com/images/og-image.jpg" },
+        { name: "twitter:image", content: "https://clegal-avocats.ch/logo.svg" },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }
       ],
       script: [
         { children: "tailwind.config = { darkMode: 'class' }" },

@@ -5,12 +5,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
-                <div class="flex items-center gap-2">
-                    <div class="h-6 w-1 bg-red-900 rounded-full"></div>
-                    <NuxtLink to="/" class="text-base font-semibold tracking-tight text-slate-900 uppercase">
-                        Pont-Rouge <span class="text-slate-400 font-normal normal-case">by Clegal-Avocats</span>
-                    </NuxtLink>
-                </div>
+                <AppLogo />
 
                 <!-- Desktop Nav -->
                 <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
@@ -107,7 +102,6 @@
                     <ul class="space-y-2 text-sm text-slate-500">
                         <li><NuxtLink to="/domaine-de-competence" class="hover:text-red-900">Nos Expertises</NuxtLink></li>
                         <li><NuxtLink to="/honoraires" class="hover:text-red-900">Honoraires</NuxtLink></li>
-                        <li><NuxtLink to="/contact" class="hover:text-red-900">Assistance Juridique</NuxtLink></li>
                         <li><NuxtLink to="/contact" class="hover:text-red-900">Contact</NuxtLink></li>
                     </ul>
                 </div>
@@ -127,8 +121,8 @@
             <div class="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-xs text-slate-400">© 2026 Pont-Rouge by Clegal-Avocats. Tous droits réservés.</p>
                 <div class="flex gap-4 mt-4 md:mt-0 text-xs text-slate-400">
-                    <a href="#" class="hover:text-slate-600">Mentions Légales</a>
-                    <a href="#" class="hover:text-slate-600">Confidentialité</a>
+                    <NuxtLink to="/contact" class="hover:text-slate-600">Mentions Légales</NuxtLink>
+                    <NuxtLink to="/contact" class="hover:text-slate-600">Confidentialité</NuxtLink>
                 </div>
             </div>
         </div>
