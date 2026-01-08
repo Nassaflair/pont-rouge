@@ -62,4 +62,4 @@ Pour mettre à jour le site en ligne (`clegal-avocats.ch`) :
     *Cela va télécharger la dernière version de votre code que vous venez de "push".*
 5.  **Build & Redémarrage** :
     *   Retournez sur le **Dashboard** Infomaniak (interface graphique).
-    *   Lancez la **construction (Build)** et l'**exécution** du site via les outils mis à disposition (souvent dans la rubrique "Node.js" ou "Applications Web", bouton "Relancer l'app" ou "Déployer").
+    *   Lancez la **construction (Build)** et l'**exécution** du site via les outils mis à disposition dans la rubrique "Node.js" , bouton "Construire" et "Exécuter".
