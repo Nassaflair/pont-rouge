@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         { name: "description", content: "Avocats aux Acacias (Genève) experts en Droit du Travail, Famille & Pénal. Défense rigoureuse devant tous les tribunaux. 1er RDV d'analyse à CHF 155.-" },
         { name: "keywords", content: "avocats genève, expertise juridique, conseil stratégique" },
-        { name: "robots", content: process.env.NUXT_PUBLIC_IS_PREVIEW === 'true' ? "noindex, nofollow" : "index, follow" },
+        { name: "robots", content: process.env.NUXT_PUBLIC_IS_LIVE === 'true' ? "index, follow" : "noindex, nofollow" },
         { name: "author", content: "Pont-Rouge Avocats Genève" },
         { name: "theme-color", content: "#ffffff" },
         { name: "og:title", content: "Avocat Genève | Étude à Genève Pont-Rouge (Acacias) - Dès 155.-" },
