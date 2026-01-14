@@ -3,38 +3,46 @@ import { defineNuxtConfig } from 'nuxt/config'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  modules: ['@nuxtjs/sitemap', '@nuxtjs/tailwindcss', '@nuxt/image'],
+  image: {
+    domains: ['hoirqrkdgbmvpwutwuwj.supabase.co', 'images.unsplash.com']
+  } as any,
+  site: {
+    url: 'https://clegal-avocats.ch',
+    name: 'Pont-Rouge Avocats',
+  },
   app: {
     head: {
-      title: "Pont-Rouge Avocats Genève",
+      title: "Avocat Genève | Étude à Genève Pont-Rouge (Acacias) - Dès 155.-",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { name: "description", content: "Cabinet d'avocats à Genève. Expertise juridique et conseil stratégique." },
+        { name: "description", content: "Avocats aux Acacias (Genève) experts en Droit du Travail, Famille & Pénal. Défense rigoureuse devant tous les tribunaux. 1er RDV d'analyse à CHF 155.-" },
         { name: "keywords", content: "avocats genève, expertise juridique, conseil stratégique" },
-        { name: "robots", content: "index, follow" },
+        { name: "robots", content: process.env.NUXT_PUBLIC_IS_PREVIEW === 'true' ? "noindex, nofollow" : "index, follow" },
         { name: "author", content: "Pont-Rouge Avocats Genève" },
         { name: "theme-color", content: "#ffffff" },
-        { name: "og:title", content: "PONT-ROUGE by Clegal-Avocats" },
-        { name: "og:description", content: "Cabinet d'avocats à Genève. Expertise juridique et conseil stratégique." },
+        { name: "og:title", content: "Avocat Genève | Étude à Genève Pont-Rouge (Acacias) - Dès 155.-" },
+        { name: "og:description", content: "Avocats aux Acacias (Genève) experts en Droit du Travail, Famille & Pénal. Défense rigoureuse devant tous les tribunaux. 1er RDV d'analyse à CHF 155.-" },
         { name: "og:type", content: "website" },
         { name: "og:url", content: "https://clegal-avocats.ch/" },
         { name: "og:image", content: "https://clegal-avocats.ch/logo.svg" },
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: "PONT-ROUGE by Clegal-Avocats" },
-        { name: "twitter:description", content: "Cabinet d'avocats à Genève. Expertise juridique et conseil stratégique." },
+        { name: "twitter:description", content: "Avocats aux Acacias (Genève) experts en Droit du Travail, Famille & Pénal. Défense rigoureuse devant tous les tribunaux. 1er RDV d'analyse à CHF 155.-" },
         { name: "twitter:image", content: "https://clegal-avocats.ch/logo.svg" },
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+        { rel: 'canonical', href: 'https://clegal-avocats.ch/' }
       ],
       script: [
-        { children: "tailwind.config = { darkMode: 'class' }" },
-        { src: "https://cdn.tailwindcss.com" },
         { src: "https://unpkg.com/lucide@latest" },
         { src: "https://www.google.com/recaptcha/api.js?render=explicit", async: true, defer: true }
       ],
       style: [
-        { children: `
+        {
+          innerHTML: `
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
           :root { color-scheme: light; }
           body { font-family: 'Inter', sans-serif; font-feature-settings: "cv11", "ss01"; }
@@ -53,7 +61,7 @@ export default defineNuxtConfig({
   },
   vite: {
     server: {
-        allowedHosts: ['georgianna-lowerable-laurene.ngrok-free.dev'],
+      allowedHosts: ['georgianna-lowerable-laurene.ngrok-free.dev'],
     },
   },
   runtimeConfig: {

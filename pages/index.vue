@@ -2,13 +2,15 @@
   <div class="antialiased text-slate-800 bg-slate-50 selection:bg-red-900 selection:text-white">
     
     <!-- Hero Section -->
-    <section id="etude" class="lg:pt-40 lg:pb-28 overflow-hidden pt-32 pb-20 relative z-0">
+    <section id="etude" class="scroll-mt-28 lg:pt-40 lg:pb-28 overflow-hidden pt-32 pb-20 relative z-0">
       <div class="absolute inset-0 -z-20 h-full w-full">
         <!-- Image from HTML Source -->
-        <img 
-          src="/hero/landing-hero.png" 
-          class="h-full w-full object-cover opacity-20 grayscale-[20%]"
-        >
+        <NuxtImg 
+          format="webp" 
+          src="/images/landing_hero.png" 
+          alt="Cabinet Avocat Genève" 
+          class="w-full h-full object-cover object-center opacity-40"
+        />
         <div class="absolute inset-0 bg-gradient-to-r from-slate-50/90 via-slate-50/80 to-slate-50/20"></div>
         <div class="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-slate-50"></div>
       </div>
@@ -26,14 +28,18 @@
             </div>
                         
             <h1 class="lg:text-5xl leading-tight text-4xl font-semibold text-slate-900 tracking-tight mb-6">
-              Avocats à Genève : Conseil Juridique &amp; <br> 
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Stratégie Contentieuse</span>
+              Avocats à Genève - <br> 
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Étude Pont-Rouge / Acacias</span>
             </h1>
                         
             <div class="w-24 h-1 bg-red-900 mb-6"></div>
 
+            <h2 class="text-xl font-bold text-slate-800 mb-4 max-w-lg leading-snug">
+              Experts en droit de l'Immigration, droit pénal, droit Famille et droit du travail. <br>Premier rendez-vous d'analyse à CHF 155.-
+            </h2>
+
             <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed mix-blend-multiply">
-              Pont-Rouge by Clegal-Avocats vous accompagne avec rigueur et pragmatisme. Nous transformons la complexité juridique en solutions claires pour sécuriser vos intérêts personnels et professionnels.
+              Située au cœur du quartier d'affaires des Acacias (Genève), notre étude d'avocats généraliste vous défend avec rigueur. Que ce soit devant le Tribunal de Première Instance, le tribunal pénal ou l'office cantonale de la population et des migrations, nous transformons la complexité du droit suisse en solutions claires. Votre avocat à Genève doit être un partenaire stratégique : nous sécurisons vos intérêts personnels et professionnels dès la première consultation
             </p>
 
             <div class="flex flex-col sm:flex-row gap-4">
@@ -48,7 +54,7 @@
           </div>
 
           <!-- Right Content (Conversion Card) -->
-          <div class="relative group mt-8 lg:mt-0" id="honoraires">
+          <div class="relative group mt-8 lg:mt-0 scroll-mt-28" id="honoraires">
             <div class="absolute -inset-1 bg-gradient-to-r from-slate-200 to-red-100 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
             <div class="relative bg-white/95 backdrop-blur-sm ring-1 ring-slate-200 rounded-xl shadow-xl p-8">
               <div class="flex justify-between items-start mb-6 border-b border-slate-100 pb-4">
@@ -86,14 +92,14 @@
     </section>
 
     <!-- NEW PROFILE SECTION -->
-    <section id="profil" class="py-24 bg-white relative overflow-hidden border-t border-slate-100">
+    <section id="profil" class="scroll-mt-28 py-24 bg-white relative overflow-hidden border-t border-slate-100">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
                     
           <!-- Image Column (Portrait) -->
           <div class="lg:col-span-5 relative mb-12 lg:mb-0 order-1">
             <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] group border border-slate-100">
-              <img src="/images/mansour_cheema.png" alt="Maître Mansour Cheema" class="object-cover w-full h-full transform transition duration-700 group-hover:scale-105 saturate-0 group-hover:saturate-100">
+              <NuxtImg format="webp" src="/images/mansour_cheema.png" alt="Maître Mansour Cheema - Avocat à Genève" class="object-cover w-full h-full transform transition duration-700 group-hover:scale-105 saturate-0 group-hover:saturate-100" />
                             
               <!-- Overlay Gradient -->
               <div class="bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent absolute top-0 right-0 bottom-0 left-0"></div>
@@ -116,11 +122,11 @@
               <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Votre Partenaire de Confiance</span>
             </div>
                         
-            <h2 class="md:text-4xl leading-tight text-3xl font-semibold text-slate-900 tracking-tight mb-6">"Le Droit est complexe, votre solution doit être simple."</h2>
+            <h2 class="md:text-4xl leading-tight text-3xl font-semibold text-slate-900 tracking-tight mb-6">"Le Droit est complexe en Suisse, votre solution doit être simple et local à Genève."</h2>
                         
             <div class="text-base text-slate-600 mb-8 space-y-4 leading-relaxed">
-              <p>Le Droit est complexe, et face à l'incertitude juridique, le doute est légitime. À l'Étude Pont-Rouge Avocats à Genève, nous comprenons la lourdeur des procédures et l'impact que cela a sur votre quotidien. Notre équipe a fait de la clarté sa priorité absolue. Notre mission n'est pas de vous vendre des heures de confusion, mais de transformer cette complexité en une feuille de route intelligible. Vous avez besoin d'une stratégie pour avancer, et nous sommes là pour vous la donner.</p>
-              <p>Je privilégie une approche humaine et accessible. Mon objectif est d'allier l'excellence de la technicité juridique avec un coût maîtrisé et abordable pour les Genevois. Notre stratégie est toujours sur-mesure, mais nos tarifs sont conçus pour être justes. Que ce soit pour négocier un accord favorable ou plaider avec vigueur, vous méritez un avocat qui respecte votre budget tout en vous offrant une défense d'une rigueur absolue.</p>
+              <p>Le système judiciaire peut intimider. Face à l'incertitude d'une procédure <span class="font-bold text-slate-900">genevoise, romande ou fédérale</span> le doute est légitime. À l'<span class="font-bold text-slate-900">Étude Clegal by Pont-Rouge</span>, nous comprenons l'impact d'un litige sur votre quotidien. Notre priorité absolue est la clarté juridique : nous ne vendons pas des heures de confusion, mais une stratégie de défense intelligible et actionnable. Que vous soyez un particulier aux <span class="font-bold text-slate-900">Acacias</span> ou une entreprise en <span class="font-bold text-slate-900">ville de Genève</span>, vous avez besoin d'un avocat qui transforme la complexité du Code civil ou pénal en une feuille de route précise pour gagner.</p>
+              <p>Je privilégie une approche humaine dans le <span class="font-bold text-slate-900">milieu juridique genevois</span>. Mon objectif est d'allier l'excellence technique d'un avocat expérimenté à un coût maîtrisé. Nous défendons l'accès au droit pour tous les <span class="font-bold text-slate-900">Genevois</span>, c'est pourquoi nous proposons un premier rendez-vous d'analyse à tarif fixe (CHF 155.-). Que ce soit pour plaider aux <span class="font-bold text-slate-900">Prud'hommes</span>, demande de permis de séjour, négocier un divorce ou défendre un dossier pénal, vous méritez une défense d'une rigueur absolue, sans surprise sur les honoraires.</p>
             </div>
         
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 mb-10 border-t border-slate-100 pt-8">
@@ -129,7 +135,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-800"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path><path d="M7 21h10"></path><path d="M12 3v18"></path><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"></path></svg>
                   <span>Expertise</span>
                 </div>
-                <div class="text-xs text-slate-500 mt-1">Droit pénal &amp; civil</div>
+                <div class="text-xs text-slate-500 mt-1">Droit pénal, civil & administratif</div>
               </div>
               <div>
                 <div class="flex items-center gap-2 text-slate-900 font-semibold tracking-tight text-xl">
@@ -154,20 +160,29 @@
     </section>
 
     <!-- Services Section -->
-    <section class="border-y bg-slate-50 border-slate-200 pt-20 pb-20" id="domaines">
+    <section class="scroll-mt-28 border-y bg-slate-50 border-slate-200 pt-20 pb-20" id="domaines">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-16">
-          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Nos Domaines d'Intervention</h2>
+          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Nos domaines d'expertise juridique au Barreau de Genève</h2>
           <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Expertise juridique globale à Genève</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Droit des étrangers / Immigration (Premier) -->
+          <NuxtLink to="/droit-etrangers" class="group p-6 bg-white rounded-lg border border-slate-200 hover:border-red-900/20 hover:shadow-md transition-all duration-300">
+            <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+            </div>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Expert en Droit de l'Immigration</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Permis de séjour, regroupement familial, naturalisation.</p>
+          </NuxtLink>
+
           <!-- Droit pénal -->
           <NuxtLink to="/droit-penal" class="group p-6 bg-white rounded-lg border border-slate-200 hover:border-red-900/20 hover:shadow-md transition-all duration-300">
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381"></path><path d="m16 16 6-6"></path><path d="m21.5 10.5-8-8"></path><path d="m8 8 6-6"></path><path d="m8.5 7.5 8 8"></path></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit pénal</h3>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat Droit Pénal & Défense criminelle</h3>
             <p class="text-xs text-slate-600 leading-relaxed">Défense pénale, représentation des victimes, instruction.</p>
           </NuxtLink>
 
@@ -176,25 +191,18 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"></path></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit de la famille</h3>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat Droit de la Famille et Divorce à Genève</h3>
             <p class="text-xs text-slate-600 leading-relaxed">Divorce, séparation, garde d'enfants, successions.</p>
           </NuxtLink>
 
-          <!-- Droit des étrangers -->
-          <NuxtLink to="/droit-etrangers" class="group p-6 bg-white rounded-lg border border-slate-200 hover:border-red-900/20 hover:shadow-md transition-all duration-300">
-            <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-            </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit des étrangers</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Permis de séjour, regroupement familial, naturalisation.</p>
-          </NuxtLink>
+
 
           <!-- Droit du travail -->
           <NuxtLink to="/droit-travail" class="group p-6 bg-white rounded-lg border border-slate-200 hover:border-red-900/20 hover:shadow-md transition-all duration-300">
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit du travail</h3>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit du Travail : Licenciement et conflits employeur</h3>
             <p class="text-xs text-slate-600 leading-relaxed">Licenciements, certificats de travail, harcèlement.</p>
           </NuxtLink>
 
@@ -238,11 +246,11 @@
     </section>
 
     <!-- New Team Section -->
-    <section class="py-20 bg-white border-b border-slate-200" id="equipe">
+    <section class="scroll-mt-28 py-20 bg-white border-b border-slate-200" id="equipe">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">L'Équipe Pont-Rouge</h2>
-          <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Nos Avocats, Vos partenaires de confiance.</p>
+          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Vos avocats dédiés au quartier Acacias Genève</h2>
+          <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Nos Avocats, vos partenaires de confiance.</p>
           <p class="mt-4 text-lg text-slate-600">Une équipe structurée pour défendre vos intérêts avec excellence.</p>
         </div>
 
@@ -262,7 +270,7 @@
               @click="openPopup(partner)"
             >
               <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img :src="partner.image" :alt="partner.name" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
+                <NuxtImg format="webp" :src="partner.image" :alt="partner.name + ' - Avocat à Genève'" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
               </div>
               <div class="text-center">
                 <h4 class="text-sm font-semibold text-slate-900">{{ partner.name }}</h4>
@@ -288,7 +296,7 @@
               @click="openPopup(intern)"
             >
               <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img :src="intern.image" :alt="intern.name" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100">
+                <NuxtImg format="webp" :src="intern.image" :alt="intern.name + ' - Avocat stagiaire Genève'" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
               </div>
               <div class="text-center">
                 <h4 class="text-sm font-semibold text-slate-900">{{ intern.name }}</h4>
@@ -302,7 +310,7 @@
     </section>
 
     <!-- Social Proof / Testimonials -->
-    <section class="bg-slate-50 pt-20 pb-20 border-b border-slate-200" id="blog">
+    <section class="scroll-mt-28 bg-slate-50 pt-20 pb-20 border-b border-slate-200" id="blog">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-3 gap-6">
           <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
@@ -426,10 +434,55 @@ const openPopup = (partner: any) => {
   isPopupOpen.value = true;
 };
 
+
 const handleSubmit = () => {
   // Logic to handle form submission
   alert('Merci. Votre demande a été enregistrée. Nous vous contacterons pour fixer l\'horaire.');
 }
+
+// SEO Schema.org (Local Business)
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Pont-Rouge by Clegal-Avocats",
+        "image": "https://clegal-avocats.ch/logo.svg",
+        "@id": "https://clegal-avocats.ch",
+        "url": "https://clegal-avocats.ch",
+        "telephone": "0225121050",
+        "priceRange": "CHF 155.-",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Route des Jeunes 9",
+          "addressLocality": "Les Acacias",
+          "postalCode": "1227",
+          "addressCountry": "CH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 46.191234567,
+          "longitude": 6.123456789
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:30",
+          "closes": "18:00"
+        },
+        "sameAs": [] 
+      })
+    }
+  ]
+})
 </script>
 
 <style scoped>

@@ -22,16 +22,16 @@
                     <div class="text-left relative z-10">
                         <!-- Breadcrumb -->
                         <Breadcrumb :links="[
-                            { name: 'Droit des Affaires', path: '/droit-affaires' }
+                            { name: 'Droit Immobilier', path: '/droit-immobilier' }
                         ]" />
 
                         <h1
                             class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Avocat Droit des Affaires et Sociétés à Genève<br>
+                            Avocat Spécialiste Droit Immobilier et Construction à Genève<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
-                            Conseil stratégique pour PME et entrepreneurs. De la création de société aux litiges commerciaux complexes, nous défendons vos intérêts devant le Tribunal de première instance.
+                            Vente, construction ou litige de voisinage ? Nous sécurisons vos transactions et défendons votre propriété devant le Tribunal d'arrondissement.
                         </p>
 
                         <div class="flex flex-col sm:flex-row gap-4 items-start">
@@ -46,11 +46,11 @@
 
                         <div class="mt-10 flex flex-wrap gap-6 text-xs text-slate-500 font-medium">
                             <span class="flex items-center gap-1.5"><i data-lucide="check-circle"
-                                    class="w-4 h-4 text-emerald-600"></i> Litiges Commerciaux</span>
+                                    class="w-4 h-4 text-emerald-600"></i> Construction & Vente</span>
                             <span class="flex items-center gap-1.5"><i data-lucide="check-circle"
-                                    class="w-4 h-4 text-emerald-600"></i> Contrats et Statuts</span>
+                                    class="w-4 h-4 text-emerald-600"></i> Litiges Voisinage</span>
                             <span class="flex items-center gap-1.5"><i data-lucide="check-circle"
-                                    class="w-4 h-4 text-emerald-600"></i> Recouvrement</span>
+                                    class="w-4 h-4 text-emerald-600"></i> Droit du Bail</span>
                         </div>
                     </div>
 
@@ -59,17 +59,18 @@
                         <div class="absolute inset-0 bg-red-900/5 rounded-2xl transform translate-x-4 translate-y-4">
                         </div>
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 group">
-                            <NuxtImg format="webp" src="/images/landing_hero.png" alt="Avocat Affaires Genève"
+                            <!-- Using bail.png as it fits Real Estate context -->
+                            <NuxtImg format="webp" src="/exp/bail.png" alt="Avocat Immobilier Genève"
                                 class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out" />
                             <div
                                 class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm border border-slate-200 p-4 rounded-lg shadow-lg max-w-xs">
                                 <div class="flex items-center gap-3 mb-2">
                                     <div class="p-2 bg-red-50 rounded-full text-red-900">
-                                        <i data-lucide="briefcase" class="w-4 h-4"></i>
+                                        <i data-lucide="building" class="w-4 h-4"></i>
                                     </div>
-                                    <span class="text-xs font-semibold text-slate-900">Expertise Tribunal</span>
+                                    <span class="text-xs font-semibold text-slate-900">Expertise Genevoise</span>
                                 </div>
-                                <p class="text-[11px] leading-snug text-slate-500">Défense des entreprises Rue de l'Athénée.</p>
+                                <p class="text-[11px] leading-snug text-slate-500">Maîtrise de la Loi d'application genevoise (Léman & Construction).</p>
                             </div>
                         </div>
                     </div>
@@ -82,27 +83,27 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
                     <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Pourquoi choisir un Avocat à Genève ?</h2>
-                    <p class="text-lg text-slate-600">Une stratégie juridique ancrée dans le tissu économique local.</p>
+                    <p class="text-lg text-slate-600">Une parfaite connaissance du marché et des lois locales.</p>
                 </div>
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="landmark" class="w-6 h-6"></i>
+                            <i data-lucide="map-pin" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance du Tribunal de première instance</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Avantages d'une représentation locale</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            La connaissance spécifique du <strong>Tribunal de première instance de Genève</strong>, situé à la <strong class="text-slate-900">Rue de l'Athénée</strong>, est essentielle. Nous comprenons les nuances des jugements rendus par les magistrats genevois et adaptons notre stratégie contentieuse en conséquence.
+                            Choisir un avocat local permet de bénéficier d'une représentation qui comprend les nuances du marché immobilier genevois et les spécificités des tribunaux, tels que le <strong class="text-slate-900">Tribunal d'arrondissement de Genève</strong>, situé à la rue de l'Athénée. Cette proximité est déterminante dans la résolution des litiges.
                         </p>
                     </div>
 
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="trending-up" class="w-6 h-6"></i>
+                            <i data-lucide="scale" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Approche pragmatique et négociation</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie du système juridique</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Un bon avocat d'affaires sait que le procès n'est pas toujours la solution. Nous tentons autant que possible d'aboutir à des accords extra-judiciaires avantageux. Mais si la négociation échoue, nous nous battons avec vigueur devant les autorités judiciaires genevoises.
+                            Nous maîtrisons les lois locales comme la <strong>Loi d’application genevoise de la loi fédérale sur l’aménagement du territoire</strong>, ainsi que le Code Civil (CC) et le Code des Obligations (CO). Cette expertise est cruciale pour naviguer dans les complexités administratives de Genève.
                         </p>
                     </div>
                 </div>
@@ -113,7 +114,7 @@
         <section class="py-20 bg-white border-b border-slate-100 overflow-hidden">
              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Conciliation Commerciale à Genève</h2>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Conciliation à Genève</h2>
                     <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Étape par Étape</p>
                 </div>
 
@@ -121,31 +122,40 @@
                     <!-- Connector Line (Desktop) -->
                     <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-slate-100 -translate-y-1/2 z-0"></div>
 
-                    <div class="grid md:grid-cols-3 gap-8 relative z-10">
+                    <div class="grid md:grid-cols-4 gap-8 relative z-10">
                         <!-- Step 1 -->
                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative group hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-10 h-10 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-4 mx-auto md:mx-0 shadow-lg shadow-slate-900/20">1</div>
-                            <h4 class="text-lg font-bold text-slate-900 mb-3">Dépôt de la Demande</h4>
+                            <h4 class="text-lg font-bold text-slate-900 mb-3">Analyse & Stratégie</h4>
                             <p class="text-sm text-slate-600 leading-relaxed">
-                                Saisie du Tribunal de première instance (Code de Procédure Civile). Nous rédigeons une requête précise exposant vos prétentions.
+                                Analyse du dossier (Bail, Contrat de vente, Voisinage). 1er RDV à <strong class="text-red-900">CHF 155.-</strong> pour définir la stratégie juridique (arrangement vs procès).
                             </p>
                         </div>
 
                         <!-- Step 2 -->
                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative group hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-10 h-10 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-4 mx-auto md:mx-0">2</div>
-                            <h4 class="text-lg font-bold text-slate-900 mb-3">Séance de Conciliation</h4>
+                            <h4 class="text-lg font-bold text-slate-900 mb-3">Dépôt de la Demande</h4>
                             <p class="text-sm text-slate-600 leading-relaxed">
-                                Étape obligatoire. Les parties tentent de parvenir à un accord confidentiel sous l'égide du juge, économisant ainsi temps et ressources.
+                                Dépôt de la demande de conciliation auprès du <strong>Tribunal de première instance</strong>, conformément au Code de procédure civile.
                             </p>
                         </div>
 
                         <!-- Step 3 -->
                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative group hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-10 h-10 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-4 mx-auto md:mx-0 shadow-lg shadow-red-900/20">3</div>
-                            <h4 class="text-lg font-bold text-slate-900 mb-3">Le Procès (Autorisation de procéder)</h4>
+                            <div class="w-10 h-10 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-4 mx-auto md:mx-0">3</div>
+                            <h4 class="text-lg font-bold text-slate-900 mb-3">Séance de Conciliation</h4>
                             <p class="text-sm text-slate-600 leading-relaxed">
-                                Si la conciliation échoue, une autorisation de procéder est délivrée. Le demandeur dispose alors d'un délai pour déposer sa demande motivée au fond.
+                                Tentative d'accord sous la supervision d'un juge. Essentiel pour éviter un procès coûteux. "Un mauvais arrangement vaut souvent mieux qu'un bon procès."
+                            </p>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative group hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-10 h-10 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-4 mx-auto md:mx-0 shadow-lg shadow-red-900/20">4</div>
+                            <h4 class="text-lg font-bold text-slate-900 mb-3">Le Procès (Juge du fond)</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                Si échec de la conciliation, l'affaire est portée devant le Juge du fond avec une autorisation de procéder.
                             </p>
                         </div>
                     </div>
@@ -158,40 +168,40 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
                     <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés & Cadre Légal</h2>
-                    <p class="text-lg text-slate-600">Conformité et défense selon le Code des Obligations.</p>
+                    <p class="text-lg text-slate-600">Une maîtrise technique du Droit Immobilier suisse.</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- 1. Droit des Sociétés -->
+                    <!-- 1. Contrats Vente -->
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="building-2" class="w-6 h-6"></i>
+                            <i data-lucide="file-signature" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Structures Sociétaires (SA, SARL)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Contrats de Vente Immobilière</h3>
                         <p class="text-slate-600 leading-relaxed mb-4">
-                            Création et gestion de sociétés selon le Code des Obligations : Société Anonyme (<strong>Art. 620 et ss CO</strong>) et SARL (<strong>Art. 772 et ss CO</strong>). Nous assurons vos obligations légales.
+                            Les <strong>articles 216 et suivants du Code des Obligations (CO)</strong> définissent les obligations légales. Nous sécurisons vos transactions pour éviter les vices cachés et désaccords ultérieurs.
                         </p>
                     </div>
 
-                    <!-- 2. Litiges Commerciaux -->
+                    <!-- 2. Propriété -->
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="gavel" class="w-6 h-6"></i>
+                            <i data-lucide="home" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Litiges & Contrats Commerciaux</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Propriété & Voisinage</h3>
                         <p class="text-slate-600 leading-relaxed mb-4">
-                            Les régulations locales à Genève peuvent être complexes. Nous intervenons dans les conflits contractuels (partenariats, fournisseurs) et la responsabilité des organes dirigeants.
+                            Les <strong>articles 641 et suivants du Code Civil (CC)</strong> régissent les droits de propriété. Nous intervenons dans les conflits de voisinage, servitudes et atteintes à la propriété.
                         </p>
                     </div>
 
-                    <!-- 3. Conformité -->
+                    <!-- 3. Développement -->
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="shield-check" class="w-6 h-6"></i>
+                            <i data-lucide="hard-hat" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Conformité Réglementaire</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Développement & Zonage</h3>
                         <p class="text-slate-600 leading-relaxed overflow-hidden">
-                            Les entreprises à Genève font face à des défis réglementaires spécifiques. La conformité est indispensable pour éviter les sanctions et assurer le succès commercial pérenne.
+                            Nous vous conseillons sur la <strong>Loi d’application genevoise de la loi fédérale sur l’aménagement du territoire</strong> pour vos projets de construction et questions de zonage à Genève.
                         </p>
                     </div>
 
@@ -200,17 +210,10 @@
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="book-open" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Code des Obligations (CO)</h3>
-                        <ul class="space-y-3">
-                            <li class="flex items-start gap-2 text-sm text-slate-600">
-                                <span class="font-bold text-slate-900 whitespace-nowrap">Art. 530 CO :</span>
-                                <span>Société Simple (souvent la forme par défaut des partenariats).</span>
-                            </li>
-                            <li class="flex items-start gap-2 text-sm text-slate-600">
-                                <span class="font-bold text-slate-900 whitespace-nowrap">Droit des Contrats :</span>
-                                <span>Règles générales et spécifiques applicables aux affaires.</span>
-                            </li>
-                        </ul>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Distinction Clé</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            <strong class="text-slate-900">Attention :</strong> Le droit du bail n'est pas du droit immobilier "pur" et dispose d'une procédure spécifique. Nous traitons ces deux domaines avec la même expertise.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -219,29 +222,62 @@
         <!-- FAQ -->
         <section id="faq" class="py-16 bg-white border-t border-slate-100">
             <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ (Droit des Affaires)</h3>
+                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ (Droit Immobilier Genève)</h3>
                 <div class="space-y-6">
                     <div class="border-b border-slate-100 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Quels sont les coûts d'un avocat d'affaires ?
+                            Comment résoudre un litige immobilier ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Nos honoraires horaires sont transparents : entre <strong>CHF 350.- et 450.- / heure</strong>. Pour des mandats forfaits, comptez généralement entre CHF 3'000 et 5'000 selon la complexité du cas.</p>
+                        <p class="text-sm text-slate-600 pl-7">Toujours commencer par une séance de conciliation au <strong>Tribunal de première instance</strong> pour tenter un accord. Sinon, le litige est tranché par le Juge du fond.</p>
                     </div>
                     <div class="border-b border-slate-100 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Comment prévenir les litiges commerciaux ?
+                            Combien coûte un avocat en immobilier ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">La prévention passe par des contrats solides (Actionnaires, CGV, Travail). Nous structurons vos accords en amont pour minimiser les risques, grâce à notre connaissance du tissu économique régional.</p>
+                        <p class="text-sm text-slate-600 pl-7">La moyenne à Genève est de CHF 450-550/h. Chez <strong>Clegal-Avocats</strong>, nous appliquons un tarif avantageux de <strong>CHF 350.-/h</strong> pour rendre la justice accessible.</p>
                     </div>
                     <div class="pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Pourquoi choisir un avocat local à Genève ?
+                            Quels sont les délais de procédure ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Pour la défense efficace de vos intérêts. Comprendre les spécificités du Tribunal de première instance de Genève est un avantage compétitif majeur lors d'un contentieux.</p>
+                        <p class="text-sm text-slate-600 pl-7">Cela varie de quelques mois (conciliation) à plusieurs années (procès complexe), selon la charge du Tribunal d'arrondissement.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internal Linking Section -->
+        <section class="py-16 bg-white border-t border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight mb-4">Nos Services en Droit Immobilier</h2>
+                    <p class="text-slate-600">Une expertise complète pour tous vos besoins immobiliers.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    <!-- Self Link (Context) -->
+                    <div class="p-6 bg-white rounded-xl border border-slate-100 shadow-sm opacity-50 cursor-not-allowed">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-2 bg-slate-100 rounded-lg text-slate-400">
+                                <i data-lucide="building" class="w-5 h-5"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-400">Droit de la Construction</h3>
+                        </div>
+                        <p class="text-sm text-slate-400">Page actuelle.</p>
+                    </div>
+
+                    <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="group block p-6 bg-slate-50 rounded-xl border border-slate-200 hover:border-red-900/30 hover:shadow-md transition-all">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-2 bg-white rounded-lg text-red-900 shadow-sm group-hover:bg-red-900 group-hover:text-white transition-colors">
+                                <i data-lucide="key" class="w-5 h-5"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900">Droit du Bail</h3>
+                        </div>
+                        <p class="text-sm text-slate-600">Résiliation, loyers et litiges régie.</p>
+                    </NuxtLink>
                 </div>
             </div>
         </section>
@@ -250,8 +286,8 @@
         <section id="formulaire" class="py-20 bg-slate-50 border-t border-slate-200">
             <div class="max-w-3xl mx-auto px-4">
                 <div class="mb-12 text-center">
-                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight mb-4">Protégez votre entreprise</h2>
-                    <p class="text-slate-600">Des conseils juridiques pragmatiques pour entrepreneurs exigeants.</p>
+                    <h2 class="text-2xl font-bold text-slate-900 tracking-tight mb-4">Besoin d'un expert immobilier ?</h2>
+                    <p class="text-slate-600">Nous sécurisons votre patrimoine et vos droits.</p>
                 </div>
                 <ContactForm />
             </div>
@@ -261,9 +297,9 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Avocat Droit des Affaires Genève | Sociétés & Litiges Commerciaux',
+  title: 'Avocat Droit Immobilier Genève | Construction & Litiges',
   meta: [
-    { name: 'description', content: 'Avocat en Droit des Affaires à Genève. Conseil stratégique pour PME, contrats commerciaux et litiges au Tribunal de 1ère Instance. Tarif dès CHF 350.-/h.' }
+    { name: 'description', content: 'Avocat Spécialiste Droit Immobilier à Genève. Expert en droit de la construction, vente, voisinage et zonage. Tribunal d\'arrondissement. 1er RDV : CHF 155.-' }
   ]
 })
 </script>

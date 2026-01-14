@@ -4,6 +4,7 @@
             
             <!-- H1 & Intro Section -->
             <div class="max-w-3xl mb-16">
+                <Breadcrumb :links="[{ name: 'Blog', path: '/blog' }]" />
                 <div class="inline-flex items-center gap-2 px-2 py-1 rounded-md bg-red-50 border border-red-100 w-fit mb-4">
                     <i data-lucide="play-circle" class="w-3 h-3 text-red-900"></i>
                     <span class="text-[10px] font-bold text-red-900 uppercase tracking-wide">La Minute Juridique</span>
@@ -26,7 +27,7 @@
             <!-- TikTok Embed / Placeholder or Direct Link visual -->
             <div class="mb-24">
                 <a href="https://www.tiktok.com/@clegal.avocats" target="_blank" class="block group relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 bg-black aspect-video md:aspect-[21/9]">
-                     <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop" alt="TikTok Channel" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500">
+                     <NuxtImg format="webp" src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop" alt="TikTok Channel" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500" />
                      <div class="absolute inset-0 flex items-center justify-center">
                          <div class="w-20 h-20 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 border border-white/20">
                              <i data-lucide="external-link" class="w-8 h-8 text-white"></i>

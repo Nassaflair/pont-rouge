@@ -20,7 +20,7 @@
             <!-- Image Column (Portrait) -->
             <div class="lg:col-span-5 relative mb-12 lg:mb-0 order-1">
               <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] group border border-slate-100">
-                <img :src="partner?.image" :alt="partner?.name" class="object-cover w-full h-full">
+                <NuxtImg format="webp" :src="partner?.image" :alt="partner?.name" class="object-cover w-full h-full" />
                               
                 <!-- Overlay Gradient -->
                 <div class="bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent absolute top-0 right-0 bottom-0 left-0"></div>

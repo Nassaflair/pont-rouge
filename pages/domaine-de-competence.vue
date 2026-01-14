@@ -8,7 +8,8 @@
             <div class="absolute inset-0 -z-10 h-full w-full bg-grid-slate [mask-image:linear-gradient(to_bottom,white,transparent)]"></div>
             
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center max-w-4xl mx-auto">
+                <div class="text-center max-w-4xl mx-auto flex flex-col items-center">
+                    <Breadcrumb :links="[{ name: 'Expertises', path: '/domaine-de-competence' }]" />
                     <div class="inline-flex bg-red-50 w-fit border-red-100 border rounded-full mr-auto mb-8 ml-auto pt-1 pr-3 pb-1 pl-3 gap-x-2 gap-y-2 items-center">
                         <span class="flex h-2 w-2 rounded-full bg-red-600 animate-pulse"></span>
                         <span class="uppercase text-xs font-medium text-red-900 tracking-wide">Urgence Juridique ? Téléphone 24/24h</span>

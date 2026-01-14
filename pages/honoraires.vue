@@ -4,7 +4,8 @@
         <section class="pt-32 pb-20 relative overflow-hidden">
             <div class="absolute inset-0 -z-10 h-full w-full bg-grid-slate [mask-image:linear-gradient(to_bottom,white,transparent)]"></div>
             
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
+                <Breadcrumb :links="[{ name: 'Honoraires', path: '/honoraires' }]" />
                 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 w-fit mb-8 mx-auto">
                     <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Transparence Totale</span>
                 </div>

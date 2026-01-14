@@ -3,6 +3,7 @@
     <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden border-b border-slate-200 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-4xl">
+                <Breadcrumb :links="[{ name: 'L\'Étude', path: '/etude' }]" />
                 <div
                     class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 w-fit mb-8">
                     <span class="w-1.5 h-1.5 rounded-full bg-red-900"></span>
@@ -95,9 +96,9 @@
                     <div class="absolute inset-0 bg-slate-100 rounded-2xl transform rotate-3"></div>
                     <div
                         class="relative h-full w-full bg-slate-200 rounded-2xl overflow-hidden shadow-xl ring-1 ring-slate-900/5">
-                        <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/917d6f93-fb36-439a-8c48-884b67b35381_1600w.jpg"
+                        <NuxtImg format="webp" src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/917d6f93-fb36-439a-8c48-884b67b35381_1600w.jpg"
                             alt="Recueils juridiques et environnement de travail"
-                            class="absolute inset-0 w-full h-full object-cover">
+                            class="absolute inset-0 w-full h-full object-cover" />
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900/50 via-transparent to-transparent">
                         </div>
                         <div class="text-white absolute right-6 bottom-6 left-6">
@@ -191,9 +192,9 @@
             <div class="lg:flex lg:items-center lg:gap-16">
                 <div class="lg:w-1/2 relative order-last lg:order-first">
                     <!-- Image: Modern Architecture -->
-                    <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4734259a-bad7-422f-981e-ce01e79184f2_1600w.jpg"
+                    <NuxtImg format="webp" src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4734259a-bad7-422f-981e-ce01e79184f2_1600w.jpg"
                         alt="Bureaux Pont-Rouge Avocats"
-                        class="rounded-lg shadow-xl ring-1 ring-slate-900/5 object-cover h-[400px] w-full grayscale hover:grayscale-0 transition-all duration-700">
+                        class="rounded-lg shadow-xl ring-1 ring-slate-900/5 object-cover h-[400px] w-full grayscale hover:grayscale-0 transition-all duration-700" />
                     <div
                         class="absolute -bottom-6 -right-6 w-24 h-24 bg-slate-100 rounded-full flex items-center justify-center border-4 border-white z-10">
                         <span class="text-xs font-bold text-slate-400 text-center leading-tight">GE1227</span>

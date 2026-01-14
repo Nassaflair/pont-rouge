@@ -8,6 +8,7 @@
                     
                     <!-- Header Text -->
                     <div>
+                        <Breadcrumb :links="[{ name: 'Contact', path: '/contact' }]" />
                         <div class="inline-flex items-center gap-2 px-2 py-1 rounded-md bg-red-50 border border-red-100 w-fit mb-4">
                             <span class="relative flex h-2 w-2">
                                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
