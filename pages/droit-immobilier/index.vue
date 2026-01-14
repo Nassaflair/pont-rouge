@@ -296,7 +296,7 @@
 </template>
 
 <script setup lang="ts">
-await navigateTo('/droit-immobilier/avocat-droit-bail');
+
 
 useHead({
   title: 'Avocat Droit Immobilier Genève | Construction & Litiges',

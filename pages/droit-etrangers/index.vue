@@ -287,7 +287,7 @@
 </template>
 
 <script setup lang="ts">
-await navigateTo('/droit-etrangers/avocat-permis-sejour');
+
 
 useHead({
   title: 'Avocat Droit des Étrangers Genève | Permis & Immigration',

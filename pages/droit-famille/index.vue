@@ -339,7 +339,7 @@
 </template>
 
 <script setup lang="ts">
-await navigateTo('/droit-famille/avocat-divorce');
+
 
 useHead({
   title: 'Avocat Spécialiste Droit de la Famille Genève | Divorce & Garde',

@@ -270,7 +270,7 @@
 </template>
 
 <script setup lang="ts">
-await navigateTo('/droit-travail/avocat-licenciement');
+
 
 useHead({
   title: 'Avocat Droit du Travail Genève | Licenciement & Prud\'hommes',
