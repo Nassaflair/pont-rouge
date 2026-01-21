@@ -73,9 +73,9 @@
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
                             <i data-lucide="landmark" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance du Tribunal de Genève</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie du système juridique local</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Une connaissance approfondie des procédures du <strong>Tribunal de première instance de Genève</strong>, situé à la Place du Bourg-de-Four, est cruciale pour anticiper les décisions des juges.
+                            Un avocat spécialisé en droit des assurances à Genève possède une connaissance approfondie des procédures et des spécificités du <strong>Tribunal de première instance de Genève</strong>, situé à la Place de l'Athénée. Cette expertise locale est cruciale pour naviguer efficacement dans le système judiciaire et anticiper les décisions potentielles des juges.
                         </p>
                     </div>
 
@@ -83,9 +83,9 @@
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
                             <i data-lucide="users" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Expertise Chambre des Assurances</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Avantages d'un avocat local dans les litiges d'assurance</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Un avocat local comprend les pratiques spécifiques de la <strong>Chambre des assurances sociales du Tribunal cantonal</strong>, augmentant significativement vos chances de succès.
+                            Choisir un avocat local permet de bénéficier d'une représentation juridique qui comprend les nuances régionales, y compris les pratiques spécifiques de la <strong>Chambre des assurances sociales du Tribunal cantonal</strong>. Cela augmente significativement les chances de succès dans les litiges d'assurance.
                         </p>
                     </div>
                 </div>
@@ -96,60 +96,102 @@
         <section class="py-20 bg-white border-b border-slate-100 overflow-hidden">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Litige d'Assurance</h2>
-                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Étape par Étape</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Gestion des Litiges d'Assurance à Genève (Étape par Étape)</h2>
+                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Gestion des Litiges</p>
                 </div>
 
                 <div class="relative">
                     <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-slate-100 -translate-y-1/2 z-0"></div>
-                    <div class="grid md:grid-cols-5 gap-6 relative z-10">
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-9 h-9 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">1</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Consultation</h4>
-                            <p class="text-xs text-slate-600">Évaluation du cas selon <strong>Art. 97 CC</strong>.</p>
+                    <div class="grid md:grid-cols-5 gap-4 relative z-10">
+                        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">1</div>
+                            <h4 class="text-sm font-bold text-slate-900 mb-2">Première Consultation</h4>
+                            <p class="text-xs text-slate-600">Évaluation des détails du litige et préparation de la stratégie de défense basée sur la <strong>LPGA</strong> ou la <strong>LAI</strong>.</p>
                         </div>
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Dépôt Plainte</h4>
-                            <p class="text-xs text-slate-600">Plainte rédigée selon <strong>Art. 112 CC</strong>.</p>
+                        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-8 h-8 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
+                            <h4 class="text-sm font-bold text-slate-900 mb-2">Rédaction de l'opposition</h4>
+                            <p class="text-xs text-slate-600">Exposition précise des faits auprès de l'institution concernée pour éviter une procédure longue.</p>
                         </div>
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">3</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Conciliation</h4>
-                            <p class="text-xs text-slate-600">Tentative d'accord sous supervision du tribunal.</p>
+                        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-8 h-8 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">3</div>
+                            <h4 class="text-sm font-bold text-slate-900 mb-2">Phase de Conciliation</h4>
+                            <p class="text-xs text-slate-600">Tentative d'accord amiable sous la supervision d'un conciliateur du tribunal.</p>
                         </div>
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">4</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Procès</h4>
-                            <p class="text-xs text-slate-600">Défense basée sur <strong>Art. 61 CO</strong>.</p>
+                         <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-8 h-8 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">4</div>
+                            <h4 class="text-sm font-bold text-slate-900 mb-2">Procédure Judiciaire</h4>
+                            <p class="text-xs text-slate-600">Défense des droits du client devant le tribunal si la conciliation échoue.</p>
                         </div>
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-9 h-9 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">5</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Exécution</h4>
-                            <p class="text-xs text-slate-600">Obtention de l'indemnisation due.</p>
+                        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-8 h-8 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">5</div>
+                            <h4 class="text-sm font-bold text-slate-900 mb-2">Exécution du Jugement</h4>
+                            <p class="text-xs text-slate-600">Obtention de ce qui est dû légalement ou recours contre la décision.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Legal Framework -->
-        <section id="features" class="py-20 bg-slate-50 border-t border-slate-200">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Key Issues (Enjeux Clés) -->
+        <section class="py-20 bg-slate-50 border-b border-slate-200">
+             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal</h2>
-                    <p class="text-lg text-slate-600">Code des Obligations (CO) et Code Civil (CC).</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés (Thématiques locales)</h2>
+                    <p class="text-lg text-slate-600">Maîtriser les spécificités genevoises.</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                     <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                         <div class="h-10 w-10 bg-red-50 rounded-xl flex items-center justify-center mb-4 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="file-text" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Comprendre les Polices Complexes</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Déchiffrer et contester les clauses complexes souvent présentes dans les contrats d'assurance.
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                         <div class="h-10 w-10 bg-red-50 rounded-xl flex items-center justify-center mb-4 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="alert-triangle" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Litiges Fréquents</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Désaccords sur la couverture des sinistres et refus de paiement des indemnisations.
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                         <div class="h-10 w-10 bg-red-50 rounded-xl flex items-center justify-center mb-4 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="landmark" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Impact des Lois Locales</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            La connaissance des pratiques de la <strong>Chambre des assurances sociales</strong> est essentielle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legal Framework -->
+        <section id="features" class="py-20 bg-white border-t border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="mb-16 text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal (Articles Spécifiques)</h2>
+                    <p class="text-lg text-slate-600">LPGA et LAI.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="book-open" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Code des Obligations (CO)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Loi sur la partie générale (LPGA)</h3>
                         <ul class="space-y-2 text-slate-600 text-sm">
-                            <li><strong>Article 61 CO</strong> : Responsabilité du fait des auxiliaires.</li>
-                            <li><strong>Article 99 CO</strong> : Contrats d'assurance sur la vie.</li>
+                            <li><strong>Article 3 LPGA</strong> : Définition de la maladie.</li>
+                            <li><strong>Article 4 LPGA</strong> : Définition de l'accident.</li>
                         </ul>
                     </div>
 
@@ -157,10 +199,10 @@
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="file-text" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Code Civil (CC)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Loi sur l'assurance-invalidité (LAI)</h3>
                         <ul class="space-y-2 text-slate-600 text-sm">
-                            <li><strong>Article 97 CC</strong> : Obligations du débiteur.</li>
-                            <li><strong>Article 112 CC</strong> : Contrat d'assurance.</li>
+                             <li><strong>Article 8 LAI</strong> : Le droit aux prestations.</li>
+                             <li><strong>Article 9 al. 2 LAI</strong> : Les conditions d'assurance.</li>
                         </ul>
                     </div>
 
@@ -168,46 +210,40 @@
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="building" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Réglementations Locales</h3>
-                        <p class="text-slate-600 text-sm">L'<strong>Office cantonal de l'assurance maladie (OCAS)</strong> applique des règles spécifiques pour les litiges d'assurance maladie à Genève.</p>
-                    </div>
-
-                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
-                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="alert-triangle" class="w-6 h-6"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Litiges Fréquents</h3>
-                        <p class="text-slate-600 text-sm">Désaccords sur la couverture des sinistres, refus de paiement des indemnisations, et contestation de clauses complexes.</p>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Réglementations Spécifiques</h3>
+                        <p class="text-slate-600 text-sm">
+                            Les réglementations locales, telles que celles appliquées par l'<strong>Office cantonal de l'assurance maladie (OCAS)</strong>, sont cruciales pour les litiges d'assurance maladie.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- FAQ -->
-        <section id="faq" class="py-16 bg-white border-t border-slate-100">
+        <section id="faq" class="py-16 bg-slate-50 border-t border-slate-200">
             <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ (Droit des Assurances)</h3>
+                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ (Chiffrée & Réaliste)</h3>
                 <div class="space-y-6">
-                    <div class="border-b border-slate-100 pb-4">
+                    <div class="border-b border-slate-200 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Quel délai pour résoudre un litige d'assurance ?
+                            Quel est le délai moyen pour régler un litige d'assurance à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Le délai moyen varie de <strong>6 mois à 2 ans</strong>, selon la complexité du cas et la charge du tribunal.</p>
+                        <p class="text-sm text-slate-600 pl-7">Le délai moyen pour résoudre un litige d'assurance peut varier de <strong>6 mois à 2 ans</strong>, dépendant de la complexité du cas et de la charge de travail du tribunal.</p>
                     </div>
-                    <div class="border-b border-slate-100 pb-4">
+                    <div class="border-b border-slate-200 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Quels sont mes droits en tant qu'assuré ?
+                            Quels sont mes droits en tant qu'assuré à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Vous avez droit à une couverture conforme aux termes de votre contrat et à contester toute décision incorrecte (<strong>Art. 112 CC</strong>).</p>
+                        <p class="text-sm text-slate-600 pl-7">En tant qu'assuré, vous avez droit à une couverture conforme aux termes de votre contrat d'assurance, et à contester toute décision que vous jugez incorrecte.</p>
                     </div>
                     <div class="pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Comment contester une décision d'assureur ?
+                            Comment puis-je contester une décision de mon assureur ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Consultez un avocat spécialisé qui initiera une procédure basée sur les articles du Code Civil et du Code des Obligations.</p>
+                        <p class="text-sm text-slate-600 pl-7">Pour contester une décision, il est recommandé de consulter un avocat spécialisé qui pourra initier une procédure judiciaire en se basant sur les articles appropriés des lois pertinentes.</p>
                     </div>
                 </div>
             </div>
@@ -227,10 +263,26 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: 'Avocat Droit des Assurances Genève | Litiges & Indemnisation',
-  meta: [
-    { name: 'description', content: 'Avocat Expert Droit des Assurances à Genève. Litiges, refus de paiement, Chambre des assurances sociales. Art. 61 CO, 112 CC. 1er RDV : CHF 155.-' }
-  ]
-})
+useLocalSeo(
+  'Avocat Droit des Assurances Genève | Litiges & Indemnisation',
+  'Avocat Expert Droit des Assurances à Genève. Litiges, refus de paiement, Chambre des assurances sociales. LPGA (Art 3, 4) et LAI. 1er RDV : CHF 155.-',
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-',
+    faq: [
+      {
+        question: 'Quel est le délai moyen pour régler un litige d\'assurance à Genève ?',
+        answer: 'Le délai moyen pour résoudre un litige d\'assurance peut varier de 6 mois à 2 ans, dépendant de la complexité du cas et de la charge de travail du tribunal.'
+      },
+      {
+        question: 'Quels sont mes droits en tant qu\'assuré à Genève ?',
+        answer: 'En tant qu\'assuré, vous avez droit à une couverture conforme aux termes de votre contrat d\'assurance, et à contester toute décision que vous jugez incorrecte.'
+      },
+      {
+        question: 'Comment puis-je contester une décision de mon assureur ?',
+        answer: 'Pour contester une décision, il est recommandé de consulter un avocat spécialisé qui pourra initier une procédure judiciaire en se basant sur les articles appropriés des lois pertinentes.'
+      }
+    ]
+  }
+)
 </script>

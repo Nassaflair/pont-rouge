@@ -19,7 +19,7 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Avocat Garde d'Enfant à Genève<br>
+                            Avocat Spécialiste en Droit de Garde d'Enfant à Genève<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -65,61 +65,151 @@
          <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">L'Intérêt Supérieur de l'Enfant</h2>
-                    <p class="text-lg text-slate-600">Notre priorité absolue dans chaque dossier.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Pourquoi choisir un Avocat à Genève ?</h2>
+                    <p class="text-lg text-slate-600">Expertise locale et stratégique.</p>
                 </div>
                 
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <div class="grid md:grid-cols-3 gap-8 items-start">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 h-full">
                          <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
                             <i data-lucide="landmark" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Tribunal & SPMi</h3>
-                        <p class="text-slate-600 leading-relaxed">
-                            Nous collaborons avec le **Service de Protection des Mineurs (SPMi)** et plaidons devant la Chambre des Tutelles pour assurer que les décisions prises (garde, domiciliation) respectent le bien-être de vos enfants.
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie des tribunaux locaux</h3>
+                        <p class="text-slate-600 leading-relaxed text-sm">
+                            Un avocat local est essentiel pour naviguer avec succès dans les complexités du <strong>Tribunal de première instance de Genève</strong>, situé à la rue de l'Athénée. La familiarité avec les procédures spécifiques de ce tribunal peut influencer positivement les décisions de garde.
                         </p>
                     </div>
 
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 h-full">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="heart" class="w-6 h-6"></i>
+                            <i data-lucide="book-open" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Garde Alternée</h3>
-                        <p class="text-slate-600 leading-relaxed">
-                            La **garde alternée** est le modèle privilégié en Suisse (Art 298 CC). Nous vous aidons à mettre en place un calendrier équilibré et viable pour les deux parents.
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Expertise régionale spécifique</h3>
+                        <p class="text-slate-600 leading-relaxed text-sm">
+                            Les avocats de Genève comprennent les nuances du <strong>Code Civil Suisse (CC)</strong>, du <strong>Tribunal de première instance</strong> et du <strong>Tribunal de protection de l'adulte et de l'enfant</strong>, ce qui est crucial pour défendre efficacement vos droits et ceux de votre enfant.
+                        </p>
+                    </div>
+
+                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 h-full">
+                        <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
+                            <i data-lucide="clock" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Avantages de l'assistance locale</h3>
+                        <p class="text-slate-600 leading-relaxed text-sm">
+                            Travailler avec un avocat de Genève garantit une réactivité et une disponibilité accrues, permettant une communication rapide et efficace, essentielle dans les affaires de garde d'enfants où les circonstances peuvent évoluer rapidement.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Service Grid / Key Issues -->
-        <section class="py-20 bg-white border-b border-slate-100">
-             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Vos Droits Parentaux</h2>
-                    <p class="text-lg text-slate-600">Questions de garde et d'éducation.</p>
+        <!-- Process Section -->
+        <section class="py-20 bg-white border-b border-slate-100 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Droit de Garde à Genève (Étape par Étape)</h2>
+                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Votre parcours</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10 max-w-6xl mx-auto">
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">1</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Consultation initiale et évaluation du cas</h4>
+                            <p class="text-sm text-slate-600">Lors de la première rencontre, l'avocat évalue les détails de votre situation familiale et discute des stratégies possibles en vertu des <strong>Article 301 et suivants CC</strong>, qui pose les principes contenu dans l'autorité parentale.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Dépôt de la demande de garde</h4>
+                            <p class="text-sm text-slate-600">Votre avocat déposera une demande au <strong>Tribunal de première instance de Genève</strong> ou au <strong>Tribunal de protection de l'adulte et de l'enfant</strong> selon votre situation.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">3</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Phase de conciliation</h4>
+                            <p class="text-sm text-slate-600">Selon la procédure, celle-ci peut commencée par une phase de conciliation dans laquelle les parents peuvent arriver à un accord.</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">4</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Audition et évaluation par le tribunal</h4>
+                            <p class="text-sm text-slate-600">Le tribunal évalue toutes les preuves et témoignages. Il est parfois nécessaire de faire intervenir le <strong>Service de protection des mineurs (SPMi)</strong> afin de faire établire un rapport.</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300 lg:col-span-2 lg:w-1/2 lg:mx-auto">
+                            <div class="w-9 h-9 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">5</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Décision du tribunal et mise en œuvre</h4>
+                            <p class="text-sm text-slate-600">La décision finale revient au juge qui doit prendre en compte l'<strong>intérêt supérieur de l'enfant</strong>. Le <strong>Service de protection des mineurs (SPMi)</strong> peut jouer un rôle clé dans la mise en œuvre de la décision de garde.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Key Issues (Enjeux Clés) -->
+        <section class="py-20 bg-slate-50 border-b border-slate-200">
+             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="mb-16 text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés (Thématiques locales)</h2>
+                    <p class="text-lg text-slate-600">Comprendre le contexte genevois.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                          <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="users" class="w-6 h-6"></i>
+                            <i data-lucide="trending-up" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Autorité Parentale</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Impact de la séparation</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            L'autorité parentale conjointe est la règle (Art 296 CC). Elle implique que les parents décident ensemble des points majeurs (éducation, religion, santé).
+                            La séparation des parents peut complexifier la détermination de la garde, rendant l'expertise d'un avocat local indispensable pour naviguer dans ces eaux troubles.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                          <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="calendar" class="w-6 h-6"></i>
+                            <i data-lucide="refresh-cw" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Droit de Visite (Relations Personnelles)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Modifications de la garde</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Le parent qui n'a pas la garde a le droit et le devoir d'entretenir des relations personnelles. Nous fixons ces modalités de manière claire.
+                            Les changements dans les conditions de vie ou les besoins de l'enfant peuvent nécessiter des ajustements de la garde. Il est ainsi possible de faire <strong>modifier</strong> une décision antérieure si les faits ont changés.
                         </p>
+                    </div>
+
+                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="shield" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Protection de l'intérêt supérieur</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            L'accent est mis sur le bien-être de l'enfant, avec des décisions prises en tenant compte de son intérêt supérieur et cela conformément au droit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legal Framework -->
+        <section id="features" class="py-20 bg-white border-t border-slate-200">
+             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="mb-16 text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal (Articles Spécifiques)</h2>
+                    <p class="text-lg text-slate-600">Articles du Code Civil Suisse (CC) relatifs à la garde.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                        <h3 class="font-bold text-slate-900 mb-2">Article 133 (CC)</h3>
+                        <p class="text-sm text-slate-600">Droit de déterminer le lieu de résidence de l'enfant.</p>
+                    </div>
+
+                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                        <h3 class="font-bold text-slate-900 mb-2">Article 273 (CC)</h3>
+                        <p class="text-sm text-slate-600">Droit aux relations personnels des parents.</p>
+                    </div>
+
+                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                        <h3 class="font-bold text-slate-900 mb-2">Article 301 (CC)</h3>
+                        <p class="text-sm text-slate-600">Détermination du lieu de résidence de l'enfant.</p>
+                    </div>
+
+                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                        <h3 class="font-bold text-slate-900 mb-2">Article 302 (CC)</h3>
+                        <p class="text-sm text-slate-600">Education de l'enfant.</p>
                     </div>
                 </div>
             </div>
@@ -133,20 +223,41 @@
                     <div class="border-b border-slate-200 pb-4">
                          <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            À quel âge l'enfant peut-il choisir ?
+                            Quels sont mes droits en tant que parent non gardien ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">L'enfant est entendu dès environ 6 ans. Son avis prend plus de poids vers 12 ans, mais le juge décide *in fine* selon son intérêt supérieur.</p>
+                        <ul class="text-sm text-slate-600 pl-7 list-disc space-y-2">
+                            <li><strong>Droit de visite :</strong> En principe le parent non-gardien a droit aux relations personnelles avec l'enfant comme en dispose l'<strong>article 273 CC</strong>.</li>
+                            <li>En principe, et si l'autorité parentale a été maintenue, le parent non-gardien a un droit de regard sur les décisions importantes pour l'enfant.</li>
+                        </ul>
                      </div>
                     <div class="border-b border-slate-200 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Puis-je déménager avec mon enfant ?
+                             Comment le tribunal détermine-t-il la garde principale ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Un déménagement affectant le droit de visite de l'autre parent nécessite son accord ou une décision du tribunal (Art 301a CC).</p>
+                        <p class="text-sm text-slate-600 pl-7">Le principe est la garde alternée mais le Tribunal jugera en fonction de l'intérêt supérieur de l'enfant.</p>
+                    </div>
+                    <div class="border-b border-slate-200 pb-4">
+                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
+                            Puis-je modifier les arrangements de garde ?
+                        </h4>
+                        <p class="text-sm text-slate-600 pl-7">Oui, en cas de changement significatif des circonstances.</p>
+                    </div>
+                    <div class="border-b border-slate-200 pb-4">
+                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
+                            Que faire en cas de non-respect des accords de garde ?
+                        </h4>
+                        <p class="text-sm text-slate-600 pl-7">Contactez immédiatement votre avocat. Le <strong>SPMi</strong> peut également intervenir pour assurer l'exécution des décisions de garde.</p>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <!-- Related Services -->
+        <SiloLinks silo="famille" currentPath="/droit-famille/avocat-garde-enfant" />
 
         <!-- Form Section -->
         <section id="formulaire" class="py-20 bg-white border-t border-slate-200">
@@ -163,8 +274,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Garde Enfant Genève | Autorité Parentale & Visite',
-  'Avocat Expert Garde d\'Enfant à Genève. Garde alternée, autorité parentale, droit de visite. Défense de l\'intérêt de l\'enfant. SPMi et Tribunal.',
+  'Avocat Garde Enfants Genève | Droit de Garde & Visite',
+  'Avocat Spécialiste Garde d\'Enfant à Genève. Droit de garde, droit de visite, autorité parentale (Art 133, 273 CC). Tribunal et SPMi. 1er RDV : CHF 155.-',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

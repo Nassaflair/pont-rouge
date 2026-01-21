@@ -345,6 +345,60 @@ useHead({
   title: 'Avocat Spécialiste Droit de la Famille Genève | Divorce & Garde',
   meta: [
     { name: 'description', content: 'Avocat Droit de la Famille Genève expert en Divorce, Garde d\'enfants et Pension. Défense de vos intérêts au Tribunal de 1ère Instance. 1er RDV : CHF 155.-' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "Avocat Droit de la Famille Genève",
+            "serviceType": "Divorce, Séparation, Garde d'enfants",
+            "provider": {
+              "@type": "LegalService",
+              "name": "Clegal Avocats Genève",
+              "image": "https://clegal-avocats.ch/logo.svg"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Genève"
+            },
+            "description": "Cabinet d'avocats expert en droit de la famille à Genève : divorce, séparation, garde d'enfants et liquidation de régime matrimonial."
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Quel est le coût moyen d'un divorce à Genève ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Le coût moyen se situe entre CHF 3'000 et CHF 5'000. Chez Clegal, nous proposons un tarif horaire maîtrisé de CHF 350.-"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Combien de temps dure généralement une procédure ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Une procédure de divorce ou séparation dure généralement entre 6 mois et 2 ans, selon le niveau d'accord entre les époux."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Comment la garde des enfants est-elle déterminée ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Le critère unique est l'intérêt supérieur de l'enfant. Le tribunal évalue la situation, souvent avec l'aide du Service de protection des mineurs (SPMi) si nécessaire."
+                }
+              }
+            ]
+          }
+        ]
+      })
+    }
   ]
 })
 </script>

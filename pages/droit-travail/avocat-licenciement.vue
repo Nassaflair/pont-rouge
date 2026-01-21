@@ -213,6 +213,10 @@
             </div>
         </section>
 
+
+        <!-- Related Services -->
+        <SiloLinks silo="travail" currentPath="/droit-travail/avocat-licenciement" />
+
         <!-- Form Section -->
         <section id="formulaire" class="py-20 bg-white border-t border-slate-200">
             <div class="max-w-3xl mx-auto px-4">

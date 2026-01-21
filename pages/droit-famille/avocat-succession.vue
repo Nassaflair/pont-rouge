@@ -19,11 +19,14 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Avocat Succession et Héritage à Genève<br>
+                            Avocat Succession Genève - Votre Expert en Droit des Successions<br>
                         </h1>
+                        <h2 class="text-xl md:text-2xl text-slate-700 font-medium mb-6">
+                            Pour une gestion sereine et efficace de votre héritage
+                        </h2>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
-                            Organiser sa succession, contester un testament ou régler un partage difficile ? Nous sécurisons votre patrimoine et apaisons les conflits.
+                            Organiser une succession peut être complexe. Qu'il s'agisse de rédiger un testament, de contester un héritage ou de gérer un partage difficile, notre expertise vous assure sécurité et apaisement.
                         </p>
 
                         <div class="flex flex-col sm:flex-row gap-4 items-start">
@@ -63,32 +66,32 @@
             </div>
         </section>
 
-        <!-- Authority Section -->
+        <!-- Why Choose Us Section -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Pourquoi anticiper sa succession ?</h2>
-                    <p class="text-lg text-slate-600">Pour protéger ses proches et éviter les guerres familiales.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Pourquoi choisir un Avocat à Genève ?</h2>
+                    <p class="text-lg text-slate-600">Une expertise locale stratégique pour vos intérêts.</p>
                 </div>
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="scroll" class="w-6 h-6"></i>
+                            <i data-lucide="map-pin" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Testaments Solides</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance du système juridique local</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Un testament mal rédigé peut être annulé (vice de forme) ou contesté. Nous rédigeons des **testaments publics ou olographes** juridiquement inattaquables, conformes au Code Civil (Art 498 CC).
+                            La maîtrise des spécificités du <strong>Tribunal de première instance de Genève</strong>, situé à la Rue de l'Athénée, est cruciale. Ce tribunal gère la majorité des litiges civils, y compris les affaires de succession, et nous y intervenons régulièrement.
                         </p>
                     </div>
 
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="users" class="w-6 h-6"></i>
+                            <i data-lucide="shield-check" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Conflits entre Héritiers</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Avantage stratégique local</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            En cas de blocage lors du partage, nous intervenons pour négocier une solution amiable ou, si nécessaire, saisir le juge pour faire respecter vos parts réservataires (Art 471 CC).
+                            Un avocat genevois connaît les tendances des juges locaux et peut adapter sa stratégie en conséquence. Cela offre un avantage significatif tant en matière de négociation amiable que lors d'un litige contentieux.
                         </p>
                     </div>
                 </div>
@@ -99,59 +102,54 @@
         <section class="py-20 bg-white border-b border-slate-100 overflow-hidden">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Règlement d'une Succession</h2>
-                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Les étapes à Genève</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Succession à Genève (Étape par Étape)</h2>
+                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Un accompagnement complet</p>
                 </div>
 
                 <div class="relative">
                     <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-slate-100 -translate-y-1/2 z-0"></div>
-                     <div class="grid md:grid-cols-3 gap-6 relative z-10 max-w-4xl mx-auto">
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                     <div class="grid md:grid-cols-2 gap-6 relative z-10 max-w-4xl mx-auto">
+                        <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-9 h-9 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">1</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Certificat d'Héritier</h4>
-                            <p class="text-xs text-slate-600">Délivré par la Justice de Paix. Permet d'accéder aux comptes bancaires.</p>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Consultation initiale et examen</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Collecte des documents nécessaires, analyse du testament éventuel et compréhension précise de l'étendue de la succession.</p>
                         </div>
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Inventaire & Fiscalité</h4>
-                            <p class="text-xs text-slate-600">Évaluation de la masse successorale et paiement des droits de succession.</p>
-                        </div>
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-9 h-9 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">3</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Partage</h4>
-                            <p class="text-xs text-slate-600">Distribution des biens entre les héritiers selon le testament ou la loi.</p>
+                        <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Représentation au tribunal</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">En cas de litige, nous défendons vos intérêts devant le <strong>Tribunal de première instance de Genève</strong>, veillant à ce que chaque aspect légal soit scrupuleusement respecté.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Service Grid / Key Issues -->
+        <!-- Key Issues (Enjeux Clés) Section -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Héritage & Testament</h2>
-                    <p class="text-lg text-slate-600">Planifier pour l'avenir.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés et Thématiques Locales</h2>
+                    <p class="text-lg text-slate-600">Votre avocat gère la complexité pour vous.</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                          <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="file-signature" class="w-6 h-6"></i>
+                            <i data-lucide="globe" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Rédaction de Testament</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Particularités des successions à Genève</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Nous vous aidons à rédiger un testament clair qui respecte les réserves (parts obligatoires) des enfants et du conjoint, tout en utilisant la quotité disponible.
+                            Nous gérons spécifiquement les successions incluant des biens situés dans plusieurs cantons ou pays, ce qui nécessite une expertise locale approfondie et un réseau solide.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                          <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="users" class="w-6 h-6"></i>
+                            <i data-lucide="briefcase" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Pacte Successoral</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Gestion de biens transfrontaliers</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Un contrat notarié avec vos héritiers pour régler la succession de votre vivant. Idéal pour transmettre une entreprise ou éviter les conflits futurs.
+                            Compte tenu de la position unique de Genève, nous sommes particulièrement compétents pour traiter les questions d'héritage transfrontalier (comptes à l'étranger, immobilier en France voisine, etc.).
                         </p>
                     </div>
                 </div>
@@ -162,28 +160,38 @@
         <section id="features" class="py-20 bg-white border-t border-slate-200">
              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Droit des Successions</h2>
-                    <p class="text-lg text-slate-600">Code Civil (CC).</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal (Articles Spécifiques)</h2>
+                    <p class="text-lg text-slate-600">Les bases juridiques essentielles du Code Civil (CC).</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="book-open" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Réserves Héréditaires (Art 471 CC)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Article 469 CC</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Certains héritiers (enfants, conjoint) ont droit à une part minimale de la succession qu'on ne peut pas leur retirer, sauf en cas d'exhérédation (très rare).
+                            <strong>Action en rectification du testament</strong> : Permet de corriger un testament qui contient des erreurs évidentes dues à une erreur, une menace ou un dol.
+                        </p>
+                    </div>
+
+                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="scale" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Article 522 CC</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            <strong>Action en réduction</strong> : Permet aux héritiers réservataires (enfants, conjoint) de récupérer leur part minimale si le défunt a trop donné à des tiers.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="share-2" class="w-6 h-6"></i>
+                            <i data-lucide="gavel" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Action en Partage (Art 604 CC)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Articles 539-541 CC</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Chaque héritier a le droit de demander le partage de la succession à tout moment. Si les héritiers ne s'entendent pas, le juge ordonne le partage.
+                            <strong>Action en pétition d'hérédité</strong> : Permet à l'héritier légitime de faire reconnaître sa qualité d'héritier contre celui qui détient les biens sans droit.
                         </p>
                     </div>
                 </div>
@@ -198,20 +206,31 @@
                     <div class="border-b border-slate-200 pb-4">
                          <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Quels impôts sur la succession à Genève ?
+                            Quelles sont les implications fiscales de l'héritage à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Bonne nouvelle : les conjoints et les enfants sont généralement <strong>exonérés</strong> de droits de succession. Les taux augmentent pour les parents éloignés ou non-parents.</p>
+                        <p class="text-sm text-slate-600 pl-7">Les implications fiscales varient selon le degré de parenté. À Genève, les héritiers en ligne directe (parents, enfants) et les conjoints sont souvent exonérés, mais une consultation spécifique est recommandée pour les autres cas.</p>
                      </div>
                     <div class="border-b border-slate-200 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Puis-je déshériter un enfant ?
+                            Combien de temps prend le processus de succession à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">En principe non, à cause de la réserve héréditaire. L'exhérédation n'est possible que pour des motifs gravissimes (crime contre le défunt, etc.).</p>
+                        <p class="text-sm text-slate-600 pl-7">Le processus peut prendre de quelques mois à plusieurs années (1 à 3 ans), dépendant fortement de la complexité du dossier et de l'entente entre les héritiers.</p>
+                    </div>
+                    <div class="border-b border-slate-200 pb-4">
+                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
+                            Peut-on contester un testament à Genève ?
+                        </h4>
+                        <p class="text-sm text-slate-600 pl-7">Oui, principalement sur la base des articles <strong>469 ou 470 CC</strong>. C'est le cas si le testateur n'avait plus sa capacité de discernement au moment de la rédaction ou s'il a été forcé.</p>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <!-- Related Services -->
+        <SiloLinks silo="famille" currentPath="/droit-famille/avocat-succession" />
 
         <!-- Form Section -->
         <section id="formulaire" class="py-20 bg-white border-t border-slate-200">
@@ -228,8 +247,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Succession Genève | Testament & Héritage',
-  'Avocat Spécialiste Succession à Genève. Rédaction testament, pacte successoral, partage d\'héritage. Justice de Paix. 1er RDV : CHF 155.-',
+  'Avocat Succession Genève | Héritage & Testament | Dès 155.-',
+  'Besoin d\'un avocat spécialisé en succession à Genève ? Gestion de testament, partage d\'héritage et litiges. Expertise au Tribunal (Rue de l\'Athénée). 1er RDV : CHF 155.-',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

@@ -226,6 +226,67 @@ useHead({
   title: 'Avocat Droit Pénal Genève | Défense & Assistance Victimes',
   meta: [
     { name: 'description', content: 'Avocat Expert en Droit Pénal à Genève. Défense pénale, assistance victimes au Ministère Public et Tribunal. Art. 111, 122 CP. 1er RDV : CHF 155.-' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "Avocat Droit Pénal Genève",
+            "provider": {
+              "@type": "LegalService",
+              "name": "Clegal Avocats Genève",
+              "image": "https://clegal-avocats.ch/logo.svg"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Genève"
+            },
+            "description": "Défense pénale experte à Genève : assistance aux prévenus et victimes, représentation devant le Ministère Public et les tribunaux."
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Quel est le coût moyen d'un avocat pénaliste ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Les honoraires varient généralement entre CHF 350 et 450 par heure. Pour des mandats forfaitaires, comptez entre CHF 3'000 et 5'000 selon la complexité du dossier."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Combien de temps dure une procédure pénale ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "La durée est variable, allant de quelques mois pour des affaires simples à plusieurs années pour des cas complexes impliquant des appels."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Quels sont mes droits en tant qu'accusé ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vous avez le droit fondamental à une défense, le droit d'être informé des charges retenues contre vous, le droit de garder le silence et d'avoir un procès équitable (Article 319 CPP)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Comment contester une accusation ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Les contestations et recours sont gérés par la Cour de Justice de Genève. Votre avocat est chargé de présenter les preuves et arguments nécessaires à votre défense."
+                }
+              }
+            ]
+          }
+        ]
+      })
+    }
   ]
 })
 </script>

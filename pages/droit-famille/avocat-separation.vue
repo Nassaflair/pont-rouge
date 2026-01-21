@@ -19,7 +19,7 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Avocat Expert en Séparation à Genève<br>
+                            Trouver le Meilleur Avocat pour Votre Séparation à Genève<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -64,31 +64,31 @@
         </section>
 
         <!-- Authority Section -->
-        <section class="py-20 bg-slate-50 border-b border-slate-200">
+         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
                     <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Pourquoi choisir un Avocat à Genève ?</h2>
-                    <p class="text-lg text-slate-600">Pour organiser sereinement votre séparation et protéger vos droits.</p>
+                    <p class="text-lg text-slate-600">Expertise locale et stratégique pour votre séparation.</p>
                 </div>
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-                        <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
+                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
                             <i data-lucide="landmark" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Maîtrise des MPUC</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie du système judiciaire local</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Les **Mesures Protectrices de l'Union Conjugale** (MPUC) définissent les règles de votre séparation (logement, enfants, finances). Un avocat expert du Tribunal de Genève est indispensable pour obtenir des mesures équitables.
+                            Un avocat localisé à Genève possède une connaissance précise des procédures et des spécificités du <strong>Tribunal de première instance de Genève</strong>, situé à la Rue de l'Athénée. Cette expertise est cruciale car elle permet d'anticiper les décisions des juges et d'adapter la stratégie juridique en conséquence.
                         </p>
                     </div>
 
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="users" class="w-6 h-6"></i>
+                            <i data-lucide="book-open" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Gestion des Conflits</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Avantages d'un spécialiste en droit de la famille</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            La séparation est une période de tension. Nous agissons comme **tampon émotionnel et juridique** pour éviter l'escalade et préserver une communication constructive, surtout en présence d'enfants.
+                            Choisir un avocat spécialisé en droit de la famille garantit une maîtrise des articles pertinents du <strong>Code Civil Suisse (CC)</strong>, notamment les <strong>articles 175 et 176 CC</strong> qui régit les conditions de la séparation judiciaire, autrement dit les mesures de protection de l'union conjugal.
                         </p>
                     </div>
                 </div>
@@ -99,59 +99,76 @@
         <section class="py-20 bg-white border-b border-slate-100 overflow-hidden">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Séparation (MPUC)</h2>
-                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Les Étapes vers l'indépendance</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Séparation à Genève (Étape par Étape)</h2>
+                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Votre parcours</p>
                 </div>
 
-                <div class="relative">
-                    <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-slate-100 -translate-y-1/2 z-0"></div>
-                     <div class="grid md:grid-cols-3 gap-6 relative z-10 max-w-4xl mx-auto">
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10 max-w-6xl mx-auto">
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-9 h-9 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">1</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Requête en MPUC</h4>
-                            <p class="text-xs text-slate-600">Dépôt de la demande au Tribunal (Art 176 CC).</p>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Consultation initiale et évaluation de votre cas</h4>
+                            <p class="text-sm text-slate-600">Lors de la première rencontre, l'avocat évalue votre situation selon les <strong>articles des mesures de protection de l'union conjugal</strong>, qui détaillent les effets juridiques de la séparation, y compris la répartition des biens et la garde des enfants.</p>
                         </div>
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                             <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Audience du Tribunal</h4>
-                            <p class="text-xs text-slate-600">Les époux sont entendus par le juge.</p>
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Rédaction et dépôt de la requête de séparation</h4>
+                            <p class="text-sm text-slate-600">Votre avocat rédigera la demande de séparation et la déposera au <strong>Tribunal de première instance de Genève</strong>. Cette étape est cruciale pour exposer avec précision les faits de votre cause au Tribunal.</p>
                         </div>
-                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
-                             <div class="w-9 h-9 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">3</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Décision & Mesures</h4>
-                            <p class="text-xs text-slate-600">Logement, garde, et contributions fixés.</p>
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">3</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">La phase de conciliation</h4>
+                            <p class="text-sm text-slate-600">Avant le jugement, une phase de conciliation est tentée pour parvenir à un accord amiable, conformément au Code de procédure civil qui lie la procédure standard du <strong>Tribunal de première instance</strong>.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">4</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Jugement de séparation et mesures provisionnelles</h4>
+                            <p class="text-sm text-slate-600">Si la conciliation échoue, le tribunal procédera au jugement.</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300 lg:col-span-2 lg:w-1/2 lg:mx-auto">
+                            <div class="w-9 h-9 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">5</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">La finalisation du divorce</h4>
+                            <p class="text-sm text-slate-600">Après deux ans de séparation, conformément à l'<strong>article 114 CC</strong>, le divorce peut être finalisé, marquant la dissolution officielle du mariage et la liquidation du régime matrimonial.</p>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
-        <!-- Service Grid / Key Issues -->
+        <!-- Key Issues (Enjeux Clés) -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés de la Séparation</h2>
-                    <p class="text-lg text-slate-600">Organisation pratique et financière de la vie séparée.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés (Thématiques locales)</h2>
+                    <p class="text-lg text-slate-600">Comprendre le contexte genevois.</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                          <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="home" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Attribution du Logement</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Impact de la séparation sur les biens immobiliers</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Le juge attribue la jouissance du domicile conjugal à l'un des époux, souvent à celui qui a la garde des enfants ou le plus grand intérêt.
+                            La répartition des biens immobiliers liée au régime matrimonial n'a pas lieu dans le cadre de la séparation (MPUC).
                         </p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                          <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="file-check" class="w-6 h-6"></i>
+                            <i data-lucide="users" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Séparation de Biens</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Garde des enfants</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Le juge peut ordonner la **séparation de biens** (Art 176 al. 1 ch. 3 CC) pour protéger les intérêts financiers de chaque époux durant la séparation.
+                            Le <strong>Tribunal de première instance</strong> joue un rôle clé dans la détermination de la garde des enfants et des droits de visite, en tenant compte de l'intérêt supérieur de l'enfant. Le <strong>SPMi</strong> peut également être amené à intervenir.
+                        </p>
+                    </div>
+
+                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="coins" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Pension alimentaire</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Les décisions concernant la pension alimentaire sont guidées par les revenus de chacun et l'attribution des tâches durant le mariage.
                         </p>
                     </div>
                 </div>
@@ -162,30 +179,25 @@
         <section id="features" class="py-20 bg-white border-t border-slate-200">
              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal (Code Civil)</h2>
-                    <p class="text-lg text-slate-600">Ce que dit la loi sur la séparation.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal (Articles Spécifiques)</h2>
+                    <p class="text-lg text-slate-600">Articles du Code Civil Suisse (CC) relatifs à la séparation.</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
-                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="book-open" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Article 175 CC</h3>
-                        <ul class="space-y-2 text-slate-600 text-sm">
-                             <li><strong>Droit à la séparation</strong> : Un époux peut refuser la vie commune si sa personnalité ou sa sécurité sont menacées.</li>
-                        </ul>
+                        <h3 class="font-bold text-slate-900 mb-2">Article 175 (CC) - Les conditions de la séparation</h3>
+                        <p class="text-sm text-slate-600">Cet article expose les conditions de la séparation judiciaire (mesures de protection de l'union conjugale). En pratique, le <strong>Tribunal de première instance de Genève</strong> ne requiert que la volonté de se séparer des époux.</p>
                     </div>
 
-                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="scale" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Article 176 CC</h3>
-                        <ul class="space-y-2 text-slate-600 text-sm">
-                            <li><strong>Organisation de la vie séparée</strong> : Le juge fixe les contributions, le logement et la garde.</li>
-                            <li>Base des MPUC.</li>
-                        </ul>
+                        <h3 class="font-bold text-slate-900 mb-2">Article 176 (CC) - Les effets de la séparation</h3>
+                        <p class="text-sm text-slate-600">Cet article expose les effets de la séparation. L'un des époux pourra notamment réclamer une pension alimentaire (contribution d'entretien), l'attribution du logement familial et l'attribution de la garde des enfants.</p>
                     </div>
                 </div>
             </div>
@@ -194,32 +206,36 @@
         <!-- FAQ -->
         <section id="faq" class="py-16 bg-slate-50 border-t border-slate-100">
              <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ Séparation Genève</h3>
+                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ Séparation Genève (Chiffrée & Réaliste)</h3>
                 <div class="space-y-6">
                     <div class="border-b border-slate-200 pb-4">
                          <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Quelle est la différence entre séparation et divorce ?
+                            Quel est le coût moyen d'un avocat pour une séparation à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">La séparation (MPUC) ne dissout pas le mariage mais organise la vie séparée. Le divorce dissout le lien matrimonial.</p>
+                        <p class="text-sm text-slate-600 pl-7">Les frais juridiques varient généralement entre <strong>CHF 350-450 par heure</strong> ou un forfait de <strong>CHF 3k-5k</strong>, selon la complexité du cas. Chez Clegal - Avocats, nous proposons également l'Assistance judiciaire, des arrangements de paiement et des tarifs préférentiels.</p>
+                     </div>
+                    <div class="border-b border-slate-200 pb-4">
+                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
+                            Combien de temps dure généralement une procédure de séparation à Genève ?
+                        </h4>
+                        <p class="text-sm text-slate-600 pl-7">La durée peut varier de quelques mois à deux ans, dépendant de la complexité des enjeux et de la volonté des parties de parvenir à un accord.</p>
                     </div>
                     <div class="border-b border-slate-200 pb-4">
-                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Combien de temps dure une procédure MPUC ?
+                            Quels sont mes droits en tant qu'expatrié(e) en matière de séparation à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">En général, entre <strong>2 et 4 mois</strong> pour obtenir une décision, selon la charge du Tribunal de Genève.</p>
-                     </div>
-                    <div class="pb-4">
-                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
-                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Puis-je quitter le domicile conjugal ?
-                        </h4>
-                        <p class="text-sm text-slate-600 pl-7">Oui, si la vie commune devient insupportable (Art 175 CC), mais il est conseillé de consulter un avocat pour ne pas être accusé d'abandon.</p>
+                        <p class="text-sm text-slate-600 pl-7">Les expatriés sont soumis aux mêmes lois que les résidents suisses, mais des considérations spécifiques peuvent s'appliquer, notamment en ce qui concerne la juridiction et le droit applicable.</p>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <!-- Related Services -->
+        <SiloLinks silo="famille" currentPath="/droit-famille/avocat-separation" />
 
         <!-- Form Section -->
         <section id="formulaire" class="py-20 bg-white border-t border-slate-200">
@@ -236,8 +252,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Séparation Genève (MPUC) | Logement & Famille',
-  'Avocat Spécialiste Séparation & MPUC à Genève. Organisation de la vie séparée, attribution du logement, pension alimentaire. Tribunal de Première Instance. Art 176 CC.',
+  'Avocat Séparation Genève | MPUC & Divorce | Clegal',
+  'Avocat expert en séparation à Genève. Mesures protectrices (MPUC), attribution du logement, garde des enfants et pension. Tribunal de Première Instance. 1er RDV : CHF 155.-',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

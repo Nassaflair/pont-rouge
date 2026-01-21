@@ -17,7 +17,7 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Avocat Expert en Droit Administratif à Genève<br>
+                            Trouvez Votre Expert en Droit Administratif à Genève<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -73,9 +73,9 @@
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
                             <i data-lucide="map-pin" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance du Tribunal Administratif</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie des juridictions locales</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Une expertise sur les procédures du <strong>Tribunal administratif de première instance de Genève</strong> (Place du Bourg-de-Four) est cruciale pour optimiser vos chances de succès.
+                            Un avocat spécialisé en droit administratif à Genève possède une connaissance précise des procédures et des attentes spécifiques des tribunaux locaux, tels que le <strong>Tribunal administratif de première instance de Genève</strong>, situé à la Place du Bourg-de-Four. Cette expertise est cruciale pour naviguer efficacement dans le système juridique complexe et optimiser les chances de succès de votre dossier.
                         </p>
                     </div>
 
@@ -83,21 +83,21 @@
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
                             <i data-lucide="scale" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Chambre Administrative de la Cour</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Avantages d'un spécialiste local en droit administratif</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Nous connaissons les tendances décisionnelles des juges de la <strong>Cour de justice de Genève, Chambre administrative</strong>, ce qui influence positivement vos affaires.
+                            Engager un avocat local est essentiel car il comprend les nuances des réglementations administratives spécifiques à Genève. Il a également l'avantage de connaître les tendances décisionnelles des juges de la <strong>Cour de justice de Genève, Chambre administrative</strong>, ce qui peut influencer positivement le résultat des affaires administratives.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Process Section - Conciliation -->
+        <!-- Procedure Conciliation -->
         <section class="py-20 bg-white border-b border-slate-100 overflow-hidden">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Conciliation Administratif</h2>
-                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Étape par Étape</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Conciliation à Genève (Étape par Étape)</h2>
+                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Résolution amiable</p>
                 </div>
 
                 <div class="relative">
@@ -105,47 +105,107 @@
                     <div class="grid md:grid-cols-3 gap-8 relative z-10">
                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-10 h-10 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-4">1</div>
-                            <h4 class="text-lg font-bold text-slate-900 mb-3">Préparation & Dépôt</h4>
-                            <p class="text-sm text-slate-600">Collecte des documents et dépôt auprès du <strong>Tribunal administratif de première instance</strong>.</p>
+                            <h4 class="text-lg font-bold text-slate-900 mb-3">Préparation et dépôt</h4>
+                            <p class="text-sm text-slate-600">Collecte des documents et rédaction de la demande de conciliation, déposée auprès du <strong>Tribunal administratif de première instance</strong>. Précision cruciale pour éviter tout retard.</p>
                         </div>
                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-10 h-10 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-4">2</div>
-                            <h4 class="text-lg font-bold text-slate-900 mb-3">Séance de Conciliation</h4>
-                            <p class="text-sm text-slate-600">Opportunité de parvenir à un accord avant le procès complet, économisant temps et ressources.</p>
+                            <h4 class="text-lg font-bold text-slate-900 mb-3">La séance de conciliation</h4>
+                            <p class="text-sm text-slate-600">Tenue Place du Bourg-de-Four. Opportunité pour les parties de parvenir à un accord avant un procès complet, économisant temps et ressources.</p>
                         </div>
                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-10 h-10 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-4">3</div>
-                            <h4 class="text-lg font-bold text-slate-900 mb-3">Décision ou Cour de Justice</h4>
-                            <p class="text-sm text-slate-600">Si accord : décision contraignante. Sinon, affaire portée devant la <strong>Chambre administrative</strong>.</p>
+                            <h4 class="text-lg font-bold text-slate-900 mb-3">Décisions et suites</h4>
+                            <p class="text-sm text-slate-600">Si accord : ratification contraignante. Sinon : affaire portée devant la <strong>Cour de justice de Genève, Chambre administrative</strong>.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Process Section - Urbanisme -->
+        <!-- Procedure Prud'hommes -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
+             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure Prud'hommes à Genève (Étape par Étape)</h2>
+                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Secteur Public</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="w-10 h-10 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-4">1</div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3">Introduction</h4>
+                        <p class="text-sm text-slate-600">Traitement des conflits de travail du secteur public selon les <strong>Art 335-337 CO</strong>. Compréhension de vos droits et obligations.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="w-10 h-10 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-4">2</div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3">Déroulement de l'audience</h4>
+                        <p class="text-sm text-slate-600">Audience au <strong>Tribunal des Prud'hommes</strong> à Genève. Présentation des faits et défense des droits du client conformément à la loi.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="w-10 h-10 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-4">3</div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3">Jugement et recours</h4>
+                        <p class="text-sm text-slate-600">Jugement rendu par le tribunal. Les recours sont traités par la <strong>Cour de justice de Genève, Chambre administrative</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Procedure Urbanisme -->
+        <section class="py-20 bg-white border-b border-slate-100">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure d'Urbanisme</h2>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure d'Urbanisme à Genève (Étape par Étape)</h2>
                     <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Permis de Construire</p>
                 </div>
 
                 <div class="grid md:grid-cols-3 gap-8">
                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
                         <div class="w-10 h-10 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-4">1</div>
-                        <h4 class="text-lg font-bold text-slate-900 mb-3">Dépôt Dossier</h4>
-                        <p class="text-sm text-slate-600">Dépôt à l'<strong>Office de l'urbanisme de Genève</strong>. Documents conformes aux réglementations.</p>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3">Dépôt du dossier</h4>
+                        <p class="text-sm text-slate-600">Dépôt à l'<strong>Office de l'urbanisme de Genève</strong>. Conformité stricte aux réglementations locales exigée.</p>
                     </div>
                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
                         <div class="w-10 h-10 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-4">2</div>
-                        <h4 class="text-lg font-bold text-slate-900 mb-3">Examen & Approbation</h4>
-                        <p class="text-sm text-slate-600">L'Office examine et peut demander des modifications. Nous ajustons les plans pour accélérer l'approbation.</p>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3">Examen et approbation</h4>
+                        <p class="text-sm text-slate-600">L'Office examine et peut demander des modifications. L'avocat aide à ajuster les plans pour répondre aux exigences légales.</p>
                     </div>
                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
                         <div class="w-10 h-10 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-4">3</div>
-                        <h4 class="text-lg font-bold text-slate-900 mb-3">Contestation</h4>
-                        <p class="text-sm text-slate-600">En cas de refus, recours au <strong>Conseil d'État</strong> ou à la <strong>Chambre administrative</strong>.</p>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3">Contestations</h4>
+                        <p class="text-sm text-slate-600">Représentation devant le <strong>Conseil d'État de Genève</strong> ou la <strong>Cour de justice, Chambre administrative</strong> pour défendre le projet ou contester les décisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Issues (Enjeux Clés) -->
+        <section class="py-20 bg-slate-50 border-b border-slate-200">
+             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="mb-16 text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés (Thématiques locales)</h2>
+                    <p class="text-lg text-slate-600">Maîtriser les spécificités genevoises.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="building" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Réglementations spécifiques à Genève</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Connaître les réglementations locales est crucial pour tout projet de construction ou de développement à Genève.
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="alert-triangle" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Défis dans les procédures administratives</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Les défis incluent la navigation dans un système complexe et la compréhension des exigences spécifiques des autorités locales.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -155,19 +215,25 @@
         <section id="features" class="py-20 bg-white border-t border-slate-100">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal</h2>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal (Articles Spécifiques)</h2>
                     <p class="text-lg text-slate-600">Code Civil (CC) et Code des Obligations (CO).</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200">
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="book-open" class="w-6 h-6"></i>
+                        </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-3">Code Civil (CC)</h3>
-                        <p class="text-slate-600 text-sm">Articles essentiels pour comprendre les droits et obligations en matière de propriété à Genève.</p>
+                        <p class="text-slate-600 text-sm">Les articles du CC sont essentiels pour comprendre les droits et obligations en matière de propriété et aux biens à Genève.</p>
                     </div>
 
-                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200">
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="scale" class="w-6 h-6"></i>
+                        </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-3">Code des Obligations (CO)</h3>
-                        <p class="text-slate-600 text-sm">Cadre légal pour les contrats administratifs, essentiel dans les procédures de droit administratif. <strong>Art 335-337 CO</strong> pour le secteur public.</p>
+                        <p class="text-slate-600 text-sm">Les articles du CO fournissent le cadre légal pour les contrats administratifs, essentiels dans les procédures de droit administratif.</p>
                     </div>
                 </div>
             </div>
@@ -176,28 +242,28 @@
         <!-- FAQ -->
         <section id="faq" class="py-16 bg-slate-50 border-t border-slate-200">
             <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ (Droit Administratif)</h3>
+                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ (Chiffrée & Réaliste)</h3>
                 <div class="space-y-6">
                     <div class="border-b border-slate-200 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Quel délai pour une conciliation ?
+                            Quel est le délai moyen d'une procédure de conciliation à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Le délai moyen est de <strong>3 à 6 mois</strong>, selon la complexité du cas.</p>
+                        <p class="text-sm text-slate-600 pl-7">Le délai moyen est généralement de 3 à 6 mois, selon la complexité du cas.</p>
                     </div>
                     <div class="border-b border-slate-200 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
                             Comment contester une décision d'urbanisme ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Déposer un recours au <strong>Conseil d'État de Genève</strong> dans un délai de <strong>30 jours</strong> suivant la notification.</p>
+                        <p class="text-sm text-slate-600 pl-7">Pour contester, il faut déposer un recours auprès du <strong>Conseil d'État de Genève</strong> dans un délai de 30 jours suivant la notification de la décision.</p>
                     </div>
                     <div class="pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Droits des employés du secteur public ?
+                            Quels sont mes droits en tant qu'employé du secteur public à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Régis par les <strong>Art 335-337 CO</strong>, détaillant les conditions de travail et de licenciement.</p>
+                        <p class="text-sm text-slate-600 pl-7">Les droits sont régis par les <strong>Art 335-337 CO</strong>, qui détaillent les conditions de travail et de licenciement.</p>
                     </div>
                 </div>
             </div>
@@ -217,10 +283,26 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: 'Avocat Droit Administratif Genève | Urbanisme & Recours',
-  meta: [
-    { name: 'description', content: 'Avocat Expert Droit Administratif à Genève. Permis de construire, recours TAPI, expropriation. Tribunal administratif. 1er RDV : CHF 155.-' }
-  ]
-})
+useLocalSeo(
+  'Avocat Droit Administratif Genève | Urbanisme & Recours',
+  'Avocat Expert Droit Administratif à Genève. Permis de construire (Urbanisme), procédure de conciliation (TAPI) et droit de la fonction publique (Prud\'hommes).',
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-',
+    faq: [
+      {
+        question: 'Quel est le délai moyen d\'une procédure de conciliation à Genève ?',
+        answer: 'Le délai moyen est généralement de 3 à 6 mois, selon la complexité du cas.'
+      },
+      {
+        question: 'Comment contester une décision d\'urbanisme ?',
+        answer: 'Pour contester, il faut déposer un recours auprès du Conseil d\'État de Genève dans un délai de 30 jours suivant la notification de la décision.'
+      },
+      {
+        question: 'Quels sont mes droits en tant qu\'employé du secteur public à Genève ?',
+        answer: 'Les droits sont régis par les Art 335-337 CO, qui détaillent les conditions de travail et de licenciement.'
+      }
+    ]
+  }
+)
 </script>

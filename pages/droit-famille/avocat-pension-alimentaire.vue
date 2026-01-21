@@ -17,7 +17,7 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Avocat Pension Alimentaire Genève<br>
+                            Trouver le Meilleur Avocat pour votre Pension Alimentaire à Genève<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -58,28 +58,93 @@
          <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Calcul Précis & Défense</h2>
-                    <p class="text-lg text-slate-600">Le calcul des pensions est complexe et strict.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Pourquoi choisir un Avocat à Genève ?</h2>
+                    <p class="text-lg text-slate-600">Expertise locale et stratégique.</p>
                 </div>
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                          <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="calculator" class="w-6 h-6"></i>
+                            <i data-lucide="map-pin" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Méthode du Minimum Vital</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie du système judiciaire local</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            À Genève, le Tribunal et l'**Office des Poursuites** utilisent la méthode du minimum vital avec répartition de l'excédent. Nous veillons à ce que tous vos revenus et charges soient correctement pris en compte.
+                            La maîtrise des particularités du <strong>Tribunal de première instance de Genève</strong>, situé à la rue de l'Athénée, est cruciale. Les avocats locaux connaissent les tendances des juges et les spécificités procédurales, ce qui peut influencer de manière significative l'issue des affaires de pension alimentaire.
                         </p>
                     </div>
 
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="file-warning" class="w-6 h-6"></i>
+                            <i data-lucide="shield-check" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Revenu Hypothétique</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Avantages stratégiques de choisir un avocat local</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Attention à la notion de **revenu hypothétique** : le juge peut vous imputer un revenu que vous *pourriez* gagner. Nous vous défendons contre des exigences irréalistes.
+                            Opter pour un avocat genevois permet de bénéficier d'une représentation qui comprend les dynamiques locales, essentielles pour naviguer efficacement dans les interactions avec les parties adverses et les autorités judiciaires.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="py-20 bg-white border-b border-slate-100 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Pension Alimentaire à Genève (Étape par Étape)</h2>
+                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Votre parcours</p>
+                </div>
+
+                     <div class="grid md:grid-cols-2 gap-6 relative z-10 max-w-5xl mx-auto">
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">1</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Consultation initiale et évaluation de votre cas</h4>
+                            <p class="text-sm text-slate-600">Lors de la première rencontre, votre avocat évaluera les détails de votre situation familiale et financière pour déterminer la meilleure stratégie à adopter,</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Dépôt de la demande</h4>
+                            <p class="text-sm text-slate-600">La procédure pour obtenir une pension dépend de la situation familiale. Si les parties sont mariées : action en <strong>mesures protectrices de l'union conjugale</strong> ou <strong>divorce</strong>. Si non mariées : <strong>demande d'aliment</strong> (art 276 CC).</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">3</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Phase de conciliation</h4>
+                            <p class="text-sm text-slate-600">Selon la procédure, une phase de conciliation est requise pour tenter de trouver un accord entre les parties.</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                            <div class="w-9 h-9 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">4</div>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Jugement et ordonnance</h4>
+                            <p class="text-sm text-slate-600">Si aucune entente n'est atteinte, l'affaire sera tranchée par le tribunal, qui émettra un jugement basé sur les preuves et les arguments présentés,</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Key Issues (Enjeux Clés) -->
+        <section class="py-20 bg-slate-50 border-b border-slate-200">
+             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="mb-16 text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés (Thématiques locales)</h2>
+                    <p class="text-lg text-slate-600">Comprendre le contexte genevois.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="trending-up" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Statistiques locales sur la pension alimentaire</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Les dernières statistiques montrent une augmentation des demandes de pension alimentaire à Genève, reflétant une prise de conscience accrue des droits alimentaires.
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="alert-circle" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Problèmes fréquents rencontrés par les clients à Genève</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Les retards de paiement et les évaluations inappropriées du "besoin de l'enfant" sont des défis courants à Genève.
                         </p>
                     </div>
                 </div>
@@ -90,28 +155,38 @@
         <section id="features" class="py-20 bg-white border-t border-slate-200">
              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal</h2>
-                    <p class="text-lg text-slate-600">Articles clés du Code Civil.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal (Articles Spécifiques)</h2>
+                    <p class="text-lg text-slate-600">Articles du Code Civil (CC) relatifs à la pension alimentaire.</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
-                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="baby" class="w-6 h-6"></i>
+                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="book-open" class="w-6 h-6"></i>
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-3">Article 276 CC</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            L'entretien de l'enfant est prioritaire. Les parents doivent subvenir à ses besoins (entretien convenable) jusqu'à sa majorité ou la fin de sa formation.
+                            Définit les obligations des père et mère.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="user-check" class="w-6 h-6"></i>
+                            <i data-lucide="coins" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Article 125 CC</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Article 285 CC</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Concerne la pension entre ex-époux (contribution post-divorce). Elle dépend de la durée du mariage, du niveau de vie et de la capacité de travail.
+                            Définit les contribution des père et mère.
+                        </p>
+                    </div>
+
+                     <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
+                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
+                            <i data-lucide="shield" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Article 290 CC</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                             Ordonne un office à prendre le relai du paiement de la contribution si le parent refuse de payer.
                         </p>
                     </div>
                 </div>
@@ -126,20 +201,31 @@
                     <div class="border-b border-slate-200 pb-4">
                          <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Jusqu'à quel âge doit-on payer ?
+                            Combien coûte un avocat pour une pension alimentaire à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Jusqu'à 18 ans, ou 25 ans si l'enfant est en formation (apprentissage/études) sérieuse et régulière.</p>
+                        <p class="text-sm text-slate-600 pl-7">Les honoraires varient généralement entre <strong>CHF 350-450/heure</strong>, avec des coûts totaux pouvant atteindre <strong>CHF 3k-5k</strong> selon la complexité du cas. Cela étant, chez Clegal - Avocats nous avons à coeur de rendre la justice accessible à tous. Dès lors, nous proposons des arrangements de paiement et travaillons également avec l'assistance judiciaire.</p>
                      </div>
                     <div class="border-b border-slate-200 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Que faire en cas d'impayé ?
+                            Combien de temps prend le processus de pension alimentaire ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Vous pouvez vous adresser au **SCARPA** (Service Cantonale d'Avance et de Recouvrement des Pensions Alimentaires) à Genève.</p>
+                        <p class="text-sm text-slate-600 pl-7">Le processus peut durer de quelques mois à plus d'un an, en fonction de la complexité de l'affaire et de la charge de travail du tribunal.</p>
+                    </div>
+                    <div class="border-b border-slate-200 pb-4">
+                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
+                            Que faire si l'autre parent ne paie pas ?
+                        </h4>
+                        <p class="text-sm text-slate-600 pl-7">Il est possible de faire appel au <strong>SCARPA</strong> afin d'obtenir une avance sur la pension si le parent ne paie pas.</p>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <!-- Related Services -->
+        <SiloLinks silo="famille" currentPath="/droit-famille/avocat-pension-alimentaire" />
 
         <!-- Form Section -->
         <section id="formulaire" class="py-20 bg-white border-t border-slate-200">
@@ -157,7 +243,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Avocat Pension Alimentaire Genève | Calcul & Recouvrement',
-  'Avocat Spécialiste Pension Alimentaire à Genève. Calcul contributions entretien enfant et ex-conjoint. Minimum vital, SCARPA. Art 125, 276 CC.',
+  'Avocat expert Pension Alimentaire à Genève. Calcul, demande d\'aliment (Art 276 CC) & recouvrement (SCARPA). Divorce & MPUC. 1er RDV : CHF 155.-',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

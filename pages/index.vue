@@ -207,7 +207,7 @@
           </NuxtLink>
 
           <!-- Droit du bail -->
-          <NuxtLink to="/droit-bail" class="group p-6 bg-white rounded-lg border border-slate-200 hover:border-red-900/20 hover:shadow-md transition-all duration-300">
+          <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="group p-6 bg-white rounded-lg border border-slate-200 hover:border-red-900/20 hover:shadow-md transition-all duration-300">
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"></path><path d="m21 2-9.6 9.6"></path><circle cx="7.5" cy="15.5" r="5.5"></circle></svg>
             </div>
@@ -342,6 +342,57 @@
     <!-- Main Conversion Section (Formulaire) -->
     <ContactForm />
 
+    <!-- Access & Map Section (SEO Local) -->
+    <section class="py-20 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Info -->
+            <div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-6">Nous trouver aux Acacias</h3>
+                <div class="space-y-6 text-slate-600">
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 bg-white rounded-lg border border-slate-200 shadow-sm shrink-0">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-slate-900 text-lg">Adresse</p>
+                            <p class="text-slate-800">Route des Jeunes 9</p>
+                            <p class="text-slate-800">1227 Les Acacias (Genève)</p>
+                            <p class="text-sm text-slate-500 mt-2 bg-slate-100 inline-block px-2 py-1 rounded">🅿️ Parking public à proximité / 🚊 Arrêt TPG "Acacias"</p>
+                        </div>
+                    </div>
+                    
+                     <div class="flex items-start gap-4">
+                        <div class="p-3 bg-white rounded-lg border border-slate-200 shadow-sm shrink-0">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-slate-900 text-lg">Contact direct</p>
+                            <p><a href="mailto:info@clegal-avocats.ch" class="hover:text-red-900 transition-colors font-medium">info@clegal-avocats.ch</a></p>
+                            <p><a href="tel:0225121050" class="hover:text-red-900 transition-colors font-medium">022 512 10 50</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-slate-200 h-[400px] relative group">
+                 <iframe 
+                    width="100%" 
+                    height="100%" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0" 
+                    src="https://maps.google.com/maps?q=Route+des+Jeunes+9+1227+Les+Acacias&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    title="Carte Clegal Avocats Genève"
+                    class="absolute inset-0 w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
+                 ></iframe>
+            </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Mobile Sticky Action Button -->
     <div class="fixed bottom-4 left-4 right-4 z-40 md:hidden">
         <a href="#contact" class="flex items-center justify-center w-full bg-red-900 text-white font-semibold py-3 rounded-lg shadow-lg hover:bg-red-800 transition-colors">
@@ -448,7 +499,8 @@ useHead({
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "Pont-Rouge by Clegal-Avocats",
+        "name": "Clegal Avocats",
+        "alternateName": "Pont-Rouge Avocats",
         "image": "https://clegal-avocats.ch/logo.svg",
         "@id": "https://clegal-avocats.ch",
         "url": "https://clegal-avocats.ch",
@@ -478,7 +530,10 @@ useHead({
           "opens": "08:30",
           "closes": "18:00"
         },
-        "sameAs": [] 
+        "sameAs": [
+          // "https://www.linkedin.com/company/clegal-avocats",
+          // "https://www.facebook.com/clegal-avocats"
+        ] 
       })
     }
   ]

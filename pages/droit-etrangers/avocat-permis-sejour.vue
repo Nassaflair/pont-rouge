@@ -19,7 +19,7 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Avocat Permis de Séjour à Genève<br>
+                            Avocat Expert en Permis de Séjour à Genève<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -74,21 +74,21 @@
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="file-check" class="w-6 h-6"></i>
+                            <i data-lucide="map-pin" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Dossier Parfait (OCPM)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie du système juridique local</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Nous préparons des dossiers complets et argumentés pour l'Office cantonal de la population et des migrations. Un dossier solide dès le départ réduit les délais et les risques de refus.
+                            Un avocat spécialisé dans les permis de séjour à Genève possède une connaissance précise des procédures et des exigences spécifiques de l'<strong>Office cantonal de la population et des migrations (OCPM)</strong>, situé à Genève. Cette expertise locale est cruciale pour naviguer efficacement dans le système complexe des permis de séjour, augmentant ainsi les chances de succès de votre dossier.
                         </p>
                     </div>
 
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
-                            <i data-lucide="shield-alert" class="w-6 h-6"></i>
+                            <i data-lucide="shield-check" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">Cas Difficiles & Recours</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Avantages d'un avocat local pour les démarches administratives</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Cas de rigueur, regroupement familial complexe ou risque de renvoi : nous intervenons avec force juridique pour défendre votre droit de vivre en Suisse.
+                            L'avocat local connaît les particularités des processus administratifs de Genève et peut intervenir rapidement en cas de besoin. Il est également familiarisé avec les attentes et les préférences des fonctionnaires et des juges du <strong>Tribunal administratif de première instance</strong>, ce qui peut être déterminant pour le traitement de votre dossier.
                         </p>
                     </div>
                 </div>
@@ -99,8 +99,8 @@
         <section class="py-20 bg-white border-b border-slate-100 overflow-hidden">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Obtenir un Permis à Genève</h2>
-                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Le processus standard</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">La Procédure de Permis de Séjour à Genève (Étape par Étape)</h2>
+                    <p class="text-slate-500 font-medium tracking-wide uppercase text-sm">Un accompagnement complet</p>
                 </div>
 
                 <div class="relative">
@@ -108,18 +108,18 @@
                      <div class="grid md:grid-cols-3 gap-6 relative z-10 max-w-4xl mx-auto">
                         <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-9 h-9 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">1</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Analyse Éligibilité</h4>
-                            <p class="text-xs text-slate-600">UE/AELE vs États Tiers. Permis B, C, L ou G.</p>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Préparation de la demande</h4>
+                            <p class="text-xs text-slate-600">Collecte des documents nécessaires tels que preuves de l'intégration et compétences linguistiques, et cela dépendant de la voie choisie au sens des <strong>article 18 et suivants</strong> de la <strong>Loi fédérale sur les étrangers et l'intégration (LEI)</strong> ou de l'<strong>ALCP</strong>. Etablissement d'une stratégie viable.</p>
                         </div>
                         <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-9 h-9 bg-white text-slate-900 border-2 border-slate-900 rounded-full flex items-center justify-center font-bold mb-3 text-sm">2</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Dépôt OCPM</h4>
-                            <p class="text-xs text-slate-600">Formulaires M, E, K et annexes (emploi, logis, casier).</p>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Soumission de la demande</h4>
+                            <p class="text-xs text-slate-600">Dépôt du dossier auprès de l'<strong>OCPM</strong> à Genève ou au <strong>Secrétariat d'Etat aux migrations</strong> à Berne selon la nature de la procédure. Respect des délais imposés par les réglementations cantonales et fédérale.</p>
                         </div>
                         <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:-translate-y-1 transition-transform duration-300">
                             <div class="w-9 h-9 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-3 text-sm">3</div>
-                            <h4 class="text-base font-bold text-slate-900 mb-2">Décision / Recours</h4>
-                            <p class="text-xs text-slate-600">Attente 3-6 mois. Si refus, recours au TAPI.</p>
+                            <h4 class="text-base font-bold text-slate-900 mb-2">Suivi et interaction</h4>
+                            <p class="text-xs text-slate-600">Suivi régulier du statut de la demande. Communication efficace avec les autorités pour résoudre tout problème ou demande de documentation supplémentaire.</p>
                         </div>
                     </div>
                 </div>
@@ -130,8 +130,8 @@
         <section class="py-20 bg-slate-50 border-b border-slate-200">
              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Types de Permis</h2>
-                    <p class="text-lg text-slate-600">Comprendre les catégories.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Enjeux Clés</h2>
+                    <p class="text-lg text-slate-600">Thématiques locales</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -139,9 +139,9 @@
                          <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="briefcase" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Permis B (Séjour)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Comprendre les quotas de permis à Genève</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Autorisation de séjour de longue durée (généralement 1 ou 5 ans). Liée à un contrat de travail de plus d'un an ou durée indéterminée.
+                            Les quotas pour les permis de séjour à Genève peuvent limiter le nombre de permis disponibles, rendant la compétition pour ces permis intense pour les ressortissants d'Etat tiers (hors UE-AELE).
                         </p>
                     </div>
 
@@ -149,9 +149,9 @@
                          <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="award" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Permis C (Établissement)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Importance de la conformité</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Droit de séjour illimité. Obtenu après 5 ou 10 ans de séjour ininterrompu. Requiert une bonne intégration (langue, casier vierge, pas de dettes).
+                            Une stricte adhérence aux règles et régulations locales est essentielle pour éviter des retards ou des rejets de la demande.
                         </p>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
         <section id="features" class="py-20 bg-white border-t border-slate-200">
              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-16 text-center max-w-3xl mx-auto">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Cadre Légal</h2>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Le Cadre Légal (Articles Spécifiques)</h2>
                     <p class="text-lg text-slate-600">LEI et ALCP.</p>
                 </div>
 
@@ -171,9 +171,9 @@
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="book-open" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">ALCP (Accord Libre Circulation)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Articles de la Loi sur les étrangers (LEtr)</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Pour les ressortissants UE/AELE. Facilite l'accès au marché du travail et au séjour, mais exige des moyens financiers suffisants si inactif.
+                            <strong>Articles 19 et suivants</strong> de la LEI : Les différentes conditions pour accéder à un titre de séjour suisse lorsque l'on vient d'un Etat tiers (hors UE-AELE).
                         </p>
                     </div>
 
@@ -181,9 +181,9 @@
                         <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
                             <i data-lucide="globe" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">LEI (Loi Étrangers Intégration)</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">ALCP</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Pour les États Tiers (Hors UE). Critères stricts : qualifications spécifiques, intérêt économique pour la Suisse, contingents annuels.
+                            Accord sur la Libre Circulation des Personnes : Lorsque l'on est membre de l'UE ou de l'AELE.
                         </p>
                     </div>
                 </div>
@@ -198,20 +198,31 @@
                     <div class="border-b border-slate-200 pb-4">
                          <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Comment passer du Permis B au C ?
+                            Quel est le délai moyen pour obtenir un permis de séjour à Genève ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Après 5 ans (UE/USA/Canada) ou 10 ans. Il faut prouver l'intégration (Niveau français A2/B1) et l'absence de condamnations.</p>
+                        <p class="text-sm text-slate-600 pl-7">Le délai moyen varie entre 3 et 6 mois, dépendant de la complexité du dossier et de la charge de travail de l'<strong>OCPM</strong>.</p>
                      </div>
                     <div class="border-b border-slate-200 pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Puis-je travailler avec un Permis L ?
+                            Quels sont les principaux obstacles rencontrés lors des demandes de permis ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">Oui, c'est un permis de courte durée (moins d'un an), généralement lié à une mission déterminée.</p>
+                        <p class="text-sm text-slate-600 pl-7">Les obstacles incluent souvent des documents incomplets ou non conformes, ainsi que la méconnaissance des procédures spécifiques à Genève.</p>
+                    </div>
+                    <div class="border-b border-slate-200 pb-4">
+                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
+                            Comment un avocat peut-il accélérer mon dossier ?
+                        </h4>
+                        <p class="text-sm text-slate-600 pl-7">Un avocat peut optimiser la préparation de votre dossier, assurer la conformité des documents et intervenir efficacement en cas de complications, réduisant ainsi les délais de traitement.</p>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <!-- Related Services -->
+        <SiloLinks silo="etrangers" currentPath="/droit-etrangers/avocat-permis-sejour" />
 
         <!-- Form Section -->
         <section id="formulaire" class="py-20 bg-white border-t border-slate-200">
@@ -228,8 +239,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Permis de Séjour Genève | B, C, L & Frontalier',
-  'Avocat Spécialiste Permis de Séjour à Genève. Aide obtention Permis B, C, L, G. Recours refus OCPM. UE/AELE et États Tiers.',
+  'Avocat Permis de Séjour Genève | B, C, L & G | Dès 155.-',
+  'Avocat expert en permis de séjour à Genève (OCPM). Permis B, C, L, Frontalier G. Recours et régularisation. Expertise locale. 1er RDV : CHF 155.-',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'
