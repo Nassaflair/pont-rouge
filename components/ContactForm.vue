@@ -250,12 +250,57 @@
     </section>
 </template>
 <script setup lang="ts">
-import { useFetch, useRuntimeConfig } from 'nuxt/app';
+import { useFetch, useRuntimeConfig, useHead } from 'nuxt/app';
 import { ref, reactive, onMounted } from 'vue';
 import { VueRecaptcha } from 'vue-recaptcha';
 
 const config = useRuntimeConfig();
 const siteKey = config.public.recaptchaSiteKey;
+const recaptchaLoaded = ref(false);
+
+const loadRecaptcha = () => {
+    if (recaptchaLoaded.value) return;
+    
+    // Check if script is already present
+    if (document.querySelector('script[src*="recaptcha/api.js"]')) {
+        recaptchaLoaded.value = true;
+        return;
+    }
+
+    const script = document.createElement('script');
+    script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
+    script.async = true;
+    script.defer = true;
+    script.onload = () => {
+        recaptchaLoaded.value = true;
+    };
+    document.head.appendChild(script);
+};
+
+onMounted(() => {
+    // Lazy load on intersection (when form becomes visible)
+    const observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+            loadRecaptcha();
+            observer.disconnect();
+        }
+    });
+    
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+        observer.observe(contactSection);
+    }
+    
+    // Fallback: load on user interaction (mousemove or touch) just in case
+    const onInteraction = () => {
+        loadRecaptcha();
+        window.removeEventListener('mousemove', onInteraction);
+        window.removeEventListener('touchstart', onInteraction);
+    };
+    
+    window.addEventListener('mousemove', onInteraction, { once: true });
+    window.addEventListener('touchstart', onInteraction, { once: true });
+});
 
 const loading = ref(false);
 const success = ref(false);
