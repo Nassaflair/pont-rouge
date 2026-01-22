@@ -34,16 +34,18 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
-        { rel: 'canonical', href: 'https://clegal-avocats.ch/' }
+        { rel: 'canonical', href: 'https://clegal-avocats.ch/' },
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap' }
       ],
       script: [
-        { src: "https://unpkg.com/lucide@latest" },
+        { src: "https://unpkg.com/lucide@latest", defer: true },
         { src: "https://www.google.com/recaptcha/api.js?render=explicit", async: true, defer: true }
       ],
       style: [
         {
           innerHTML: `
-          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
           :root { color-scheme: light; }
           body { font-family: 'Inter', sans-serif; font-feature-settings: "cv11", "ss01"; }
           ::-webkit-scrollbar { width: 6px; }
@@ -58,6 +60,9 @@ export default defineNuxtConfig({
         `}
       ]
     }
+  },
+  nitro: {
+    compressPublicAssets: true,
   },
   vite: {
     server: {

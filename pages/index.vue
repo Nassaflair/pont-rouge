@@ -10,6 +10,9 @@
           src="/images/landing_hero.png" 
           alt="Cabinet Avocat Genève" 
           class="w-full h-full object-cover object-center opacity-40"
+          loading="eager"
+          fetchpriority="high"
+          sizes="100vw"
         />
         <div class="absolute inset-0 bg-gradient-to-r from-slate-50/90 via-slate-50/80 to-slate-50/20"></div>
         <div class="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-slate-50"></div>

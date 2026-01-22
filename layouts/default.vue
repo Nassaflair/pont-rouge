@@ -370,14 +370,26 @@ const toggleMobileMenu = () => {
 };
 
 const refreshIcons = () => {
+  // Try immediately
   if (typeof lucide !== 'undefined' && lucide.createIcons) {
     lucide.createIcons();
+  } else {
+    // Retry if script is deferred and not yet ready
+    const checkInterval = setInterval(() => {
+      if (typeof lucide !== 'undefined' && lucide.createIcons) {
+        lucide.createIcons();
+        clearInterval(checkInterval);
+      }
+    }, 100);
+
+    // Stop checking after 2 seconds to prevent memory leaks / infinite loops
+    setTimeout(() => clearInterval(checkInterval), 2000);
   }
 };
 
 // Refresh icons on mount
 onMounted(() => {
-  setTimeout(refreshIcons, 100);
+  refreshIcons();
 });
 
 // Refresh icons on route change
@@ -389,7 +401,8 @@ watch(
       isMobileMenuOpen.value = false;
       document.body.style.overflow = '';
     }
-    setTimeout(refreshIcons, 100);
+    // Small delay to ensure DOM is updated after route transition
+    setTimeout(refreshIcons, 100); 
   }
 );
 </script>
