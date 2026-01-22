@@ -7,7 +7,7 @@
         <!-- Image from HTML Source -->
         <NuxtImg 
           format="webp" 
-          src="/images/landing_hero.png" 
+          src="/images/landing_hero_optimized.jpg" 
           alt="Cabinet Avocat Genève" 
           class="w-full h-full object-cover object-center opacity-40"
           loading="eager"
