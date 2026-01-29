@@ -50,8 +50,8 @@ export const useLocalSeo = (
         },
         geo: {
             '@type': 'GeoCoordinates',
-            latitude: 46.191234567,
-            longitude: 6.123456789,
+            latitude: 46.1871,
+            longitude: 6.1296,
         },
         priceRange: priceRange,
         openingHoursSpecification: [

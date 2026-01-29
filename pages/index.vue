@@ -418,6 +418,15 @@ import ContactForm from '@/components/ContactForm.vue';
 import PartnerPopup from '@/components/PartnerPopup.vue';
 import { ref } from 'vue';
 
+useLocalSeo(
+  'Avocat Genève | Étude à Genève Pont-Rouge (Acacias) - Dès 155.-',
+  'Avocats aux Acacias (Genève) experts en Droit du Travail, Famille & Pénal. Défense rigoureuse devant tous les tribunaux. 1er RDV d\'analyse à CHF 155.-',
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-',
+  }
+);
+
 const isPopupOpen = ref(false);
 const selectedPartner = ref(null);
 
@@ -518,8 +527,8 @@ useHead({
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 46.191234567,
-          "longitude": 6.123456789
+          "latitude": 46.1871,
+          "longitude": 6.1296
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -533,10 +542,7 @@ useHead({
           "opens": "08:30",
           "closes": "18:00"
         },
-        "sameAs": [
-          // "https://www.linkedin.com/company/clegal-avocats",
-          // "https://www.facebook.com/clegal-avocats"
-        ] 
+        "sameAs": [] 
       })
     }
   ]
