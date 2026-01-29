@@ -42,7 +42,64 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap' }
       ],
       script: [
-        { src: "https://unpkg.com/lucide@latest", defer: true }
+        { src: "https://unpkg.com/lucide@latest", defer: true },
+        // Google Analytics 4
+        { src: "https://www.googletagmanager.com/gtag/js?id=G-CJQF3LS3C2", async: true },
+        {
+          innerHTML: `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CJQF3LS3C2');
+
+          // Tracking des conversions
+          document.addEventListener('DOMContentLoaded', function() {
+            // Clic sur téléphone
+            document.querySelectorAll('a[href^="tel:"]').forEach(function(el) {
+              el.addEventListener('click', function() {
+                gtag('event', 'phone_click', {
+                  event_category: 'contact',
+                  event_label: el.href.replace('tel:', '')
+                });
+              });
+            });
+
+            // Clic sur email
+            document.querySelectorAll('a[href^="mailto:"]').forEach(function(el) {
+              el.addEventListener('click', function() {
+                gtag('event', 'email_click', {
+                  event_category: 'contact',
+                  event_label: el.href.replace('mailto:', '')
+                });
+              });
+            });
+
+            // Soumission de formulaire
+            document.querySelectorAll('form').forEach(function(form) {
+              form.addEventListener('submit', function() {
+                gtag('event', 'form_submit', {
+                  event_category: 'conversion',
+                  event_label: 'contact_form'
+                });
+              });
+            });
+
+            // Scroll à 90%
+            var scrollTracked = false;
+            window.addEventListener('scroll', function() {
+              if (!scrollTracked) {
+                var scrollPercent = (window.scrollY + window.innerHeight) / document.body.scrollHeight * 100;
+                if (scrollPercent >= 90) {
+                  gtag('event', 'scroll_90', {
+                    event_category: 'engagement',
+                    event_label: window.location.pathname
+                  });
+                  scrollTracked = true;
+                }
+              }
+            });
+          });`,
+          type: 'text/javascript'
+        }
       ],
       style: [
         {
