@@ -11,6 +11,9 @@ export default defineNuxtConfig({
     url: 'https://clegal-avocats.ch',
     name: 'Pont-Rouge Avocats',
   },
+  sitemap: {
+    strictNuxtContentPaths: true,
+  },
   app: {
     head: {
       title: "Avocat Genève | Étude à Genève Pont-Rouge (Acacias) - Dès 155.-",
