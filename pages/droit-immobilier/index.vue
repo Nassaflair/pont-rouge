@@ -59,8 +59,7 @@
                         <div class="absolute inset-0 bg-red-900/5 rounded-2xl transform translate-x-4 translate-y-4">
                         </div>
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 group">
-                            <!-- Using bail.png as it fits Real Estate context -->
-                            <NuxtImg format="webp" src="/exp/bail.png" alt="Avocat Immobilier Genève"
+                            <img src="/exp/bail.jpg" alt="Avocat Immobilier Genève" loading="lazy" width="800" height="600"
                                 class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out" />
                             <div
                                 class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm border border-slate-200 p-4 rounded-lg shadow-lg max-w-xs">

@@ -29,7 +29,7 @@
         </p>
 
         <div class="flex items-center gap-4 pt-6 border-t border-slate-200">
-          <NuxtImg format="webp" src="/images/mansour_cheema.png" alt="Me Mansour Cheema - Avocat droit des étrangers Genève" class="w-12 h-12 rounded-full object-cover" />
+          <img src="/images/mansour_cheema.jpg" loading="lazy" alt="Me Mansour Cheema - Avocat droit des étrangers Genève" class="w-12 h-12 rounded-full object-cover" />
           <div>
             <p class="font-semibold text-slate-900">Me Mansour Cheema</p>
             <p class="text-sm text-slate-500">Avocat spécialisé en droit des étrangers, Barreau de Genève</p>
@@ -149,7 +149,7 @@
           <!-- Pourquoi Me Cheema -->
           <section class="mb-12 bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
             <div class="flex flex-col md:flex-row gap-8 items-start">
-              <NuxtImg format="webp" src="/images/mansour_cheema.png" alt="Me Mansour Cheema - Avocat droit des étrangers Genève" class="w-32 h-32 rounded-xl object-cover shrink-0" />
+              <img src="/images/mansour_cheema.jpg" loading="lazy" alt="Me Mansour Cheema - Avocat droit des étrangers Genève" class="w-32 h-32 rounded-xl object-cover shrink-0" />
               <div>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">Pourquoi choisir Me Mansour Cheema ?</h2>
                 <p class="text-slate-600 leading-relaxed mb-4">
