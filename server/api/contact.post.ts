@@ -28,7 +28,7 @@ type ContactData = z.infer<typeof contactSchema>;
  * 2. Rate limiting basique par IP (en mémoire, adapté à un seul serveur Node)
  *    → 1 requête / 60 secondes / IP
  */
-const RATE_WINDOW_MS = 60_000; // 60 secondes
+const RATE_WINDOW_MS = 10_000; // 10 secondes
 const ipLastRequest = new Map<string, number>();
 
 /**
