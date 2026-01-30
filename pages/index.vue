@@ -5,14 +5,16 @@
     <section id="etude" class="scroll-mt-28 lg:pt-40 lg:pb-28 overflow-hidden pt-32 pb-20 relative z-0">
       <div class="absolute inset-0 -z-20 h-full w-full">
         <!-- Image from HTML Source -->
-        <NuxtImg 
-          format="webp" 
-          src="/images/landing_hero_optimized.jpg" 
-          alt="Cabinet Avocat Genève" 
+        <NuxtImg
+          format="webp"
+          src="/images/landing_hero_optimized.jpg"
+          alt="Cabinet Avocat Genève"
           class="w-full h-full object-cover object-center opacity-40"
           loading="eager"
           fetchpriority="high"
           sizes="100vw"
+          width="1920"
+          height="1080"
         />
         <div class="absolute inset-0 bg-gradient-to-r from-slate-50/90 via-slate-50/80 to-slate-50/20"></div>
         <div class="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-slate-50"></div>
@@ -30,22 +32,85 @@
               <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Avocats à Genève</span>
             </div>
                         
-            <h1 class="lg:text-5xl leading-tight text-4xl font-semibold text-slate-900 tracking-tight mb-6">
-              Avocats à Genève - <br> 
+            <h1 class="lg:text-5xl leading-tight text-4xl font-semibold text-slate-900 tracking-tight mb-4">
+              Avocats à Genève - <br>
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Étude Pont-Rouge / Acacias</span>
             </h1>
-                        
-            <div class="w-24 h-1 bg-red-900 mb-6"></div>
+
+            <!-- Mobile Price Banner - visible only on mobile -->
+            <div class="lg:hidden mb-6 space-y-3">
+              <!-- Price Card -->
+              <div class="bg-white/95 backdrop-blur-sm rounded-xl shadow-lg p-4 border border-slate-200">
+                <div class="text-center mb-3">
+                  <p class="text-sm font-medium text-slate-500">1er rendez-vous d'analyse</p>
+                  <p class="text-4xl font-bold text-slate-900">CHF 155.-</p>
+                  <p class="text-xs text-red-700 font-medium mt-1">Sans engagement</p>
+                </div>
+                <a href="#contact" class="block w-full text-center bg-red-900 hover:bg-red-800 text-white font-semibold py-3.5 rounded-lg transition-colors shadow-md">
+                  Prendre rendez-vous
+                </a>
+              </div>
+
+              <!-- Google Rating Card -->
+              <a href="https://share.google/QFbFusfEbqJIMUoNF" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 bg-white/90 backdrop-blur-sm rounded-lg p-3 border border-slate-200 shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6">
+                  <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                  <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                  <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                  <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                </svg>
+                <div class="flex items-center gap-2">
+                  <span class="text-xl font-bold text-slate-900">5.0</span>
+                  <div class="flex text-yellow-400">
+                    <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                  </div>
+                </div>
+                <span class="text-xs text-slate-500">Avis Google</span>
+              </a>
+            </div>
+
+            <div class="w-24 h-1 bg-red-900 mb-6 hidden lg:block"></div>
 
             <h2 class="text-xl font-bold text-slate-800 mb-4 max-w-lg leading-snug">
-              Experts en droit de l'Immigration, droit pénal, droit Famille et droit du travail. <br>Premier rendez-vous d'analyse à CHF 155.-
+              Une expertise juridique de pointe, enfin accessible à Genève
             </h2>
 
-            <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed mix-blend-multiply">
-              Située au cœur du quartier d'affaires des Acacias (Genève), notre étude d'avocats généraliste vous défend avec rigueur. Que ce soit devant le Tribunal de Première Instance, le tribunal pénal ou l'office cantonale de la population et des migrations, nous transformons la complexité du droit suisse en solutions claires. Votre avocat à Genève doit être un partenaire stratégique : nous sécurisons vos intérêts personnels et professionnels dès la première consultation
+            <p class="text-base text-slate-600 mb-6 max-w-lg leading-relaxed mix-blend-multiply">
+              Que vous fassiez face à des défis en droit de l'immigration, pénal, de la famille, du travail ou d'un autre domaine, nous croyons que l'accès à un avocat de qualité ne devrait jamais être un luxe. <span class="hidden lg:inline">Ainsi, nous proposons un tarif horaire avantageux, des possibilités de paiement échelonné, des forfaits et acceptons de travailler à l'assistance judiciaire. Installée aux Acacias, notre étude allie la rigueur genevoise à une approche profondément humaine et inclusive.</span>
             </p>
 
-            <div class="flex flex-col sm:flex-row gap-4">
+            <!-- Desktop only: full "Pourquoi nous choisir" section -->
+            <div class="max-w-lg mb-8 hidden lg:block">
+              <h3 class="text-sm font-bold text-red-900 uppercase tracking-wide mb-3">Pourquoi nous choisir ?</h3>
+              <ul class="space-y-2 text-sm text-slate-600">
+                <li><span class="font-semibold text-slate-800">Une première étape sans stress :</span> Votre premier rendez-vous d'analyse est fixé à CHF 155.-. C'est le point de départ pour transformer la complexité du droit suisse en une stratégie claire et sereine.</li>
+                <li><span class="font-semibold text-slate-800">La flexibilité avant tout :</span> Nous savons que les imprévus de la vie peuvent peser sur un budget. C'est pourquoi nous proposons des arrangements de paiement personnalisés (échelonnements, facilités) pour que votre défense reste toujours la priorité.</li>
+                <li><span class="font-semibold text-slate-800">Un partenaire qui vous ressemble :</span> Chaque parcours est unique. Que vous soyez un particulier, une famille ou un professionnel, nous adaptons notre accompagnement à votre réalité financière et personnelle.</li>
+              </ul>
+              <p class="mt-4 text-sm text-slate-700 font-medium">
+                <span class="text-red-900">Notre mission :</span> Sécuriser vos intérêts devant le Tribunal de Première Instance, le Tribunal pénal ou l'OCPM, tout en restant à vos côtés avec des solutions financières souples.
+              </p>
+            </div>
+
+            <!-- Mobile: compact benefits -->
+            <div class="lg:hidden mb-6">
+              <ul class="space-y-2 text-sm text-slate-600">
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-emerald-600 mr-2 mt-0.5 shrink-0"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>
+                  <span>Paiement échelonné possible</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-emerald-600 mr-2 mt-0.5 shrink-0"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>
+                  <span>Assistance judiciaire acceptée</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-emerald-600 mr-2 mt-0.5 shrink-0"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>
+                  <span>Honoraires transparents dès le départ</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hidden lg:flex flex-col sm:flex-row gap-4">
               <a href="#contact" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-red-900 hover:bg-red-800 rounded-md shadow-md hover:shadow-lg transition-all">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
                 Réserver une consultation
@@ -56,8 +121,8 @@
             </div>
           </div>
 
-          <!-- Right Content (Conversion Card) -->
-          <div class="relative group mt-8 lg:mt-0 scroll-mt-28" id="honoraires">
+          <!-- Right Content (Conversion Card) - Hidden on mobile -->
+          <div class="relative group mt-8 lg:mt-0 scroll-mt-28 hidden lg:block" id="honoraires">
             <div class="absolute -inset-1 bg-gradient-to-r from-slate-200 to-red-100 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
             <div class="relative bg-white/95 backdrop-blur-sm ring-1 ring-slate-200 rounded-xl shadow-xl p-8">
               <div class="flex justify-between items-start mb-6 border-b border-slate-100 pb-4">
@@ -89,6 +154,61 @@
               <a href="#contact" class="block hover:bg-slate-800 transition-all text-sm font-medium text-white text-center bg-slate-900 w-full rounded-md pt-3 pr-4 pb-3 pl-4 shadow-sm">Prendre rendez-vous avec votre avocat</a>
               <p class="text-center text-xs text-slate-400 mt-3">Sans engagement ultérieur obligatoire.</p>
             </div>
+
+            <!-- Google Reviews Badge -->
+            <div class="mt-6 bg-white/95 backdrop-blur-sm ring-1 ring-slate-200 rounded-xl shadow-lg p-5">
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8 h-8">
+                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                  </svg>
+                  <div>
+                    <div class="flex items-center gap-1.5">
+                      <span class="text-xl font-bold text-slate-900">5.0</span>
+                      <div class="flex text-yellow-400">
+                        <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                      </div>
+                    </div>
+                    <p class="text-xs text-slate-500">Avis Google</p>
+                  </div>
+                </div>
+                <a
+                  href="https://share.google/QFbFusfEbqJIMUoNF"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-xs font-medium text-red-800 hover:text-red-900 hover:underline"
+                >
+                  Voir les avis
+                </a>
+              </div>
+
+              <!-- Reviews Carousel -->
+              <div class="relative overflow-hidden border-t border-slate-100 pt-4">
+                <div class="flex transition-transform duration-500 ease-in-out" :style="{ transform: `translateX(-${currentReview * 100}%)` }">
+                  <div v-for="(review, index) in googleReviews" :key="index" class="w-full flex-shrink-0 px-1">
+                    <div class="flex text-yellow-400 mb-2">
+                      <svg v-for="star in 5" :key="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                    </div>
+                    <p class="text-xs text-slate-600 italic line-clamp-3">"{{ review.text }}"</p>
+                    <p class="text-xs font-semibold text-slate-800 mt-2">{{ review.author }}</p>
+                  </div>
+                </div>
+
+                <!-- Dots indicator -->
+                <div class="flex justify-center gap-1.5 mt-3">
+                  <button
+                    v-for="(_, index) in googleReviews"
+                    :key="index"
+                    @click="currentReview = index"
+                    class="w-1.5 h-1.5 rounded-full transition-colors"
+                    :class="currentReview === index ? 'bg-red-800' : 'bg-slate-300'"
+                  ></button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -102,7 +222,7 @@
           <!-- Image Column (Portrait) -->
           <div class="lg:col-span-5 relative mb-12 lg:mb-0 order-1">
             <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] group border border-slate-100">
-              <NuxtImg format="webp" src="/images/mansour_cheema.png" alt="Maître Mansour Cheema - Avocat à Genève" class="object-cover w-full h-full transform transition duration-700 group-hover:scale-105 saturate-0 group-hover:saturate-100" />
+              <NuxtImg format="webp" src="/images/mansour_cheema_portrait.png" alt="Maître Mansour Cheema - Avocat à Genève" width="600" height="800" class="object-cover w-full h-full transform transition duration-700 group-hover:scale-105 saturate-0 group-hover:saturate-100" />
                             
               <!-- Overlay Gradient -->
               <div class="bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent absolute top-0 right-0 bottom-0 left-0"></div>
@@ -125,11 +245,21 @@
               <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Votre Partenaire de Confiance</span>
             </div>
                         
-            <h2 class="md:text-4xl leading-tight text-3xl font-semibold text-slate-900 tracking-tight mb-6">"Le Droit est complexe en Suisse, votre solution doit être simple et local à Genève."</h2>
-                        
+            <h2 class="md:text-4xl leading-tight text-3xl font-semibold text-slate-900 tracking-tight mb-6">"Le droit suisse est complexe, votre solution doit être simple, humaine et accessible."</h2>
+
             <div class="text-base text-slate-600 mb-8 space-y-4 leading-relaxed">
-              <p>Le système judiciaire peut intimider. Face à l'incertitude d'une procédure <span class="font-bold text-slate-900">genevoise, romande ou fédérale</span> le doute est légitime. À l'<span class="font-bold text-slate-900">Étude Clegal by Pont-Rouge</span>, nous comprenons l'impact d'un litige sur votre quotidien. Notre priorité absolue est la clarté juridique : nous ne vendons pas des heures de confusion, mais une stratégie de défense intelligible et actionnable. Que vous soyez un particulier aux <span class="font-bold text-slate-900">Acacias</span> ou une entreprise en <span class="font-bold text-slate-900">ville de Genève</span>, vous avez besoin d'un avocat qui transforme la complexité du Code civil ou pénal en une feuille de route précise pour gagner.</p>
-              <p>Je privilégie une approche humaine dans le <span class="font-bold text-slate-900">milieu juridique genevois</span>. Mon objectif est d'allier l'excellence technique d'un avocat expérimenté à un coût maîtrisé. Nous défendons l'accès au droit pour tous les <span class="font-bold text-slate-900">Genevois</span>, c'est pourquoi nous proposons un premier rendez-vous d'analyse à tarif fixe (CHF 155.-). Que ce soit pour plaider aux <span class="font-bold text-slate-900">Prud'hommes</span>, demande de permis de séjour, négocier un divorce ou défendre un dossier pénal, vous méritez une défense d'une rigueur absolue, sans surprise sur les honoraires.</p>
+              <p>Le système judiciaire peut impressionner, voire intimider. Face à l'incertitude d'une procédure à <span class="font-bold text-slate-900">Genève</span> ou ailleurs en Suisse, il est normal de ressentir une appréhension. À l'<span class="font-bold text-slate-900">Étude Clegal by Pont-Rouge</span>, nous ne voyons pas seulement des dossiers, nous voyons des personnes. Nous savons qu'un litige impacte votre vie quotidienne, votre sommeil et votre sérénité.</p>
+              <p>Ma priorité absolue ? <span class="font-bold text-slate-900">La clarté.</span> Ici, nous ne vous vendons pas des heures de jargon technique, mais une stratégie de défense que vous comprenez vraiment. Que vous soyez un particulier aux <span class="font-bold text-slate-900">Acacias</span> ou une entreprise genevoise, je transforme la complexité du Code civil ou pénal en une feuille de route précise pour protéger vos intérêts.</p>
+
+              <h3 class="text-lg font-semibold text-slate-900 pt-2">Une justice pour tous, sans barrière financière</h3>
+              <p>Je suis convaincu que l'excellence juridique ne doit pas être réservée à une élite. Mon engagement est de rendre le droit accessible à chaque <span class="font-bold text-slate-900">Genevois et Genevoise</span>, quelle que soit sa situation :</p>
+              <ul class="space-y-2 text-sm">
+                <li><span class="font-semibold text-slate-800">Une porte d'entrée simplifiée :</span> Un premier rendez-vous d'analyse à CHF 155.- pour poser les bases, sans engagement lourd.</li>
+                <li><span class="font-semibold text-slate-800">Transparence et sérénité :</span> Nous définissons ensemble les honoraires dès le départ. Pas de factures surprises.</li>
+                <li><span class="font-semibold text-slate-800">Flexibilité totale :</span> Parce que chacun traverse des réalités différentes, nous proposons des arrangements de paiement personnalisés. Nous adaptons nos modalités à votre budget pour que l'aspect financier ne soit jamais un frein à votre défense.</li>
+              </ul>
+              <p>Qu'il s'agisse de défendre vos droits aux <span class="font-bold text-slate-900">Prud'hommes</span>, de sécuriser un permis de séjour, de traverser un divorce ou de vous soutenir dans une procédure pénale, vous méritez une rigueur absolue et un partenaire qui s'adapte à vous.</p>
+              <p class="font-medium text-slate-800">Rencontrons-nous pour transformer vos doutes en solutions.</p>
             </div>
         
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 mb-10 border-t border-slate-100 pt-8">
@@ -313,30 +443,77 @@
     </section>
 
     <!-- Social Proof / Testimonials -->
-    <section class="scroll-mt-28 bg-slate-50 pt-20 pb-20 border-b border-slate-200" id="blog">
+    <section class="scroll-mt-28 bg-slate-50 pt-20 pb-20 border-b border-slate-200" id="avis">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
-            <div class="flex text-red-800 mb-3">
-              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+
+        <!-- Google Rating Header -->
+        <div class="text-center mb-12">
+          <div class="inline-flex items-center gap-3 bg-white px-6 py-4 rounded-xl shadow-md border border-slate-100 mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8 h-8">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+            </svg>
+            <div class="text-left">
+              <div class="flex items-center gap-1">
+                <span class="text-2xl font-bold text-slate-900">5.0</span>
+                <div class="flex text-yellow-400">
+                  <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                </div>
+              </div>
+              <p class="text-xs text-slate-500">Avis Google</p>
             </div>
-            <p class="text-sm text-slate-600 mb-4">"Me Mansour Cheema a fait preuve de professionnalisme, d’écoute et de réactivité tout au long de mon dossier. Je recommande vivement ses services !"</p>
+          </div>
+          <h2 class="text-3xl font-semibold text-slate-900 tracking-tight">Ce que nos clients disent de nous</h2>
+          <p class="mt-2 text-slate-600">La satisfaction de nos clients est notre priorité</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100 relative">
+            <div class="absolute top-4 right-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 opacity-40">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+              </svg>
+            </div>
+            <div class="flex text-yellow-400 mb-3">
+              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </div>
+            <p class="text-sm text-slate-600 mb-4">"Me Mansour Cheema a fait preuve de professionnalisme, d'écoute et de réactivité tout au long de mon dossier. Je recommande vivement ses services !"</p>
             <p class="text-xs font-semibold text-slate-900">SB - Droit du travail, Genève</p>
           </div>
-          <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
-            <div class="flex text-red-800 mb-3">
-              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100 relative">
+            <div class="absolute top-4 right-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 opacity-40">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+              </svg>
             </div>
-            <p class="text-sm text-slate-600 mb-4">"Professionnel, dynamique, réactif. Efficient (pas de conversations interminables) "Droit" au but. Je recommande vivement même à nouveau si besoin.
-            Tarifs abordables ..."</p>
+            <div class="flex text-yellow-400 mb-3">
+              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </div>
+            <p class="text-sm text-slate-600 mb-4">"Professionnel, dynamique, réactif. Efficient (pas de conversations interminables) "Droit" au but. Je recommande vivement même à nouveau si besoin. Tarifs abordables ..."</p>
             <p class="text-xs font-semibold text-slate-900">CR - Droit de la famille, Genève</p>
           </div>
-          <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
-            <div class="flex text-red-800 mb-3">
-              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100 relative">
+            <div class="absolute top-4 right-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 opacity-40">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+              </svg>
+            </div>
+            <div class="flex text-yellow-400 mb-3">
+              <svg v-for="i in 5" :key="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
             </div>
             <p class="text-sm text-slate-600 mb-4">"Maître Cheema était compétent, compatissant et sûr de lui. Il m'a guidé à chaque étape du processus avec clarté et confiance, rendant cette période difficile beaucoup plus facile à gérer. Je me suis senti très soutenu."</p>
-            <p class="text-xs font-semibold text-slate-900">AN- Droit pénal, Lausanne</p>
+            <p class="text-xs font-semibold text-slate-900">AN - Droit pénal, Lausanne</p>
           </div>
         </div>
       </div>
@@ -380,15 +557,16 @@
 
             <!-- Map -->
             <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-slate-200 h-[400px] relative group">
-                 <iframe 
-                    width="100%" 
-                    height="100%" 
-                    frameborder="0" 
-                    scrolling="no" 
-                    marginheight="0" 
-                    marginwidth="0" 
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
                     src="https://maps.google.com/maps?q=Route+des+Jeunes+9+1227+Les+Acacias&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     title="Carte Clegal Avocats Genève"
+                    loading="lazy"
                     class="absolute inset-0 w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
                  ></iframe>
             </div>
@@ -416,7 +594,7 @@
 <script setup lang="ts">
 import ContactForm from '@/components/ContactForm.vue';
 import PartnerPopup from '@/components/PartnerPopup.vue';
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 
 useLocalSeo(
   'Avocat Genève | Étude à Genève Pont-Rouge (Acacias) - Dès 155.-',
@@ -429,6 +607,37 @@ useLocalSeo(
 
 const isPopupOpen = ref(false);
 const selectedPartner = ref(null);
+
+// Google Reviews Carousel
+const currentReview = ref(0);
+const googleReviews = [
+  {
+    text: "Me Mansour Cheema a fait preuve de professionnalisme, d'écoute et de réactivité tout au long de mon dossier. Je recommande vivement ses services !",
+    author: "SB - Droit du travail"
+  },
+  {
+    text: "Professionnel, dynamique, réactif. Efficient (pas de conversations interminables) \"Droit\" au but. Je recommande vivement. Tarifs abordables.",
+    author: "CR - Droit de la famille"
+  },
+  {
+    text: "Maître Cheema était compétent, compatissant et sûr de lui. Il m'a guidé à chaque étape du processus avec clarté et confiance.",
+    author: "AN - Droit pénal"
+  }
+];
+
+let reviewInterval: ReturnType<typeof setInterval> | null = null;
+
+onMounted(() => {
+  reviewInterval = setInterval(() => {
+    currentReview.value = (currentReview.value + 1) % googleReviews.length;
+  }, 5000);
+});
+
+onUnmounted(() => {
+  if (reviewInterval) {
+    clearInterval(reviewInterval);
+  }
+});
 
 const partners = [
   {

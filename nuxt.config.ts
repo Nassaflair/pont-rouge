@@ -39,10 +39,12 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap' }
+        // Google Fonts avec preload pour éviter le render-blocking
+        { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap', as: 'style', onload: "this.onload=null;this.rel='stylesheet'" },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap', media: 'print', onload: "this.media='all'" }
       ],
       script: [
-        { src: "https://unpkg.com/lucide@latest", defer: true },
+        // Lucide supprimé - SVGs inline utilisés partout
         // Google Analytics 4
         { src: "https://www.googletagmanager.com/gtag/js?id=G-CJQF3LS3C2", async: true },
         {
@@ -121,6 +123,11 @@ export default defineNuxtConfig({
   },
   nitro: {
     compressPublicAssets: true,
+    // Cache statique pour les assets
+    routeRules: {
+      '/images/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+      '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    },
   },
   vite: {
     server: {

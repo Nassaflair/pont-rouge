@@ -340,11 +340,8 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUpdated, watch, ref } from 'vue';
+import { watch, ref } from 'vue';
 import { useRoute } from 'vue-router';
-
-// Declare global variable for the Lucide script loaded via CDN
-declare const lucide: any;
 
 const route = useRoute();
 
@@ -369,40 +366,14 @@ const toggleMobileMenu = () => {
   }
 };
 
-const refreshIcons = () => {
-  // Try immediately
-  if (typeof lucide !== 'undefined' && lucide.createIcons) {
-    lucide.createIcons();
-  } else {
-    // Retry if script is deferred and not yet ready
-    const checkInterval = setInterval(() => {
-      if (typeof lucide !== 'undefined' && lucide.createIcons) {
-        lucide.createIcons();
-        clearInterval(checkInterval);
-      }
-    }, 100);
-
-    // Stop checking after 2 seconds to prevent memory leaks / infinite loops
-    setTimeout(() => clearInterval(checkInterval), 2000);
-  }
-};
-
-// Refresh icons on mount
-onMounted(() => {
-  refreshIcons();
-});
-
-// Refresh icons on route change
+// Close menu on route change
 watch(
   () => route.path,
   () => {
-    // Close menu and restore scrolling on route change
     if (isMobileMenuOpen.value) {
       isMobileMenuOpen.value = false;
       document.body.style.overflow = '';
     }
-    // Small delay to ensure DOM is updated after route transition
-    setTimeout(refreshIcons, 100); 
   }
 );
 </script>
