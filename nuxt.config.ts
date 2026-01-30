@@ -44,9 +44,8 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap', media: 'print', onload: "this.media='all'" }
       ],
       script: [
-        // Lucide supprimé - SVGs inline utilisés partout
-        // Google Analytics 4
-        { src: "https://www.googletagmanager.com/gtag/js?id=G-CJQF3LS3C2", async: true },
+        // Google Analytics 4 - différé pour ne pas bloquer le rendu
+        { src: "https://www.googletagmanager.com/gtag/js?id=G-CJQF3LS3C2", async: true, defer: true },
         {
           innerHTML: `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

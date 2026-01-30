@@ -222,7 +222,16 @@
           <!-- Image Column (Portrait) -->
           <div class="lg:col-span-5 relative mb-12 lg:mb-0 order-1">
             <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] group border border-slate-100">
-              <NuxtImg format="webp" src="/images/mansour_cheema_portrait.png" alt="Maître Mansour Cheema - Avocat à Genève" width="600" height="800" class="object-cover w-full h-full transform transition duration-700 group-hover:scale-105 saturate-0 group-hover:saturate-100" />
+              <NuxtImg
+                format="webp"
+                src="/images/mansour_cheema_portrait.jpg"
+                alt="Maître Mansour Cheema - Avocat à Genève"
+                width="600"
+                height="800"
+                sizes="(max-width: 768px) 100vw, 40vw"
+                loading="lazy"
+                class="object-cover w-full h-full transform transition duration-700 group-hover:scale-105 saturate-0 group-hover:saturate-100"
+              />
                             
               <!-- Overlay Gradient -->
               <div class="bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent absolute top-0 right-0 bottom-0 left-0"></div>
@@ -403,7 +412,7 @@
               @click="openPopup(partner)"
             >
               <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <NuxtImg format="webp" :src="partner.image" :alt="partner.name + ' - Avocat à Genève'" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
+                <NuxtImg format="webp" :src="partner.image.replace('.png', '.jpg')" :alt="partner.name + ' - Avocat à Genève'" width="300" height="400" sizes="(max-width: 640px) 50vw, 20vw" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
               </div>
               <div class="text-center">
                 <h4 class="text-sm font-semibold text-slate-900">{{ partner.name }}</h4>
@@ -429,7 +438,7 @@
               @click="openPopup(intern)"
             >
               <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <NuxtImg format="webp" :src="intern.image" :alt="intern.name + ' - Avocat stagiaire Genève'" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
+                <NuxtImg format="webp" :src="intern.image.replace('.png', '.jpg')" :alt="intern.name + ' - Avocat stagiaire Genève'" width="300" height="400" sizes="(max-width: 640px) 50vw, 20vw" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
               </div>
               <div class="text-center">
                 <h4 class="text-sm font-semibold text-slate-900">{{ intern.name }}</h4>
