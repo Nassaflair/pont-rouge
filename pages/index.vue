@@ -221,7 +221,7 @@
           <div class="lg:col-span-5 relative mb-12 lg:mb-0 order-1">
             <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] group border border-slate-100">
               <img
-                src="/images/mansour_cheema_portrait.jpg"
+                src="/images/mansour_cheema_portrait.png"
                 alt="Maître Mansour Cheema - Avocat à Genève"
                 width="600"
                 height="800"
