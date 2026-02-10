@@ -602,8 +602,8 @@ import PartnerPopup from '@/components/PartnerPopup.vue';
 import { ref, onMounted, onUnmounted } from 'vue';
 
 useLocalSeo(
-  'Avocat Genève | Étude à Genève Pont-Rouge (Acacias) - Dès 155.-',
-  'Avocats aux Acacias (Genève) experts en Droit du Travail, Famille & Pénal. Défense rigoureuse devant tous les tribunaux. 1er RDV d\'analyse à CHF 155.-',
+  'Avocat Genève | Clegal Avocats – Étude Pont-Rouge – Dès 155.-',
+  'Cabinet d\'avocats à Genève (Acacias). Expertise droit pénal, famille, travail & immigration. 1er RDV à 155.-. 7 avocats à votre service.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',

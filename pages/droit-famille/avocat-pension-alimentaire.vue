@@ -17,7 +17,7 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Trouver le Meilleur Avocat pour votre Pension Alimentaire à Genève<br>
+                            Avocat Pension Alimentaire Genève – Calcul & Recouvrement<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -242,8 +242,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Pension Alimentaire Genève | Calcul & Recouvrement',
-  'Avocat expert Pension Alimentaire à Genève. Calcul, demande d\'aliment (Art 276 CC) & recouvrement (SCARPA). Divorce & MPUC. 1er RDV : CHF 155.-',
+  'Avocat Pension Alimentaire Genève | Calcul – Clegal Avocats',
+  'Avocat pension alimentaire à Genève. Calcul, modification, recouvrement et SCARPA. Divorce & séparation. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

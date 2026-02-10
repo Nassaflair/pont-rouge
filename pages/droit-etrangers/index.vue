@@ -290,9 +290,9 @@
 
 
 useHead({
-  title: 'Avocat Droit des Étrangers Genève | Permis & Immigration',
+  title: 'Avocat Droit des Étrangers Genève | Permis – Clegal Avocats',
   meta: [
-    { name: 'description', content: 'Avocat Spécialiste Droit des Étrangers à Genève. Aide pour Permis B/C, Recours OCPM et Naturalisation. Tribunal administratif (TAPI). 1er RDV : CHF 155.-' }
+    { name: 'description', content: 'Avocat droit des étrangers à Genève. Permis B, C, regroupement familial, naturalisation, recours OCPM. 1er RDV à 155.-.' }
   ]
 })
 </script>

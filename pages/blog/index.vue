@@ -276,8 +276,8 @@
 import ContactForm from '@/components/ContactForm.vue';
 
 useLocalSeo(
-  'Blog Juridique Genève | Conseils d\'Avocats | Pont-Rouge',
-  'Blog juridique de notre étude d\'avocats à Genève. Conseils en droit du travail, famille, pénal et immigration. Actualités juridiques suisses par Me Cheema aux Acacias.',
+  'Blog Juridique Genève | Conseils d\'Avocats – Clegal Avocats',
+  'Blog juridique de Clegal Avocats à Genève. Conseils en droit du travail, famille, pénal et immigration. La Minute Juridique par Me Cheema.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
@@ -318,7 +318,7 @@ useHead({
         'embedUrl': 'https://www.tiktok.com/@clegal.avocats',
         'publisher': {
           '@type': 'Organization',
-          'name': 'Pont-Rouge Avocats',
+          'name': 'Clegal Avocats',
           'logo': {
             '@type': 'ImageObject',
             'url': 'https://clegal-avocats.ch/logo.svg'

@@ -223,9 +223,9 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Avocat Droit Pénal Genève | Défense & Assistance Victimes',
+  title: 'Avocat Pénal Genève | Défense Criminelle – Clegal Avocats',
   meta: [
-    { name: 'description', content: 'Avocat Expert en Droit Pénal à Genève. Défense pénale, assistance victimes au Ministère Public et Tribunal. Art. 111, 122 CP. 1er RDV : CHF 155.-' }
+    { name: 'description', content: 'Défense pénale à Genève. Avocat spécialisé en droit criminel, assistance durant l\'instruction. Intervention urgente. 1er RDV à 155.-.' }
   ],
   script: [
     {

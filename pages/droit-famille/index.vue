@@ -342,9 +342,9 @@
 
 
 useHead({
-  title: 'Avocat Spécialiste Droit de la Famille Genève | Divorce & Garde',
+  title: 'Avocat Droit de la Famille Genève | Divorce & Garde – Clegal Avocats',
   meta: [
-    { name: 'description', content: 'Avocat Droit de la Famille Genève expert en Divorce, Garde d\'enfants et Pension. Défense de vos intérêts au Tribunal de 1ère Instance. 1er RDV : CHF 155.-' }
+    { name: 'description', content: 'Avocat droit de la famille à Genève. Divorce, garde d\'enfants, pension alimentaire, séparation. 1er RDV à 155.-. Clegal Avocats.' }
   ],
   script: [
     {

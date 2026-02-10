@@ -247,8 +247,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Succession Genève | Héritage & Testament | Dès 155.-',
-  'Besoin d\'un avocat spécialisé en succession à Genève ? Gestion de testament, partage d\'héritage et litiges. Expertise au Tribunal (Rue de l\'Athénée). 1er RDV : CHF 155.-',
+  'Avocat Succession Genève | Héritage & Testament – Clegal Avocats',
+  'Avocat droit des successions à Genève. Testament, partage, réserve héréditaire, succession internationale. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

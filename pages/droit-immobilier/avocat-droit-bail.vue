@@ -232,8 +232,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Droit du Bail Genève | Litiges & Loyers | Dès 155.-',
-  'Avocat expert Droit du Bail à Genève. Litiges loyers, résiliation, expulsion & défauts. Commission de conciliation & Tribunal des Baux. 1er RDV : CHF 155.-',
+  'Avocat Droit du Bail Genève | Litiges Locatifs – Clegal Avocats',
+  'Avocat droit du bail à Genève. Litiges loyers, résiliation, expulsion & défauts. Commission de conciliation. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

@@ -19,7 +19,7 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Trouver le Meilleur Avocat pour Votre Séparation à Genève<br>
+                            Avocat Séparation Genève – Mesures Protectrices (MPUC)<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -252,8 +252,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Séparation Genève | MPUC & Divorce | Clegal',
-  'Avocat expert en séparation à Genève. Mesures protectrices (MPUC), attribution du logement, garde des enfants et pension. Tribunal de Première Instance. 1er RDV : CHF 155.-',
+  'Avocat Séparation Genève | Mesures Protectrices – Clegal Avocats',
+  'Avocat séparation à Genève. Mesures protectrices (MPUC), garde, pension, attribution du domicile. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

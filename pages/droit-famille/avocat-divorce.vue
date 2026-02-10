@@ -19,7 +19,7 @@
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Trouver le Meilleur Avocat pour Votre Divorce à Genève<br>
+                            Avocat Divorce Genève – Procédure Amiable & Contentieuse<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -257,8 +257,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Divorce Genève | Tribunal & Pension | Clegal',
-  'Avocat Spécialiste Divorce à Genève. Procédure amiable (Art 111 CC) ou unilatérale (Art 114 CC). Garde d\'enfants, pension alimentaire et partage des biens.',
+  'Avocat Divorce Genève | Procédure & Pension – Clegal Avocats',
+  'Avocat spécialiste divorce à Genève. Procédure amiable (art. 111 CC) ou contentieuse, garde, pension, liquidation. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',

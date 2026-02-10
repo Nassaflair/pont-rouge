@@ -326,8 +326,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Travailler en Suisse hors UE-AELE | Permis de travail Genève',
-  'Guide complet sur les conditions d\'obtention d\'un permis de travail en Suisse pour les ressortissants hors UE-AELE. Procédure, contingents et recours par un avocat à Genève.',
+  'Travailler en Suisse hors UE | Guide Permis – Clegal Avocats',
+  'Guide complet pour travailler en Suisse hors UE-AELE. Permis B, L, contingents, procédure OCPM. Par un avocat à Genève. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
@@ -383,7 +383,7 @@ useHead({
         },
         'publisher': {
           '@type': 'Organization',
-          'name': 'Pont-Rouge Avocats',
+          'name': 'Clegal Avocats',
           'logo': {
             '@type': 'ImageObject',
             'url': 'https://clegal-avocats.ch/logo.svg'

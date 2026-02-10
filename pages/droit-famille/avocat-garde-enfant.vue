@@ -274,8 +274,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Garde Enfants Genève | Droit de Garde & Visite',
-  'Avocat Spécialiste Garde d\'Enfant à Genève. Droit de garde, droit de visite, autorité parentale (Art 133, 273 CC). Tribunal et SPMi. 1er RDV : CHF 155.-',
+  'Avocat Garde d\'Enfant Genève | Autorité Parentale – Clegal Avocats',
+  'Avocat garde d\'enfant à Genève. Garde alternée, droit de visite, autorité parentale. Défense de l\'intérêt de l\'enfant. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

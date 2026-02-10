@@ -37,7 +37,7 @@ export const useLocalSeo = (
     const localBusinessSchema = {
         '@context': 'https://schema.org',
         '@type': type,
-        name: 'Pont-Rouge Avocats',
+        name: 'Clegal Avocats',
         image: image,
         url: 'https://clegal-avocats.ch',
         telephone: '+41225121050',

@@ -109,5 +109,14 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useLocalSeo(
+  'Contact | Avocat Genève – Clegal Avocats – 022 512 10 50',
+  'Contactez Clegal Avocats à Genève. RDV d\'analyse à 155.-. Route des Jeunes 9, 1227 Les Acacias. Tél : 022 512 10 50.',
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-'
+  }
+)
+
 const showDate = ref(false);
 </script>

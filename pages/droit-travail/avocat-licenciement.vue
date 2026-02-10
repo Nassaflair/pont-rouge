@@ -232,8 +232,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Licenciement Genève | Abusif & Immédiat',
-  'Avocat Spécialiste Licenciement à Genève. Contestations licenciement abusif, immédiat, maladie. Prud\'hommes. Indemnités Art 337c CO.',
+  'Avocat Licenciement Genève | Abusif & Immédiat – Clegal Avocats',
+  'Avocat licenciement abusif à Genève. Indemnisation, délai de congé, Prud\'hommes. Défense employés et employeurs. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

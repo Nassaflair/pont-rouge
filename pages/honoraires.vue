@@ -211,4 +211,13 @@
 
 <script setup lang="ts">
 import ContactForm from '@/components/ContactForm.vue';
+
+useLocalSeo(
+  'Tarifs Avocat Genève | Honoraires dès 155.- – Clegal Avocats',
+  'Honoraires transparents et accessibles. 1er RDV d\'analyse à 155.-, tarif horaire et forfaits. Aide juridictionnelle acceptée. Clegal Avocats Genève.',
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-'
+  }
+)
 </script>

@@ -239,8 +239,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Permis de Séjour Genève | B, C, L & G | Dès 155.-',
-  'Avocat expert en permis de séjour à Genève (OCPM). Permis B, C, L, Frontalier G. Recours et régularisation. Expertise locale. 1er RDV : CHF 155.-',
+  'Avocat Permis de Séjour Genève | B, C & L – Clegal Avocats',
+  'Avocat permis de séjour à Genève. Permis B, C, L, regroupement familial, recours OCPM, naturalisation. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

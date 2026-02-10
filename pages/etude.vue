@@ -336,7 +336,14 @@
 
 </template>
 <script lang="ts" setup>
-
 import ContactForm from '@/components/ContactForm.vue';
 
+useLocalSeo(
+  'Notre Étude | Avocat Genève – Clegal Avocats Pont-Rouge',
+  '7 avocats à Genève Pont-Rouge (Acacias). Rigueur juridique, combativité procédurale et 100% de satisfaction client. Clegal Avocats.',
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-'
+  }
+)
 </script>

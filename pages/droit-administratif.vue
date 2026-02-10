@@ -284,8 +284,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Droit Administratif Genève | Urbanisme & Recours',
-  'Avocat Expert Droit Administratif à Genève. Permis de construire (Urbanisme), procédure de conciliation (TAPI) et droit de la fonction publique (Prud\'hommes).',
+  'Avocat Droit Administratif Genève | Recours – Clegal Avocats',
+  'Avocat droit administratif à Genève. Permis de construire, recours TAPI, expropriation, urbanisme. Défense face à l\'État. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',

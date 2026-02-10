@@ -261,9 +261,9 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Avocat Droit des Affaires Genève | Sociétés & Litiges Commerciaux',
+  title: 'Avocat Droit des Affaires Genève | Entreprises – Clegal Avocats',
   meta: [
-    { name: 'description', content: 'Avocat en Droit des Affaires à Genève. Conseil stratégique pour PME, contrats commerciaux et litiges au Tribunal de 1ère Instance. Tarif dès CHF 350.-/h.' }
+    { name: 'description', content: 'Avocat droit des affaires à Genève. Conseil aux entreprises, contrats commerciaux, litiges sociétaires. Clegal Avocats.' }
   ]
 })
 </script>

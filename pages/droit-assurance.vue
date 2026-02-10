@@ -264,8 +264,8 @@
 
 <script setup lang="ts">
 useLocalSeo(
-  'Avocat Droit des Assurances Genève | Litiges & Indemnisation',
-  'Avocat Expert Droit des Assurances à Genève. Litiges, refus de paiement, Chambre des assurances sociales. LPGA (Art 3, 4) et LAI. 1er RDV : CHF 155.-',
+  'Avocat Assurances Genève | Contentieux – Clegal Avocats',
+  'Avocat droit des assurances à Genève. Contentieux, indemnisation, assurances sociales et privées. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',

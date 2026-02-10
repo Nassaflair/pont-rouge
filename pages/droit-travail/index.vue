@@ -273,9 +273,9 @@
 
 
 useHead({
-  title: 'Avocat Droit du Travail Genève | Licenciement & Prud\'hommes',
+  title: 'Avocat Droit du Travail Genève | Licenciement – Clegal Avocats',
   meta: [
-    { name: 'description', content: 'Avocat expert Droit du Travail à Genève. Défense Employés et Employeurs aux Prud\'hommes. Contestation licenciement, salaire. 1er RDV : CHF 155.-' }
+    { name: 'description', content: 'Avocat droit du travail à Genève. Licenciement abusif, harcèlement, Prud\'hommes. Défense employés et employeurs. 1er RDV à 155.-.' }
   ]
 })
 </script>
