@@ -41,11 +41,13 @@ export const useLocalSeo = (
         image: image,
         url: 'https://clegal-avocats.ch',
         telephone: '+41225121050',
+        email: 'info@clegal-avocats.ch',
         address: {
             '@type': 'PostalAddress',
             streetAddress: 'Route des Jeunes 9',
             addressLocality: 'Les Acacias',
             postalCode: '1227',
+            addressRegion: 'Genève',
             addressCountry: 'CH',
         },
         geo: {
@@ -65,6 +67,20 @@ export const useLocalSeo = (
         areaServed: {
             '@type': 'City',
             name: 'Genève',
+        },
+        hasOfferCatalog: {
+            '@type': 'OfferCatalog',
+            name: 'Services juridiques',
+            itemListElement: [
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Droit de la famille' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Droit du travail' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Droit pénal' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Droit des étrangers' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Droit immobilier' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Droit des affaires' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Droit des assurances' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Droit administratif' } },
+            ],
         },
     };
 

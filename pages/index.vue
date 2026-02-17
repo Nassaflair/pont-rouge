@@ -607,6 +607,20 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
+    faq: [
+      {
+        question: 'Combien coûte un avocat à Genève ?',
+        answer: 'Chez Clegal Avocats, le premier rendez-vous d\'analyse est à CHF 155.-. Les honoraires varient ensuite selon la complexité du dossier, entre CHF 350.- et 400.- de l\'heure.',
+      },
+      {
+        question: 'Quels domaines du droit pratiquez-vous ?',
+        answer: 'Nous pratiquons le droit de la famille (divorce, garde d\'enfants, pension alimentaire), le droit du travail (licenciement abusif, Prud\'hommes), le droit pénal, le droit des étrangers (permis B, C, OCPM), le droit immobilier, le droit des affaires et le droit administratif.',
+      },
+      {
+        question: 'Comment prendre rendez-vous chez Clegal Avocats ?',
+        answer: 'Appelez le +41 22 512 10 50 ou utilisez le formulaire de contact sur notre site. Nous répondons sous 24h ouvrables. Notre étude est située Route des Jeunes 9, 1227 Les Acacias, Genève.',
+      },
+    ],
   }
 );
 
