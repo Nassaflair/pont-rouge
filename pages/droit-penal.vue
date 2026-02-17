@@ -222,11 +222,13 @@
 </template>
 
 <script setup lang="ts">
+useLocalSeo(
+  'Avocat Pénal Genève | Défense Criminelle – Clegal Avocats',
+  'Défense pénale à Genève. Avocat spécialisé en droit criminel, assistance durant l\'instruction. Intervention urgente. 1er RDV à 155.-.',
+  { type: 'LegalService', priceRange: 'Dès CHF 155.-' }
+)
+
 useHead({
-  title: 'Avocat Pénal Genève | Défense Criminelle – Clegal Avocats',
-  meta: [
-    { name: 'description', content: 'Défense pénale à Genève. Avocat spécialisé en droit criminel, assistance durant l\'instruction. Intervention urgente. 1er RDV à 155.-.' }
-  ],
   script: [
     {
       type: 'application/ld+json',

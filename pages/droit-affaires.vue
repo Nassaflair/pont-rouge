@@ -260,10 +260,9 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: 'Avocat Droit des Affaires Genève | Entreprises – Clegal Avocats',
-  meta: [
-    { name: 'description', content: 'Avocat droit des affaires à Genève. Conseil aux entreprises, contrats commerciaux, litiges sociétaires. Clegal Avocats.' }
-  ]
-})
+useLocalSeo(
+  'Avocat Droit des Affaires Genève | Entreprises – Clegal Avocats',
+  'Avocat droit des affaires à Genève. Conseil aux entreprises, contrats commerciaux, litiges sociétaires. Clegal Avocats.',
+  { type: 'LegalService', priceRange: 'Dès CHF 155.-' }
+)
 </script>

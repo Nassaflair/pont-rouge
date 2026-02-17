@@ -289,10 +289,9 @@
 <script setup lang="ts">
 
 
-useHead({
-  title: 'Avocat Droit des Étrangers Genève | Permis – Clegal Avocats',
-  meta: [
-    { name: 'description', content: 'Avocat droit des étrangers à Genève. Permis B, C, regroupement familial, naturalisation, recours OCPM. 1er RDV à 155.-.' }
-  ]
-})
+useLocalSeo(
+  'Avocat Droit des Étrangers Genève | Permis – Clegal Avocats',
+  'Avocat droit des étrangers à Genève. Permis B, C, regroupement familial, naturalisation, recours OCPM. 1er RDV à 155.-.',
+  { type: 'LegalService', priceRange: 'Dès CHF 155.-' }
+)
 </script>

@@ -339,13 +339,13 @@
 </template>
 
 <script setup lang="ts">
-
+useLocalSeo(
+  'Avocat Droit de la Famille Genève | Divorce & Garde – Clegal Avocats',
+  'Avocat droit de la famille à Genève. Divorce, garde d\'enfants, pension alimentaire, séparation. 1er RDV à 155.-. Clegal Avocats.',
+  { type: 'LegalService', priceRange: 'Dès CHF 155.-' }
+)
 
 useHead({
-  title: 'Avocat Droit de la Famille Genève | Divorce & Garde – Clegal Avocats',
-  meta: [
-    { name: 'description', content: 'Avocat droit de la famille à Genève. Divorce, garde d\'enfants, pension alimentaire, séparation. 1er RDV à 155.-. Clegal Avocats.' }
-  ],
   script: [
     {
       type: 'application/ld+json',
