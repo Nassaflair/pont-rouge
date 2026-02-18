@@ -241,7 +241,7 @@
                         </h4>
                         <div class="text-sm text-slate-600 pl-7 space-y-2">
                             <p><strong>Coût global :</strong> Entre CHF 3'000 et CHF 5'000, selon la complexité.</p>
-                            <p><strong>Tarif horaire :</strong> Généralement CHF 350-450.-. Chez <strong>Clegal-Avocats</strong>, nous travaillons à <strong>CHF 350.-</strong> pour garantir un accès égal à la justice, sans baisse de qualité. Arrangements de paiement possibles.</p>
+                            <p><strong>Tarif horaire :</strong> Généralement CHF 350-450.-. Chez <strong>Clegal Avocats</strong>, nous travaillons à <strong>CHF 350.-</strong> pour garantir un accès égal à la justice, sans baisse de qualité. Arrangements de paiement possibles.</p>
                         </div>
                     </div>
                     <div class="border-b border-slate-100 pb-4">

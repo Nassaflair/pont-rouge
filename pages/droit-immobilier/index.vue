@@ -235,7 +235,7 @@
                             <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
                             Combien coûte un avocat en immobilier ?
                         </h4>
-                        <p class="text-sm text-slate-600 pl-7">La moyenne à Genève est de CHF 450-550/h. Chez <strong>Clegal-Avocats</strong>, nous appliquons un tarif avantageux de <strong>CHF 350.-/h</strong> pour rendre la justice accessible.</p>
+                        <p class="text-sm text-slate-600 pl-7">La moyenne à Genève est de CHF 450-550/h. Chez <strong>Clegal Avocats</strong>, nous appliquons un tarif avantageux de <strong>CHF 350.-/h</strong> pour rendre la justice accessible.</p>
                     </div>
                     <div class="pb-4">
                         <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
