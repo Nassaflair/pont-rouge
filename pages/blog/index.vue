@@ -12,7 +12,7 @@
           </h1>
 
           <p class="text-lg text-slate-600 leading-relaxed mb-8">
-            Retrouvez les conseils juridiques de nos avocats à <strong>Genève</strong>. Droit du travail, droit de la famille, droit pénal et droit des étrangers : décryptage du droit suisse par l'Étude <strong>Pont-Rouge Avocats aux Acacias</strong>.
+            Retrouvez les conseils juridiques de nos avocats à <strong>Genève</strong>. Droit du travail, droit de la famille, droit pénal et droit des étrangers : décryptage du droit suisse par <strong>Clegal Avocats aux Acacias</strong>.
           </p>
 
           <div class="flex flex-wrap gap-3 text-sm">
@@ -183,7 +183,7 @@
               <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
               Où se situe votre cabinet d'avocats ?
             </h3>
-            <p class="text-slate-600 pl-7">Notre étude <strong>Pont-Rouge Avocats</strong> est située au cœur du quartier des Acacias à Genève : <strong>Route des Jeunes 9, 1227 Les Acacias</strong>. Facilement accessible en transports publics (arrêt TPG Acacias) et avec parking à proximité.</p>
+            <p class="text-slate-600 pl-7"><strong>Clegal Avocats</strong> est situé au cœur du quartier des Acacias à Genève : <strong>Route des Jeunes 9, 1227 Les Acacias</strong>. Facilement accessible en transports publics (arrêt TPG Acacias) et avec parking à proximité.</p>
           </div>
 
           <div class="pb-6">
@@ -204,7 +204,7 @@
           <div>
             <h2 class="text-2xl font-bold text-slate-900 mb-6">Notre Étude d'Avocats à Genève</h2>
             <p class="text-slate-600 mb-8 leading-relaxed">
-              Située au quartier des <strong>Acacias</strong>, l'Étude Pont-Rouge Avocats vous accueille du lundi au vendredi pour toutes vos questions juridiques. Notre équipe d'avocats inscrits au <strong>Barreau de Genève</strong> vous accompagne avec rigueur et proximité.
+              Située au quartier des <strong>Acacias</strong>, Clegal Avocats vous accueille du lundi au vendredi pour toutes vos questions juridiques. Notre équipe d'avocats inscrits au <strong>Barreau de Genève</strong> vous accompagne avec rigueur et proximité.
             </p>
 
             <div class="space-y-4">
@@ -249,7 +249,7 @@
               marginheight="0"
               marginwidth="0"
               src="https://maps.google.com/maps?q=Route+des+Jeunes+9+1227+Les+Acacias&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              title="Localisation Pont-Rouge Avocats Genève - Les Acacias"
+              title="Localisation Clegal Avocats Genève - Les Acacias"
               class="w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
               loading="lazy"
             ></iframe>
@@ -292,7 +292,7 @@ useLocalSeo(
       },
       {
         question: 'Où se situe votre cabinet d\'avocats ?',
-        answer: 'Notre étude Pont-Rouge Avocats est située au cœur du quartier des Acacias à Genève : Route des Jeunes 9, 1227 Les Acacias. Facilement accessible en transports publics (arrêt TPG Acacias) et avec parking à proximité.'
+        answer: 'Clegal Avocats est situé au cœur du quartier des Acacias à Genève : Route des Jeunes 9, 1227 Les Acacias. Facilement accessible en transports publics (arrêt TPG Acacias) et avec parking à proximité.'
       },
       {
         question: 'Puis-je bénéficier de l\'assistance juridique gratuite ?',

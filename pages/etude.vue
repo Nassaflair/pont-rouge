@@ -17,7 +17,7 @@
                 </h1>
 
                 <p class="sm:text-xl leading-relaxed text-lg text-slate-600 max-w-2xl border-red-900 border-l-2 pl-6">
-                    Pont-Rouge Avocats incarne une vision moderne de la profession d'avocat : une alliance entre la
+                    Clegal Avocats incarne une vision moderne de la profession d'avocat : une alliance entre la
                     maîtrise technique et une stratégie de défense offensive, au service exclusif de vos intérêts.</p>
 
                 <!-- STRONG HERO CTA -->
@@ -58,7 +58,7 @@
 
                 <!-- Content -->
                 <div class="prose prose-slate max-w-none">
-                    <h2 class="text-2xl font-semibold text-slate-900 tracking-tight mb-6">De Clegal à Pont-Rouge :
+                    <h2 class="text-2xl font-semibold text-slate-900 tracking-tight mb-6">L'Histoire de Clegal Avocats :
                         L'Évolution d'une Expertise</h2>
 
                     <div class="space-y-6 text-slate-600">
@@ -193,7 +193,7 @@
                 <div class="lg:w-1/2 relative order-last lg:order-first">
                     <!-- Image: Modern Architecture -->
                     <NuxtImg format="webp" src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4734259a-bad7-422f-981e-ce01e79184f2_1600w.jpg"
-                        alt="Bureaux Pont-Rouge Avocats"
+                        alt="Bureaux Clegal Avocats Genève"
                         class="rounded-lg shadow-xl ring-1 ring-slate-900/5 object-cover h-[400px] w-full grayscale hover:grayscale-0 transition-all duration-700" />
                     <div
                         class="absolute -bottom-6 -right-6 w-24 h-24 bg-slate-100 rounded-full flex items-center justify-center border-4 border-white z-10">
@@ -339,8 +339,8 @@
 import ContactForm from '@/components/ContactForm.vue';
 
 useLocalSeo(
-  'Notre Étude | Avocat Genève – Clegal Avocats Pont-Rouge',
-  '7 avocats à Genève Pont-Rouge (Acacias). Rigueur juridique, combativité procédurale et 100% de satisfaction client. Clegal Avocats.',
+  'Notre Étude | Cabinet Clegal Avocats Genève – Les Acacias',
+  '7 avocats à Genève (Les Acacias). Rigueur juridique, combativité procédurale et 100% de satisfaction client. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-'

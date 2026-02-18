@@ -301,7 +301,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="">
-                        <h2 class="text-3xl font-semibold tracking-tight mb-6">Pourquoi choisir Pont-Rouge Avocats ?</h2>
+                        <h2 class="text-3xl font-semibold tracking-tight mb-6">Pourquoi choisir Clegal Avocats ?</h2>
                         <div class="space-y-8">
                             <div class="flex gap-4">
                                 <div class="flex-shrink-0 h-10 w-10 rounded-lg bg-red-900/50 flex items-center justify-center border border-red-800">

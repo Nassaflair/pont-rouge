@@ -34,7 +34,7 @@
                         
             <h1 class="lg:text-5xl leading-tight text-4xl font-semibold text-slate-900 tracking-tight mb-4">
               Avocats à Genève - <br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Étude Pont-Rouge / Acacias</span>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Clegal Avocats – Les Acacias</span>
             </h1>
 
             <!-- Mobile Price Banner - visible only on mobile -->
@@ -255,7 +255,7 @@
             <h2 class="md:text-4xl leading-tight text-3xl font-semibold text-slate-900 tracking-tight mb-6">"Le droit suisse est complexe, votre solution doit être simple, humaine et accessible."</h2>
 
             <div class="text-base text-slate-600 mb-8 space-y-4 leading-relaxed">
-              <p>Le système judiciaire peut impressionner, voire intimider. Face à l'incertitude d'une procédure à <span class="font-bold text-slate-900">Genève</span> ou ailleurs en Suisse, il est normal de ressentir une appréhension. À l'<span class="font-bold text-slate-900">Étude Clegal by Pont-Rouge</span>, nous ne voyons pas seulement des dossiers, nous voyons des personnes. Nous savons qu'un litige impacte votre vie quotidienne, votre sommeil et votre sérénité.</p>
+              <p>Le système judiciaire peut impressionner, voire intimider. Face à l'incertitude d'une procédure à <span class="font-bold text-slate-900">Genève</span> ou ailleurs en Suisse, il est normal de ressentir une appréhension. Chez <span class="font-bold text-slate-900">Clegal Avocats</span>, nous ne voyons pas seulement des dossiers, nous voyons des personnes. Nous savons qu'un litige impacte votre vie quotidienne, votre sommeil et votre sérénité.</p>
               <p>Ma priorité absolue ? <span class="font-bold text-slate-900">La clarté.</span> Ici, nous ne vous vendons pas des heures de jargon technique, mais une stratégie de défense que vous comprenez vraiment. Que vous soyez un particulier aux <span class="font-bold text-slate-900">Acacias</span> ou une entreprise genevoise, je transforme la complexité du Code civil ou pénal en une feuille de route précise pour protéger vos intérêts.</p>
 
               <h3 class="text-lg font-semibold text-slate-900 pt-2">Une justice pour tous, sans barrière financière</h3>
@@ -604,7 +604,7 @@ import PartnerPopup from '@/components/PartnerPopup.vue';
 import { ref, onMounted, onUnmounted } from 'vue';
 
 useLocalSeo(
-  'Avocat Genève | Clegal Avocats – Étude Pont-Rouge – Dès 155.-',
+  'Avocat Genève | Clegal Avocats – Les Acacias – Dès 155.-',
   'Cabinet d\'avocats à Genève (Acacias). Expertise droit pénal, famille, travail & immigration. 1er RDV à 155.-. 7 avocats à votre service.',
   {
     type: 'LegalService',
@@ -667,7 +667,7 @@ const partners = [
     image: "/images/mansour_cheema.png",
     email: "m.cheema@clegal-avocats.ch",
     languages: "Français, Anglais, Hindi, Urdu, Punjabi",
-    bio: "Mansour Cheema est titulaire d’un Bachelor en droit délivré par l’Université de Lausanne et d’un Master mention magna cum laude délivré conjointement par les Universités de Lausanne et Zurich et d’un Certificat de spécialisation en matière d’avocature.\n\nDurant ses études, il s’est intéressé aux questions migratoires en travaillant pour le Service d’Aide Juridique aux Exilés (SAJE). Il ensuite accompagné l’application de la nouvelle loi sur l’asile en travaillant en qualité de représentant juridique pour Caritas au sein des Centre fédéraux pour requérants d’asile. Il a effectué son stage au sein d’une Etude de la place genevoise reconnue pour son expertise en droit pénal et en droit de la famille.\n\nAprès avoir fondé son Etude, Me Mansour Cheema a rejoint Pont-Rouge Avocats en qualité d’associé. Il pratique aujourd’hui la représentation dans tous les domaines du droit et bénéficie d’une expertise reconnue en droit des étrangers."
+    bio: "Mansour Cheema est titulaire d’un Bachelor en droit délivré par l’Université de Lausanne et d’un Master mention magna cum laude délivré conjointement par les Universités de Lausanne et Zurich et d’un Certificat de spécialisation en matière d’avocature.\n\nDurant ses études, il s’est intéressé aux questions migratoires en travaillant pour le Service d’Aide Juridique aux Exilés (SAJE). Il ensuite accompagné l’application de la nouvelle loi sur l’asile en travaillant en qualité de représentant juridique pour Caritas au sein des Centre fédéraux pour requérants d’asile. Il a effectué son stage au sein d’une Etude de la place genevoise reconnue pour son expertise en droit pénal et en droit de la famille.\n\nAprès avoir fondé son Etude, Me Mansour Cheema a rejoint Clegal Avocats en qualité d'associé. Il pratique aujourd’hui la représentation dans tous les domaines du droit et bénéficie d’une expertise reconnue en droit des étrangers."
   },
   {
     name: "Me Cyril-Marc Amberger",
@@ -718,7 +718,7 @@ const interns = [
     image: "/images/labaume.png",
     email: "labaume@swissavocat.ch",
     languages: "Français, Anglais",
-    bio: "Jean Labaume a effectué ses études de droit à l’Université de Genève, où il a obtenu un Master en droit en juin 2025 avec mention magna cum laude. Il a également obtenu le Certificat de spécialisation en matière d’avocature auprès de l’Université de Genève en 2024.\n\nDurant ses études, il a effectué un stage académique au sein de l’Étude Pont-Rouge Avocats, avant d’y rejoindre l’équipe en tant qu’avocat-stagiaire. Il a également participé en 2024 au prestigieux concours de plaidoirie Nancoz, organisé par l’Ordre des avocats de Genève (ODAGE), ainsi qu’au Swiss Moot Court, où il s’est classé 3ᵉ avec son équipe lors de la phase orale.\n\nIl poursuit son stage d’avocat au sein de l’Étude depuis octobre 2023."
+    bio: "Jean Labaume a effectué ses études de droit à l’Université de Genève, où il a obtenu un Master en droit en juin 2025 avec mention magna cum laude. Il a également obtenu le Certificat de spécialisation en matière d’avocature auprès de l’Université de Genève en 2024.\n\nDurant ses études, il a effectué un stage académique au sein de Clegal Avocats, avant d'y rejoindre l'équipe en tant qu'avocat-stagiaire. Il a également participé en 2024 au prestigieux concours de plaidoirie Nancoz, organisé par l’Ordre des avocats de Genève (ODAGE), ainsi qu’au Swiss Moot Court, où il s’est classé 3ᵉ avec son équipe lors de la phase orale.\n\nIl poursuit son stage d’avocat au sein de l’Étude depuis octobre 2023."
   }
 ];
 

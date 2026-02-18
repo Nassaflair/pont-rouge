@@ -118,7 +118,7 @@
                     <div>
                         <h2 class="text-3xl font-semibold text-white tracking-tight mb-6">Pourquoi nos tarifs sont compétitifs ?</h2>
                         <p class="text-lg leading-relaxed mb-6 text-slate-400">
-                            Contrairement aux études classiques, Pont-Rouge Avocats a optimisé ses processus internes pour réduire les tâches administratives inutiles.
+                            Contrairement aux études classiques, Clegal Avocats a optimisé ses processus internes pour réduire les tâches administratives inutiles.
                         </p>
                         <div class="space-y-4">
                             <div class="flex gap-4">
@@ -127,7 +127,7 @@
                             </div>
                             <div class="flex gap-4">
                                 <span class="text-red-400 font-bold">02.</span>
-                                <p>Structure agile située à Carouge/Pont-Rouge (frais de structure maîtrisés).</p>
+                                <p>Structure agile aux Acacias (frais de structure maîtrisés).</p>
                             </div>
                             <div class="flex gap-4">
                                 <span class="text-red-400 font-bold">03.</span>
@@ -144,7 +144,7 @@
                         </blockquote>
                         <div class="flex items-center gap-3 mt-6">
                             <div class="h-8 w-1 bg-red-600 rounded-full"></div>
-                            <span class="text-sm font-medium text-slate-400">L'équipe Pont-Rouge</span>
+                            <span class="text-sm font-medium text-slate-400">L'équipe Clegal Avocats</span>
                         </div>
                     </div>
                 </div>

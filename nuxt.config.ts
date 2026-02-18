@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Avocat Genève | Clegal Avocats – Étude Pont-Rouge – Dès 155.-",
+      title: "Avocat Genève | Clegal Avocats – Les Acacias – Dès 155.-",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -25,7 +25,7 @@ export default defineNuxtConfig({
         { name: "robots", content: "index, follow" },
         { name: "author", content: "Clegal Avocats" },
         { name: "theme-color", content: "#ffffff" },
-        { property: "og:title", content: "Avocat Genève | Clegal Avocats – Étude Pont-Rouge – Dès 155.-" },
+        { property: "og:title", content: "Avocat Genève | Clegal Avocats – Les Acacias – Dès 155.-" },
         { property: "og:description", content: "Cabinet d'avocats à Genève (Acacias). Expertise droit pénal, famille, travail & immigration. 1er RDV à 155.-. 7 avocats à votre service." },
         { property: "og:type", content: "website" },
         { property: "og:url", content: "https://clegal-avocats.ch/" },

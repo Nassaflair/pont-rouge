@@ -300,7 +300,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
                 <div class="col-span-1 md:col-span-2">
-                    <span class="text-sm font-bold text-slate-900 uppercase tracking-widest">Pont-Rouge </span>by Clegal-Avocats
+                    <span class="text-sm font-bold text-slate-900 uppercase tracking-widest">Clegal Avocats</span>
                     <p class="text-sm text-slate-500 max-w-xs mt-4">
                         Cabinet d'avocats généraliste à Genève. Une approche humaine, des tarifs transparents et une défense d'acier pour tous.
                     </p>
@@ -328,7 +328,7 @@
             </div>
             
             <div class="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-xs text-slate-400">© 2026 Pont-Rouge by Clegal-Avocats. Tous droits réservés.</p>
+                <p class="text-xs text-slate-400">© 2026 Clegal Avocats. Tous droits réservés.</p>
                 <div class="flex gap-4 mt-4 md:mt-0 text-xs text-slate-400">
                     <NuxtLink to="/contact" class="hover:text-slate-600">Mentions Légales</NuxtLink>
                     <NuxtLink to="/contact" class="hover:text-slate-600">Confidentialité</NuxtLink>

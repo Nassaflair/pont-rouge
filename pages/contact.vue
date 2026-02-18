@@ -17,10 +17,10 @@
                             <span class="text-[10px] font-bold text-red-900 uppercase tracking-wide">Réponse sous 24h</span>
                         </div>
                         <h1 class="text-3xl md:text-4xl font-semibold text-slate-900 tracking-tight leading-tight mb-4">
-                            Contactez vos Avocats à Genève – Centre Pont-Rouge.
+                            Contactez Clegal Avocats à Genève – Les Acacias.
                         </h1>
                         <p class="text-slate-600 text-lg leading-relaxed">
-                            Nous sommes situés au cœur du quartier d'affaires de Pont-Rouge. Prenez rendez-vous pour une consultation rapide.
+                            Nous sommes situés au cœur des Acacias (Genève). Prenez rendez-vous pour une consultation rapide.
                         </p>
                     </div>
 
@@ -35,7 +35,7 @@
                                 </div>
                                 <div>
                                     <h2 class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-1">Étude</h2>
-                                    <p class="text-base font-semibold text-slate-900" itemprop="name">Pont-Rouge <span class="font-normal text-slate-500">by Clegal-Avocats</span></p>
+                                    <p class="text-base font-semibold text-slate-900" itemprop="name">Clegal Avocats</p>
                                 </div>
                             </div>
 
@@ -50,7 +50,7 @@
                                         <span itemprop="streetAddress">Route des Jeunes 9</span><br>
                                         <span itemprop="postalCode">1227 Les Acacias</span> <span itemprop="addressLocality">Genève</span>
                                     </p>
-                                    <p class="text-xs text-slate-500 mt-1">Au cœur du quartier Pont-Rouge.</p>
+                                    <p class="text-xs text-slate-500 mt-1">Au cœur des Acacias, Genève.</p>
                                 </div>
                             </div>
 
