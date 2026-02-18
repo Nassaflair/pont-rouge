@@ -374,7 +374,7 @@ useHead({
     // Article schema
     {
       type: 'application/ld+json',
-      children: JSON.stringify({
+      innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
         'headline': 'Travailler en Suisse en tant que ressortissant hors UE-AELE',
@@ -407,7 +407,7 @@ useHead({
     // Breadcrumb schema for rich snippets
     {
       type: 'application/ld+json',
-      children: JSON.stringify({
+      innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         'itemListElement': [
