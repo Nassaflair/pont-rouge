@@ -282,7 +282,8 @@ useLocalSeo(
         question: 'Comment puis-je contester une décision de mon assureur ?',
         answer: 'Pour contester une décision, il est recommandé de consulter un avocat spécialisé qui pourra initier une procédure judiciaire en se basant sur les articles appropriés des lois pertinentes.'
       }
-    ]
+    ],
+    breadcrumbs: [{ name: 'Droit des Assurances', url: 'https://clegal-avocats.ch/droit-assurance' }]
   }
 )
 </script>

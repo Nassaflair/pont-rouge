@@ -302,7 +302,8 @@ useLocalSeo(
         question: 'Quels sont mes droits en tant qu\'employé du secteur public à Genève ?',
         answer: 'Les droits sont régis par les Art 335-337 CO, qui détaillent les conditions de travail et de licenciement.'
       }
-    ]
+    ],
+    breadcrumbs: [{ name: 'Droit Administratif', url: 'https://clegal-avocats.ch/droit-administratif' }]
   }
 )
 </script>

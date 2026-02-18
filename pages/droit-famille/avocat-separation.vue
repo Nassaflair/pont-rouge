@@ -256,7 +256,11 @@ useLocalSeo(
   'Avocat séparation à Genève. Mesures protectrices (MPUC), garde, pension, attribution du domicile. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [
+      { name: 'Droit de la Famille', url: 'https://clegal-avocats.ch/droit-famille' },
+      { name: 'Avocat Séparation', url: 'https://clegal-avocats.ch/droit-famille/avocat-separation' }
+    ]
   }
 )
 </script>

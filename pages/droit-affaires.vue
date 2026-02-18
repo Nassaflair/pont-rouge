@@ -263,6 +263,10 @@
 useLocalSeo(
   'Avocat Droit des Affaires Genève | Entreprises – Clegal Avocats',
   'Avocat droit des affaires à Genève. Conseil aux entreprises, contrats commerciaux, litiges sociétaires. Clegal Avocats.',
-  { type: 'LegalService', priceRange: 'Dès CHF 155.-' }
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Droit des Affaires', url: 'https://clegal-avocats.ch/droit-affaires' }]
+  }
 )
 </script>

@@ -217,7 +217,8 @@ useLocalSeo(
   'Honoraires transparents et accessibles. 1er RDV d\'analyse à 155.-, tarif horaire et forfaits. Aide juridictionnelle acceptée. Clegal Avocats Genève.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Honoraires', url: 'https://clegal-avocats.ch/honoraires' }]
   }
 )
 </script>

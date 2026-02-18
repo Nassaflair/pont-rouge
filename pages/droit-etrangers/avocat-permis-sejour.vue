@@ -243,7 +243,11 @@ useLocalSeo(
   'Avocat permis de séjour à Genève. Permis B, C, L, regroupement familial, recours OCPM, naturalisation. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [
+      { name: 'Droit des Étrangers', url: 'https://clegal-avocats.ch/droit-etrangers' },
+      { name: 'Avocat Permis de Séjour', url: 'https://clegal-avocats.ch/droit-etrangers/avocat-permis-sejour' }
+    ]
   }
 )
 </script>

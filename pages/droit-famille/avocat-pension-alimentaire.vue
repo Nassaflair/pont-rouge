@@ -246,7 +246,11 @@ useLocalSeo(
   'Avocat pension alimentaire à Genève. Calcul, modification, recouvrement et SCARPA. Divorce & séparation. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [
+      { name: 'Droit de la Famille', url: 'https://clegal-avocats.ch/droit-famille' },
+      { name: 'Avocat Pension Alimentaire', url: 'https://clegal-avocats.ch/droit-famille/avocat-pension-alimentaire' }
+    ]
   }
 )
 </script>

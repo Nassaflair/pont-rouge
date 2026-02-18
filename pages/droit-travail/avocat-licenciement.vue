@@ -236,7 +236,11 @@ useLocalSeo(
   'Avocat licenciement abusif à Genève. Indemnisation, délai de congé, Prud\'hommes. Défense employés et employeurs. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [
+      { name: 'Droit du Travail', url: 'https://clegal-avocats.ch/droit-travail' },
+      { name: 'Avocat Licenciement', url: 'https://clegal-avocats.ch/droit-travail/avocat-licenciement' }
+    ]
   }
 )
 </script>

@@ -275,6 +275,10 @@ useLocalSeo(
         question: 'Puis-je demander une pension alimentaire pour mes enfants ?',
         answer: 'Oui, conformément à l\'Article 276 CC, vous pouvez demander une pension alimentaire pour couvrir les besoins de vos enfants.'
       }
+    ],
+    breadcrumbs: [
+      { name: 'Droit de la Famille', url: 'https://clegal-avocats.ch/droit-famille' },
+      { name: 'Avocat Divorce', url: 'https://clegal-avocats.ch/droit-famille/avocat-divorce' }
     ]
   }
 )

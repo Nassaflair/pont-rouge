@@ -114,7 +114,8 @@ useLocalSeo(
   'Contactez Clegal Avocats à Genève. RDV d\'analyse à 155.-. Route des Jeunes 9, 1227 Les Acacias. Tél : 022 512 10 50.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Contact', url: 'https://clegal-avocats.ch/contact' }]
   }
 )
 

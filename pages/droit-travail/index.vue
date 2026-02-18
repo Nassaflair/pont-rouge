@@ -275,6 +275,10 @@
 useLocalSeo(
   'Avocat Droit du Travail Genève | Licenciement – Clegal Avocats',
   'Avocat droit du travail à Genève. Licenciement abusif, harcèlement, Prud\'hommes. Défense employés et employeurs. 1er RDV à 155.-.',
-  { type: 'LegalService', priceRange: 'Dès CHF 155.-' }
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Droit du Travail', url: 'https://clegal-avocats.ch/droit-travail' }]
+  }
 )
 </script>

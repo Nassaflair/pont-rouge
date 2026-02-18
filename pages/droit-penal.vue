@@ -225,7 +225,11 @@
 useLocalSeo(
   'Avocat Pénal Genève | Défense Criminelle – Clegal Avocats',
   'Défense pénale à Genève. Avocat spécialisé en droit criminel, assistance durant l\'instruction. Intervention urgente. 1er RDV à 155.-.',
-  { type: 'LegalService', priceRange: 'Dès CHF 155.-' }
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Droit Pénal', url: 'https://clegal-avocats.ch/droit-penal' }]
+  }
 )
 
 useHead({

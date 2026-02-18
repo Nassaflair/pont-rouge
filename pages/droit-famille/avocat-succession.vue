@@ -251,7 +251,11 @@ useLocalSeo(
   'Avocat droit des successions à Genève. Testament, partage, réserve héréditaire, succession internationale. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [
+      { name: 'Droit de la Famille', url: 'https://clegal-avocats.ch/droit-famille' },
+      { name: 'Avocat Succession', url: 'https://clegal-avocats.ch/droit-famille/avocat-succession' }
+    ]
   }
 )
 </script>

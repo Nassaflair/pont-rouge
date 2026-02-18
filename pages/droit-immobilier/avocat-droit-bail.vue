@@ -236,7 +236,11 @@ useLocalSeo(
   'Avocat droit du bail à Genève. Litiges loyers, résiliation, expulsion & défauts. Commission de conciliation. 1er RDV à 155.-. Clegal Avocats.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [
+      { name: 'Droit Immobilier', url: 'https://clegal-avocats.ch/droit-immobilier' },
+      { name: 'Avocat Droit du Bail', url: 'https://clegal-avocats.ch/droit-immobilier/avocat-droit-bail' }
+    ]
   }
 )
 </script>

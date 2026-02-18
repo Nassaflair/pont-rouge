@@ -382,7 +382,8 @@ useLocalSeo(
   'Nos expertises : pénal, famille, travail, immigration, bail, affaires, assurances, administratif. Avocats spécialisés à Genève. Clegal Avocats.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Domaines de Compétence', url: 'https://clegal-avocats.ch/domaine-de-competence' }]
   }
 )
 </script>

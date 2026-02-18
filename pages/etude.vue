@@ -342,7 +342,8 @@ useLocalSeo(
   '7 avocats à Genève (Les Acacias). Rigueur juridique, combativité procédurale et 100% de satisfaction client. Clegal Avocats.',
   {
     type: 'LegalService',
-    priceRange: 'Dès CHF 155.-'
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Notre Étude', url: 'https://clegal-avocats.ch/etude' }]
   }
 )
 </script>

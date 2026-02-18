@@ -6,6 +6,7 @@ export const useLocalSeo = (
         image?: string;
         priceRange?: string;
         faq?: { question: string; answer: string }[];
+        breadcrumbs?: { name: string; url: string }[];
     } = {}
 ) => {
     const {
@@ -13,6 +14,7 @@ export const useLocalSeo = (
         image = 'https://clegal-avocats.ch/logo.svg',
         priceRange = 'Dès CHF 155.-',
         faq = [],
+        breadcrumbs = [],
     } = options;
 
     const route = useRoute();
@@ -106,6 +108,32 @@ export const useLocalSeo = (
                         text: item.answer,
                     },
                 })),
+            }),
+        });
+    }
+
+    // BreadcrumbList Schema (if provided)
+    if (breadcrumbs.length > 0) {
+        const itemListElement = [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Accueil',
+                item: 'https://clegal-avocats.ch/',
+            },
+            ...breadcrumbs.map((crumb, index) => ({
+                '@type': 'ListItem',
+                position: index + 2,
+                name: crumb.name,
+                item: crumb.url,
+            })),
+        ];
+        schemaScripts.push({
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'BreadcrumbList',
+                itemListElement,
             }),
         });
     }

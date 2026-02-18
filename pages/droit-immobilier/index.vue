@@ -300,6 +300,10 @@
 useLocalSeo(
   'Avocat Immobilier Genève | Construction & Litiges – Clegal Avocats',
   'Avocat droit immobilier à Genève. Construction, voisinage, vente, zonage. Tribunal d\'arrondissement. 1er RDV à 155.-. Clegal Avocats.',
-  { type: 'LegalService', priceRange: 'Dès CHF 155.-' }
+  {
+    type: 'LegalService',
+    priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Droit Immobilier', url: 'https://clegal-avocats.ch/droit-immobilier' }]
+  }
 )
 </script>

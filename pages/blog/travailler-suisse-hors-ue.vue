@@ -348,6 +348,10 @@ useLocalSeo(
         question: 'Que faire si ma demande de permis de travail est refusée à Genève ?',
         answer: 'À Genève, l\'autorité indique d\'abord son intention de refuser et vous pouvez exercer votre droit d\'être entendu. En cas de refus maintenu, vous pouvez faire recours au Tribunal administratif de première instance, puis à la Chambre administrative de la Cour de justice, et enfin au Tribunal fédéral.'
       }
+    ],
+    breadcrumbs: [
+      { name: 'Blog Juridique', url: 'https://clegal-avocats.ch/blog' },
+      { name: 'Travailler en Suisse hors UE', url: 'https://clegal-avocats.ch/blog/travailler-suisse-hors-ue' }
     ]
   }
 );

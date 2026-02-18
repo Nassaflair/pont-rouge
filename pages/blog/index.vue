@@ -298,7 +298,8 @@ useLocalSeo(
         question: 'Puis-je bénéficier de l\'assistance juridique gratuite ?',
         answer: 'Oui, sous conditions de ressources, vous pouvez demander l\'assistance juridique auprès du Tribunal de Genève. Nos avocats peuvent vous accompagner dans cette démarche et acceptent les mandats d\'office.'
       }
-    ]
+    ],
+    breadcrumbs: [{ name: 'Blog Juridique', url: 'https://clegal-avocats.ch/blog' }]
   }
 );
 
