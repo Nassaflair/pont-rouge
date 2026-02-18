@@ -62,15 +62,14 @@
                         L'Évolution d'une Expertise</h2>
 
                     <div class="space-y-6 text-slate-600">
-                        <p class="">Fondée par Me Mansour Cheema, notre Étude s'est bâtie sur un principe fondamental :
-                            la loi est un outil puissant qui nécessite une précision chirurgicale et qui ne devrait pas
-                            être réservé seulement à ceux qui peuvent s'offrir un avocat. Initialement établie sous le
-                            nom Clegal-Avocats, notre transformation en marque une nouvelle ère.</p>
+                        <p class="">Fondée par Me Mansour Cheema, <strong class="text-slate-800">Clegal Avocats</strong> s'est bâtie sur un principe fondamental :
+                            la loi est un outil puissant qui nécessite une précision chirurgicale et ne devrait pas
+                            être réservé seulement à ceux qui peuvent s'offrir un avocat. Une conviction qui guide
+                            chaque dossier depuis notre création.</p>
                         <p class="">
-                            Ce changement d'identité reflète notre ancrage au cœur du quartier d'affaires de
-                            Lancy-Pont-Rouge. Ce positionnement géographique n'est pas anodin : il nous place au centre
-                            des échanges économiques, tout en maintenant une proximité immédiate avec le Palais de
-                            Justice.
+                            Notre ancrage au cœur du quartier d'affaires de Lancy-Pont-Rouge (Les Acacias) n'est pas
+                            anodin : il nous place au centre des échanges économiques genevois, tout en maintenant
+                            une proximité immédiate avec le Palais de Justice.
                         </p>
                         <p class="">
                             Notre structure, composée de 5 Associés et 2 avocats-stagiaires, fonctionne comme un pôle de

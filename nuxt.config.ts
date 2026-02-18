@@ -12,7 +12,9 @@ export default defineNuxtConfig({
     name: 'Clegal Avocats',
   },
   sitemap: {
-    strictNuxtContentPaths: true,
+    // Toutes les routes générées automatiquement depuis pages/
+    autoLastmod: true,
+    xsl: false,
   },
   app: {
     head: {
@@ -42,6 +44,10 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         // Google Fonts - chargement non-bloquant
         { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap', as: 'style', onload: "this.onload=null;this.rel='stylesheet'" }
+      ],
+      noscript: [
+        // Fallback Google Fonts si JS désactivé
+        { innerHTML: '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">' }
       ],
       script: [
         // Google Analytics 4 - différé pour ne pas bloquer le rendu
