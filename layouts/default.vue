@@ -3,7 +3,7 @@
     <!-- Sticky Header -->
     <header class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 supports-[backdrop-filter]:bg-white/60">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center h-16">
+            <div class="flex items-center h-[72px]">
                 <!-- Logo -->
                 <AppLogo />
 
@@ -215,7 +215,7 @@
     </header>
 
     <!-- Mobile Menu Overlay -->
-    <div v-if="isMobileMenuOpen" class="fixed inset-0 z-40 bg-white md:hidden pt-20 pb-6 px-4 overflow-y-auto">
+    <div v-if="isMobileMenuOpen" class="fixed inset-0 z-40 bg-white md:hidden pt-[88px] pb-6 px-4 overflow-y-auto">
         <nav class="flex flex-col gap-6 text-lg font-medium text-slate-600 items-center">
             <NuxtLink to="/etude" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Étude</NuxtLink>
             <NuxtLink to="/#equipe" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Notre équipe</NuxtLink>
