@@ -88,7 +88,6 @@ export const useLocalSeo = (
 
     const schemaScripts = [
         {
-            key: 'schema-local-business',
             type: 'application/ld+json',
             innerHTML: JSON.stringify(localBusinessSchema),
         },
@@ -97,7 +96,6 @@ export const useLocalSeo = (
     // FAQ Schema (if provided)
     if (faq.length > 0) {
         schemaScripts.push({
-            key: 'schema-faq',
             type: 'application/ld+json',
             innerHTML: JSON.stringify({
                 '@context': 'https://schema.org',
@@ -131,7 +129,6 @@ export const useLocalSeo = (
             })),
         ];
         schemaScripts.push({
-            key: 'schema-breadcrumb',
             type: 'application/ld+json',
             innerHTML: JSON.stringify({
                 '@context': 'https://schema.org',
