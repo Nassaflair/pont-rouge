@@ -5,9 +5,11 @@
     <section id="etude" class="scroll-mt-28 lg:pt-40 lg:pb-28 overflow-hidden pt-32 pb-20 relative z-0">
       <div class="absolute inset-0 -z-20 h-full w-full">
         <!-- Image from HTML Source -->
-        <img
+        <NuxtImg
           src="/images/landing_hero_optimized.jpg"
           alt="Cabinet Avocat Genève"
+          format="webp"
+          sizes="100vw sm:100vw md:100vw"
           class="w-full h-full object-cover object-center opacity-40"
           loading="eager"
           fetchpriority="high"
@@ -408,7 +410,7 @@
               @click="openPopup(partner)"
             >
               <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img :src="partner.image.replace('.png', '.jpg')" :alt="partner.name + ' - Avocat à Genève'" width="300" height="400" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
+                <NuxtImg :src="partner.image.replace('.png', '.jpg')" :alt="partner.name + ' - Avocat à Genève'" format="webp" width="300" height="400" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
               </div>
               <div class="text-center">
                 <h4 class="text-sm font-semibold text-slate-900">{{ partner.name }}</h4>
@@ -434,7 +436,7 @@
               @click="openPopup(intern)"
             >
               <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <img :src="intern.image.replace('.png', '.jpg')" :alt="intern.name + ' - Avocat stagiaire Genève'" width="300" height="400" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
+                <NuxtImg :src="intern.image.replace('.png', '.jpg')" :alt="intern.name + ' - Avocat stagiaire Genève'" format="webp" width="300" height="400" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
               </div>
               <div class="text-center">
                 <h4 class="text-sm font-semibold text-slate-900">{{ intern.name }}</h4>

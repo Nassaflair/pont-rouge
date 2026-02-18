@@ -40,9 +40,8 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', href: '/favicon.png' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        // Google Fonts avec preload pour éviter le render-blocking
-        { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap', as: 'style', onload: "this.onload=null;this.rel='stylesheet'" },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap', media: 'print', onload: "this.media='all'" }
+        // Google Fonts - chargement non-bloquant
+        { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap', as: 'style', onload: "this.onload=null;this.rel='stylesheet'" }
       ],
       script: [
         // Google Analytics 4 - différé pour ne pas bloquer le rendu
@@ -53,8 +52,8 @@ export default defineNuxtConfig({
           gtag('js', new Date());
           gtag('config', 'G-CJQF3LS3C2');
 
-          // Tracking des conversions
-          document.addEventListener('DOMContentLoaded', function() {
+          // Tracking des conversions - différé après le chargement de la page
+          window.addEventListener('load', function() {
             // Clic sur téléphone
             document.querySelectorAll('a[href^="tel:"]').forEach(function(el) {
               el.addEventListener('click', function() {
@@ -100,7 +99,8 @@ export default defineNuxtConfig({
               }
             });
           });`,
-          type: 'text/javascript'
+          type: 'text/javascript',
+          defer: true
         }
       ],
       style: [
@@ -123,8 +123,15 @@ export default defineNuxtConfig({
   },
   nitro: {
     compressPublicAssets: true,
-    // Cache statique pour les assets
+    prerender: {
+      crawlLinks: true,
+    },
     routeRules: {
+      // Pré-rendu statique de toutes les pages (TTFB immédiat depuis le CDN)
+      '/**': { prerender: true },
+      // L'API reste une fonction serverless (formulaire de contact)
+      '/api/**': { prerender: false },
+      // Cache long pour les assets immuables
       '/images/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
       '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
     },

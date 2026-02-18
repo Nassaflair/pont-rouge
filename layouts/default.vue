@@ -218,7 +218,7 @@
     <div v-if="isMobileMenuOpen" class="fixed inset-0 z-40 bg-white md:hidden pt-20 pb-6 px-4 overflow-y-auto">
         <nav class="flex flex-col gap-6 text-lg font-medium text-slate-600 items-center">
             <NuxtLink to="/etude" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Étude</NuxtLink>
-            <NuxtLink to="/#equipe" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Notre équipe</NuxtLink>
+            <NuxtLink to="/#equipe" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Notre équipe</NuxtLink>
             
             <div class="space-y-4 py-2 border-b border-slate-100">
                 <div class="font-medium text-slate-900 text-lg mb-2">Domaines de compétence</div>
