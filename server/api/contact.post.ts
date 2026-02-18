@@ -169,7 +169,7 @@ export default defineEventHandler(async (event) => {
 
 // 2. Notification à l'étude (Updated)
     await transporter.sendMail({
-      from: `"PONT-ROUGE by Clegal-Avocats" <${FIRM_EMAIL}>`,
+      from: `"Clegal Avocats" <${FIRM_EMAIL}>`,
       to: FIRM_EMAIL,
       replyTo: email,
       subject: `Nouveau Lead: ${lastname} ${firstname}`,
@@ -194,7 +194,7 @@ export default defineEventHandler(async (event) => {
                       </td>
                       <td style="vertical-align: middle;">
                            <span style="font-size: 18px; font-weight: 700; letter-spacing: -0.025em; color: #0f172a; text-transform: uppercase;">
-                              PONT-ROUGE <span style="color: #94a3b8; font-weight: 400; text-transform: none;">by Clegal-Avocats</span>
+                              CLEGAL <span style="color: #94a3b8; font-weight: 400; text-transform: none;">Avocats</span>
                           </span>
                       </td>
                   </tr>
@@ -251,7 +251,7 @@ export default defineEventHandler(async (event) => {
           </div>
           
           <div style="text-align: center; margin-top: 24px; color: #94a3b8; font-size: 12px;">
-            &copy; ${new Date().getFullYear()} Pont-Rouge Avocats. Système de notification interne.
+            &copy; ${new Date().getFullYear()} Clegal Avocats. Système de notification interne.
           </div>
 
         </body>
@@ -261,18 +261,18 @@ export default defineEventHandler(async (event) => {
 
     // 1. Auto-réponse au client (Updated)
     await transporter.sendMail({
-      from: `"Pont-Rouge Avocats" <${FIRM_EMAIL}>`,
+      from: `"Clegal Avocats" <${FIRM_EMAIL}>`,
       to: email,
-      subject: 'Confirmation de votre demande - Pont-Rouge Avocats',
+      subject: 'Confirmation de votre demande - Clegal Avocats',
       text: `Chère Madame, cher Monsieur,
 
 Nous accusons bonne réception de votre demande concernant "${subject}" et vous en remercions.
 
 Notre équipe prendra prochainement contact avec vous.
 
-Dans l’intervalle, nous vous prions de nous croire, chère Madame, cher Monsieur, vos dévoués.
+Dans l'intervalle, nous vous prions de nous croire, chère Madame, cher Monsieur, vos dévoués.
 
-L'équipe Pont-Rouge Avocats`,
+L'équipe Clegal Avocats`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -293,8 +293,8 @@ L'équipe Pont-Rouge Avocats`,
                           <div style="height: 24px; width: 4px; background-color: #7f1d1d; border-radius: 9999px;"></div>
                       </td>
                       <td style="vertical-align: middle;">
-                           <a href="https://pont-rouge-avocats.ch" style="text-decoration: none; font-size: 18px; font-weight: 700; letter-spacing: -0.025em; color: #0f172a; text-transform: uppercase;">
-                              Pont-Rouge <span style="color: #94a3b8; font-weight: 400; text-transform: none;">by Clegal-Avocats</span>
+                           <a href="https://clegal-avocats.ch" style="text-decoration: none; font-size: 18px; font-weight: 700; letter-spacing: -0.025em; color: #0f172a; text-transform: uppercase;">
+                              CLEGAL <span style="color: #94a3b8; font-weight: 400; text-transform: none;">Avocats</span>
                           </a>
                       </td>
                   </tr>
@@ -323,13 +323,13 @@ L'équipe Pont-Rouge Avocats`,
               </p>
               
               <p style="color: #0f172a; font-weight: 600; font-size: 15px; margin-top: 24px;">
-                L'équipe PONT-ROUGE by Clegal-Avocats
+                L'équipe Clegal Avocats
               </p>
             </div>
           </div>
           
           <div style="text-align: center; margin-top: 32px;">
-            <p style="color: #94a3b8; font-size: 13px; margin-bottom: 8px;">© ${new Date().getFullYear()} PONT-ROUGE by Clegal-Avocats. Tous droits réservés.</p>
+            <p style="color: #94a3b8; font-size: 13px; margin-bottom: 8px;">© ${new Date().getFullYear()} Clegal Avocats. Tous droits réservés.</p>
             <div style="font-size: 12px;">
                <a href="#" style="color: #cbd5e1; text-decoration: none; margin: 0 8px;">Mentions légales</a>
                <span style="color: #e2e8f0;">•</span>

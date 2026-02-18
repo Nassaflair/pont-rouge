@@ -742,7 +742,7 @@ useHead({
         "@context": "https://schema.org",
         "@type": "LegalService",
         "name": "Clegal Avocats",
-        "alternateName": "Pont-Rouge Avocats",
+        "alternateName": "Clegal",
         "image": "https://clegal-avocats.ch/logo.svg",
         "@id": "https://clegal-avocats.ch",
         "url": "https://clegal-avocats.ch",
