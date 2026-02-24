@@ -314,7 +314,7 @@ useHead({
         'name': 'La Minute Juridique - Conseils d\'avocats à Genève',
         'description': 'Conseils juridiques en vidéo par Maître Mansour Cheema, avocat au Barreau de Genève. Droit du travail, famille, pénal et immigration.',
         'thumbnailUrl': 'https://clegal-avocats.ch/logo.svg',
-        'uploadDate': '2024-01-01',
+        'uploadDate': '2024-01-01T00:00:00+01:00',
         'contentUrl': 'https://www.tiktok.com/@clegal.avocats',
         'embedUrl': 'https://www.tiktok.com/@clegal.avocats',
         'publisher': {
