@@ -5,7 +5,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/sitemap', '@nuxtjs/tailwindcss', '@nuxt/image'],
   image: {
-    domains: ['hoirqrkdgbmvpwutwuwj.supabase.co', 'images.unsplash.com']
+    domains: ['hoirqrkdgbmvpwutwuwj.supabase.co', 'images.unsplash.com'],
+    quality: 70,
+    format: ['webp', 'jpg'],
   } as any,
   site: {
     url: 'https://clegal-avocats.ch',
@@ -42,12 +44,13 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', href: '/favicon.png' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        // Google Fonts - chargement non-bloquant
-        { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap', as: 'style', onload: "this.onload=null;this.rel='stylesheet'" }
+        { rel: 'dns-prefetch', href: 'https://maps.google.com' },
+        { rel: 'dns-prefetch', href: 'https://www.googletagmanager.com' },
+        // Google Fonts - chargement non-bloquant (2 poids essentiels)
+        { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap', as: 'style', onload: "this.onload=null;this.rel='stylesheet'" }
       ],
       noscript: [
-        // Fallback Google Fonts si JS désactivé
-        { innerHTML: '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">' }
+        { innerHTML: '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">' }
       ],
       script: [
         // Google Analytics 4 - différé pour ne pas bloquer le rendu

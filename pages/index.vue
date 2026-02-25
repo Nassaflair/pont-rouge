@@ -9,7 +9,8 @@
           src="/images/landing_hero_optimized.jpg"
           alt="Cabinet Avocat Genève"
           format="webp"
-          sizes="100vw sm:100vw md:100vw"
+          sizes="sm:100vw md:80vw lg:60vw"
+          quality="60"
           class="w-full h-full object-cover object-center opacity-40"
           loading="eager"
           fetchpriority="high"
@@ -223,9 +224,10 @@
           <!-- Image Column (Portrait) -->
           <div class="lg:col-span-5 relative mb-12 lg:mb-0 order-1">
             <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[3/4] group border border-slate-100">
-              <img
-                src="/images/mansour_cheema_portrait.png"
+              <NuxtImg
+                src="/images/mansour_cheema_portrait.jpg"
                 alt="Maître Mansour Cheema - Avocat à Genève"
+                format="webp"
                 width="600"
                 height="800"
                 loading="lazy"
@@ -600,9 +602,10 @@
 </template>
 
 <script setup lang="ts">
-import ContactForm from '@/components/ContactForm.vue';
-import PartnerPopup from '@/components/PartnerPopup.vue';
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted, defineAsyncComponent } from 'vue';
+
+const ContactForm = defineAsyncComponent(() => import('@/components/ContactForm.vue'));
+const PartnerPopup = defineAsyncComponent(() => import('@/components/PartnerPopup.vue'));
 
 useLocalSeo(
   'Avocat Genève | Clegal Avocats – Les Acacias – Dès 155.-',
