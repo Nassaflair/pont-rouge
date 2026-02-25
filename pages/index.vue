@@ -33,10 +33,10 @@
             </div>
                         
             <h1 class="lg:text-5xl leading-tight text-4xl font-semibold text-slate-900 tracking-tight mb-2">
-              Avocats à Genève - <br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Clegal Avocats – Les Acacias</span>
+              Cabinet d'Avocats à Genève | <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Droit Pénal, Famille, Travail & Immigration</span>
             </h1>
-            <h4 class="text-sm font-medium text-slate-400 tracking-wide mb-4">Pont-Rouge Avocats, vos avocats à Genève</h4>
+            <p class="text-sm font-medium text-slate-400 tracking-wide mb-4">Pont-Rouge Avocats, vos avocats à Genève</p>
 
             <!-- Mobile Price Banner - visible only on mobile -->
             <div class="lg:hidden mb-6 space-y-3">
