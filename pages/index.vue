@@ -565,9 +565,13 @@
                 </div>
             </div>
 
-            <!-- Map -->
-            <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-slate-200 h-[400px] relative group">
+            <!-- Map – chargée au clic pour la performance -->
+            <div
+              class="rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-slate-200 h-[400px] relative group cursor-pointer"
+              @click="showMap = true"
+            >
                  <iframe
+                    v-if="showMap"
                     width="100%"
                     height="100%"
                     frameborder="0"
@@ -576,9 +580,13 @@
                     marginwidth="0"
                     src="https://maps.google.com/maps?q=Route+des+Jeunes+9+1227+Les+Acacias&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     title="Carte Clegal Avocats Genève"
-                    loading="lazy"
                     class="absolute inset-0 w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
                  ></iframe>
+                 <div v-else class="absolute inset-0 flex flex-col items-center justify-center text-slate-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mb-3 text-red-900"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <p class="font-medium text-slate-700">Cliquez pour afficher la carte</p>
+                    <p class="text-sm text-slate-400 mt-1">Route des Jeunes 9, 1227 Les Acacias</p>
+                 </div>
             </div>
         </div>
       </div>
@@ -632,6 +640,7 @@ useLocalSeo(
 
 const isPopupOpen = ref(false);
 const selectedPartner = ref(null);
+const showMap = ref(false);
 
 // Google Reviews Carousel
 const currentReview = ref(0);
