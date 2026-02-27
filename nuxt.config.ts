@@ -109,6 +109,9 @@ export default defineNuxtConfig({
       ]
     }
   },
+  experimental: {
+    payloadExtraction: true,
+  },
   nitro: {
     compressPublicAssets: true,
     prerender: {
