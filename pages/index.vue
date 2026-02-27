@@ -616,7 +616,7 @@ const ContactForm = defineAsyncComponent(() => import('@/components/ContactForm.
 const PartnerPopup = defineAsyncComponent(() => import('@/components/PartnerPopup.vue'));
 
 useLocalSeo(
-  'Avocat Genève | Clegal Avocats – Les Acacias – Dès 155.-',
+  'Avocat Genève | Clegal Avocats – Dès 155.- le 1er RDV',
   'Cabinet d\'avocats à Genève (Acacias). Expertise droit pénal, famille, travail & immigration. 1er RDV à 155.-. 7 avocats à votre service.',
   {
     type: 'LegalService',
