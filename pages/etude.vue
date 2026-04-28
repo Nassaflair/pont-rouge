@@ -343,7 +343,25 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
-    breadcrumbs: [{ name: 'Notre Étude', url: 'https://clegal-avocats.ch/etude' }]
+    breadcrumbs: [{ name: 'Notre Étude', url: 'https://clegal-avocats.ch/etude' }],
+    faq: [
+      {
+        question: 'Où se trouve Clegal Avocats à Genève ?',
+        answer: 'Clegal Avocats est situé Route des Jeunes 9, 1227 Les Acacias, dans le quartier d\'affaires de Lancy-Pont-Rouge. Le cabinet est facilement accessible en tram (arrêt Pont-Rouge), bus et voiture, à proximité immédiate du centre-ville de Genève.',
+      },
+      {
+        question: 'Combien d\'avocats travaillent chez Clegal Avocats ?',
+        answer: 'L\'étude compte sept avocats : cinq associés (Me Mansour Cheema, Me Cyril-Marc Amberger, Me Tano Barth, Me Rémy Bucheler, Me Olivier Jacot Des Combes) et deux avocat·es-stagiaires (Me Léa Rodrigues, Me Jean Labaume). L\'équipe couvre tous les domaines du droit suisse.',
+      },
+      {
+        question: 'Quels sont les domaines de compétence de Clegal Avocats ?',
+        answer: 'Clegal Avocats couvre huit domaines : droit pénal, droit de la famille (divorce, séparation, garde, pension, succession), droit du travail, droit des étrangers, droit immobilier (bail), droit des affaires, droit des assurances et droit administratif.',
+      },
+      {
+        question: 'Clegal Avocats traite-t-il des dossiers en dehors de Genève ?',
+        answer: 'Oui. Les avocats du cabinet peuvent intervenir devant les juridictions vaudoises et fribourgeoises, ainsi que devant le Tribunal fédéral à Lausanne. Plusieurs membres de l\'équipe ont une formation et une expérience dans le canton de Vaud (Université de Lausanne, Tribunal d\'arrondissement de Lausanne).',
+      },
+    ],
   }
 )
 </script>

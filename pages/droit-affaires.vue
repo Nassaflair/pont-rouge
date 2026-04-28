@@ -266,7 +266,25 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
-    breadcrumbs: [{ name: 'Droit des Affaires', url: 'https://clegal-avocats.ch/droit-affaires' }]
+    breadcrumbs: [{ name: 'Droit des Affaires', url: 'https://clegal-avocats.ch/droit-affaires' }],
+    faq: [
+      {
+        question: 'Quels sont les coûts d\'un avocat d\'affaires à Genève ?',
+        answer: 'Les honoraires horaires d\'un avocat d\'affaires à Genève se situent entre CHF 350.- et CHF 450.- de l\'heure. Pour des mandats forfaitaires (rédaction de contrats, due diligence, constitution de société), comptez entre CHF 3\'000 et CHF 5\'000 selon la complexité du dossier.',
+      },
+      {
+        question: 'Comment prévenir les litiges commerciaux ?',
+        answer: 'La prévention passe par des contrats solides (pacte d\'actionnaires, CGV, contrats de travail) rédigés en amont. Une analyse régulière de la conformité (CO, Code des sociétés, droit fiscal) et un audit des risques juridiques sont également des bonnes pratiques pour minimiser les contentieux.',
+      },
+      {
+        question: 'Pourquoi choisir un avocat local à Genève pour son entreprise ?',
+        answer: 'Connaître les spécificités du Tribunal de première instance de Genève (Rue de l\'Athénée 6/8) et de la Cour de justice est un avantage compétitif majeur lors d\'un contentieux commercial. La connaissance du tissu économique régional, des registres genevois et des pratiques locales facilite aussi les transactions et la résolution amiable.',
+      },
+      {
+        question: 'Quelles formes juridiques de société existent en Suisse ?',
+        answer: 'Le Code des Obligations suisse prévoit principalement : la raison individuelle, la société simple (art. 530 CO), la société en nom collectif (SNC), la société à responsabilité limitée (Sàrl, art. 772 CO), la société anonyme (SA, art. 620 CO) et la coopérative. Le choix dépend du capital, du nombre d\'associés, du régime de responsabilité et de la fiscalité visée.',
+      },
+    ],
   }
 )
 </script>

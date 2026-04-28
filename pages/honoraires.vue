@@ -218,7 +218,33 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
-    breadcrumbs: [{ name: 'Honoraires', url: 'https://clegal-avocats.ch/honoraires' }]
+    breadcrumbs: [{ name: 'Honoraires', url: 'https://clegal-avocats.ch/honoraires' }],
+    faq: [
+      {
+        question: 'Combien coûte un premier rendez-vous chez Clegal Avocats à Genève ?',
+        answer: 'Le premier rendez-vous d\'analyse coûte CHF 155.- forfaitaire. Il dure environ 60 minutes et permet à l\'avocat d\'examiner votre dossier, d\'identifier les enjeux juridiques et de vous proposer un plan d\'action concret avec une estimation des honoraires pour la suite.',
+      },
+      {
+        question: 'Quel est le tarif horaire d\'un avocat à Genève ?',
+        answer: 'Les tarifs horaires des avocats à Genève varient généralement entre CHF 300 et CHF 500. Chez Clegal Avocats, nous proposons des honoraires transparents avec plusieurs options : tarif horaire, forfaits pour mandats prévisibles, et plans de paiement. Le tarif exact dépend de la complexité du dossier et du domaine du droit concerné.',
+      },
+      {
+        question: 'L\'aide juridictionnelle est-elle acceptée à Genève ?',
+        answer: 'Oui. À Genève, l\'assistance judiciaire est accordée par le Tribunal civil ou pénal aux personnes dont les revenus et la fortune sont insuffisants. Clegal Avocats accepte les mandats sous assistance judiciaire. Vous devez déposer une requête au tribunal compétent ; nous pouvons vous accompagner dans cette démarche.',
+      },
+      {
+        question: 'Existe-t-il des forfaits pour les procédures de divorce à Genève ?',
+        answer: 'Oui. Pour les procédures de divorce non contentieuses (divorce sur requête commune – art. 111 CC), nous proposons des forfaits permettant de connaître le coût total à l\'avance. Pour les procédures contentieuses, nous travaillons au tarif horaire avec une estimation préalable validée avec vous.',
+      },
+      {
+        question: 'Comment sont calculés les honoraires pour un litige du travail ?',
+        answer: 'Les litiges devant le Tribunal des prud\'hommes de Genève sont gratuits jusqu\'à CHF 75\'000 de valeur litigieuse (art. 114 CPC), ce qui rend la procédure accessible. Nos honoraires d\'avocat se calculent généralement au tarif horaire ou en pourcentage du gain de cause, selon votre situation et l\'enjeu financier.',
+      },
+      {
+        question: 'Acceptez-vous les paiements échelonnés ?',
+        answer: 'Oui. Clegal Avocats propose des plans de paiement personnalisés pour rendre la défense de vos droits accessible. Les modalités sont définies au cas par cas lors du premier rendez-vous, en fonction du montant total du mandat et de votre situation financière.',
+      },
+    ],
   }
 )
 </script>

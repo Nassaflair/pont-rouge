@@ -19,9 +19,12 @@ export default defineNuxtConfig({
     urls: [
       '/',
       '/etude',
+      '/equipe',
       '/contact',
       '/honoraires',
+      '/avis-clients',
       '/domaine-de-competence',
+      '/lausanne',
       '/droit-penal',
       '/droit-affaires',
       '/droit-administratif',
@@ -40,6 +43,9 @@ export default defineNuxtConfig({
       '/droit-immobilier/avocat-droit-bail',
       '/blog',
       '/blog/travailler-suisse-hors-ue',
+      '/blog/cout-divorce-geneve',
+      '/blog/procedure-penale-geneve',
+      '/blog/permis-b-geneve',
     ],
   },
   app: {

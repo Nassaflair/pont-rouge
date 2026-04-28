@@ -309,8 +309,11 @@
                 <div>
                     <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mb-4">Informations</h3>
                     <ul class="space-y-2 text-sm text-slate-500">
+                        <li><NuxtLink to="/equipe" class="hover:text-red-900">Notre équipe</NuxtLink></li>
                         <li><NuxtLink to="/domaine-de-competence" class="hover:text-red-900">Nos Expertises</NuxtLink></li>
                         <li><NuxtLink to="/honoraires" class="hover:text-red-900">Honoraires</NuxtLink></li>
+                        <li><NuxtLink to="/avis-clients" class="hover:text-red-900">Avis clients</NuxtLink></li>
+                        <li><NuxtLink to="/blog" class="hover:text-red-900">Blog</NuxtLink></li>
                         <li><NuxtLink to="/contact" class="hover:text-red-900">Contact</NuxtLink></li>
                     </ul>
                 </div>
