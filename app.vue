@@ -1,15 +1,18 @@
 <script setup lang="ts">
 const route = useRoute()
 const config = useRuntimeConfig()
-const baseUrl = config.public.siteUrl || 'https://clegal-avocats.ch'
+const baseUrl = (config.public as any).siteUrl || 'https://clegal-avocats.ch'
+
+const canonicalHref = computed(() => `${baseUrl}${route.path}`.replace(/\/$/, '') || baseUrl)
 
 useHead({
+  htmlAttrs: { lang: 'fr-CH' },
   link: [
-    {
-      rel: 'canonical',
-      href: computed(() => `${baseUrl}${route.path}`.replace(/\/$/, '') || baseUrl)
-    }
-  ]
+    { rel: 'canonical', href: canonicalHref },
+    { rel: 'alternate', hreflang: 'fr-CH', href: canonicalHref },
+    { rel: 'alternate', hreflang: 'fr', href: canonicalHref },
+    { rel: 'alternate', hreflang: 'x-default', href: canonicalHref },
+  ],
 })
 </script>
 

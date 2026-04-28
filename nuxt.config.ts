@@ -149,12 +149,25 @@ export default defineNuxtConfig({
     },
     routeRules: {
       // Pré-rendu statique de toutes les pages (TTFB immédiat depuis le CDN)
-      '/**': { prerender: true },
+      '/**': {
+        prerender: true,
+        headers: {
+          'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+          'x-content-type-options': 'nosniff',
+          'x-frame-options': 'SAMEORIGIN',
+          'referrer-policy': 'strict-origin-when-cross-origin',
+          'permissions-policy': 'camera=(), microphone=(), geolocation=(self), interest-cohort=()',
+        },
+      },
       // L'API reste une fonction serverless (formulaire de contact)
       '/api/**': { prerender: false },
       // Cache long pour les assets immuables
       '/images/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
       '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+      // robots.txt et llms.txt servis avec content-type explicite et cache court
+      '/robots.txt': { headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'public, max-age=3600' } },
+      '/llms.txt': { headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'public, max-age=3600' } },
+      '/llms-full.txt': { headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'public, max-age=3600' } },
     },
   },
   vite: {

@@ -611,6 +611,8 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, defineAsyncComponent } from 'vue';
+import { lawyers, getPartners, getInterns } from '~/data/team';
+import { locations } from '~/data/locations';
 
 const ContactForm = defineAsyncComponent(() => import('@/components/ContactForm.vue'));
 const PartnerPopup = defineAsyncComponent(() => import('@/components/PartnerPopup.vue'));
@@ -619,8 +621,10 @@ useLocalSeo(
   'Avocat Genève | Clegal Avocats – Dès 155.- le 1er RDV',
   'Cabinet d\'avocats à Genève (Acacias). Expertise droit pénal, famille, travail & immigration. 1er RDV à 155.-. 7 avocats à votre service.',
   {
+    city: 'geneve',
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
+    lawyerSlugs: lawyers.map((l) => l.slug),
     faq: [
       {
         question: 'Combien coûte un avocat à Genève ?',
@@ -633,6 +637,10 @@ useLocalSeo(
       {
         question: 'Comment prendre rendez-vous chez Clegal Avocats ?',
         answer: 'Appelez le +41 22 512 10 50 ou utilisez le formulaire de contact sur notre site. Nous répondons sous 24h ouvrables. Notre étude est située Route des Jeunes 9, 1227 Les Acacias, Genève.',
+      },
+      {
+        question: 'Clegal Avocats intervient-il aussi à Lausanne ?',
+        answer: 'Oui. Nos avocats interviennent devant les juridictions vaudoises (Tribunal cantonal vaudois, Tribunal d\'arrondissement de Lausanne, Justice de paix). Plusieurs membres de l\'équipe ont étudié à l\'Université de Lausanne ou exercé dans des études vaudoises. Une antenne à Lausanne est en cours d\'ouverture — voir /lausanne.',
       },
     ],
   }
@@ -673,67 +681,18 @@ onUnmounted(() => {
   }
 });
 
-const partners = [
-  {
-    name: "Me Mansour Cheema",
-    role: "Avocat au Barreau",
-    image: "/images/mansour_cheema.png",
-    email: "m.cheema@clegal-avocats.ch",
-    languages: "Français, Anglais, Hindi, Urdu, Punjabi",
-    bio: "Mansour Cheema est titulaire d’un Bachelor en droit délivré par l’Université de Lausanne et d’un Master mention magna cum laude délivré conjointement par les Universités de Lausanne et Zurich et d’un Certificat de spécialisation en matière d’avocature.\n\nDurant ses études, il s’est intéressé aux questions migratoires en travaillant pour le Service d’Aide Juridique aux Exilés (SAJE). Il ensuite accompagné l’application de la nouvelle loi sur l’asile en travaillant en qualité de représentant juridique pour Caritas au sein des Centre fédéraux pour requérants d’asile. Il a effectué son stage au sein d’une Etude de la place genevoise reconnue pour son expertise en droit pénal et en droit de la famille.\n\nAprès avoir fondé son Etude, Me Mansour Cheema a rejoint Clegal Avocats en qualité d'associé. Il pratique aujourd’hui la représentation dans tous les domaines du droit et bénéficie d’une expertise reconnue en droit des étrangers."
-  },
-  {
-    name: "Me Cyril-Marc Amberger",
-    role: "Avocat au Barreau",
-    image: "/images/cyril_marc.png",
-    email: "amberger@swissavocat.ch",
-    languages: "Français, anglais, allemand, espagnol",
-    bio: "Cyril-Marc Amberger a effectué ses études de droit dans les universités de Genève, Lausanne et Zurich et a obtenu en 2016, un Master avec double mention en droit commercial et en droit international.\n\nDurant ses études, il a travaillé au sein de Lalive à Genève. Après l’obtention de son brevet d’avocat en 2018, il a pratiqué le barreau au sein d’une étude de la place genevoise, avant de rejoindre en 2020 Reymond, Ulmann & Associés à Lausanne."
-  },
-  {
-    name: "Me Tano Barth",
-    role: "Avocat au Barreau",
-    image: "/images/tano_barth.png",
-    email: "tano.barth@pra.law",
-    languages: "Français, anglais, allemand, suisse-allemand, espagnol, néerlandais",
-    bio: "Tano Barth a effectué ses études de droit dans les universités de Genève et Zurich. Il est Docteur en droit et chargé de cours à l’École d’avocature de l’Université de Genève, où il enseigne le droit de la profession d’avocat et intervient dans des cours d’expression orale. Il intervient également à la Faculté de droit de l’Université de Genève dans le cadre du cours Droit et numérique dans le cours intitulé « Pratique du droit et technologies (Legaltech) » et est l’auteur de nombreuses conférences et publication. Il est membre suppléant de l’autorité de surveillance des avocats, la Commission du barreau, et est membre de Commission Innovations et Modernisation du Barreau (CIMBAR) de l’Ordre des avocats de Genève."
-  },
-  {
-    name: "Me Rémy Bucheler",
-    role: "Avocat au Barreau",
-    image: "/images/remy_bucheler.png",
-    email: "remy.bucheler@pra.law",
-    languages: "Français, anglais",
-    bio: "Rémy Bucheler est titulaire d’un Master en finance de HEC Genève et d’un Master en droit obtenu à Genève, Aix et Paris. Il a été distingué à deux reprises pour les meilleurs résultats de diplôme.\n\nDurant ses études, il a effectué ses stages d’avocat en France et en Suisse. Après ses études, il a commencé sa carrière comme collaborateur au sein d’une étude genevoise active en droit des affaires. Il a également conçu et dispensé de nombreuses formations en finance et comptabilité, et a publié de nombreux ouvrages dans ces domaines.\n\nEn janvier 2025, il a été élu juge suppléant au Tribunal civil et a prêté serment devant le Grand Conseil de la République et canton de Genève. Il est membre de l’Ordre des avocats de Genève, de la Fédération suisse des avocats, d’EXPERTSuisse et de SWISCO."
-  },
-  {
-    name: "Me Olivier Jacot Des Combes",
-    role: "Avocat au Barreau",
-    image: "/images/olivier_jacot.png",
-    email: "ojdc@olassocies.ch",
-    languages: "Français",
-    bio: "Olivier Jacot Des Combes a effectué ses études dans les universités de Genève et Lausanne et a obtenu un master en droit et économie de la Faculté des Hautes Études Commerciales de l’Université de Lausanne. En marge de ses études, il effectue un stage au sein d’un cabinet d’avocats de renommée internationale, et œuvre à l’assistance et aux conseils de requérants d’asile au sein d’une permanence juridique spécialisée dans le domaine. Après avoir effectué son stage au sein du Tribunal de première instance, puis d’une prestigieuse Etude de la place, il obtient son brevet d’avocat en 2022."
-  }
-];
+// Mapping data/team.ts → format attendu par le composant PartnerPopup (qui attend `role`).
+const toPopupShape = (l: typeof lawyers[number]) => ({
+  name: l.name,
+  role: l.jobTitle,
+  image: l.image,
+  email: l.email,
+  languages: l.languages,
+  bio: l.bio,
+});
 
-const interns = [
-  {
-    name: "Me Léa Rodrigues",
-    role: "Avocate-stagiaire",
-    image: "/images/lea_rodrigues.png",
-    email: "lea.rodrigues@pra.law",
-    languages: "Français, Anglais, Portugais",
-    bio: "Léa Rodrigues a effectué ses études de droit à l’Université de Lausanne, où elle a obtenu un Bachelor, puis un Master avec mention magna cum laude. Elle a ensuite obtenu le Certificat de spécialisation en matière d’avocature auprès de l’Université de Genève.\n\nDurant ses études, elle a travaillé comme assistante administrative à la Clinique de La Source, puis comme secrétaire juridique au sein de l’Étude Palud avocats à Lausanne. Elle a également été greffière ad hoc auprès de la Chambre pénale du Tribunal d’arrondissement de Lausanne, ainsi que greffière stagiaire à la Justice de paix de l’arrondissement de la Sarine, à Fribourg.\n\nElle a rejoint l’Étude en qualité d’avocate-stagiaire à compter du 1er août 2025."
-  },
-  {
-    name: "Me Jean Labaume",
-    role: "Avocat-stagiaire",
-    image: "/images/labaume.png",
-    email: "labaume@swissavocat.ch",
-    languages: "Français, Anglais",
-    bio: "Jean Labaume a effectué ses études de droit à l’Université de Genève, où il a obtenu un Master en droit en juin 2025 avec mention magna cum laude. Il a également obtenu le Certificat de spécialisation en matière d’avocature auprès de l’Université de Genève en 2024.\n\nDurant ses études, il a effectué un stage académique au sein de Clegal Avocats, avant d'y rejoindre l'équipe en tant qu'avocat-stagiaire. Il a également participé en 2024 au prestigieux concours de plaidoirie Nancoz, organisé par l’Ordre des avocats de Genève (ODAGE), ainsi qu’au Swiss Moot Court, où il s’est classé 3ᵉ avec son équipe lors de la phase orale.\n\nIl poursuit son stage d’avocat au sein de l’Étude depuis octobre 2023."
-  }
-];
+const partners = getPartners().map(toPopupShape);
+const interns = getInterns().map(toPopupShape);
 
 const openPopup = (partner: any) => {
   selectedPartner.value = partner;
@@ -746,50 +705,84 @@ const handleSubmit = () => {
   alert('Merci. Votre demande a été enregistrée. Nous vous contacterons pour fixer l\'horaire.');
 }
 
-// SEO Schema.org (Local Business)
+// SEO Schema.org : WebSite (avec SearchAction) + Organization multi-branch (Genève + Lausanne)
 useHead({
   script: [
     {
       type: 'application/ld+json',
       innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LegalService",
-        "name": "Clegal Avocats",
-        "alternateName": "Clegal",
-        "image": "https://clegal-avocats.ch/logo.svg",
-        "@id": "https://clegal-avocats.ch",
-        "url": "https://clegal-avocats.ch",
-        "telephone": "0225121050",
-        "priceRange": "CHF 155.-",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Route des Jeunes 9",
-          "addressLocality": "Les Acacias",
-          "postalCode": "1227",
-          "addressCountry": "CH"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 46.1871,
-          "longitude": 6.1296
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "08:30",
-          "closes": "18:00"
-        },
-        "sameAs": [] 
-      })
-    }
-  ]
-})
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        '@id': 'https://clegal-avocats.ch/#website',
+        url: 'https://clegal-avocats.ch',
+        name: 'Clegal Avocats',
+        description: 'Cabinet d\'avocats à Genève et bientôt à Lausanne. Droit pénal, famille, travail, étrangers, bail, affaires.',
+        publisher: { '@id': 'https://clegal-avocats.ch/#organization' },
+        inLanguage: 'fr-CH',
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        '@id': 'https://clegal-avocats.ch/#organization',
+        name: 'Clegal Avocats',
+        alternateName: 'Clegal',
+        url: 'https://clegal-avocats.ch',
+        logo: 'https://clegal-avocats.ch/logo.svg',
+        description: 'Cabinet d\'avocats généraliste fondé à Genève. Sept avocats spécialisés en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit immobilier, droit des affaires, droit administratif et droit des assurances.',
+        founder: { '@type': 'Person', name: 'Me Mansour A. Cheema' },
+        numberOfEmployees: { '@type': 'QuantitativeValue', value: 7 },
+        department: [
+          {
+            '@type': 'LegalService',
+            '@id': 'https://clegal-avocats.ch/#geneve',
+            name: locations.geneve.name,
+            url: 'https://clegal-avocats.ch',
+            telephone: locations.geneve.telephone,
+            email: locations.geneve.email,
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: locations.geneve.streetAddress,
+              addressLocality: locations.geneve.addressLocality,
+              postalCode: locations.geneve.postalCode,
+              addressRegion: locations.geneve.addressRegion,
+              addressCountry: locations.geneve.addressCountry,
+            },
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: locations.geneve.geo.latitude,
+              longitude: locations.geneve.geo.longitude,
+            },
+            areaServed: locations.geneve.areaServed.map((c) => ({ '@type': 'City', name: c })),
+            openingHoursSpecification: locations.geneve.hours.map((h) => ({
+              '@type': 'OpeningHoursSpecification',
+              dayOfWeek: h.dayOfWeek,
+              opens: h.opens,
+              closes: h.closes,
+            })),
+          },
+          {
+            '@type': 'LegalService',
+            '@id': 'https://clegal-avocats.ch/#lausanne',
+            name: locations.lausanne.name,
+            url: 'https://clegal-avocats.ch/lausanne',
+            email: locations.lausanne.email,
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: locations.lausanne.addressLocality,
+              postalCode: locations.lausanne.postalCode,
+              addressRegion: locations.lausanne.addressRegion,
+              addressCountry: locations.lausanne.addressCountry,
+            },
+            areaServed: locations.lausanne.areaServed.map((c) => ({ '@type': 'City', name: c })),
+          },
+        ],
+      }),
+    },
+  ],
+});
 </script>
 
 <style scoped>

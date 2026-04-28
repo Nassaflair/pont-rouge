@@ -76,11 +76,62 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          <!-- Article 1 -->
-          <NuxtLink to="/blog/travailler-suisse-hors-ue" class="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
+          <!-- Article : Coût divorce Genève -->
+          <NuxtLink to="/blog/cout-divorce-geneve" class="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
+            <div class="aspect-video bg-slate-100 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-br from-red-900/20 to-slate-900/40 flex items-center justify-center">
+                <i data-lucide="users" class="w-12 h-12 text-white/80"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-50 text-red-800 mb-3">
+                Droit de la famille
+              </span>
+              <h3 class="font-semibold text-slate-900 mb-2 group-hover:text-red-800 transition-colors">Combien coûte un divorce à Genève en 2026 ?</h3>
+              <p class="text-sm text-slate-600 line-clamp-2">Honoraires, frais de justice, durée et exemples chiffrés. Divorce amiable dès CHF 3'000, contentieux jusqu'à CHF 15'000+.</p>
+              <p class="text-xs text-slate-400 mt-3">28 avril 2026 · Lecture 8 min</p>
+            </div>
+          </NuxtLink>
+
+          <!-- Article : Procédure pénale Genève -->
+          <NuxtLink to="/blog/procedure-penale-geneve" class="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
+            <div class="aspect-video bg-slate-100 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-br from-red-900/20 to-slate-900/40 flex items-center justify-center">
+                <i data-lucide="shield" class="w-12 h-12 text-white/80"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-50 text-red-800 mb-3">
+                Droit pénal
+              </span>
+              <h3 class="font-semibold text-slate-900 mb-2 group-hover:text-red-800 transition-colors">Procédure pénale à Genève : guide complet</h3>
+              <p class="text-sm text-slate-600 line-clamp-2">Étapes, délais, droits du prévenu et de la victime — du Ministère public au Tribunal correctionnel.</p>
+              <p class="text-xs text-slate-400 mt-3">28 avril 2026 · Lecture 10 min</p>
+            </div>
+          </NuxtLink>
+
+          <!-- Article : Permis B Genève -->
+          <NuxtLink to="/blog/permis-b-geneve" class="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
             <div class="aspect-video bg-slate-100 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-br from-red-900/20 to-slate-900/40 flex items-center justify-center">
                 <i data-lucide="globe" class="w-12 h-12 text-white/80"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-50 text-red-800 mb-3">
+                Droit des Étrangers
+              </span>
+              <h3 class="font-semibold text-slate-900 mb-2 group-hover:text-red-800 transition-colors">Permis B à Genève : conditions, durée, renouvellement</h3>
+              <p class="text-sm text-slate-600 line-clamp-2">Conditions d'octroi UE/AELE et États tiers, délais OCPM, regroupement familial, conversion en permis C.</p>
+              <p class="text-xs text-slate-400 mt-3">28 avril 2026 · Lecture 9 min</p>
+            </div>
+          </NuxtLink>
+
+          <!-- Article : Travailler en Suisse hors UE-AELE -->
+          <NuxtLink to="/blog/travailler-suisse-hors-ue" class="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
+            <div class="aspect-video bg-slate-100 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-br from-red-900/20 to-slate-900/40 flex items-center justify-center">
+                <i data-lucide="briefcase" class="w-12 h-12 text-white/80"></i>
               </div>
             </div>
             <div class="p-6">

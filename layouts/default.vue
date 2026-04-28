@@ -10,7 +10,7 @@
                 <!-- Desktop Nav -->
                 <nav class="hidden md:flex ml-10 gap-8 text-sm font-medium text-slate-600 items-center">
                     <NuxtLink to="/etude" class="hover:text-red-900 transition-colors">L'Étude</NuxtLink>
-                    <NuxtLink to="/#equipe" class="hover:text-red-900 transition-colors">Notre équipe</NuxtLink>
+                    <NuxtLink to="/equipe" class="hover:text-red-900 transition-colors">L'Équipe</NuxtLink>
                     
                     <!-- Mega Menu Trigger -->
                     <div class="relative group">
@@ -189,6 +189,10 @@
                     
                     <NuxtLink to="/honoraires" class="hover:text-red-900 transition-colors">Honoraires</NuxtLink>
                     <NuxtLink to="/blog" class="hover:text-red-900 transition-colors">Blog</NuxtLink>
+                    <NuxtLink to="/lausanne" class="hover:text-red-900 transition-colors flex items-center gap-1.5">
+                        Lausanne
+                        <span class="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-900">Bientôt</span>
+                    </NuxtLink>
                     <NuxtLink to="/contact" class="hover:text-red-900 transition-colors">Contact</NuxtLink>
                 </nav>
 
@@ -217,8 +221,12 @@
     <!-- Mobile Menu Overlay -->
     <div v-if="isMobileMenuOpen" class="fixed inset-0 z-40 bg-white md:hidden pt-20 pb-6 px-4 overflow-y-auto">
         <nav class="flex flex-col gap-6 text-lg font-medium text-slate-600 items-center">
-            <NuxtLink to="/etude" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Étude</NuxtLink>
-            <NuxtLink to="/#equipe" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Notre équipe</NuxtLink>
+            <NuxtLink to="/etude" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Étude</NuxtLink>
+            <NuxtLink to="/equipe" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Équipe</NuxtLink>
+            <NuxtLink to="/lausanne" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100 flex items-center gap-2">
+                Lausanne
+                <span class="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-900">Bientôt</span>
+            </NuxtLink>
             
             <div class="space-y-4 py-2 border-b border-slate-100">
                 <div class="font-medium text-slate-900 text-lg mb-2">Domaines de compétence</div>
