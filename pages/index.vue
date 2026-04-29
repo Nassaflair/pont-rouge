@@ -30,14 +30,14 @@
           <div class="flex flex-col justify-center relative z-10 text-left">
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/60 border border-slate-200 w-fit mb-6 backdrop-blur-sm shadow-sm">
               <span class="flex h-2 w-2 rounded-full bg-red-700"></span>
-              <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Avocats à Genève</span>
+              <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Cabinet d'avocats Genève · Lausanne</span>
             </div>
-                        
+
             <h1 class="lg:text-5xl leading-tight text-4xl font-semibold text-slate-900 tracking-tight mb-2">
-              Clegal Avocats à Genève | <br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Droit Pénal, Famille, Travail & Immigration</span>
+              Cabinet d'avocats à Genève et Lausanne <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Droit pénal, famille, travail, étrangers, bail, affaires</span>
             </h1>
-            <p class="text-sm font-medium text-slate-400 tracking-wide mb-4">Pont-Rouge Avocats, vos avocats à Genève</p>
+            <p class="text-sm font-medium text-slate-400 tracking-wide mb-4">Sept avocats au service du Barreau de Genève et du canton de Vaud — Premier rendez-vous d'analyse à CHF 155.-</p>
 
             <!-- Mobile Price Banner - visible only on mobile -->
             <div class="lg:hidden mb-6 space-y-3">
@@ -401,7 +401,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <!-- Carte Genève -->
-          <NuxtLink to="/#domaines" class="group relative bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:border-red-900/30 hover:shadow-lg transition-all overflow-hidden">
+          <NuxtLink to="/geneve" class="group relative bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:border-red-900/30 hover:shadow-lg transition-all overflow-hidden">
             <div class="absolute top-4 right-4 inline-flex items-center gap-1.5 px-2 py-0.5 bg-emerald-50 border border-emerald-200 rounded-full">
               <span class="relative flex h-1.5 w-1.5">
                 <span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75 animate-ping" />
@@ -453,6 +453,187 @@
             </div>
             <p class="mt-6 text-sm font-medium text-red-900 group-hover:underline">Voir nos services à Lausanne →</p>
           </NuxtLink>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEO Local : Pourquoi un avocat à Genève -->
+    <section class="border-b border-slate-200 bg-slate-50 py-20">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Avocat à Genève — pourquoi nous</h2>
+          <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+            Un cabinet d'avocats à Genève au plus près de votre dossier
+          </p>
+        </div>
+
+        <div class="prose prose-slate prose-lg mx-auto">
+          <p class="text-slate-700 leading-relaxed">
+            Trouver un <strong>avocat à Genève</strong> qui maîtrise à la fois le droit fédéral suisse et la pratique
+            cantonale genevoise n'est pas anodin. Chaque juridiction du canton — du Tribunal de première instance à la
+            Cour de justice, du Ministère public aux prud'hommes — a ses propres délais, ses propres rituels, ses
+            propres pratiques. Notre cabinet d'avocats à Genève, fondé par <strong>Me Mansour A. Cheema</strong>,
+            réunit sept avocats inscrits au Barreau de Genève et formés dans les meilleures facultés de droit suisses
+            (UNIGE, UNIL, Zurich) et internationales.
+          </p>
+          <p class="text-slate-700 leading-relaxed">
+            L'expertise de notre équipe couvre l'ensemble des domaines du droit suisse pertinents pour les particuliers
+            et les entreprises de Genève&nbsp;: <NuxtLink to="/droit-famille" class="text-red-900 hover:underline">droit
+            de la famille</NuxtLink> (divorce, séparation, garde, pension, succession),
+            <NuxtLink to="/droit-penal" class="text-red-900 hover:underline">droit pénal</NuxtLink>
+            (défense des prévenus, représentation des victimes LAVI, ordonnances pénales),
+            <NuxtLink to="/droit-travail" class="text-red-900 hover:underline">droit du travail</NuxtLink>
+            (licenciement abusif, Tribunal des prud'hommes — gratuit jusqu'à CHF 75'000),
+            <NuxtLink to="/droit-etrangers" class="text-red-900 hover:underline">droit des étrangers</NuxtLink>
+            (permis B/C, regroupement familial, recours OCPM),
+            <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="text-red-900 hover:underline">droit du bail</NuxtLink>
+            (loyer, résiliation, expulsion),
+            <NuxtLink to="/droit-affaires" class="text-red-900 hover:underline">droit des affaires</NuxtLink>
+            (Sàrl, SA, contrats), <NuxtLink to="/droit-administratif" class="text-red-900 hover:underline">droit
+            administratif</NuxtLink> et <NuxtLink to="/droit-assurance" class="text-red-900 hover:underline">droit des
+            assurances</NuxtLink>.
+          </p>
+          <p class="text-slate-700 leading-relaxed">
+            Notre étude est située <strong>Route des Jeunes 9, 1227 Les Acacias</strong>, dans le quartier d'affaires
+            de Lancy-Pont-Rouge — accessible en cinq minutes depuis le centre-ville de Genève par tram (lignes 12, 15,
+            17 et 18), Léman Express (gare Lancy-Pont-Rouge) ou voiture (parking visiteurs au Centre Commercial La
+            Praille). Nous accueillons des clients de l'ensemble du canton, de Carouge à Versoix, des Eaux-Vives à
+            Meyrin. Pour les requérants vaudois, un second bureau a ouvert à Lausanne (Rue Saint-Pierre 2) — voir la
+            page <NuxtLink to="/lausanne" class="text-red-900 hover:underline">/lausanne</NuxtLink>.
+          </p>
+
+          <h3 class="text-xl font-semibold text-slate-900 mt-10 mb-4">Notre approche d'avocat à Genève&nbsp;: humaine, transparente, combative</h3>
+          <p class="text-slate-700 leading-relaxed">
+            La complexité du droit suisse impose à un avocat à Genève d'allier rigueur juridique et clarté
+            pédagogique. Nous tenons à expliquer chaque étape, chaque option et chaque risque avant que vous ne preniez
+            la moindre décision. Le <strong>premier rendez-vous d'analyse à CHF 155.-</strong> dure soixante minutes et
+            sert à examiner votre dossier sous tous les angles, identifier les points faibles et chiffrer la suite.
+            Aucun engagement, aucune mauvaise surprise.
+          </p>
+          <p class="text-slate-700 leading-relaxed">
+            Notre note <strong>5.0 / 5 sur Google</strong> reflète cette approche. Pour les clients aux ressources
+            limitées, nous acceptons l'<strong>aide juridictionnelle</strong> (art. 117 CPC) et proposons des plans de
+            paiement adaptés. La défense d'un dossier ne devrait pas dépendre du portefeuille, mais de la qualité du
+            travail et de la stratégie. Voir nos <NuxtLink to="/honoraires" class="text-red-900 hover:underline">honoraires
+            détaillés</NuxtLink> et nos <NuxtLink to="/avis-clients" class="text-red-900 hover:underline">avis
+            clients</NuxtLink>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quartiers de Genève desservis -->
+    <section class="border-b border-slate-200 bg-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Avocat à Genève — quartiers desservis</h2>
+          <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+            Un avocat de proximité pour tout le canton
+          </p>
+          <p class="mt-4 text-lg text-slate-600">
+            Notre cabinet aux Acacias est facilement accessible depuis l'ensemble des quartiers et communes du canton
+            de Genève. Pages dédiées pour les quartiers les plus consultés.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+          <NuxtLink to="/avocat-carouge" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+            <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Carouge</p>
+            <p class="text-xs text-slate-500 mt-1">À 5 min en tram (lignes 12, 18)</p>
+          </NuxtLink>
+          <NuxtLink to="/avocat-eaux-vives" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+            <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat aux Eaux-Vives</p>
+            <p class="text-xs text-slate-500 mt-1">À 10 min en tram</p>
+          </NuxtLink>
+          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+            <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Plainpalais</p>
+            <p class="text-xs text-slate-500 mt-1">Quartier universitaire</p>
+          </a>
+          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+            <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Champel</p>
+            <p class="text-xs text-slate-500 mt-1">Plateau de Champel</p>
+          </a>
+          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+            <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Lancy</p>
+            <p class="text-xs text-slate-500 mt-1">Pont-Rouge / La Praille</p>
+          </a>
+          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+            <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Meyrin</p>
+            <p class="text-xs text-slate-500 mt-1">Ouest genevois</p>
+          </a>
+          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+            <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Vernier</p>
+            <p class="text-xs text-slate-500 mt-1">Rive droite</p>
+          </a>
+          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+            <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Onex</p>
+            <p class="text-xs text-slate-500 mt-1">Sud-ouest, accès TPG</p>
+          </a>
+        </div>
+
+        <p class="text-center text-sm text-slate-500 mt-8">
+          Vous habitez un autre quartier ? Notre cabinet d'avocats à Genève est joignable au
+          <a href="tel:0225121050" class="text-red-900 font-medium hover:underline">022 512 10 50</a> pour
+          tous les habitants du canton.
+        </p>
+      </div>
+    </section>
+
+    <!-- Juridictions genevoises -->
+    <section class="border-b border-slate-200 bg-slate-50 py-20">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Juridictions genevoises</h2>
+          <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+            Tous les tribunaux du canton de Genève
+          </p>
+          <p class="mt-4 text-lg text-slate-600">
+            Notre équipe d'avocats à Genève intervient devant l'ensemble des juridictions cantonales et fédérales pour
+            défendre vos intérêts.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Tribunal de première instance de Genève</p>
+            <p class="text-xs text-slate-500 mt-1">Rue de l'Athénée 6/8, 1205 Genève — civil et famille</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Cour de justice de Genève</p>
+            <p class="text-xs text-slate-500 mt-1">Place du Bourg-de-Four — appel civil et pénal</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Ministère public</p>
+            <p class="text-xs text-slate-500 mt-1">Place du Bourg-de-Four 3 — instruction pénale</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Tribunal correctionnel & Tribunal de police</p>
+            <p class="text-xs text-slate-500 mt-1">Jugement pénal de première instance</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Tribunal des prud'hommes de Genève</p>
+            <p class="text-xs text-slate-500 mt-1">Litiges du travail — gratuit jusqu'à CHF 75'000</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Tribunal des baux et loyers</p>
+            <p class="text-xs text-slate-500 mt-1">Loyers, résiliation, expulsion — Carouge</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Tribunal administratif de première instance (TAPI)</p>
+            <p class="text-xs text-slate-500 mt-1">Décisions administratives, OCPM, recours</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Chambre administrative de la Cour de justice</p>
+            <p class="text-xs text-slate-500 mt-1">Appel administratif</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Chambre des assurances sociales</p>
+            <p class="text-xs text-slate-500 mt-1">LAA, AI, LPP, RC</p>
+          </div>
+          <div class="bg-white border border-slate-200 rounded-lg p-4">
+            <p class="text-sm font-semibold text-slate-900">Tribunal fédéral (Lausanne)</p>
+            <p class="text-xs text-slate-500 mt-1">Recours fédéral en dernière instance</p>
+          </div>
         </div>
       </div>
     </section>
@@ -687,8 +868,8 @@ const ContactForm = defineAsyncComponent(() => import('@/components/ContactForm.
 const PartnerPopup = defineAsyncComponent(() => import('@/components/PartnerPopup.vue'));
 
 useLocalSeo(
-  'Avocat Genève | Clegal Avocats – Dès 155.- le 1er RDV',
-  'Cabinet d\'avocats à Genève (Acacias). Expertise droit pénal, famille, travail & immigration. 1er RDV à 155.-. 7 avocats à votre service.',
+  'Avocat à Genève & Lausanne | Clegal Avocats – Dès 155.-',
+  'Cabinet d\'avocats à Genève (Acacias) et Lausanne (Rue Saint-Pierre 2). Sept avocats. Droit pénal, famille, travail, étrangers, bail, affaires. Premier rendez-vous d\'analyse à CHF 155.-.',
   {
     city: 'geneve',
     type: 'LegalService',
@@ -697,19 +878,35 @@ useLocalSeo(
     faq: [
       {
         question: 'Combien coûte un avocat à Genève ?',
-        answer: 'Chez Clegal Avocats, le premier rendez-vous d\'analyse est à CHF 155.-. Les honoraires varient ensuite selon la complexité du dossier, entre CHF 350.- et 400.- de l\'heure.',
+        answer: 'À Genève, les honoraires d\'avocat varient entre CHF 300 et CHF 500 de l\'heure selon le domaine et l\'expérience. Chez Clegal Avocats, le premier rendez-vous d\'analyse est forfaitaire à CHF 155.- (60 minutes). Pour les procédures prévisibles (divorce amiable, dépôt OCPM, constitution de société), nous proposons des forfaits. L\'aide juridictionnelle (art. 117 CPC) est acceptée pour les clients éligibles.',
       },
       {
-        question: 'Quels domaines du droit pratiquez-vous ?',
-        answer: 'Nous pratiquons le droit de la famille (divorce, garde d\'enfants, pension alimentaire), le droit du travail (licenciement abusif, Prud\'hommes), le droit pénal, le droit des étrangers (permis B, C, OCPM), le droit immobilier, le droit des affaires et le droit administratif.',
+        question: 'Quels domaines du droit pratiquez-vous à Genève ?',
+        answer: 'Clegal Avocats à Genève couvre huit domaines : droit de la famille (divorce, séparation, garde, pension, succession), droit du travail (licenciement, Tribunal des prud\'hommes), droit pénal (Ministère public, Tribunal correctionnel, défense LAVI), droit des étrangers (OCPM, permis B/C, regroupement familial), droit immobilier (bail, expulsion), droit des affaires (Sàrl, SA, contrats), droit administratif et droit des assurances.',
       },
       {
-        question: 'Comment prendre rendez-vous chez Clegal Avocats ?',
-        answer: 'Appelez le +41 22 512 10 50 ou utilisez le formulaire de contact sur notre site. Nous répondons sous 24h ouvrables. Notre étude est située Route des Jeunes 9, 1227 Les Acacias, Genève.',
+        question: 'Où se trouve votre cabinet d\'avocats à Genève ?',
+        answer: 'Notre cabinet de Genève est situé Route des Jeunes 9, 1227 Les Acacias, dans le quartier d\'affaires de Lancy-Pont-Rouge. Accès en 5 minutes en tram (lignes 12, 15, 17, 18 — arrêts Pont-Rouge ou Acacias), bus, voiture (parking visiteurs Centre Commercial La Praille) ou Léman Express (gare Lancy-Pont-Rouge).',
+      },
+      {
+        question: 'Comment prendre rendez-vous avec un avocat à Genève ?',
+        answer: 'Appelez le 022 512 10 50 (du lundi au vendredi, 8h30-18h00) ou utilisez le formulaire de contact sur notre site. Réponse sous 24h ouvrables. Premier rendez-vous d\'analyse à CHF 155.- — 60 minutes pour évaluer le dossier et proposer un plan d\'action concret.',
+      },
+      {
+        question: 'Quelles juridictions genevoises couvrez-vous ?',
+        answer: 'Toutes les juridictions du canton de Genève : Tribunal de première instance (Rue de l\'Athénée 6/8), Cour de justice (Place du Bourg-de-Four), Ministère public, Tribunal correctionnel, Tribunal des prud\'hommes, Tribunal des baux et loyers, Tribunal administratif de première instance (TAPI), Chambre administrative de la Cour de justice, Conseil d\'État, Chambre des assurances sociales du Tribunal cantonal.',
+      },
+      {
+        question: 'Quels quartiers de Genève desservez-vous ?',
+        answer: 'Notre cabinet aux Acacias accueille les clients de l\'ensemble du canton : Genève (centre, Plainpalais, Eaux-Vives, Champel), Carouge, Lancy, Vernier, Meyrin, Onex, Versoix, Plan-les-Ouates, Chêne-Bougeries, Cologny, Veyrier. Pages dédiées : /avocat-carouge, /avocat-eaux-vives.',
+      },
+      {
+        question: 'L\'aide juridictionnelle est-elle acceptée à Genève ?',
+        answer: 'Oui. À Genève, l\'assistance judiciaire (art. 117 CPC) est accordée par le Tribunal civil ou pénal aux personnes dont les revenus et la fortune sont insuffisants. Clegal Avocats accepte les mandats sous assistance judiciaire et accompagne les clients dans la constitution de la requête.',
       },
       {
         question: 'Clegal Avocats est-il aussi présent à Lausanne ?',
-        answer: 'Oui. Clegal Avocats dispose de deux bureaux : Genève (Route des Jeunes 9, 1227 Les Acacias) et Lausanne. Nos avocats interviennent devant les juridictions vaudoises (Tribunal cantonal vaudois, Tribunal d\'arrondissement de Lausanne, Justice de paix, CDAP). Plusieurs membres de l\'équipe ont étudié à l\'Université de Lausanne ou exercé dans des études vaudoises — voir la page /lausanne.',
+        answer: 'Oui. Clegal Avocats dispose de deux bureaux : Genève (Route des Jeunes 9, 1227 Les Acacias) et Lausanne (Rue Saint-Pierre 2, 1003 Lausanne). Nos avocats interviennent devant les juridictions vaudoises (Tribunal cantonal vaudois, Tribunal d\'arrondissement de Lausanne, Justice de paix, CDAP). Plusieurs membres de l\'équipe sont formés à l\'UNIL ou ont exercé en VD — voir la page /lausanne.',
       },
     ],
   }

@@ -24,6 +24,7 @@ export default defineNuxtConfig({
       '/honoraires',
       '/avis-clients',
       '/domaine-de-competence',
+      '/geneve',
       '/lausanne',
       '/avocat-carouge',
       '/avocat-eaux-vives',

@@ -190,7 +190,7 @@
                     <NuxtLink to="/honoraires" class="hover:text-red-900 transition-colors">Honoraires</NuxtLink>
                     <NuxtLink to="/blog" class="hover:text-red-900 transition-colors">Blog</NuxtLink>
                     <span class="flex items-center gap-3 text-slate-300">
-                        <NuxtLink to="/" class="text-slate-600 hover:text-red-900 transition-colors">Genève</NuxtLink>
+                        <NuxtLink to="/geneve" class="text-slate-600 hover:text-red-900 transition-colors">Genève</NuxtLink>
                         <span aria-hidden="true">·</span>
                         <NuxtLink to="/lausanne" class="text-slate-600 hover:text-red-900 transition-colors">Lausanne</NuxtLink>
                     </span>
@@ -225,7 +225,7 @@
             <NuxtLink to="/etude" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Étude</NuxtLink>
             <NuxtLink to="/equipe" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Équipe</NuxtLink>
             <div class="flex items-center gap-3 py-2 border-b border-slate-100">
-                <NuxtLink to="/" @click="toggleMobileMenu" class="text-slate-600 hover:text-red-900 transition-colors">Genève</NuxtLink>
+                <NuxtLink to="/geneve" @click="toggleMobileMenu" class="text-slate-600 hover:text-red-900 transition-colors">Genève</NuxtLink>
                 <span class="text-slate-300" aria-hidden="true">·</span>
                 <NuxtLink to="/lausanne" @click="toggleMobileMenu" class="text-slate-600 hover:text-red-900 transition-colors">Lausanne</NuxtLink>
             </div>
@@ -331,7 +331,7 @@
                 <div>
                     <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mb-4">Avocat à Genève</h3>
                     <ul class="space-y-2 text-sm text-slate-500">
-                        <li><NuxtLink to="/" class="hover:text-red-900">Avocat Genève (Acacias)</NuxtLink></li>
+                        <li><NuxtLink to="/geneve" class="hover:text-red-900">Bureau de Genève (Acacias)</NuxtLink></li>
                         <li><NuxtLink to="/avocat-carouge" class="hover:text-red-900">Avocat à Carouge</NuxtLink></li>
                         <li><NuxtLink to="/avocat-eaux-vives" class="hover:text-red-900">Avocat aux Eaux-Vives</NuxtLink></li>
                         <li><NuxtLink to="/domaine-de-competence" class="hover:text-red-900">Tous nos domaines</NuxtLink></li>
