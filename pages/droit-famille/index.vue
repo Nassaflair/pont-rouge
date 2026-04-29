@@ -345,7 +345,16 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
-    breadcrumbs: [{ name: 'Droit de la Famille', url: 'https://clegal-avocats.ch/droit-famille' }]
+    breadcrumbs: [{ name: 'Droit de la Famille', url: 'https://clegal-avocats.ch/droit-famille' }],
+    services: [
+      {
+        name: 'Avocat droit de la famille à Genève',
+        serviceType: 'Droit de la famille',
+        description: 'Représentation devant le Tribunal de première instance de Genève en droit de la famille : divorce sur requête commune (art. 111 CC) ou unilatéral (art. 114 CC), séparation et MPUC, garde d\'enfants, pension alimentaire (art. 276 CC), succession et partage.',
+        url: 'https://clegal-avocats.ch/droit-famille',
+        category: 'Droit de la famille',
+      },
+    ],
   }
 )
 

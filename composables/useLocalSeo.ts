@@ -42,6 +42,14 @@ export const AGGREGATE_RATING_DEFAULT = {
   ratingCount: '12',
 }
 
+export interface ServiceSchemaInput {
+  name: string
+  serviceType?: string
+  description?: string
+  url?: string
+  category?: string
+}
+
 export const useLocalSeo = (
   title: string,
   description: string,
@@ -55,6 +63,7 @@ export const useLocalSeo = (
     lawyerSlugs?: string[]
     aggregateRating?: { ratingValue: string; ratingCount: string; bestRating?: string; worstRating?: string } | false
     sameAs?: string[]
+    services?: ServiceSchemaInput[]
   } = {}
 ) => {
   const {
@@ -67,6 +76,7 @@ export const useLocalSeo = (
     lawyerSlugs = [],
     aggregateRating = AGGREGATE_RATING_DEFAULT,
     sameAs = SAME_AS_DEFAULT,
+    services = [],
   } = options
 
   const route = useRoute()
@@ -190,6 +200,38 @@ export const useLocalSeo = (
           acceptedAnswer: { '@type': 'Answer', text: item.answer },
         })),
       }),
+    })
+  }
+
+  if (services.length > 0) {
+    services.forEach((svc) => {
+      schemaScripts.push({
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: svc.name,
+          ...(svc.serviceType ? { serviceType: svc.serviceType } : {}),
+          ...(svc.description ? { description: svc.description } : {}),
+          ...(svc.url ? { url: svc.url } : {}),
+          ...(svc.category ? { category: svc.category } : {}),
+          provider: {
+            '@type': 'LegalService',
+            '@id': `https://clegal-avocats.ch/#${city}`,
+            name: location.name,
+          },
+          areaServed: location.areaServed.map((a) => ({ '@type': 'City', name: a })),
+          offers: {
+            '@type': 'Offer',
+            priceSpecification: {
+              '@type': 'PriceSpecification',
+              priceCurrency: 'CHF',
+              price: '155',
+              description: 'Premier rendez-vous d\'analyse',
+            },
+          },
+        }),
+      })
     })
   }
 

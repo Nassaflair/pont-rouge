@@ -278,7 +278,16 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
-    breadcrumbs: [{ name: 'Droit du Travail', url: 'https://clegal-avocats.ch/droit-travail' }]
+    breadcrumbs: [{ name: 'Droit du Travail', url: 'https://clegal-avocats.ch/droit-travail' }],
+    services: [
+      {
+        name: 'Avocat droit du travail à Genève',
+        serviceType: 'Droit du travail',
+        description: 'Représentation devant le Tribunal des prud\'hommes de Genève (gratuit jusqu\'à CHF 75\'000 — art. 114 CPC). Licenciement abusif, certificats de travail, harcèlement, conventions collectives, départ négocié.',
+        url: 'https://clegal-avocats.ch/droit-travail',
+        category: 'Droit du travail',
+      },
+    ],
   }
 )
 </script>

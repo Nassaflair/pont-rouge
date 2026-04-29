@@ -295,7 +295,16 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
-    breadcrumbs: [{ name: 'Droit des Étrangers', url: 'https://clegal-avocats.ch/droit-etrangers' }]
+    breadcrumbs: [{ name: 'Droit des Étrangers', url: 'https://clegal-avocats.ch/droit-etrangers' }],
+    services: [
+      {
+        name: 'Avocat droit des étrangers à Genève',
+        serviceType: 'Droit des étrangers',
+        description: 'Procédures devant l\'OCPM (Office cantonal de la population et des migrations, Onex) et le Tribunal administratif de première instance (TAPI) : permis B, C, L, regroupement familial (art. 47 LEI), naturalisation, recours en cas de refus, asile.',
+        url: 'https://clegal-avocats.ch/droit-etrangers',
+        category: 'Droit des étrangers',
+      },
+    ],
   }
 )
 </script>

@@ -267,6 +267,15 @@ useLocalSeo(
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
     breadcrumbs: [{ name: 'Droit des Affaires', url: 'https://clegal-avocats.ch/droit-affaires' }],
+    services: [
+      {
+        name: 'Avocat droit des affaires à Genève',
+        serviceType: 'Droit des affaires',
+        description: 'Conseil aux entreprises et entrepreneurs : constitution de société (Sàrl art. 772 CO, SA art. 620 CO), contrats commerciaux, pacte d\'actionnaires, CGV, contentieux commercial devant le Tribunal de première instance de Genève.',
+        url: 'https://clegal-avocats.ch/droit-affaires',
+        category: 'Droit des affaires',
+      },
+    ],
     faq: [
       {
         question: 'Quels sont les coûts d\'un avocat d\'affaires à Genève ?',

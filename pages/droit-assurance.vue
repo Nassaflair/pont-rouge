@@ -269,6 +269,16 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Droit des Assurances', url: 'https://clegal-avocats.ch/droit-assurance' }],
+    services: [
+      {
+        name: 'Avocat droit des assurances à Genève',
+        serviceType: 'Droit des assurances',
+        description: 'Contentieux assurances à Genève : LAA (accidents), AI (invalidité), LPP (prévoyance), responsabilité civile, assurances privées. Représentation devant la Chambre des assurances sociales du Tribunal cantonal.',
+        url: 'https://clegal-avocats.ch/droit-assurance',
+        category: 'Droit des assurances',
+      },
+    ],
     faq: [
       {
         question: 'Quel est le délai moyen pour régler un litige d\'assurance à Genève ?',

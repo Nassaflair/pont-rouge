@@ -228,7 +228,16 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
-    breadcrumbs: [{ name: 'Droit Pénal', url: 'https://clegal-avocats.ch/droit-penal' }]
+    breadcrumbs: [{ name: 'Droit Pénal', url: 'https://clegal-avocats.ch/droit-penal' }],
+    services: [
+      {
+        name: 'Avocat pénaliste à Genève',
+        serviceType: 'Défense pénale',
+        description: 'Assistance et représentation devant le Ministère public, le Tribunal correctionnel et la Chambre pénale d\'appel et de révision (CPAR) de Genève. Défense des prévenus, représentation des victimes (LAVI), opposition aux ordonnances pénales.',
+        url: 'https://clegal-avocats.ch/droit-penal',
+        category: 'Droit pénal',
+      },
+    ],
   }
 )
 

@@ -289,6 +289,16 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
+    breadcrumbs: [{ name: 'Droit Administratif', url: 'https://clegal-avocats.ch/droit-administratif' }],
+    services: [
+      {
+        name: 'Avocat droit administratif à Genève',
+        serviceType: 'Droit administratif',
+        description: 'Recours contre les décisions administratives genevoises : Tribunal administratif de première instance (TAPI), Chambre administrative de la Cour de justice, Conseil d\'État. Permis de construire, urbanisme, fonction publique, expropriation.',
+        url: 'https://clegal-avocats.ch/droit-administratif',
+        category: 'Droit administratif',
+      },
+    ],
     faq: [
       {
         question: 'Quel est le délai moyen d\'une procédure de conciliation à Genève ?',

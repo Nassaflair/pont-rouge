@@ -303,7 +303,16 @@ useLocalSeo(
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
-    breadcrumbs: [{ name: 'Droit Immobilier', url: 'https://clegal-avocats.ch/droit-immobilier' }]
+    breadcrumbs: [{ name: 'Droit Immobilier', url: 'https://clegal-avocats.ch/droit-immobilier' }],
+    services: [
+      {
+        name: 'Avocat droit immobilier à Genève',
+        serviceType: 'Droit immobilier',
+        description: 'Litiges immobiliers à Genève : droit du bail (loyer, résiliation, expulsion devant le Tribunal des baux et loyers), construction, voisinage, vente, zonage, copropriété (PPE).',
+        url: 'https://clegal-avocats.ch/droit-immobilier',
+        category: 'Droit immobilier',
+      },
+    ],
   }
 )
 </script>

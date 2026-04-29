@@ -354,11 +354,30 @@
                 </div>
             </div>
             
+            <!-- Trust signals : Barreau / FSA / ODA -->
+            <div class="border-t border-slate-200 pt-8 mb-6">
+                <div class="flex flex-wrap items-center gap-x-6 gap-y-3 text-xs text-slate-500">
+                    <div class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        <span>Inscrits au <strong>Barreau de Genève</strong> · <a href="https://odage.ch" target="_blank" rel="noopener" class="hover:text-red-900 underline">Ordre des avocats de Genève (ODA)</a></span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><circle cx="12" cy="12" r="10"/><line x1="2" x2="22" y1="12" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <span>Membres de la <a href="https://www.sav-fsa.ch" target="_blank" rel="noopener" class="hover:text-red-900 underline">Fédération suisse des avocats (FSA)</a></span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><path d="M9 12l2 2 4-4m5.618 4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        <span>Secret professionnel <strong>art. 13 LLCA</strong></span>
+                    </div>
+                </div>
+            </div>
+
             <div class="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-xs text-slate-400">© 2026 Clegal Avocats. Tous droits réservés.</p>
                 <div class="flex gap-4 mt-4 md:mt-0 text-xs text-slate-400">
-                    <NuxtLink to="/contact" class="hover:text-slate-600">Mentions Légales</NuxtLink>
-                    <NuxtLink to="/contact" class="hover:text-slate-600">Confidentialité</NuxtLink>
+                    <NuxtLink to="/mentions-legales" class="hover:text-slate-600">Mentions légales</NuxtLink>
+                    <NuxtLink to="/confidentialite" class="hover:text-slate-600">Confidentialité</NuxtLink>
+                    <NuxtLink to="/glossaire" class="hover:text-slate-600">Glossaire</NuxtLink>
                 </div>
             </div>
         </div>
