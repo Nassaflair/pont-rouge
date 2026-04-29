@@ -74,7 +74,6 @@ useHead({
 </script>
 
 <template>
-  <NuxtLayout>
     <main class="bg-slate-50">
       <!-- Hero -->
       <article class="pt-32 pb-12 bg-white border-b border-slate-200">
@@ -334,5 +333,4 @@ useHead({
         </div>
       </section>
     </main>
-  </NuxtLayout>
 </template>

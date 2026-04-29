@@ -38,7 +38,6 @@ const entries = [
 </script>
 
 <template>
-  <NuxtLayout>
     <main class="bg-slate-50">
       <section class="pt-32 pb-12 bg-white border-b border-slate-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -68,5 +67,4 @@ const entries = [
         </div>
       </section>
     </main>
-  </NuxtLayout>
 </template>

@@ -30,7 +30,6 @@ useLocalSeo(
 </script>
 
 <template>
-  <NuxtLayout>
     <main class="bg-slate-50">
       <!-- Hero -->
       <section class="pt-32 pb-12 bg-white border-b border-slate-200">
@@ -166,5 +165,4 @@ useLocalSeo(
         </div>
       </section>
     </main>
-  </NuxtLayout>
 </template>
