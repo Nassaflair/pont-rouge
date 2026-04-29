@@ -3,7 +3,7 @@ import { lawyers } from '~/data/team'
 
 useLocalSeo(
   'Avocat à Genève (Route des Jeunes 9, Acacias) | Clegal Avocats',
-  'Avocat à Genève — Route des Jeunes 9, 1227 Les Acacias. Sept avocats au Barreau de Genève. Droit pénal, famille, travail, étrangers, bail, affaires. 1er RDV à CHF 155.-.',
+  'Avocat à Genève — Route des Jeunes 9, 1227 Les Acacias. Sept avocats au Barreau de Genève : pénal, famille, travail, étrangers, bail. 1er RDV CHF 155.-.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'Avocat à Genève', url: 'https://clegal-avocats.ch/geneve' }],

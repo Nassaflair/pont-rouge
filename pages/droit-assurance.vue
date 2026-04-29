@@ -60,6 +60,12 @@
             </div>
         </section>
 
+        <ServiceQuickInfo
+          :quick-answer-html="assuranceQuickAnswer"
+          :table="assuranceTable"
+          :related-links="assuranceLinks"
+        />
+
         <!-- Authority Section -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -263,6 +269,27 @@
 </template>
 
 <script setup lang="ts">
+const assuranceQuickAnswer = `Un <strong>avocat des assurances à Genève</strong> intervient en contentieux LAA (accidents), AI (invalidité), LPP (prévoyance), responsabilité civile. Représentation devant la <strong>Chambre des assurances sociales du Tribunal cantonal</strong>. Délai de recours typique : <strong>30 jours</strong> dès la décision. Tarif horaire : <strong>CHF 350-500/h</strong>. Premier rendez-vous d'analyse à CHF 155.-.`
+
+const assuranceTable = {
+  title: 'Coûts et délais en droit des assurances à Genève',
+  columns: ['Type de litige', 'Honoraires avocat', 'Durée'],
+  rows: [
+    ['Opposition décision LAA / AI', `CHF 2'000 - 5'000`, '3-6 mois'],
+    ['Recours Chambre des assurances sociales', `CHF 4'000 - 10'000`, '8-18 mois'],
+    ['Recours Tribunal fédéral', `CHF 6'000 - 15'000+`, '8-18 mois'],
+    ['Litige LPP (prévoyance)', `CHF 3'000 - 8'000`, '6-15 mois'],
+    ['Responsabilité civile', `CHF 3'000 - 12'000+`, '6-24 mois'],
+  ],
+  note: `Procédure devant la Chambre des assurances sociales : pas d'émolument pour les assurés (gratuit). Honoraires avocat à charge de la partie sauf indemnité accordée.`,
+}
+
+const assuranceLinks = [
+  { label: 'Glossaire — Assistance judiciaire', url: '/glossaire/assistance-judiciaire-geneve' },
+  { label: 'Honoraires Clegal Avocats', url: '/honoraires' },
+  { label: 'Cas clients', url: '/cas-clients' },
+]
+
 useLocalSeo(
   'Avocat Assurances Genève | Contentieux – Clegal Avocats',
   'Avocat droit des assurances à Genève. Contentieux, indemnisation, assurances sociales et privées. 1er RDV à 155.-. Clegal Avocats.',

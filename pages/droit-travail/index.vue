@@ -78,6 +78,12 @@
             </div>
         </section>
 
+        <ServiceQuickInfo
+          :quick-answer-html="travailQuickAnswer"
+          :table="travailTable"
+          :related-links="travailLinks"
+        />
+
         <!-- Authority Section: Pourquoi choisir au Avocat à Genève ? -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -271,6 +277,28 @@
 
 <script setup lang="ts">
 
+
+const travailQuickAnswer = `Un <strong>avocat du travail à Genève</strong> intervient devant le <strong>Tribunal des prud'hommes de Genève</strong> — procédure <strong>gratuite jusqu'à CHF 75'000</strong> de valeur litigieuse (art. 114 CPC). Pour un licenciement abusif (art. 336 CO) : délai de 180 jours. Tarif horaire : <strong>CHF 300-500/h</strong>. Premier rendez-vous d'analyse à CHF 155.-.`
+
+const travailTable = {
+  title: 'Coûts et délais en droit du travail à Genève',
+  columns: ['Type de litige', 'Honoraires avocat', 'Durée'],
+  rows: [
+    [`Conciliation prud'homale (préalable)`, `CHF 800 - 2'000`, '1-3 mois'],
+    ['Licenciement abusif (procédure complète)', `CHF 3'000 - 8'000`, '6-12 mois'],
+    ['Certificat de travail (litige)', `CHF 1'500 - 3'500`, '3-6 mois'],
+    ['Salaire impayé / heures sup', `CHF 2'000 - 5'000`, '4-8 mois'],
+    [`Appel Cour de justice (Chambre prud'homale)`, `CHF 4'000 - 10'000`, '6-12 mois'],
+  ],
+  note: `Procédure prud'hommale gratuite jusqu'à CHF 75'000 (art. 114 CPC). Au-delà, frais ordinaires. Honoraires avocat à votre charge sauf condamnation aux dépens.`,
+}
+
+const travailLinks = [
+  { label: `Glossaire — Tribunal des prud'hommes Genève`, url: '/glossaire/prud-hommes-geneve' },
+  { label: 'Glossaire — Assistance judiciaire', url: '/glossaire/assistance-judiciaire-geneve' },
+  { label: 'Avocat licenciement Genève', url: '/droit-travail/avocat-licenciement' },
+  { label: 'Honoraires Clegal Avocats', url: '/honoraires' },
+]
 
 useLocalSeo(
   'Avocat Droit du Travail Genève | Licenciement – Clegal Avocats',

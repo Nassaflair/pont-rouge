@@ -869,7 +869,7 @@ const PartnerPopup = defineAsyncComponent(() => import('@/components/PartnerPopu
 
 useLocalSeo(
   'Avocat à Genève & Lausanne | Clegal Avocats – Dès 155.-',
-  'Cabinet d\'avocats à Genève (Acacias) et Lausanne (Rue Saint-Pierre 2). Sept avocats. Droit pénal, famille, travail, étrangers, bail, affaires. Premier rendez-vous d\'analyse à CHF 155.-.',
+  'Cabinet d\'avocats à Genève (Acacias) et Lausanne. Sept avocats : droit pénal, famille, travail, étrangers, bail, affaires. 1er RDV d\'analyse à CHF 155.-.',
   {
     city: 'geneve',
     type: 'LegalService',

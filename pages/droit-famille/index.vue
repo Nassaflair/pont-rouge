@@ -78,6 +78,12 @@
             </div>
         </section>
 
+        <ServiceQuickInfo
+          :quick-answer-html="familleQuickAnswer"
+          :table="familleTable"
+          :related-links="familleLinks"
+        />
+
         <!-- Authority Section: Pourquoi choisir au Avocat à Genève ? -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -339,6 +345,29 @@
 </template>
 
 <script setup lang="ts">
+const familleQuickAnswer = `Un <strong>avocat de la famille à Genève</strong> intervient devant le Tribunal de première instance (Rue de l'Athénée 6/8) en cas de divorce (art. 111 CC amiable, art. 114 CC unilatéral), séparation (MPUC), garde, pension alimentaire (art. 276 CC) ou succession. Tarif horaire : <strong>CHF 300-500/h</strong>. Divorce amiable : <strong>CHF 3'000-7'000</strong>, durée 4-8 mois. Premier rendez-vous d'analyse à CHF 155.-.`
+
+const familleTable = {
+  title: 'Coûts et délais en droit de la famille à Genève',
+  columns: ['Type de procédure', 'Coût total estimé', 'Durée'],
+  rows: [
+    ['Divorce amiable simple', `CHF 3'600 - 5'300`, '4-6 mois'],
+    ['Divorce amiable avec enfants', `CHF 5'300 - 7'700`, '6-8 mois'],
+    ['Divorce contentieux moyen', `CHF 9'500 - 14'500`, '12-18 mois'],
+    ['MPUC (mesures protectrices)', `CHF 3'800 - 9'500`, '2-6 mois'],
+    ['Pension alimentaire (modification)', `CHF 2'000 - 5'000`, '3-6 mois'],
+    ['Succession contentieuse', `CHF 5'000 - 20'000+`, '6-24 mois'],
+  ],
+  note: 'Estimations basées sur les barèmes du Barreau de Genève (2026). Forfaits possibles pour les procédures prévisibles. Aide juridictionnelle acceptée.',
+}
+
+const familleLinks = [
+  { label: `Coût d'un divorce à Genève — guide complet`, url: '/blog/cout-divorce-geneve' },
+  { label: 'Glossaire — MPUC (mesures protectrices)', url: '/glossaire/mpuc-geneve' },
+  { label: 'Glossaire — Assistance judiciaire', url: '/glossaire/assistance-judiciaire-geneve' },
+  { label: 'Avocat divorce Genève', url: '/droit-famille/avocat-divorce' },
+]
+
 useLocalSeo(
   'Avocat Droit de la Famille Genève | Divorce & Garde – Clegal Avocats',
   'Avocat droit de la famille à Genève. Divorce, garde d\'enfants, pension alimentaire, séparation. 1er RDV à 155.-. Clegal Avocats.',

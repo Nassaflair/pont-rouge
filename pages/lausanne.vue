@@ -6,7 +6,7 @@ const lausanneLawyers = getLawyersByCity('lausanne')
 
 useLocalSeo(
   'Avocat à Lausanne (Rue Saint-Pierre 2) | Clegal Avocats – Dès 155.-',
-  'Avocat à Lausanne — Rue Saint-Pierre 2, 1003 Lausanne. Sept avocats au service du canton de Vaud. Droit pénal, famille, travail, étrangers, bail, affaires. 1er RDV à CHF 155.-.',
+  'Avocat à Lausanne — Rue Saint-Pierre 2, 1003 Lausanne. Sept avocats pour le canton de Vaud : pénal, famille, travail, étrangers, bail. 1er RDV CHF 155.-.',
   {
     city: 'lausanne',
     breadcrumbs: [{ name: 'Lausanne', url: 'https://clegal-avocats.ch/lausanne' }],

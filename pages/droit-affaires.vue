@@ -77,6 +77,12 @@
             </div>
         </section>
 
+        <ServiceQuickInfo
+          :quick-answer-html="affairesQuickAnswer"
+          :table="affairesTable"
+          :related-links="affairesLinks"
+        />
+
         <!-- Authority Section: Pourquoi choisir au Avocat à Genève ? -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -260,6 +266,28 @@
 </template>
 
 <script setup lang="ts">
+const affairesQuickAnswer = `Un <strong>avocat des affaires à Genève</strong> intervient en conseil et contentieux : constitution de société (Sàrl <strong>art. 772 CO</strong>, SA <strong>art. 620 CO</strong>), pacte d'actionnaires, contrats commerciaux, contentieux devant le Tribunal de première instance. Tarif horaire : <strong>CHF 350-450/h</strong>. Forfaits possibles. Premier rendez-vous d'analyse à CHF 155.-.`
+
+const affairesTable = {
+  title: 'Coûts en droit des affaires à Genève',
+  columns: ['Service', 'Forfait / coût', 'Délai'],
+  rows: [
+    ['Constitution de Sàrl', `CHF 2'500 - 4'500`, '2-4 sem'],
+    ['Constitution de SA', `CHF 4'000 - 7'500`, '3-5 sem'],
+    [`Pacte d'actionnaires`, `CHF 3'000 - 8'000`, '2-6 sem'],
+    ['Rédaction CGV / contrat', `CHF 1'500 - 5'000`, '1-3 sem'],
+    ['Due diligence', `CHF 5'000 - 25'000+`, '2-8 sem'],
+    ['Contentieux commercial', `CHF 8'000 - 30'000+`, '12-36 mois'],
+  ],
+  note: 'Frais Registre du commerce de Genève à part. Honoraires horaires CHF 350-450 pour mandats hors forfait.',
+}
+
+const affairesLinks = [
+  { label: 'Glossaire — Assistance judiciaire', url: '/glossaire/assistance-judiciaire-geneve' },
+  { label: 'Honoraires Clegal Avocats', url: '/honoraires' },
+  { label: 'Cas clients (Genève)', url: '/cas-clients' },
+]
+
 useLocalSeo(
   'Avocat Droit des Affaires Genève | Entreprises – Clegal Avocats',
   'Avocat droit des affaires à Genève. Conseil aux entreprises, contrats commerciaux, litiges sociétaires. Clegal Avocats.',

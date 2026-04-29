@@ -5,7 +5,7 @@ const cheema = lawyers.find((l) => l.slug === 'mansour-cheema')!
 
 useLocalSeo(
   'Me Mansour Cheema | Avocat fondateur Clegal Avocats Genève',
-  'Me Mansour Cheema, avocat au Barreau de Genève, associé fondateur de Clegal Avocats. Expertise en droit pénal, droit de la famille et droit des étrangers. UNIL & Université de Zurich.',
+  'Me Mansour Cheema, avocat au Barreau de Genève, fondateur de Clegal. Expertise en droit pénal, famille, étrangers. Formé UNIL & Université de Zurich.',
   {
     city: 'geneve',
     breadcrumbs: [

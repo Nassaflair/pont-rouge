@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Avocat à Plainpalais (Genève) | Clegal Avocats – Dès 155.-',
-  'Avocat à Plainpalais ? Clegal Avocats vous reçoit aux Acacias, à 8 minutes de Plainpalais. Sept avocats, droit pénal, famille, travail, étrangers. 1er RDV à CHF 155.-.',
+  'Avocat à Plainpalais à Genève. Clegal Avocats vous reçoit aux Acacias, à 8 min en tram. Pénal, famille, travail, étrangers. 1er RDV CHF 155.-.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'Avocat à Plainpalais', url: 'https://clegal-avocats.ch/avocat-plainpalais' }],

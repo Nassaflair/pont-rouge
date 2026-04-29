@@ -77,6 +77,12 @@
             </div>
         </section>
 
+        <ServiceQuickInfo
+          :quick-answer-html="immoQuickAnswer"
+          :table="immoTable"
+          :related-links="immoLinks"
+        />
+
         <!-- Authority Section: Pourquoi choisir au Avocat à Genève ? -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -296,6 +302,28 @@
 
 <script setup lang="ts">
 
+
+const immoQuickAnswer = `Un <strong>avocat immobilier à Genève</strong> intervient devant le <strong>Tribunal des baux et loyers</strong> (litiges locatifs) et le Tribunal de première instance (vente, copropriété). Conciliation préalable obligatoire en matière de bail. Tarif horaire : <strong>CHF 350-500/h</strong>. Premier rendez-vous d'analyse à CHF 155.-.`
+
+const immoTable = {
+  title: 'Coûts et délais en droit immobilier à Genève',
+  columns: ['Type de litige', 'Honoraires avocat', 'Durée'],
+  rows: [
+    ['Conciliation baux (préalable)', `CHF 800 - 2'000`, '1-3 mois'],
+    ['Contestation hausse de loyer', `CHF 2'000 - 4'500`, '4-8 mois'],
+    ['Annulation de congé / résiliation', `CHF 2'500 - 6'000`, '6-12 mois'],
+    [`Procédure d'évacuation`, `CHF 3'000 - 7'500`, '4-9 mois'],
+    ['Litige construction / chantier', `CHF 5'000 - 20'000+`, '12-36 mois'],
+    ['Litige PPE / copropriété', `CHF 3'000 - 10'000+`, '6-18 mois'],
+  ],
+  note: 'Tribunal des baux et loyers de Genève. Procédure conciliation obligatoire. Aide juridictionnelle possible.',
+}
+
+const immoLinks = [
+  { label: 'Avocat droit du bail à Genève', url: '/droit-immobilier/avocat-droit-bail' },
+  { label: 'Glossaire — Assistance judiciaire', url: '/glossaire/assistance-judiciaire-geneve' },
+  { label: 'Honoraires Clegal Avocats', url: '/honoraires' },
+]
 
 useLocalSeo(
   'Avocat Immobilier Genève | Construction & Litiges – Clegal Avocats',

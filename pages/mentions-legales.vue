@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Mentions légales | Clegal Avocats Genève & Lausanne',
-  'Mentions légales de Clegal Avocats — cabinet d\'avocats à Genève (Acacias) et Lausanne (Rue Saint-Pierre 2). Inscriptions au Barreau, hébergement, propriété intellectuelle.',
+  'Mentions légales Clegal Avocats — Genève (Acacias) et Lausanne (Rue Saint-Pierre 2). Barreau, hébergement, propriété intellectuelle.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'Mentions légales', url: 'https://clegal-avocats.ch/mentions-legales' }],

@@ -63,6 +63,12 @@
             </div>
         </section>
 
+        <ServiceQuickInfo
+          :quick-answer-html="penalQuickAnswer"
+          :table="penalTable"
+          :related-links="penalLinks"
+        />
+
         <!-- Authority Section -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -222,6 +228,29 @@
 </template>
 
 <script setup lang="ts">
+const penalQuickAnswer = `Un <strong>avocat pénaliste à Genève</strong> intervient dès la première convocation par la police ou le Ministère public (<strong>art. 158 CPP</strong>). Tarif horaire : <strong>CHF 350-500/h</strong>. Une opposition à ordonnance pénale doit être déposée sous <strong>10 jours</strong> (art. 354 CPP) — le délai est strict. Premier rendez-vous d'analyse à CHF 155.- pour évaluer votre situation et définir la stratégie de défense.`
+
+const penalTable = {
+  title: `Coût et délais d'une procédure pénale à Genève`,
+  columns: [`Type d'intervention`, 'Coût indicatif', 'Délai'],
+  rows: [
+    [`1er rendez-vous d'analyse Clegal`, 'CHF 155 forfait', '60 min'],
+    ['Tarif horaire pénaliste Genève', 'CHF 350 - 500 / h', '—'],
+    [`Assistance lors d'une audition`, `CHF 700 - 1'500`, '2-4 h'],
+    ['Opposition à ordonnance pénale + procès', `CHF 3'000 - 8'000`, '6-12 mois'],
+    ['Défense Tribunal correctionnel', `CHF 8'000 - 25'000+`, '12-24 mois'],
+    ['Appel à la CPAR', `CHF 5'000 - 15'000+`, '6-12 mois'],
+  ],
+  note: 'Estimations basées sur les barèmes du Barreau de Genève (2026). Aide juridictionnelle (art. 117 CPC) acceptée pour clients éligibles.',
+}
+
+const penalLinks = [
+  { label: 'Procédure pénale à Genève — guide complet', url: '/blog/procedure-penale-geneve' },
+  { label: 'Glossaire — Ordonnance pénale', url: '/glossaire/ordonnance-penale-geneve' },
+  { label: 'Glossaire — Assistance judiciaire', url: '/glossaire/assistance-judiciaire-geneve' },
+  { label: 'Honoraires Clegal Avocats', url: '/honoraires' },
+]
+
 useLocalSeo(
   'Avocat Pénal Genève | Défense Criminelle – Clegal Avocats',
   'Défense pénale à Genève. Avocat spécialisé en droit criminel, assistance durant l\'instruction. Intervention urgente. 1er RDV à 155.-.',

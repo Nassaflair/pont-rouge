@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Avocat Eaux-Vives Genève | Clegal Avocats – Dès 155.- le 1er RDV',
-  'Avocat aux Eaux-Vives ? Clegal Avocats vous reçoit aux Acacias, à 10 minutes du quartier des Eaux-Vives. Droit pénal, famille, affaires, étrangers. 1er RDV à CHF 155.-.',
+  'Avocat aux Eaux-Vives à Genève. Clegal Avocats reçoit aux Acacias, à 10 min du quartier. Pénal, famille, affaires, étrangers. 1er RDV CHF 155.-.',
   {
     city: 'geneve',
     breadcrumbs: [

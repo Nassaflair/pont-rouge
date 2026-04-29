@@ -78,6 +78,12 @@
             </div>
         </section>
 
+        <ServiceQuickInfo
+          :quick-answer-html="etrangersQuickAnswer"
+          :table="etrangersTable"
+          :related-links="etrangersLinks"
+        />
+
         <!-- Authority Section: Pourquoi choisir au Avocat à Genève ? -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -288,6 +294,29 @@
 
 <script setup lang="ts">
 
+
+const etrangersQuickAnswer = `Un <strong>avocat des étrangers à Genève</strong> intervient devant l'<strong>OCPM</strong> (Route de Chancy 88, Onex) pour les permis B/C, le regroupement familial (art. 47 LEI) et la naturalisation. En cas de refus, recours au <strong>TAPI dans les 30 jours</strong> (art. 62 LPA). Délais OCPM : <strong>4-8 semaines (UE/AELE), 2-6 mois (États tiers)</strong>. Premier rendez-vous d'analyse à CHF 155.-.`
+
+const etrangersTable = {
+  title: 'Coûts et délais en droit des étrangers à Genève',
+  columns: ['Procédure', 'Honoraires avocat', 'Délai OCPM/TAPI'],
+  rows: [
+    [`Constitution d'un dossier permis B`, `CHF 1'500 - 3'500`, '4-8 sem (UE) / 2-6 mois (tiers)'],
+    ['Demande de regroupement familial', `CHF 2'000 - 5'000`, '3-9 mois'],
+    ['Demande de permis C anticipé', `CHF 1'500 - 3'500`, '3-6 mois'],
+    ['Recours TAPI (refus de permis)', `CHF 3'500 - 8'000`, '6-12 mois'],
+    ['Naturalisation ordinaire', `CHF 2'500 - 6'000`, '12-24 mois'],
+    ['Asile (procédure complète)', `CHF 4'000 - 10'000+`, '12-24+ mois'],
+  ],
+  note: 'Frais OCPM CHF 100-300 selon le permis. Tribunal administratif : avance variable. Aide juridictionnelle disponible.',
+}
+
+const etrangersLinks = [
+  { label: 'Permis B à Genève — guide complet', url: '/blog/permis-b-geneve' },
+  { label: 'Travailler en Suisse hors UE-AELE', url: '/blog/travailler-suisse-hors-ue' },
+  { label: 'Glossaire — OCPM', url: '/glossaire/ocpm-geneve' },
+  { label: 'Avocat permis de séjour Genève', url: '/droit-etrangers/avocat-permis-sejour' },
+]
 
 useLocalSeo(
   'Avocat Droit des Étrangers Genève | Permis – Clegal Avocats',

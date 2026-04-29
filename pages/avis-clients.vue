@@ -51,7 +51,7 @@ const aggregateRating = {
 
 useLocalSeo(
   'Avis clients Clegal Avocats Genève | 5.0/5 sur Google',
-  'Avis et témoignages des clients de Clegal Avocats Genève. Note de 5.0/5 sur Google. Retours sur le droit de la famille, le pénal, le travail, les étrangers et le bail.',
+  'Avis et témoignages clients de Clegal Avocats Genève. Note 5.0/5 sur Google. Retours en famille, pénal, travail, étrangers et bail.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'Avis clients', url: 'https://clegal-avocats.ch/avis-clients' }],

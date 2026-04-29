@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Procédure pénale à Genève : guide complet 2026 — Clegal Avocats',
-  'Procédure pénale à Genève : étapes, délais, droits du prévenu et de la victime, coût d\'un avocat pénaliste. Guide complet du Ministère public au Tribunal correctionnel.',
+  'Procédure pénale à Genève : étapes, délais, droits du prévenu et de la victime, coût d\'un avocat pénaliste. Du Ministère public au Tribunal correctionnel.',
   {
     city: 'geneve',
     breadcrumbs: [

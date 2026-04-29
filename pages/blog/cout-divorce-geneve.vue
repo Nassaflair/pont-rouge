@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
-  'Combien coûte un divorce à Genève en 2026 ? Guide complet — Clegal Avocats',
-  'Coût d\'un divorce à Genève en 2026 : honoraires d\'avocat, frais de justice, durée, exemples chiffrés. Divorce amiable dès CHF 3\'000, contentieux jusqu\'à CHF 15\'000+. Guide par Me Cheema.',
+  'Coût d\'un divorce à Genève en 2026 | Guide complet – Clegal',
+  'Coût d\'un divorce à Genève en 2026 : honoraires, frais de justice, durée, exemples chiffrés. Amiable dès CHF 3\'000, contentieux jusqu\'à CHF 15\'000+.',
   {
     city: 'geneve',
     breadcrumbs: [

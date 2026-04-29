@@ -60,6 +60,12 @@
             </div>
         </section>
 
+        <ServiceQuickInfo
+          :quick-answer-html="adminQuickAnswer"
+          :table="adminTable"
+          :related-links="adminLinks"
+        />
+
         <!-- Authority Section -->
         <section class="py-20 bg-slate-50 border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -283,6 +289,28 @@
 </template>
 
 <script setup lang="ts">
+const adminQuickAnswer = `Un <strong>avocat administratif à Genève</strong> conteste les décisions de l'État et des communes : recours au <strong>Tribunal administratif de première instance (TAPI)</strong> dans les <strong>30 jours</strong> dès notification (art. 62 LPA), puis Chambre administrative de la Cour de justice, puis Tribunal fédéral. Tarif horaire : <strong>CHF 350-500/h</strong>. Premier rendez-vous d'analyse à CHF 155.-.`
+
+const adminTable = {
+  title: 'Coûts et délais en droit administratif à Genève',
+  columns: ['Type de recours', 'Honoraires avocat', 'Durée'],
+  rows: [
+    ['Recours TAPI (1ère instance)', `CHF 3'000 - 7'500`, '6-12 mois'],
+    ['Appel Chambre administrative Cour de justice', `CHF 4'000 - 10'000`, '6-12 mois'],
+    ['Recours Tribunal fédéral (Lausanne)', `CHF 6'000 - 15'000+`, '8-18 mois'],
+    ['Permis de construire (opposition)', `CHF 2'000 - 6'000`, '4-9 mois'],
+    ['Litige fonction publique', `CHF 3'000 - 8'000`, '6-15 mois'],
+  ],
+  note: 'Délai de recours TAPI : 30 jours dès notification (art. 62 LPA). Émoluments du tribunal en plus, variables selon valeur litigieuse.',
+}
+
+const adminLinks = [
+  { label: 'Glossaire — OCPM (recours étrangers)', url: '/glossaire/ocpm-geneve' },
+  { label: 'Glossaire — Assistance judiciaire', url: '/glossaire/assistance-judiciaire-geneve' },
+  { label: 'Cas clients (gain de cause CDAP)', url: '/cas-clients' },
+  { label: 'Honoraires Clegal Avocats', url: '/honoraires' },
+]
+
 useLocalSeo(
   'Avocat Droit Administratif Genève | Recours – Clegal Avocats',
   'Avocat droit administratif à Genève. Permis de construire, recours TAPI, expropriation, urbanisme. Défense face à l\'État. Clegal Avocats.',

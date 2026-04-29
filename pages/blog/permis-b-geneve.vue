@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
-  'Permis B à Genève en 2026 : conditions, durée, renouvellement — Clegal Avocats',
-  'Permis B à Genève : conditions d\'octroi pour UE/AELE et pays tiers, durée, renouvellement, regroupement familial, conversion en permis C. Guide complet par Me Cheema.',
+  'Permis B à Genève : conditions, durée, renouvellement | Clegal',
+  'Permis B à Genève : conditions UE/AELE et États tiers, durée, renouvellement, regroupement familial, conversion en permis C. Guide par Me Cheema.',
   {
     city: 'geneve',
     breadcrumbs: [

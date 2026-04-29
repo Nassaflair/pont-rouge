@@ -6,7 +6,7 @@ const interns = getInterns()
 
 useLocalSeo(
   'Notre Équipe d\'Avocats à Genève | 7 Experts – Clegal Avocats',
-  'Découvrez les 7 avocats de Clegal à Genève (Acacias). Me Cheema, Me Amberger, Me Tano Barth (Dr. en droit), Me Bucheler (juge suppléant), Me Jacot Des Combes, Me Rodrigues, Me Labaume.',
+  'Les 7 avocats de Clegal à Genève : Me Cheema (fondateur), Me Amberger, Me Tano Barth (Dr. en droit), Me Bucheler (juge suppléant), Me Jacot Des Combes.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'L\'Équipe', url: 'https://clegal-avocats.ch/equipe' }],
