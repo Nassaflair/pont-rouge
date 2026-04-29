@@ -26,3 +26,12 @@ dist-ssr
 .nuxt/
 .output/
 .env
+
+# Local dev / IA tools
+.claude/
+
+# Junk : screenshots, drafts, downloads collés à la racine
+Design sans titre*.png
+*tplv-tiktokx-cropcenter*.jpg
+WhatsApp Image*.jpeg
+WhatsApp Image*.jpg
