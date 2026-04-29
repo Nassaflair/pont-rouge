@@ -306,19 +306,19 @@
     <!-- Footer -->
     <footer class="bg-white border border-slate-200 pt-16 pb-8 m-4 md:m-8 rounded-3xl shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-                <div class="col-span-1 md:col-span-2">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+                <div class="col-span-2">
                     <span class="text-sm font-bold text-slate-900 uppercase tracking-widest">Clegal Avocats</span>
                     <p class="text-sm text-slate-500 max-w-xs mt-4">
-                        Cabinet d'avocats généraliste à Genève. Une approche humaine, des tarifs transparents et une défense d'acier pour tous.
+                        Cabinet d'<NuxtLink to="/" class="underline hover:text-red-900">avocats à Genève</NuxtLink> et bientôt à <NuxtLink to="/lausanne" class="underline hover:text-red-900">Lausanne</NuxtLink>. Sept avocats, premier rendez-vous d'analyse à CHF 155.-.
                     </p>
                 </div>
-                
+
                 <div>
-                    <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mb-4">Informations</h3>
+                    <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mb-4">Le cabinet</h3>
                     <ul class="space-y-2 text-sm text-slate-500">
-                        <li><NuxtLink to="/equipe" class="hover:text-red-900">Notre équipe</NuxtLink></li>
-                        <li><NuxtLink to="/domaine-de-competence" class="hover:text-red-900">Nos Expertises</NuxtLink></li>
+                        <li><NuxtLink to="/etude" class="hover:text-red-900">L'Étude</NuxtLink></li>
+                        <li><NuxtLink to="/equipe" class="hover:text-red-900">L'Équipe</NuxtLink></li>
                         <li><NuxtLink to="/honoraires" class="hover:text-red-900">Honoraires</NuxtLink></li>
                         <li><NuxtLink to="/avis-clients" class="hover:text-red-900">Avis clients</NuxtLink></li>
                         <li><NuxtLink to="/blog" class="hover:text-red-900">Blog</NuxtLink></li>
@@ -327,9 +327,23 @@
                 </div>
 
                 <div>
+                    <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mb-4">Avocat à Genève</h3>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li><NuxtLink to="/" class="hover:text-red-900">Avocat Genève (Acacias)</NuxtLink></li>
+                        <li><NuxtLink to="/avocat-carouge" class="hover:text-red-900">Avocat à Carouge</NuxtLink></li>
+                        <li><NuxtLink to="/avocat-eaux-vives" class="hover:text-red-900">Avocat aux Eaux-Vives</NuxtLink></li>
+                        <li><NuxtLink to="/domaine-de-competence" class="hover:text-red-900">Tous nos domaines</NuxtLink></li>
+                    </ul>
+                    <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mt-6 mb-4">Avocat à Lausanne</h3>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li><NuxtLink to="/lausanne" class="hover:text-red-900">Avocat Lausanne</NuxtLink></li>
+                        <li><NuxtLink to="/avocat-pully" class="hover:text-red-900">Avocat à Pully</NuxtLink></li>
+                    </ul>
+                </div>
+
+                <div>
                     <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mb-4">Contact</h3>
                     <address class="not-italic text-sm text-slate-500 space-y-2">
-
                         <p>Route des Jeunes 9</p>
                         <p>1227 Les Acacias / Genève</p>
                         <p class="pt-2">Mail : <a href="mailto:info@clegal-avocats.ch" class="hover:text-slate-900 transition-colors underline">info@clegal-avocats.ch</a></p>

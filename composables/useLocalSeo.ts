@@ -15,12 +15,24 @@ export interface LawyerSchemaInput {
 }
 
 export const SAME_AS_DEFAULT = [
-  // Profils officiels du cabinet à compléter au fil de la stratégie linkbuilding M1-M4
+  'https://share.google/QFbFusfEbqJIMUoNF',
+  // À compléter au fil de la stratégie linkbuilding (M1-M4) :
   // 'https://www.linkedin.com/company/clegal-avocats/',
   // 'https://www.facebook.com/clegalavocats/',
   // 'https://odage.ch/<id-cabinet>',
-  // 'https://share.google/<google-business-profile>',
 ]
+
+// URL Google Maps officielle pour le bureau (hasMap = signal local fort)
+export const GOOGLE_MAPS_URLS: Record<string, string> = {
+  geneve: 'https://www.google.com/maps?q=Clegal+Avocats+Route+des+Jeunes+9+1227+Les+Acacias',
+  lausanne: 'https://www.google.com/maps?q=Clegal+Avocats+Lausanne',
+}
+
+// Rayon de service par succursale (en mètres) pour GeoCircle
+export const SERVICE_RADIUS: Record<string, number> = {
+  geneve: 25000, // tout le canton
+  lausanne: 30000, // canton de Vaud + arc lémanique vaudois
+}
 
 export const AGGREGATE_RATING_DEFAULT = {
   ratingValue: '5.0',
@@ -104,7 +116,19 @@ export const useLocalSeo = (
       opens: h.opens,
       closes: h.closes,
     })),
-    areaServed: location.areaServed.map((a) => ({ '@type': 'City', name: a })),
+    hasMap: GOOGLE_MAPS_URLS[city] ?? undefined,
+    areaServed: [
+      ...location.areaServed.map((a) => ({ '@type': 'City', name: a })),
+      {
+        '@type': 'GeoCircle',
+        geoMidpoint: {
+          '@type': 'GeoCoordinates',
+          latitude: location.geo.latitude,
+          longitude: location.geo.longitude,
+        },
+        geoRadius: String(SERVICE_RADIUS[city] ?? 25000),
+      },
+    ],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Services juridiques',

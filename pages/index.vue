@@ -316,8 +316,8 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Expert en Droit de l'Immigration</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Permis de séjour, regroupement familial, naturalisation.</p>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat droit des étrangers à Genève</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Permis B, C, regroupement familial, naturalisation à Genève.</p>
           </NuxtLink>
 
           <!-- Droit pénal -->
@@ -325,8 +325,8 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381"></path><path d="m16 16 6-6"></path><path d="m21.5 10.5-8-8"></path><path d="m8 8 6-6"></path><path d="m8.5 7.5 8 8"></path></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat Droit Pénal & Défense criminelle</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Défense pénale, représentation des victimes, instruction.</p>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat pénaliste à Genève</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Défense pénale, victimes, Ministère public et tribunaux genevois.</p>
           </NuxtLink>
 
           <!-- Droit de la famille -->
@@ -334,8 +334,8 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"></path></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat Droit de la Famille et Divorce à Genève</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Divorce, séparation, garde d'enfants, successions.</p>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat famille et divorce à Genève</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Divorce, séparation, garde, pension, succession.</p>
           </NuxtLink>
 
 
@@ -345,8 +345,8 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit du Travail : Licenciement et conflits employeur</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Licenciements, certificats de travail, harcèlement.</p>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat travail à Genève</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Licenciement, certificats, harcèlement, Tribunal des prud'hommes.</p>
           </NuxtLink>
 
           <!-- Droit du bail -->
@@ -354,8 +354,8 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"></path><path d="m21 2-9.6 9.6"></path><circle cx="7.5" cy="15.5" r="5.5"></circle></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit du bail</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Loyer, résiliation, évacuation, litiges locataires.</p>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat bail à Genève</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Loyer, résiliation, évacuation, Tribunal des baux et loyers.</p>
           </NuxtLink>
 
           <!-- Droit des affaires -->
@@ -363,8 +363,8 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="M10 12h4"></path><path d="M10 8h4"></path><path d="M14 21v-3a2 2 0 0 0-4 0v3"></path><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit des affaires</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Contrats commerciaux, sociétés, fusions, litiges.</p>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat des affaires à Genève</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Contrats commerciaux, sociétés (Sàrl, SA), fusions, litiges.</p>
           </NuxtLink>
 
           <!-- Droit des assurances -->
@@ -372,8 +372,8 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit des assurances</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Assurances sociales, privées, responsabilité civile.</p>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat assurances à Genève</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">LAA, AI, LPP, RC. Chambre des assurances sociales.</p>
           </NuxtLink>
 
           <!-- Droit administratif -->
@@ -381,8 +381,77 @@
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
             </div>
-            <h3 class="text-base font-semibold text-slate-900 mb-1">Droit administratif</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">Recours contre l'État, autorisations, fonction publique.</p>
+            <h3 class="text-base font-semibold text-slate-900 mb-1">Avocat administratif à Genève</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Recours contre l'État, TAPI, Cour de justice administrative.</p>
+          </NuxtLink>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cross-city : Avocat Genève + Avocat Lausanne -->
+    <section class="border-b border-slate-200 bg-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Genève et bientôt Lausanne</h2>
+          <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Un cabinet d'avocats au cœur de la Suisse romande</p>
+          <p class="mt-4 text-lg text-slate-600">
+            Sept avocats. Deux villes. Le même premier rendez-vous d'analyse à CHF 155.-.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Carte Genève -->
+          <NuxtLink to="/" class="group relative bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:border-red-900/30 hover:shadow-lg transition-all overflow-hidden">
+            <div class="absolute top-4 right-4 inline-flex items-center gap-1.5 px-2 py-0.5 bg-emerald-50 border border-emerald-200 rounded-full">
+              <span class="relative flex h-1.5 w-1.5">
+                <span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75 animate-ping" />
+                <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500" />
+              </span>
+              <span class="text-[9px] font-bold uppercase tracking-wider text-emerald-900">Ouvert</span>
+            </div>
+            <p class="text-xs uppercase tracking-widest font-bold text-red-900 mb-3">Cabinet historique</p>
+            <h3 class="text-2xl font-semibold text-slate-900 group-hover:text-red-900 transition-colors">
+              Avocat à Genève
+            </h3>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Route des Jeunes 9, 1227 Les Acacias. À 5 minutes du centre-ville. Tribunal de première instance, Cour de justice, Ministère public, Tribunal des prud'hommes — tout l'écosystème judiciaire genevois.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-2">
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Acacias</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Carouge</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Eaux-Vives</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Plainpalais</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Lancy</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Vernier</span>
+            </div>
+            <p class="mt-6 text-sm font-medium text-red-900 group-hover:underline">Voir nos services à Genève →</p>
+          </NuxtLink>
+
+          <!-- Carte Lausanne -->
+          <NuxtLink to="/lausanne" class="group relative bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:border-red-900/30 hover:shadow-lg transition-all overflow-hidden">
+            <div class="absolute top-4 right-4 inline-flex items-center gap-1.5 px-2 py-0.5 bg-amber-50 border border-amber-200 rounded-full">
+              <span class="relative flex h-1.5 w-1.5">
+                <span class="absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75 animate-ping" />
+                <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-amber-500" />
+              </span>
+              <span class="text-[9px] font-bold uppercase tracking-wider text-amber-900">Bientôt</span>
+            </div>
+            <p class="text-xs uppercase tracking-widest font-bold text-red-900 mb-3">Nouvelle antenne</p>
+            <h3 class="text-2xl font-semibold text-slate-900 group-hover:text-red-900 transition-colors">
+              Avocat à Lausanne
+            </h3>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              En cours d'ouverture. Plusieurs de nos avocats sont formés à l'UNIL et interviennent déjà devant le Tribunal cantonal vaudois, la Justice de paix de Lausanne et la CDAP. Premier rendez-vous d'analyse à CHF 155.- maintenu.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-2">
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Lausanne</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Pully</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Renens</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Morges</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Vevey</span>
+              <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Nyon</span>
+            </div>
+            <p class="mt-6 text-sm font-medium text-red-900 group-hover:underline">Découvrir notre antenne à Lausanne →</p>
           </NuxtLink>
         </div>
       </div>
