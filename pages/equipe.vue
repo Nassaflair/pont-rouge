@@ -5,8 +5,8 @@ const partners = getPartners()
 const interns = getInterns()
 
 useLocalSeo(
-  'Notre Équipe d\'Avocats à Genève | 7 Experts – Clegal Avocats',
-  'Les 7 avocats de Clegal à Genève : Me Cheema (fondateur), Me Amberger, Me Tano Barth (Dr. en droit), Me Bucheler (juge suppléant), Me Jacot Des Combes.',
+  'Notre Équipe d\'Avocats à Genève & Lausanne | Clegal Avocats',
+  'L\'équipe de Clegal Avocats : Me Cheema (associé fondateur, Lausanne), Me Amberger, Me Tano Barth (Docteur en droit), Me Bucheler (juge suppléant), Me Jacot Des Combes.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'L\'Équipe', url: 'https://clegal-avocats.ch/equipe' }],
@@ -26,10 +26,10 @@ useLocalSeo(
             ]"
           />
           <h1 class="text-4xl lg:text-5xl font-semibold text-slate-900 tracking-tight mt-6 mb-4">
-            Notre Équipe d'Avocats à Genève
+            Notre Équipe d'Avocats à Genève & Lausanne
           </h1>
           <p class="text-lg text-slate-600 max-w-3xl">
-            Sept avocats au service de votre cause. Une expertise reconnue, une approche humaine, des résultats concrets.
+            Notre équipe au service de votre cause. Une expertise reconnue, une approche humaine, des résultats concrets.
             Du droit pénal au droit des affaires, en passant par la famille, le travail et les étrangers : nos avocats
             cumulent les distinctions académiques, les responsabilités institutionnelles (juge suppléant, Commission du
             barreau) et l'engagement pédagogique (Université de Genève, École d'avocature).

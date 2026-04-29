@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Avocat à Renens | Clegal Avocats Lausanne – Dès 155.-',
-  'Avocat à Renens ? Clegal Avocats vous reçoit à son bureau de Lausanne. Sept avocats, Tribunal d\'arrondissement de Lausanne. 1er RDV à CHF 155.-.',
+  'Avocat à Renens ? Clegal Avocats vous reçoit à son bureau de Lausanne. Notre équipe, Tribunal d\'arrondissement de Lausanne. 1er RDV à CHF 155.-.',
   {
     city: 'lausanne',
     breadcrumbs: [{ name: 'Avocat à Renens', url: 'https://clegal-avocats.ch/avocat-renens' }],
@@ -24,7 +24,7 @@ useLocalSeo(
     city="lausanne"
     quartier="Renens"
     slug="avocat-renens"
-    intro="Vous habitez à Renens ? Notre cabinet d'avocats à Lausanne (Rue Saint-Pierre 2) est à 10 minutes en métro M1. Sept avocats au service des Renanais pour tous les domaines du droit."
+    intro="Vous habitez à Renens ? Notre cabinet d'avocats à Lausanne (Rue Saint-Pierre 2) est à 10 minutes en métro M1. Notre équipe au service des Renanais pour tous les domaines du droit."
     trajet="Renens est directement connectée à Lausanne par le métro M1 (10 minutes jusqu'à la gare). Notre bureau Rue Saint-Pierre 2 est à 5 minutes à pied de la gare de Lausanne. En voiture : 15 minutes via l'autoroute A1 ou la route de Cossonay."
     :juridictions="[
       'Tribunal d\'arrondissement de Lausanne (civil et pénal)',

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Avocat à Champel (Genève) | Clegal Avocats – Dès 155.-',
-  'Avocat à Champel ? Clegal Avocats vous reçoit aux Acacias, à 10 minutes du plateau de Champel. Sept avocats à Genève. 1er RDV à CHF 155.-.',
+  'Avocat à Champel ? Clegal Avocats vous reçoit aux Acacias, à 10 minutes du plateau de Champel. Notre équipe à Genève. 1er RDV à CHF 155.-.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'Avocat à Champel', url: 'https://clegal-avocats.ch/avocat-champel' }],

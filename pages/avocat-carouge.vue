@@ -41,7 +41,7 @@ useLocalSeo(
             Avocat à Carouge — à 5 minutes de la Place du Marché
           </h1>
           <p class="text-lg text-slate-600 max-w-3xl">
-            Clegal Avocats est le cabinet d'<NuxtLink to="/" class="text-red-900 hover:underline font-medium">avocats à Genève</NuxtLink> le plus proche de Carouge. Sept avocats au service des Carougeois pour le droit pénal, la famille, le travail, les étrangers, le bail et les affaires. Premier rendez-vous d'analyse à CHF 155.-.
+            Clegal Avocats est le cabinet d'<NuxtLink to="/" class="text-red-900 hover:underline font-medium">avocats à Genève</NuxtLink> le plus proche de Carouge. Notre équipe au service des Carougeois pour le droit pénal, la famille, le travail, les étrangers, le bail et les affaires. Premier rendez-vous d'analyse à CHF 155.-.
           </p>
 
           <div class="mt-8 flex flex-col sm:flex-row gap-3">
@@ -81,7 +81,7 @@ useLocalSeo(
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 class="text-2xl font-semibold text-slate-900 mb-3">Domaines du droit pour les Carougeois</h2>
           <p class="text-slate-600 mb-8">
-            Nos sept avocats à Genève couvrent tous les domaines du droit suisse devant les juridictions genevoises dont relève Carouge.
+            Nos notre équipe à Genève couvrent tous les domaines du droit suisse devant les juridictions genevoises dont relève Carouge.
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">

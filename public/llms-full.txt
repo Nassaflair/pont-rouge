@@ -2,10 +2,10 @@
 
 ## Présentation
 
-Clegal Avocats est un cabinet d'avocats généraliste fondé à Genève par Me Mansour A. Cheema. L'étude réunit sept avocats spécialisés dans les principaux domaines du droit suisse. Le cabinet dispose de deux bureaux : Genève (Acacias) et Lausanne (canton de Vaud).
+Clegal Avocats est un cabinet d'avocats généraliste fondé à Genève par Me Mansour A. Cheema. L'étude couvre les principaux domaines du droit suisse via deux bureaux : Genève (Acacias) où exercent les associés et stagiaires, et Lausanne (Rue Saint-Pierre 2) où Me Mansour Cheema accueille les clients vaudois.
 
 **Bureau de Genève** : Route des Jeunes 9, 1227 Les Acacias, Genève, Suisse
-**Bureau de Lausanne** : canton de Vaud, Suisse
+**Bureau de Lausanne** : Rue Saint-Pierre 2, 1003 Lausanne, Vaud, Suisse — Me Mansour Cheema
 **Téléphone** : 022 512 10 50 (+41 22 512 10 50)
 **Email** : info@clegal-avocats.ch
 **Site** : https://clegal-avocats.ch
@@ -24,12 +24,12 @@ Le premier rendez-vous d'analyse forfaitaire coûte **CHF 155.-**. Il dure envir
 - Plans de paiement personnalisés disponibles
 - Tribunal des prud'hommes : procédure gratuite jusqu'à CHF 75'000 de valeur litigieuse (art. 114 CPC)
 
-## Équipe — Sept avocats
+## Équipe
 
 ### Associés
 
-#### Me Mansour Cheema — Avocat au Barreau, Associé fondateur
-Bachelor en droit (Université de Lausanne). Master magna cum laude (Universités de Lausanne et Zurich). Certificat de spécialisation en avocature. Expert en droit des étrangers (ancien Service d'Aide Juridique aux Exilés - SAJE, ancien représentant juridique pour Caritas dans les Centres fédéraux pour requérants d'asile). Pratique tous les domaines du droit avec expertise reconnue en droit pénal, droit de la famille et droit des étrangers. Langues : français, anglais, hindi, urdu, punjabi.
+#### Me Mansour Cheema — Avocat au Barreau, Associé fondateur (Bureau de Lausanne)
+Pratique au **Bureau de Lausanne** (Rue Saint-Pierre 2, 1003 Lausanne). Bachelor en droit (Université de Lausanne). Master magna cum laude (Universités de Lausanne et Zurich). Certificat de spécialisation en avocature. Expert en droit des étrangers (ancien Service d'Aide Juridique aux Exilés - SAJE, ancien représentant juridique pour Caritas dans les Centres fédéraux pour requérants d'asile). Pratique tous les domaines du droit avec expertise reconnue en droit pénal, droit de la famille et droit des étrangers. Langues : français, anglais, hindi, urdu, punjabi.
 
 #### Me Cyril-Marc Amberger — Avocat au Barreau
 Études de droit dans les universités de Genève, Lausanne et Zurich. Master 2016 avec double mention en droit commercial et droit international. A pratiqué chez Lalive à Genève, puis chez Reymond, Ulmann & Associés à Lausanne. Langues : français, anglais, allemand, espagnol.
@@ -48,8 +48,8 @@ Master en finance HEC Genève + Master en droit (Genève, Aix, Paris). Distingu�
 #### Me Léa Rodrigues — Avocate-stagiaire
 Bachelor + Master magna cum laude (Université de Lausanne). Certificat de spécialisation en avocature (Université de Genève). **Ancienne greffière ad hoc auprès de la Chambre pénale du Tribunal d'arrondissement de Lausanne**, ancienne greffière stagiaire à la Justice de paix de l'arrondissement de la Sarine (Fribourg). A rejoint l'étude le 1er août 2025. Langues : français, anglais, portugais.
 
-#### Me Jean Labaume — Avocat-stagiaire
-Master en droit UNIGE (juin 2025, magna cum laude). Certificat de spécialisation en avocature (UNIGE 2024). 3ᵉ au Swiss Moot Court 2024 (phase orale). Participant au concours de plaidoirie Nancoz (ODAGE 2024). Langues : français, anglais.
+#### Me Cora Oestreicher — Avocate-stagiaire
+Avocate-stagiaire au sein de Clegal Avocats (Bureau de Genève). Langue : français.
 
 ## Domaines de compétence
 
@@ -164,7 +164,7 @@ Durée : 4-8 mois en amiable, 12-24 mois en contentieux. Délai de réflexion l�
 
 - https://clegal-avocats.ch/ — Accueil
 - https://clegal-avocats.ch/etude — L'Étude
-- https://clegal-avocats.ch/equipe — Notre équipe (7 avocats)
+- https://clegal-avocats.ch/equipe — Notre équipe
 - https://clegal-avocats.ch/lausanne — Avocat à Lausanne (bureau ouvert)
 - https://clegal-avocats.ch/contact — Contact
 - https://clegal-avocats.ch/honoraires — Honoraires détaillés

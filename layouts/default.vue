@@ -312,7 +312,7 @@
                 <div class="col-span-2">
                     <span class="text-sm font-bold text-slate-900 uppercase tracking-widest">Clegal Avocats</span>
                     <p class="text-sm text-slate-500 max-w-xs mt-4">
-                        Cabinet d'<NuxtLink to="/" class="underline hover:text-red-900">avocats à Genève</NuxtLink> et à <NuxtLink to="/lausanne" class="underline hover:text-red-900">Lausanne</NuxtLink>. Sept avocats, premier rendez-vous d'analyse à CHF 155.-.
+                        Cabinet d'<NuxtLink to="/" class="underline hover:text-red-900">avocats à Genève</NuxtLink> et à <NuxtLink to="/lausanne" class="underline hover:text-red-900">Lausanne</NuxtLink>. Notre équipe, premier rendez-vous d'analyse à CHF 155.-.
                     </p>
                 </div>
 

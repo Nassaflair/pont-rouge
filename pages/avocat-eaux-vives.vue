@@ -36,7 +36,7 @@ useLocalSeo(
             Avocat aux Eaux-Vives — à 10 minutes du quartier
           </h1>
           <p class="text-lg text-slate-600 max-w-3xl">
-            Vous habitez ou travaillez aux Eaux-Vives ? Notre cabinet d'<NuxtLink to="/" class="text-red-900 hover:underline font-medium">avocats à Genève</NuxtLink>, situé aux Acacias, accueille les habitants du quartier pour tous les domaines du droit. Sept avocats, premier rendez-vous d'analyse à CHF 155.-.
+            Vous habitez ou travaillez aux Eaux-Vives ? Notre cabinet d'<NuxtLink to="/" class="text-red-900 hover:underline font-medium">avocats à Genève</NuxtLink>, situé aux Acacias, accueille les habitants du quartier pour tous les domaines du droit. Notre équipe, premier rendez-vous d'analyse à CHF 155.-.
           </p>
 
           <div class="mt-8 flex flex-col sm:flex-row gap-3">

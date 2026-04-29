@@ -267,7 +267,7 @@ const buildPersonSchema = (lawyer: LawyerSchemaInput, city: LocationKey) => {
     jobTitle: lawyer.jobTitle ?? 'Avocat au Barreau',
     worksFor: { '@type': 'LegalService', name: location.name },
     image: lawyer.image ? `https://clegal-avocats.ch${lawyer.image}` : undefined,
-    email: lawyer.email,
+    email: lawyer.email && !isPlaceholder(lawyer.email) ? lawyer.email : undefined,
   }
   if (lawyer.alumniOf?.length) {
     person.alumniOf = lawyer.alumniOf.map((a) => ({ '@type': 'EducationalOrganization', name: a }))

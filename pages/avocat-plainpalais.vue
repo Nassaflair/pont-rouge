@@ -24,7 +24,7 @@ useLocalSeo(
     city="geneve"
     quartier="Plainpalais"
     slug="avocat-plainpalais"
-    intro="Vous habitez ou étudiez à Plainpalais ? Notre cabinet d'avocats aux Acacias est à 8 minutes en tram (lignes 12, 15). Sept avocats au Barreau de Genève pour le droit pénal, la famille, le travail, les étrangers, le bail."
+    intro="Vous habitez ou étudiez à Plainpalais ? Notre cabinet d'avocats aux Acacias est à 8 minutes en tram (lignes 12, 15). Notre équipe au Barreau de Genève pour le droit pénal, la famille, le travail, les étrangers, le bail."
     trajet="Plainpalais est connecté au quartier des Acacias par le boulevard du Pont-d'Arve. En tram, comptez 8 minutes (ligne 12 ou 15, arrêt Pont-Rouge). En voiture, 5 minutes via le pont des Acacias. À pied : 25-30 minutes via le Bois-de-la-Bâtie."
     :juridictions="[
       'Tribunal de première instance de Genève (Rue de l\'Athénée 6/8, à 5 min de Plainpalais)',

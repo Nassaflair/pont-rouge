@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Avocat à Lancy (Genève) | Clegal Avocats Pont-Rouge – Dès 155.-',
-  'Avocat à Lancy ? Notre cabinet est situé Route des Jeunes 9, à Lancy-Acacias. Sept avocats au Barreau de Genève. 1er RDV à CHF 155.-.',
+  'Avocat à Lancy ? Notre cabinet est situé Route des Jeunes 9, à Lancy-Acacias. Notre équipe au Barreau de Genève. 1er RDV à CHF 155.-.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'Avocat à Lancy', url: 'https://clegal-avocats.ch/avocat-lancy' }],
@@ -24,7 +24,7 @@ useLocalSeo(
     city="geneve"
     quartier="Lancy"
     slug="avocat-lancy"
-    intro="Notre cabinet est physiquement situé à Lancy (quartier des Acacias / Pont-Rouge). Sept avocats au Barreau de Genève au service des habitants de Lancy : Petit-Lancy, Grand-Lancy, La Praille, Lancy-Centre, Pont-Rouge."
+    intro="Notre cabinet est physiquement situé à Lancy (quartier des Acacias / Pont-Rouge). Notre équipe au Barreau de Genève au service des habitants de Lancy : Petit-Lancy, Grand-Lancy, La Praille, Lancy-Centre, Pont-Rouge."
     trajet="Notre étude se trouve Route des Jeunes 9, 1227 Les Acacias — au cœur du quartier d'affaires de Lancy-Pont-Rouge. Accès immédiat depuis tout le territoire de la commune : tram 12/15/17/18 (arrêts Pont-Rouge ou Acacias), Léman Express (gare Lancy-Pont-Rouge), bus, voiture (parking visiteurs Centre Commercial La Praille)."
     :juridictions="[
       'Tribunal de première instance de Genève',

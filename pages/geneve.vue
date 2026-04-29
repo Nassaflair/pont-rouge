@@ -1,13 +1,15 @@
 <script setup lang="ts">
-import { lawyers } from '~/data/team'
+import { getLawyersByCity } from '~/data/team'
+
+const geneveLawyers = getLawyersByCity('geneve')
 
 useLocalSeo(
   'Avocat à Genève (Route des Jeunes 9, Acacias) | Clegal Avocats',
-  'Avocat à Genève — Route des Jeunes 9, 1227 Les Acacias. Sept avocats au Barreau de Genève : pénal, famille, travail, étrangers, bail. 1er RDV CHF 155.-.',
+  'Avocat à Genève — Route des Jeunes 9, 1227 Les Acacias. Notre équipe au Barreau de Genève : pénal, famille, travail, étrangers, bail. 1er RDV CHF 155.-.',
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'Avocat à Genève', url: 'https://clegal-avocats.ch/geneve' }],
-    lawyerSlugs: lawyers.map((l) => l.slug),
+    lawyerSlugs: geneveLawyers.map((l) => l.slug),
     services: [
       {
         name: 'Avocat à Genève',
@@ -63,7 +65,7 @@ useLocalSeo(
             Avocat à Genève
           </h1>
           <p class="text-lg lg:text-xl text-slate-600 mt-6 max-w-3xl">
-            Clegal Avocats — sept avocats au Barreau de Genève. Cabinet généraliste situé <strong>Route des Jeunes 9, 1227
+            Clegal Avocats — notre équipe au Barreau de Genève. Cabinet généraliste situé <strong>Route des Jeunes 9, 1227
             Les Acacias</strong>, à 5 minutes du centre-ville. Droit pénal, famille, travail, étrangers, bail, affaires,
             administratif. <strong>Premier rendez-vous d'analyse à CHF 155.-</strong>.
           </p>
@@ -116,7 +118,7 @@ useLocalSeo(
                 pratiques.
               </p>
               <p class="text-slate-700 leading-relaxed mt-4">
-                Notre étude réunit sept avocats inscrits au <strong>Barreau de Genève</strong>, formés à l'UNIGE,
+                Notre étude réunit des avocats inscrits au <strong>Barreau de Genève</strong>, formés à l'UNIGE,
                 l'UNIL et Zurich. Trois exercent des responsabilités institutionnelles à Genève (juge suppléant au
                 Tribunal civil, Commission du barreau, École d'avocature de l'UNIGE). Tous partagent une approche
                 humaine et combative du droit.

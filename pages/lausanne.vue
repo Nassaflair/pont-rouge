@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { lawyers, getLawyersByCity } from '~/data/team'
+import { getLawyersByCity } from '~/data/team'
 
 // Avocats avec connexion Lausanne (UNIL, expérience VD, etc.)
 const lausanneLawyers = getLawyersByCity('lausanne')
 
 useLocalSeo(
   'Avocat à Lausanne (Rue Saint-Pierre 2) | Clegal Avocats – Dès 155.-',
-  'Avocat à Lausanne — Rue Saint-Pierre 2, 1003 Lausanne. Sept avocats pour le canton de Vaud : pénal, famille, travail, étrangers, bail. 1er RDV CHF 155.-.',
+  'Avocat à Lausanne — Rue Saint-Pierre 2, 1003 Lausanne. Notre équipe pour le canton de Vaud : pénal, famille, travail, étrangers, bail. 1er RDV CHF 155.-.',
   {
     city: 'lausanne',
     breadcrumbs: [{ name: 'Lausanne', url: 'https://clegal-avocats.ch/lausanne' }],
@@ -31,7 +31,7 @@ useLocalSeo(
       },
       {
         question: 'Vos avocats connaissent-ils le droit vaudois ?',
-        answer: 'Oui. Plusieurs avocats de l\'équipe ont étudié à l\'Université de Lausanne (UNIL) — Me Cheema, Me Amberger, Me Rodrigues. Me Cyril-Marc Amberger a notamment pratiqué chez Reymond, Ulmann & Associés à Lausanne. Me Léa Rodrigues a été greffière ad hoc auprès de la Chambre pénale du Tribunal d\'arrondissement de Lausanne.',
+        answer: 'Oui. Me Mansour Cheema, qui pratique au bureau de Lausanne, est titulaire d\'un Bachelor en droit délivré par l\'Université de Lausanne (UNIL) ainsi que d\'un Master conjoint UNIL/Université de Zurich avec mention magna cum laude. Il maîtrise les juridictions vaudoises et la pratique cantonale.',
       },
       {
         question: 'Quel tarif pour un avocat à Lausanne ?',
@@ -62,8 +62,8 @@ useLocalSeo(
             Avocat à Lausanne
           </h1>
           <p class="text-lg lg:text-xl text-slate-600 mt-6 max-w-3xl">
-            Clegal Avocats au service du canton de Vaud — bureau situé <strong>Rue Saint-Pierre 2, 1003 Lausanne</strong>.
-            Sept avocats spécialisés en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit
+            Me Mansour Cheema reçoit les clients vaudois <strong>Rue Saint-Pierre 2, 1003 Lausanne</strong>.
+            Conseil et représentation en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit
             du bail et droit des affaires. Premier rendez-vous d'analyse à <strong>CHF 155.-</strong>.
           </p>
 
@@ -206,12 +206,12 @@ useLocalSeo(
         </div>
       </section>
 
-      <!-- Équipe avec connexion VD -->
+      <!-- Avocat du bureau de Lausanne -->
       <section v-if="lausanneLawyers.length" class="py-16 bg-white border-y border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 class="text-2xl font-semibold text-slate-900 mb-3">Nos avocats avec une connexion vaudoise</h2>
+          <h2 class="text-2xl font-semibold text-slate-900 mb-3">Votre avocat à Lausanne</h2>
           <p class="text-slate-600 mb-8 max-w-3xl">
-            Plusieurs membres de notre équipe ont une formation ou une expérience directe dans le canton de Vaud.
+            Me Mansour Cheema reçoit les clients vaudois Rue Saint-Pierre 2, 1003 Lausanne. Formation à l'Université de Lausanne (UNIL) et expertise reconnue en droit pénal, droit de la famille et droit des étrangers.
           </p>
           <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <LawyerCard

@@ -339,7 +339,7 @@ import ContactForm from '@/components/ContactForm.vue';
 
 useLocalSeo(
   'Notre Étude | Cabinet Clegal Avocats Genève – Les Acacias',
-  '7 avocats à Genève (Les Acacias). Rigueur juridique, combativité procédurale et 100% de satisfaction client. Clegal Avocats.',
+  'Cabinet d\'avocats à Genève (Les Acacias) et Lausanne (Rue Saint-Pierre). Rigueur juridique, combativité procédurale et 100% de satisfaction client. Clegal Avocats.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
@@ -351,7 +351,7 @@ useLocalSeo(
       },
       {
         question: 'Combien d\'avocats travaillent chez Clegal Avocats ?',
-        answer: 'L\'étude compte sept avocats : cinq associés (Me Mansour Cheema, Me Cyril-Marc Amberger, Me Tano Barth, Me Rémy Bucheler, Me Olivier Jacot Des Combes) et deux avocat·es-stagiaires (Me Léa Rodrigues, Me Jean Labaume). L\'équipe couvre tous les domaines du droit suisse.',
+        answer: 'L\'étude réunit Me Mansour Cheema (associé fondateur, Bureau de Lausanne), Me Cyril-Marc Amberger, Me Tano Barth (Docteur en droit), Me Rémy Bucheler (juge suppléant), Me Olivier Jacot Des Combes ainsi que des avocat·es-stagiaires. L\'équipe couvre tous les domaines du droit suisse.',
       },
       {
         question: 'Quels sont les domaines de compétence de Clegal Avocats ?',

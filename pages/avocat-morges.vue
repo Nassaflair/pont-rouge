@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useLocalSeo(
   'Avocat à Morges | Clegal Avocats Lausanne – Dès 155.-',
-  'Avocat à Morges ? Clegal Avocats vous reçoit à son bureau de Lausanne. Sept avocats, Tribunal d\'arrondissement de l\'Est vaudois. 1er RDV à CHF 155.-.',
+  'Avocat à Morges ? Clegal Avocats vous reçoit à son bureau de Lausanne. Notre équipe, Tribunal d\'arrondissement de l\'Est vaudois. 1er RDV à CHF 155.-.',
   {
     city: 'lausanne',
     breadcrumbs: [{ name: 'Avocat à Morges', url: 'https://clegal-avocats.ch/avocat-morges' }],
@@ -24,7 +24,7 @@ useLocalSeo(
     city="lausanne"
     quartier="Morges"
     slug="avocat-morges"
-    intro="Vous habitez ou travaillez à Morges ? Notre cabinet d'avocats à Lausanne (Rue Saint-Pierre 2) est à 15 minutes en train. Sept avocats pour le droit pénal, la famille, le travail, les étrangers, le bail."
+    intro="Vous habitez ou travaillez à Morges ? Notre cabinet d'avocats à Lausanne (Rue Saint-Pierre 2) est à 15 minutes en train. Notre équipe pour le droit pénal, la famille, le travail, les étrangers, le bail."
     trajet="Morges est connectée à Lausanne par le train (15 min, RER vaudois) et par l'autoroute A1 (20 min en voiture). Notre bureau Rue Saint-Pierre 2 est à 5 minutes à pied de la gare de Lausanne, donc idéalement situé pour les Morgiens venant en transports."
     :juridictions="[
       'Tribunal d\'arrondissement de La Côte',

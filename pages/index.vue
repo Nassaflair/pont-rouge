@@ -37,7 +37,7 @@
               Cabinet d'avocats à Genève et Lausanne <br>
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Droit pénal, famille, travail, étrangers, bail, affaires</span>
             </h1>
-            <p class="text-sm font-medium text-slate-400 tracking-wide mb-4">Sept avocats au service du Barreau de Genève et du canton de Vaud — Premier rendez-vous d'analyse à CHF 155.-</p>
+            <p class="text-sm font-medium text-slate-400 tracking-wide mb-4">Notre équipe au service du Barreau de Genève et du canton de Vaud — Premier rendez-vous d'analyse à CHF 155.-</p>
 
             <!-- Mobile Price Banner - visible only on mobile -->
             <div class="lg:hidden mb-6 space-y-3">
@@ -395,7 +395,7 @@
           <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Genève et Lausanne</h2>
           <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Un cabinet d'avocats au cœur de la Suisse romande</p>
           <p class="mt-4 text-lg text-slate-600">
-            Sept avocats. Deux bureaux. Le même premier rendez-vous d'analyse à CHF 155.-.
+            Notre équipe. Deux bureaux. Le même premier rendez-vous d'analyse à CHF 155.-.
           </p>
         </div>
 
@@ -473,7 +473,7 @@
             cantonale genevoise n'est pas anodin. Chaque juridiction du canton — du Tribunal de première instance à la
             Cour de justice, du Ministère public aux prud'hommes — a ses propres délais, ses propres rituels, ses
             propres pratiques. Notre cabinet d'avocats à Genève, fondé par <strong>Me Mansour A. Cheema</strong>,
-            réunit sept avocats inscrits au Barreau de Genève et formés dans les meilleures facultés de droit suisses
+            réunit des avocats inscrits au Barreau de Genève et formés dans les meilleures facultés de droit suisses
             (UNIGE, UNIL, Zurich) et internationales.
           </p>
           <p class="text-slate-700 leading-relaxed">
@@ -869,7 +869,7 @@ const PartnerPopup = defineAsyncComponent(() => import('@/components/PartnerPopu
 
 useLocalSeo(
   'Avocat à Genève & Lausanne | Clegal Avocats – Dès 155.-',
-  'Cabinet d\'avocats à Genève (Acacias) et Lausanne. Sept avocats : droit pénal, famille, travail, étrangers, bail, affaires. 1er RDV d\'analyse à CHF 155.-.',
+  'Cabinet d\'avocats à Genève (Acacias) et Lausanne. Notre équipe : droit pénal, famille, travail, étrangers, bail, affaires. 1er RDV d\'analyse à CHF 155.-.',
   {
     city: 'geneve',
     type: 'LegalService',
@@ -997,7 +997,7 @@ useHead({
         alternateName: 'Clegal',
         url: 'https://clegal-avocats.ch',
         logo: 'https://clegal-avocats.ch/logo.svg',
-        description: 'Cabinet d\'avocats généraliste fondé à Genève. Sept avocats spécialisés en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit immobilier, droit des affaires, droit administratif et droit des assurances.',
+        description: 'Cabinet d\'avocats généraliste fondé à Genève. Équipe spécialisée en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit immobilier, droit des affaires, droit administratif et droit des assurances.',
         founder: { '@type': 'Person', name: 'Me Mansour A. Cheema' },
         numberOfEmployees: { '@type': 'QuantitativeValue', value: 7 },
         department: [

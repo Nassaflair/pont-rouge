@@ -45,7 +45,7 @@ useLocalSeo(
             Avocat à Pully — Clegal Avocats Lausanne
           </h1>
           <p class="text-lg text-slate-600 max-w-3xl">
-            Vous habitez ou travaillez à Pully ? Notre cabinet d'<NuxtLink to="/lausanne" class="text-red-900 hover:underline font-medium">avocats à Lausanne</NuxtLink> accueille les habitants de la commune. Sept avocats, dont plusieurs formés à l'UNIL, qui interviennent devant les juridictions vaudoises. Premier rendez-vous d'analyse à CHF 155.-.
+            Vous habitez ou travaillez à Pully ? Notre cabinet d'<NuxtLink to="/lausanne" class="text-red-900 hover:underline font-medium">avocats à Lausanne</NuxtLink> accueille les habitants de la commune. Notre équipe, dont plusieurs formés à l'UNIL, qui interviennent devant les juridictions vaudoises. Premier rendez-vous d'analyse à CHF 155.-.
           </p>
 
           <div class="mt-8 flex flex-col sm:flex-row gap-3">
