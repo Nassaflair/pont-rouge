@@ -5,16 +5,25 @@ import { lawyers, getLawyersByCity } from '~/data/team'
 const lausanneLawyers = getLawyersByCity('lausanne')
 
 useLocalSeo(
-  'Avocat à Lausanne | Clegal Avocats – Dès 155.- le 1er RDV',
-  'Avocat à Lausanne. Clegal Avocats — sept avocats au service du canton de Vaud. Droit pénal, famille, travail, étrangers, bail, affaires. Premier rendez-vous d\'analyse à CHF 155.-.',
+  'Avocat à Lausanne (Rue Saint-Pierre 2) | Clegal Avocats – Dès 155.-',
+  'Avocat à Lausanne — Rue Saint-Pierre 2, 1003 Lausanne. Sept avocats au service du canton de Vaud. Droit pénal, famille, travail, étrangers, bail, affaires. 1er RDV à CHF 155.-.',
   {
     city: 'lausanne',
     breadcrumbs: [{ name: 'Lausanne', url: 'https://clegal-avocats.ch/lausanne' }],
     lawyerSlugs: lausanneLawyers.map((l) => l.slug),
+    services: [
+      {
+        name: 'Avocat à Lausanne',
+        serviceType: 'Conseil et représentation juridique',
+        description: 'Cabinet d\'avocats à Lausanne (Rue Saint-Pierre 2, 1003 Lausanne). Représentation devant le Tribunal cantonal vaudois, le Tribunal d\'arrondissement de Lausanne, la Justice de paix, la Cour de droit administratif et public (CDAP) et le Tribunal des baux vaudois.',
+        url: 'https://clegal-avocats.ch/lausanne',
+        category: 'Services juridiques',
+      },
+    ],
     faq: [
       {
         question: 'Où se trouve Clegal Avocats à Lausanne ?',
-        answer: 'Clegal Avocats dispose d\'un bureau à Lausanne, dans le canton de Vaud. Pour les détails de l\'adresse et un rendez-vous, contactez-nous au 022 512 10 50 ou via notre formulaire de contact. Premier rendez-vous d\'analyse à CHF 155.-.',
+        answer: 'Clegal Avocats Lausanne est situé Rue Saint-Pierre 2, 1003 Lausanne — au cœur du centre-ville, à 5 minutes à pied de la gare de Lausanne. Téléphone 022 512 10 50. Premier rendez-vous d\'analyse à CHF 155.-.',
       },
       {
         question: 'Quelles juridictions vaudoises couvrez-vous depuis Lausanne ?',
@@ -54,10 +63,26 @@ useLocalSeo(
             Avocat à Lausanne
           </h1>
           <p class="text-lg lg:text-xl text-slate-600 mt-6 max-w-3xl">
-            Clegal Avocats au service du canton de Vaud. Sept avocats spécialisés en droit pénal, droit de la famille,
-            droit du travail, droit des étrangers, droit du bail et droit des affaires. Premier rendez-vous d'analyse
-            à <strong>CHF 155.-</strong>.
+            Clegal Avocats au service du canton de Vaud — bureau situé <strong>Rue Saint-Pierre 2, 1003 Lausanne</strong>.
+            Sept avocats spécialisés en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit
+            du bail et droit des affaires. Premier rendez-vous d'analyse à <strong>CHF 155.-</strong>.
           </p>
+
+          <!-- NAP highlight bar -->
+          <div class="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+            <span class="inline-flex items-center gap-1.5 text-slate-700">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <strong>Rue Saint-Pierre 2, 1003 Lausanne</strong>
+            </span>
+            <span class="inline-flex items-center gap-1.5 text-slate-700">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:0225121050" class="hover:text-red-900"><strong>022 512 10 50</strong></a>
+            </span>
+            <span class="inline-flex items-center gap-1.5 text-slate-700">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <strong>Lundi-Vendredi 8h30-18h00</strong>
+            </span>
+          </div>
 
           <div class="mt-10 flex flex-col sm:flex-row gap-3">
             <NuxtLink
@@ -107,6 +132,51 @@ useLocalSeo(
                 Voir sur Google Maps →
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Maps embed (signal local fort) -->
+      <section class="border-y border-slate-200">
+        <div class="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto">
+          <div class="p-8 md:p-12 bg-white flex flex-col justify-center">
+            <p class="text-xs uppercase tracking-widest text-red-900 font-bold mb-3">Notre bureau de Lausanne</p>
+            <h2 class="text-2xl font-semibold text-slate-900 mb-4">Comment nous trouver à Lausanne</h2>
+            <address class="not-italic text-slate-700 space-y-2" itemscope itemtype="https://schema.org/LegalService">
+              <meta itemprop="name" content="Clegal Avocats Lausanne" />
+              <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <span itemprop="streetAddress">Rue Saint-Pierre 2</span><br>
+                <span itemprop="postalCode">1003</span> <span itemprop="addressLocality">Lausanne</span>
+                <meta itemprop="addressRegion" content="Vaud" />
+                <meta itemprop="addressCountry" content="CH" />
+              </p>
+              <p>
+                Tél : <a :href="'tel:0225121050'" class="text-red-900 hover:underline" itemprop="telephone">022 512 10 50</a>
+              </p>
+              <p>
+                Email : <a href="mailto:info@clegal-avocats.ch" class="text-red-900 hover:underline" itemprop="email">info@clegal-avocats.ch</a>
+              </p>
+              <p class="text-sm text-slate-500 pt-2">Lundi-Vendredi · 8h30-18h00</p>
+            </address>
+            <p class="text-sm text-slate-600 mt-4">
+              À 5 minutes à pied de la gare de Lausanne (CFF + métro M2). Centre-ville, accès direct depuis l'autoroute A1
+              (sortie Lausanne-Sud) et l'ensemble du canton de Vaud.
+            </p>
+            <a href="https://www.google.com/maps?q=Rue+Saint-Pierre+2+1003+Lausanne" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-sm font-medium text-red-900 hover:text-red-700">
+              Itinéraire sur Google Maps →
+            </a>
+          </div>
+          <div class="aspect-[16/9] md:aspect-auto bg-slate-100 grayscale hover:grayscale-0 transition-all duration-500">
+            <iframe
+              src="https://www.google.com/maps?q=Rue+Saint-Pierre+2+1003+Lausanne&output=embed"
+              width="100%"
+              height="100%"
+              style="border:0; min-height: 360px;"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Carte du bureau Clegal Avocats Lausanne — Rue Saint-Pierre 2, 1003 Lausanne"
+            />
           </div>
         </div>
       </section>
