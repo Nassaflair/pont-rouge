@@ -22,10 +22,10 @@ export const SAME_AS_DEFAULT = [
   // 'https://odage.ch/<id-cabinet>',
 ]
 
-// URL Google Maps officielle pour le bureau (hasMap = signal local fort)
+// URL Google Maps officielle pour chaque bureau (hasMap = signal local fort)
 export const GOOGLE_MAPS_URLS: Record<string, string> = {
   geneve: 'https://www.google.com/maps?q=Clegal+Avocats+Route+des+Jeunes+9+1227+Les+Acacias',
-  lausanne: 'https://www.google.com/maps?q=Clegal+Avocats+Lausanne',
+  lausanne: 'https://www.google.com/maps?q=Clegal+Avocats+Rue+Saint-Pierre+2+1003+Lausanne',
 }
 
 // Rayon de service par succursale (en mètres) pour GeoCircle

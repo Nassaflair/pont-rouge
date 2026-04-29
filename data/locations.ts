@@ -68,18 +68,15 @@ export const locations: Record<LocationKey, Location> = {
     key: 'lausanne',
     name: 'Clegal Avocats Lausanne',
     legalName: 'Clegal Avocats',
-    // Adresse précise à compléter — laisser le placeholder fait que le composant
-    // LocalNAP et le schema JSON-LD masquent le streetAddress jusqu'à fourniture.
-    streetAddress: 'À COMPLÉTER',
+    streetAddress: 'Rue Saint-Pierre 2',
     addressLocality: 'Lausanne',
     postalCode: '1003',
     addressRegion: 'Vaud',
     addressCountry: 'CH',
-    // Numéro Lausanne à fournir — le placeholder est filtré du schema JSON-LD.
-    // En attendant, le numéro Genève reste utilisé dans l'UI (cabinet unifié).
-    telephone: '+41XXXXXXXXX',
+    // Numéro unifié avec Genève (cabinet unique, deux bureaux).
+    telephone: '+41225121050',
     email: 'info@clegal-avocats.ch',
-    geo: { latitude: 46.5197, longitude: 6.6323 },
+    geo: { latitude: 46.5197, longitude: 6.6322 },
     hours: [
       {
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],

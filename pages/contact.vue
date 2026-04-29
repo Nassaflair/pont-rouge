@@ -17,10 +17,10 @@
                             <span class="text-[10px] font-bold text-red-900 uppercase tracking-wide">Réponse sous 24h</span>
                         </div>
                         <h1 class="text-3xl md:text-4xl font-semibold text-slate-900 tracking-tight leading-tight mb-4">
-                            Contactez Clegal Avocats à Genève – Les Acacias.
+                            Contactez Clegal Avocats à Genève et Lausanne
                         </h1>
                         <p class="text-slate-600 text-lg leading-relaxed">
-                            Nous sommes situés au cœur des Acacias (Genève). Prenez rendez-vous pour une consultation rapide.
+                            Deux bureaux pour vous recevoir : <strong>Genève (Acacias)</strong> et <strong>Lausanne (Rue Saint-Pierre 2)</strong>. Premier rendez-vous d'analyse à CHF 155.-.
                         </p>
                     </div>
 
@@ -93,6 +93,68 @@
                                 <i data-lucide="train" class="w-4 h-4"></i>
                                 <span>Accès direct via Gare Lancy-Pont-Rouge (Léman Express) et TPG (Tram 15, 17).</span>
                             </div>
+                        </div>
+                    </div>
+
+                    <!-- Bureau de Lausanne -->
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden" itemscope="" itemtype="https://schema.org/LegalService">
+                        <div class="p-6 space-y-6">
+
+                            <div class="flex items-start gap-4">
+                                <div class="p-2 bg-slate-50 rounded-lg border border-slate-100 text-slate-700">
+                                    <i data-lucide="briefcase" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h2 class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-1">Bureau de Lausanne</h2>
+                                    <p class="text-base font-semibold text-slate-900" itemprop="name">Clegal Avocats Lausanne</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="p-2 bg-slate-50 rounded-lg border border-slate-100 text-slate-700">
+                                    <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                </div>
+                                <div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+                                    <h2 class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-1">Adresse</h2>
+                                    <p class="text-base font-medium text-slate-900">
+                                        <span itemprop="streetAddress">Rue Saint-Pierre 2</span><br>
+                                        <span itemprop="postalCode">1003</span> <span itemprop="addressLocality">Lausanne</span>
+                                    </p>
+                                    <p class="text-xs text-slate-500 mt-1">Centre-ville de Lausanne, canton de Vaud.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="p-2 bg-slate-50 rounded-lg border border-slate-100 text-slate-700">
+                                    <i data-lucide="phone" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h2 class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-1">Téléphone</h2>
+                                    <a href="tel:0225121050" class="text-base font-semibold text-slate-900 hover:text-red-900 transition-colors" itemprop="telephone">022 512 10 50</a>
+                                    <p class="text-xs text-slate-400 mt-1">Numéro unifié pour les deux bureaux</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="p-2 bg-slate-50 rounded-lg border border-slate-100 text-slate-700">
+                                    <i data-lucide="mail" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h2 class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-1">Email</h2>
+                                    <a href="mailto:info@clegal-avocats.ch" class="text-base font-medium text-slate-900 hover:text-red-900 transition-colors" itemprop="email">info@clegal-avocats.ch</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 border-t border-slate-200">
+                            <a
+                                href="https://www.google.com/maps?q=Rue+Saint-Pierre+2+1003+Lausanne"
+                                target="_blank"
+                                rel="noopener"
+                                class="inline-flex items-center gap-2 text-xs text-red-900 hover:text-red-700 font-medium"
+                            >
+                                Voir le bureau de Lausanne sur Google Maps →
+                            </a>
                         </div>
                     </div>
                 </div>

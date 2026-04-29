@@ -189,7 +189,11 @@
                     
                     <NuxtLink to="/honoraires" class="hover:text-red-900 transition-colors">Honoraires</NuxtLink>
                     <NuxtLink to="/blog" class="hover:text-red-900 transition-colors">Blog</NuxtLink>
-                    <NuxtLink to="/lausanne" class="hover:text-red-900 transition-colors">Lausanne</NuxtLink>
+                    <span class="flex items-center gap-3 text-slate-300">
+                        <NuxtLink to="/" class="text-slate-600 hover:text-red-900 transition-colors">Genève</NuxtLink>
+                        <span aria-hidden="true">·</span>
+                        <NuxtLink to="/lausanne" class="text-slate-600 hover:text-red-900 transition-colors">Lausanne</NuxtLink>
+                    </span>
                     <NuxtLink to="/contact" class="hover:text-red-900 transition-colors">Contact</NuxtLink>
                 </nav>
 
@@ -220,7 +224,11 @@
         <nav class="flex flex-col gap-6 text-lg font-medium text-slate-600 items-center">
             <NuxtLink to="/etude" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Étude</NuxtLink>
             <NuxtLink to="/equipe" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Équipe</NuxtLink>
-            <NuxtLink to="/lausanne" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Lausanne</NuxtLink>
+            <div class="flex items-center gap-3 py-2 border-b border-slate-100">
+                <NuxtLink to="/" @click="toggleMobileMenu" class="text-slate-600 hover:text-red-900 transition-colors">Genève</NuxtLink>
+                <span class="text-slate-300" aria-hidden="true">·</span>
+                <NuxtLink to="/lausanne" @click="toggleMobileMenu" class="text-slate-600 hover:text-red-900 transition-colors">Lausanne</NuxtLink>
+            </div>
             
             <div class="space-y-4 py-2 border-b border-slate-100">
                 <div class="font-medium text-slate-900 text-lg mb-2">Domaines de compétence</div>

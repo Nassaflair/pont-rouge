@@ -401,7 +401,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <!-- Carte Genève -->
-          <NuxtLink to="/" class="group relative bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:border-red-900/30 hover:shadow-lg transition-all overflow-hidden">
+          <NuxtLink to="/#domaines" class="group relative bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:border-red-900/30 hover:shadow-lg transition-all overflow-hidden">
             <div class="absolute top-4 right-4 inline-flex items-center gap-1.5 px-2 py-0.5 bg-emerald-50 border border-emerald-200 rounded-full">
               <span class="relative flex h-1.5 w-1.5">
                 <span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75 animate-ping" />

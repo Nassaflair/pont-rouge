@@ -76,22 +76,38 @@ useLocalSeo(
         </div>
       </section>
 
-      <!-- Pourquoi Clegal à Lausanne -->
+      <!-- NAP Lausanne -->
       <section class="py-16 bg-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 class="text-3xl font-semibold text-slate-900 tracking-tight mb-6">
-            Un cabinet d'avocats ancré dans la Suisse romande
-          </h2>
-          <p class="text-slate-700 leading-relaxed">
-            La Suisse romande forme un seul bassin de vie — mais le droit cantonal varie. Le Tribunal cantonal vaudois,
-            la Justice de paix, la Cour de droit administratif et public, le Tribunal d'arrondissement de Lausanne ont
-            leurs propres règles, leurs propres délais, leurs propres pratiques.
-          </p>
-          <p class="text-slate-700 leading-relaxed mt-4">
-            Plusieurs de nos avocats ont étudié à l'<strong>Université de Lausanne (UNIL)</strong>, pratiqué dans des
-            études vaudoises ou été greffiers dans les juridictions du canton de Vaud. Disposer d'un bureau à Lausanne
-            est le prolongement naturel d'un ancrage déjà solide dans le canton.
-          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div>
+              <h2 class="text-3xl font-semibold text-slate-900 tracking-tight mb-6">
+                Un cabinet d'avocats ancré dans la Suisse romande
+              </h2>
+              <p class="text-slate-700 leading-relaxed">
+                La Suisse romande forme un seul bassin de vie — mais le droit cantonal varie. Le Tribunal cantonal vaudois,
+                la Justice de paix, la Cour de droit administratif et public, le Tribunal d'arrondissement de Lausanne ont
+                leurs propres règles, leurs propres délais, leurs propres pratiques.
+              </p>
+              <p class="text-slate-700 leading-relaxed mt-4">
+                Plusieurs de nos avocats ont étudié à l'<strong>Université de Lausanne (UNIL)</strong>, pratiqué dans des
+                études vaudoises ou été greffiers dans les juridictions du canton de Vaud.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-xs uppercase tracking-widest font-bold text-red-900 mb-4">Bureau de Lausanne</h2>
+              <LocalNAP city="lausanne" variant="card" />
+              <a
+                href="https://www.google.com/maps?q=Rue+Saint-Pierre+2+1003+Lausanne"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-2 mt-4 text-sm text-red-900 hover:text-red-700 font-medium"
+              >
+                Voir sur Google Maps →
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
