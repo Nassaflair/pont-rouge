@@ -69,7 +69,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      children: JSON.stringify(jsonLd.value)
+      innerHTML: JSON.stringify(jsonLd.value)
     }
   ]
 })

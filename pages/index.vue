@@ -545,18 +545,18 @@
             <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat aux Eaux-Vives</p>
             <p class="text-xs text-slate-500 mt-1">À 10 min en tram</p>
           </NuxtLink>
-          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+          <NuxtLink to="/avocat-plainpalais" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
             <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Plainpalais</p>
             <p class="text-xs text-slate-500 mt-1">Quartier universitaire</p>
-          </a>
-          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+          </NuxtLink>
+          <NuxtLink to="/avocat-champel" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
             <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Champel</p>
             <p class="text-xs text-slate-500 mt-1">Plateau de Champel</p>
-          </a>
-          <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
+          </NuxtLink>
+          <NuxtLink to="/avocat-lancy" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
             <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Lancy</p>
             <p class="text-xs text-slate-500 mt-1">Pont-Rouge / La Praille</p>
-          </a>
+          </NuxtLink>
           <a href="/contact" class="group bg-slate-50 border border-slate-200 rounded-lg p-4 hover:border-red-900/30 hover:bg-white transition-all">
             <p class="text-sm font-semibold text-slate-900 group-hover:text-red-900">Avocat à Meyrin</p>
             <p class="text-xs text-slate-500 mt-1">Ouest genevois</p>

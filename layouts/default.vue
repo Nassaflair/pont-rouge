@@ -321,8 +321,10 @@
                     <ul class="space-y-2 text-sm text-slate-500">
                         <li><NuxtLink to="/etude" class="hover:text-red-900">L'Étude</NuxtLink></li>
                         <li><NuxtLink to="/equipe" class="hover:text-red-900">L'Équipe</NuxtLink></li>
+                        <li><NuxtLink to="/auteur/mansour-cheema" class="hover:text-red-900">Me Mansour Cheema</NuxtLink></li>
                         <li><NuxtLink to="/honoraires" class="hover:text-red-900">Honoraires</NuxtLink></li>
                         <li><NuxtLink to="/avis-clients" class="hover:text-red-900">Avis clients</NuxtLink></li>
+                        <li><NuxtLink to="/cas-clients" class="hover:text-red-900">Cas clients</NuxtLink></li>
                         <li><NuxtLink to="/blog" class="hover:text-red-900">Blog</NuxtLink></li>
                         <li><NuxtLink to="/contact" class="hover:text-red-900">Contact</NuxtLink></li>
                     </ul>
@@ -334,12 +336,16 @@
                         <li><NuxtLink to="/geneve" class="hover:text-red-900">Bureau de Genève (Acacias)</NuxtLink></li>
                         <li><NuxtLink to="/avocat-carouge" class="hover:text-red-900">Avocat à Carouge</NuxtLink></li>
                         <li><NuxtLink to="/avocat-eaux-vives" class="hover:text-red-900">Avocat aux Eaux-Vives</NuxtLink></li>
-                        <li><NuxtLink to="/domaine-de-competence" class="hover:text-red-900">Tous nos domaines</NuxtLink></li>
+                        <li><NuxtLink to="/avocat-plainpalais" class="hover:text-red-900">Avocat à Plainpalais</NuxtLink></li>
+                        <li><NuxtLink to="/avocat-champel" class="hover:text-red-900">Avocat à Champel</NuxtLink></li>
+                        <li><NuxtLink to="/avocat-lancy" class="hover:text-red-900">Avocat à Lancy</NuxtLink></li>
                     </ul>
                     <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mt-6 mb-4">Avocat à Lausanne</h3>
                     <ul class="space-y-2 text-sm text-slate-500">
-                        <li><NuxtLink to="/lausanne" class="hover:text-red-900">Avocat Lausanne</NuxtLink></li>
+                        <li><NuxtLink to="/lausanne" class="hover:text-red-900">Bureau de Lausanne</NuxtLink></li>
                         <li><NuxtLink to="/avocat-pully" class="hover:text-red-900">Avocat à Pully</NuxtLink></li>
+                        <li><NuxtLink to="/avocat-morges" class="hover:text-red-900">Avocat à Morges</NuxtLink></li>
+                        <li><NuxtLink to="/avocat-renens" class="hover:text-red-900">Avocat à Renens</NuxtLink></li>
                     </ul>
                 </div>
 
