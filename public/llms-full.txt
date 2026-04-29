@@ -2,9 +2,10 @@
 
 ## Présentation
 
-Clegal Avocats est un cabinet d'avocats généraliste fondé à Genève par Me Mansour A. Cheema. L'étude réunit sept avocats spécialisés dans les principaux domaines du droit suisse. Le cabinet ouvre une antenne à Lausanne en 2026.
+Clegal Avocats est un cabinet d'avocats généraliste fondé à Genève par Me Mansour A. Cheema. L'étude réunit sept avocats spécialisés dans les principaux domaines du droit suisse. Le cabinet dispose de deux bureaux : Genève (Acacias) et Lausanne (canton de Vaud).
 
-**Siège** : Route des Jeunes 9, 1227 Les Acacias, Genève, Suisse
+**Bureau de Genève** : Route des Jeunes 9, 1227 Les Acacias, Genève, Suisse
+**Bureau de Lausanne** : canton de Vaud, Suisse
 **Téléphone** : 022 512 10 50 (+41 22 512 10 50)
 **Email** : info@clegal-avocats.ch
 **Site** : https://clegal-avocats.ch
@@ -148,7 +149,7 @@ Durée : 4-8 mois en amiable, 12-24 mois en contentieux. Délai de réflexion l�
 - Chambre des assurances sociales du Tribunal cantonal
 - Tribunal des mesures de contrainte (TMC)
 
-### Vaud (antenne Lausanne en cours d'ouverture)
+### Vaud (bureau de Lausanne)
 - Tribunal cantonal vaudois (Lausanne)
 - Cour civile (>CHF 100'000)
 - Cour d'appel pénale
@@ -164,7 +165,7 @@ Durée : 4-8 mois en amiable, 12-24 mois en contentieux. Délai de réflexion l�
 - https://clegal-avocats.ch/ — Accueil
 - https://clegal-avocats.ch/etude — L'Étude
 - https://clegal-avocats.ch/equipe — Notre équipe (7 avocats)
-- https://clegal-avocats.ch/lausanne — Antenne Lausanne (en cours d'ouverture)
+- https://clegal-avocats.ch/lausanne — Avocat à Lausanne (bureau ouvert)
 - https://clegal-avocats.ch/contact — Contact
 - https://clegal-avocats.ch/honoraires — Honoraires détaillés
 - https://clegal-avocats.ch/avis-clients — Avis clients (5.0/5 sur Google)

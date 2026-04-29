@@ -1,4 +1,4 @@
-import { locations, type LocationKey } from '~/data/locations'
+import { locations, isPlaceholder, type LocationKey } from '~/data/locations'
 import { lawyers as allLawyers } from '~/data/team'
 
 export interface LawyerSchemaInput {
@@ -87,6 +87,17 @@ export const useLocalSeo = (
     link: [{ rel: 'canonical', href: canonicalUrl }],
   })
 
+  const address: Record<string, any> = {
+    '@type': 'PostalAddress',
+    addressLocality: location.addressLocality,
+    postalCode: location.postalCode,
+    addressRegion: location.addressRegion,
+    addressCountry: location.addressCountry,
+  }
+  if (!isPlaceholder(location.streetAddress)) {
+    address.streetAddress = location.streetAddress
+  }
+
   const localBusinessSchema: Record<string, any> = {
     '@context': 'https://schema.org',
     '@type': type,
@@ -94,16 +105,9 @@ export const useLocalSeo = (
     name: location.name,
     image,
     url: 'https://clegal-avocats.ch',
-    telephone: location.telephone,
     email: location.email,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: location.streetAddress,
-      addressLocality: location.addressLocality,
-      postalCode: location.postalCode,
-      addressRegion: location.addressRegion,
-      addressCountry: location.addressCountry,
-    },
+    ...(isPlaceholder(location.telephone) ? {} : { telephone: location.telephone }),
+    address,
     geo: {
       '@type': 'GeoCoordinates',
       latitude: location.geo.latitude,

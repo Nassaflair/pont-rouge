@@ -392,10 +392,10 @@
     <section class="border-b border-slate-200 bg-white py-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-12">
-          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Genève et bientôt Lausanne</h2>
+          <h2 class="text-base text-red-800 font-semibold tracking-wide uppercase">Genève et Lausanne</h2>
           <p class="mt-2 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Un cabinet d'avocats au cœur de la Suisse romande</p>
           <p class="mt-4 text-lg text-slate-600">
-            Sept avocats. Deux villes. Le même premier rendez-vous d'analyse à CHF 155.-.
+            Sept avocats. Deux bureaux. Le même premier rendez-vous d'analyse à CHF 155.-.
           </p>
         </div>
 
@@ -409,7 +409,7 @@
               </span>
               <span class="text-[9px] font-bold uppercase tracking-wider text-emerald-900">Ouvert</span>
             </div>
-            <p class="text-xs uppercase tracking-widest font-bold text-red-900 mb-3">Cabinet historique</p>
+            <p class="text-xs uppercase tracking-widest font-bold text-red-900 mb-3">Bureau de Genève</p>
             <h3 class="text-2xl font-semibold text-slate-900 group-hover:text-red-900 transition-colors">
               Avocat à Genève
             </h3>
@@ -429,19 +429,19 @@
 
           <!-- Carte Lausanne -->
           <NuxtLink to="/lausanne" class="group relative bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:border-red-900/30 hover:shadow-lg transition-all overflow-hidden">
-            <div class="absolute top-4 right-4 inline-flex items-center gap-1.5 px-2 py-0.5 bg-amber-50 border border-amber-200 rounded-full">
+            <div class="absolute top-4 right-4 inline-flex items-center gap-1.5 px-2 py-0.5 bg-emerald-50 border border-emerald-200 rounded-full">
               <span class="relative flex h-1.5 w-1.5">
-                <span class="absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75 animate-ping" />
-                <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-amber-500" />
+                <span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75 animate-ping" />
+                <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500" />
               </span>
-              <span class="text-[9px] font-bold uppercase tracking-wider text-amber-900">Bientôt</span>
+              <span class="text-[9px] font-bold uppercase tracking-wider text-emerald-900">Ouvert</span>
             </div>
-            <p class="text-xs uppercase tracking-widest font-bold text-red-900 mb-3">Nouvelle antenne</p>
+            <p class="text-xs uppercase tracking-widest font-bold text-red-900 mb-3">Bureau de Lausanne</p>
             <h3 class="text-2xl font-semibold text-slate-900 group-hover:text-red-900 transition-colors">
               Avocat à Lausanne
             </h3>
             <p class="text-sm text-slate-600 mt-3 leading-relaxed">
-              En cours d'ouverture. Plusieurs de nos avocats sont formés à l'UNIL et interviennent déjà devant le Tribunal cantonal vaudois, la Justice de paix de Lausanne et la CDAP. Premier rendez-vous d'analyse à CHF 155.- maintenu.
+              Plusieurs de nos avocats sont formés à l'UNIL et interviennent devant le Tribunal cantonal vaudois, la Justice de paix de Lausanne, la Cour de droit administratif et public (CDAP) et le Tribunal d'arrondissement de Lausanne. Premier rendez-vous d'analyse à CHF 155.-.
             </p>
             <div class="mt-6 flex flex-wrap gap-2">
               <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Lausanne</span>
@@ -451,7 +451,7 @@
               <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Vevey</span>
               <span class="text-[10px] font-medium px-2 py-1 bg-white text-slate-600 rounded border border-slate-200">Nyon</span>
             </div>
-            <p class="mt-6 text-sm font-medium text-red-900 group-hover:underline">Découvrir notre antenne à Lausanne →</p>
+            <p class="mt-6 text-sm font-medium text-red-900 group-hover:underline">Voir nos services à Lausanne →</p>
           </NuxtLink>
         </div>
       </div>
@@ -708,8 +708,8 @@ useLocalSeo(
         answer: 'Appelez le +41 22 512 10 50 ou utilisez le formulaire de contact sur notre site. Nous répondons sous 24h ouvrables. Notre étude est située Route des Jeunes 9, 1227 Les Acacias, Genève.',
       },
       {
-        question: 'Clegal Avocats intervient-il aussi à Lausanne ?',
-        answer: 'Oui. Nos avocats interviennent devant les juridictions vaudoises (Tribunal cantonal vaudois, Tribunal d\'arrondissement de Lausanne, Justice de paix). Plusieurs membres de l\'équipe ont étudié à l\'Université de Lausanne ou exercé dans des études vaudoises. Une antenne à Lausanne est en cours d\'ouverture — voir /lausanne.',
+        question: 'Clegal Avocats est-il aussi présent à Lausanne ?',
+        answer: 'Oui. Clegal Avocats dispose de deux bureaux : Genève (Route des Jeunes 9, 1227 Les Acacias) et Lausanne. Nos avocats interviennent devant les juridictions vaudoises (Tribunal cantonal vaudois, Tribunal d\'arrondissement de Lausanne, Justice de paix, CDAP). Plusieurs membres de l\'équipe ont étudié à l\'Université de Lausanne ou exercé dans des études vaudoises — voir la page /lausanne.',
       },
     ],
   }
@@ -785,7 +785,7 @@ useHead({
         '@id': 'https://clegal-avocats.ch/#website',
         url: 'https://clegal-avocats.ch',
         name: 'Clegal Avocats',
-        description: 'Cabinet d\'avocats à Genève et bientôt à Lausanne. Droit pénal, famille, travail, étrangers, bail, affaires.',
+        description: 'Cabinet d\'avocats à Genève et à Lausanne. Droit pénal, famille, travail, étrangers, bail, affaires.',
         publisher: { '@id': 'https://clegal-avocats.ch/#organization' },
         inLanguage: 'fr-CH',
       }),

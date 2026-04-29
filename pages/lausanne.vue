@@ -5,13 +5,30 @@ import { lawyers, getLawyersByCity } from '~/data/team'
 const lausanneLawyers = getLawyersByCity('lausanne')
 
 useLocalSeo(
-  'Avocat à Lausanne | Clegal Avocats – Bientôt à Lausanne',
-  'Clegal Avocats arrive à Lausanne. Cabinet généraliste : droit pénal, famille, travail, étrangers, bail. Premier rendez-vous d\'analyse à CHF 155.-. Avocats formés à l\'UNIL.',
+  'Avocat à Lausanne | Clegal Avocats – Dès 155.- le 1er RDV',
+  'Avocat à Lausanne. Clegal Avocats — sept avocats au service du canton de Vaud. Droit pénal, famille, travail, étrangers, bail, affaires. Premier rendez-vous d\'analyse à CHF 155.-.',
   {
     city: 'lausanne',
     breadcrumbs: [{ name: 'Lausanne', url: 'https://clegal-avocats.ch/lausanne' }],
     lawyerSlugs: lausanneLawyers.map((l) => l.slug),
-    aggregateRating: false,
+    faq: [
+      {
+        question: 'Où se trouve Clegal Avocats à Lausanne ?',
+        answer: 'Clegal Avocats dispose d\'un bureau à Lausanne, dans le canton de Vaud. Pour les détails de l\'adresse et un rendez-vous, contactez-nous au 022 512 10 50 ou via notre formulaire de contact. Premier rendez-vous d\'analyse à CHF 155.-.',
+      },
+      {
+        question: 'Quelles juridictions vaudoises couvrez-vous depuis Lausanne ?',
+        answer: 'Tribunal cantonal vaudois, Cour civile, Cour d\'appel pénale, Cour de droit administratif et public (CDAP), Tribunal d\'arrondissement de Lausanne, Justice de paix de Lausanne, Tribunal des baux, Tribunal de prud\'hommes du canton de Vaud, Chambre des avocats du canton de Vaud.',
+      },
+      {
+        question: 'Vos avocats connaissent-ils le droit vaudois ?',
+        answer: 'Oui. Plusieurs avocats de l\'équipe ont étudié à l\'Université de Lausanne (UNIL) — Me Cheema, Me Amberger, Me Rodrigues. Me Cyril-Marc Amberger a notamment pratiqué chez Reymond, Ulmann & Associés à Lausanne. Me Léa Rodrigues a été greffière ad hoc auprès de la Chambre pénale du Tribunal d\'arrondissement de Lausanne.',
+      },
+      {
+        question: 'Quel tarif pour un avocat à Lausanne ?',
+        answer: 'Les tarifs des avocats vaudois et genevois sont similaires : CHF 300 à CHF 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles (divorce amiable, dépôts administratifs) et accepte l\'assistance judiciaire vaudoise.',
+      },
+    ],
   },
 )
 </script>
@@ -23,26 +40,23 @@ useLocalSeo(
       <section class="relative pt-32 pb-16 bg-white border-b border-slate-200 overflow-hidden">
         <div class="absolute inset-0 bg-grid-slate opacity-50" />
         <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Breadcrumb
-            :links="[
-              { name: 'Lausanne', path: '/lausanne' },
-            ]"
-          />
+          <Breadcrumb :links="[{ name: 'Lausanne', path: '/lausanne' }]" />
 
-          <div class="mt-6 inline-flex items-center gap-2 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full">
+          <div class="mt-6 inline-flex items-center gap-2 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">
             <span class="relative flex h-2 w-2">
-              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
-              <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500" />
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
             </span>
-            <span class="text-xs font-semibold text-amber-900 uppercase tracking-wider">Bientôt à Lausanne</span>
+            <span class="text-xs font-semibold text-emerald-900 uppercase tracking-wider">Bureau ouvert · Canton de Vaud</span>
           </div>
 
           <h1 class="text-4xl lg:text-6xl font-semibold text-slate-900 tracking-tight mt-6">
-            Clegal Avocats arrive à Lausanne
+            Avocat à Lausanne
           </h1>
           <p class="text-lg lg:text-xl text-slate-600 mt-6 max-w-3xl">
-            Sept avocats au service du canton de Vaud. La même rigueur, la même approche humaine, le même premier
-            rendez-vous d'analyse à CHF 155.-, désormais aussi à Lausanne.
+            Clegal Avocats au service du canton de Vaud. Sept avocats spécialisés en droit pénal, droit de la famille,
+            droit du travail, droit des étrangers, droit du bail et droit des affaires. Premier rendez-vous d'analyse
+            à <strong>CHF 155.-</strong>.
           </p>
 
           <div class="mt-10 flex flex-col sm:flex-row gap-3">
@@ -50,37 +64,33 @@ useLocalSeo(
               to="/contact"
               class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-slate-900 hover:bg-red-900 rounded-md transition-all shadow-sm"
             >
-              Prendre contact maintenant
+              Prendre rendez-vous à Lausanne
             </NuxtLink>
             <a
               href="tel:0225121050"
               class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-md transition-all"
             >
-              022 512 10 50 — Genève
+              022 512 10 50
             </a>
           </div>
-
-          <p class="text-sm text-slate-500 mt-4">
-            En attendant l'ouverture officielle de notre antenne lausannoise, nos avocats reçoivent déjà des clients vaudois à Genève.
-          </p>
         </div>
       </section>
 
-      <!-- Pourquoi Lausanne -->
+      <!-- Pourquoi Clegal à Lausanne -->
       <section class="py-16 bg-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 class="text-3xl font-semibold text-slate-900 tracking-tight mb-6">
-            Pourquoi un cabinet d'avocats à Lausanne ?
+            Un cabinet d'avocats ancré dans la Suisse romande
           </h2>
           <p class="text-slate-700 leading-relaxed">
-            La Suisse romande forme un seul bassin de vie — mais le droit cantonal varie. Tribunal cantonal vaudois,
-            Justice de paix, Cour de droit administratif et public, Tribunal d'arrondissement de Lausanne&nbsp;: les
-            juridictions vaudoises ont leurs propres règles, leurs propres délais, leurs propres pratiques.
+            La Suisse romande forme un seul bassin de vie — mais le droit cantonal varie. Le Tribunal cantonal vaudois,
+            la Justice de paix, la Cour de droit administratif et public, le Tribunal d'arrondissement de Lausanne ont
+            leurs propres règles, leurs propres délais, leurs propres pratiques.
           </p>
           <p class="text-slate-700 leading-relaxed mt-4">
-            Plusieurs de nos avocats ont étudié à l'<strong>Université de Lausanne (UNIL)</strong>, pratiqué dans des études
-            vaudoises ou été greffiers dans les juridictions du canton de Vaud. Ouvrir une antenne à Lausanne est un
-            prolongement naturel de notre activité, pas une expansion opportuniste.
+            Plusieurs de nos avocats ont étudié à l'<strong>Université de Lausanne (UNIL)</strong>, pratiqué dans des
+            études vaudoises ou été greffiers dans les juridictions du canton de Vaud. Disposer d'un bureau à Lausanne
+            est le prolongement naturel d'un ancrage déjà solide dans le canton.
           </p>
         </div>
       </section>
@@ -189,13 +199,12 @@ useLocalSeo(
       <!-- CTA final -->
       <section class="py-20 bg-slate-900 text-white">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p class="text-sm uppercase tracking-widest font-bold text-red-300">Avant l'ouverture officielle</p>
-          <h2 class="text-3xl lg:text-4xl font-semibold tracking-tight mt-3">
-            Vous avez besoin d'un avocat à Lausanne maintenant&nbsp;?
+          <h2 class="text-3xl lg:text-4xl font-semibold tracking-tight">
+            Avocat à Lausanne — premier rendez-vous d'analyse à CHF 155.-
           </h2>
           <p class="mt-4 text-slate-300">
-            Nos avocats reçoivent déjà les clients vaudois à Genève (à 35 minutes en train) et peuvent intervenir devant
-            les juridictions du canton de Vaud. Premier rendez-vous d'analyse à CHF 155.-.
+            Soixante minutes avec un avocat de l'équipe. Évaluation chiffrée du dossier, identification des points
+            faibles, stratégie procédurale recommandée.
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <NuxtLink

@@ -189,10 +189,7 @@
                     
                     <NuxtLink to="/honoraires" class="hover:text-red-900 transition-colors">Honoraires</NuxtLink>
                     <NuxtLink to="/blog" class="hover:text-red-900 transition-colors">Blog</NuxtLink>
-                    <NuxtLink to="/lausanne" class="hover:text-red-900 transition-colors flex items-center gap-1.5">
-                        Lausanne
-                        <span class="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-900">Bientôt</span>
-                    </NuxtLink>
+                    <NuxtLink to="/lausanne" class="hover:text-red-900 transition-colors">Lausanne</NuxtLink>
                     <NuxtLink to="/contact" class="hover:text-red-900 transition-colors">Contact</NuxtLink>
                 </nav>
 
@@ -223,10 +220,7 @@
         <nav class="flex flex-col gap-6 text-lg font-medium text-slate-600 items-center">
             <NuxtLink to="/etude" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Étude</NuxtLink>
             <NuxtLink to="/equipe" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">L'Équipe</NuxtLink>
-            <NuxtLink to="/lausanne" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100 flex items-center gap-2">
-                Lausanne
-                <span class="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-900">Bientôt</span>
-            </NuxtLink>
+            <NuxtLink to="/lausanne" @click="toggleMobileMenu" class="hover:text-red-900 transition-colors py-2 border-b border-slate-100">Lausanne</NuxtLink>
             
             <div class="space-y-4 py-2 border-b border-slate-100">
                 <div class="font-medium text-slate-900 text-lg mb-2">Domaines de compétence</div>
@@ -310,7 +304,7 @@
                 <div class="col-span-2">
                     <span class="text-sm font-bold text-slate-900 uppercase tracking-widest">Clegal Avocats</span>
                     <p class="text-sm text-slate-500 max-w-xs mt-4">
-                        Cabinet d'<NuxtLink to="/" class="underline hover:text-red-900">avocats à Genève</NuxtLink> et bientôt à <NuxtLink to="/lausanne" class="underline hover:text-red-900">Lausanne</NuxtLink>. Sept avocats, premier rendez-vous d'analyse à CHF 155.-.
+                        Cabinet d'<NuxtLink to="/" class="underline hover:text-red-900">avocats à Genève</NuxtLink> et à <NuxtLink to="/lausanne" class="underline hover:text-red-900">Lausanne</NuxtLink>. Sept avocats, premier rendez-vous d'analyse à CHF 155.-.
                     </p>
                 </div>
 

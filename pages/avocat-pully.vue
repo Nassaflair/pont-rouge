@@ -4,19 +4,18 @@ import { getLawyersByCity } from '~/data/team'
 const vdLawyers = getLawyersByCity('lausanne')
 
 useLocalSeo(
-  'Avocat à Pully | Clegal Avocats Lausanne (à venir) – Dès 155.-',
-  'Avocat à Pully ? Clegal Avocats prépare son antenne à Lausanne. Nos avocats interviennent déjà devant les juridictions vaudoises (Tribunal cantonal vaudois, Justice de paix). 1er RDV à CHF 155.-.',
+  'Avocat à Pully | Clegal Avocats Lausanne – Dès 155.- le 1er RDV',
+  'Avocat à Pully ? Clegal Avocats vous reçoit à son bureau de Lausanne. Tribunal cantonal vaudois, Justice de paix, CDAP. Premier rendez-vous d\'analyse à CHF 155.-.',
   {
     city: 'lausanne',
     breadcrumbs: [
       { name: 'Avocat à Pully', url: 'https://clegal-avocats.ch/avocat-pully' },
     ],
     lawyerSlugs: vdLawyers.map((l) => l.slug),
-    aggregateRating: false,
     faq: [
       {
-        question: 'Y a-t-il un cabinet d\'avocats Clegal à Pully ?',
-        answer: 'Pas encore physiquement. Clegal Avocats ouvre une antenne à Lausanne en 2026. En attendant, nous recevons les clients de Pully à notre cabinet de Genève (à 35 minutes en train) et intervenons devant les juridictions vaudoises. Premier rendez-vous d\'analyse à CHF 155.-.',
+        question: 'Y a-t-il un avocat Clegal pour Pully ?',
+        answer: 'Oui. Clegal Avocats dispose d\'un bureau à Lausanne accessible aux Pulliérans. Pour un rendez-vous, contactez-nous au 022 512 10 50 ou via notre formulaire. Premier rendez-vous d\'analyse à CHF 155.-.',
       },
       {
         question: 'Quelles juridictions compétentes pour Pully ?',
@@ -44,10 +43,10 @@ useLocalSeo(
 
           <p class="text-xs uppercase tracking-widest text-red-900 font-semibold mt-6">Vaud · Pully</p>
           <h1 class="text-4xl lg:text-5xl font-semibold text-slate-900 tracking-tight mt-3 mb-4">
-            Avocat à Pully — antenne Lausanne en cours d'ouverture
+            Avocat à Pully — Clegal Avocats Lausanne
           </h1>
           <p class="text-lg text-slate-600 max-w-3xl">
-            Clegal Avocats accueille les habitants de Pully avant l'ouverture de notre antenne à <NuxtLink to="/lausanne" class="text-red-900 hover:underline font-medium">Lausanne</NuxtLink>. Nos <NuxtLink to="/equipe" class="text-red-900 hover:underline font-medium">avocats</NuxtLink> formés à l'UNIL interviennent devant les juridictions vaudoises. Premier rendez-vous d'analyse à CHF 155.-.
+            Vous habitez ou travaillez à Pully ? Notre cabinet d'<NuxtLink to="/lausanne" class="text-red-900 hover:underline font-medium">avocats à Lausanne</NuxtLink> accueille les habitants de la commune. Sept avocats, dont plusieurs formés à l'UNIL, qui interviennent devant les juridictions vaudoises. Premier rendez-vous d'analyse à CHF 155.-.
           </p>
 
           <div class="mt-8 flex flex-col sm:flex-row gap-3">
@@ -61,7 +60,7 @@ useLocalSeo(
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 class="text-2xl font-semibold text-slate-900 mb-6">Pully dans le système judiciaire vaudois</h2>
           <p class="text-slate-700 leading-relaxed mb-4">
-            Pully (18'000 habitants), commune limitrophe de Lausanne, dépend des juridictions du canton de Vaud. Les Pulliérans qui font appel à un <NuxtLink to="/lausanne" class="text-red-900 hover:underline">avocat à Lausanne</NuxtLink> ou à Genève passent par les autorités suivantes&nbsp;:
+            Pully (18'000 habitants), commune limitrophe de Lausanne, dépend des juridictions du canton de Vaud. Les Pulliérans qui font appel à un <NuxtLink to="/lausanne" class="text-red-900 hover:underline">avocat à Lausanne</NuxtLink> passent par les autorités suivantes&nbsp;:
           </p>
           <ul class="space-y-3 text-slate-700">
             <li class="flex gap-3">
@@ -106,9 +105,9 @@ useLocalSeo(
 
       <section class="py-16 bg-slate-900 text-white">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 class="text-3xl font-semibold tracking-tight">Avocat pour les Pulliérans — avant l'ouverture officielle</h2>
+          <h2 class="text-3xl font-semibold tracking-tight">Avocat pour les Pulliérans</h2>
           <p class="mt-3 text-slate-300">
-            En attendant l'ouverture officielle de notre antenne à Lausanne, nous accueillons les clients de Pully à Genève (35 min en train depuis la gare de Lausanne) ou par visioconférence.
+            Notre bureau de <NuxtLink to="/lausanne" class="text-white underline hover:text-red-300">Lausanne</NuxtLink> accueille les clients de Pully. Premier rendez-vous d'analyse à CHF 155.-.
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <NuxtLink to="/contact" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-900 bg-white hover:bg-slate-100 rounded-md">Demander un rendez-vous</NuxtLink>

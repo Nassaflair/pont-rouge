@@ -68,13 +68,17 @@ export const locations: Record<LocationKey, Location> = {
     key: 'lausanne',
     name: 'Clegal Avocats Lausanne',
     legalName: 'Clegal Avocats',
+    // Adresse précise à compléter — laisser le placeholder fait que le composant
+    // LocalNAP et le schema JSON-LD masquent le streetAddress jusqu'à fourniture.
     streetAddress: 'À COMPLÉTER',
     addressLocality: 'Lausanne',
     postalCode: '1003',
     addressRegion: 'Vaud',
     addressCountry: 'CH',
+    // Numéro Lausanne à fournir — le placeholder est filtré du schema JSON-LD.
+    // En attendant, le numéro Genève reste utilisé dans l'UI (cabinet unifié).
     telephone: '+41XXXXXXXXX',
-    email: 'lausanne@clegal-avocats.ch',
+    email: 'info@clegal-avocats.ch',
     geo: { latitude: 46.5197, longitude: 6.6323 },
     hours: [
       {
@@ -106,8 +110,14 @@ export const locations: Record<LocationKey, Location> = {
       'Tribunal des baux',
       'Tribunal de prud\'hommes du canton de Vaud',
     ],
-    active: false,
+    active: true,
   },
+}
+
+// Helper : un champ vaut-il un placeholder ? (utilisé pour filtrer le JSON-LD)
+export const isPlaceholder = (value: string | undefined | null): boolean => {
+  if (!value) return true
+  return value === 'À COMPLÉTER' || value.includes('XXXXXXXXX')
 }
 
 export const getLocation = (key: LocationKey): Location => locations[key]
