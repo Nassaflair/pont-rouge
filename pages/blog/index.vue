@@ -255,7 +255,7 @@
           <div>
             <h2 class="text-2xl font-bold text-slate-900 mb-6">Notre Étude d'Avocats à Genève</h2>
             <p class="text-slate-600 mb-8 leading-relaxed">
-              Située au quartier des <strong>Acacias</strong>, Clegal Avocats vous accueille du lundi au vendredi pour toutes vos questions juridiques. Notre équipe d'avocats inscrits au <strong>Barreau de Genève</strong> vous accompagne avec rigueur et proximité.
+              Située au quartier des <strong>Acacias</strong>, Clegal Avocats accueille les clients pour leurs rendez-vous au bureau et assure une <strong>permanence téléphonique 24h/24, 7j/7</strong> pour les urgences (gardes à vue, urgences pénales, urgences droit des étrangers). Notre équipe d'avocats inscrits au <strong>Barreau de Genève</strong> vous accompagne avec rigueur et proximité.
             </p>
 
             <div class="space-y-4">
@@ -284,8 +284,8 @@
                   <i data-lucide="clock" class="w-5 h-5 text-red-900"></i>
                 </div>
                 <div>
-                  <p class="font-semibold text-slate-900">Horaires</p>
-                  <p class="text-slate-600">Lundi - Vendredi : 08h30 - 18h00</p>
+                  <p class="font-semibold text-slate-900">Permanence</p>
+                  <p class="text-emerald-700 font-medium">24h/24 · 7j/7</p>
                 </div>
               </div>
             </div>

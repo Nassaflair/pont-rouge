@@ -82,7 +82,7 @@ useLocalSeo(
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 class="text-3xl font-semibold tracking-tight">Avocat à Genève au service des Eaux-Vives</h2>
           <p class="mt-3 text-slate-300">
-            Premier rendez-vous d'analyse à CHF 155.-. Nos avocats vous reçoivent du lundi au vendredi, 8h30-18h00.
+            Premier rendez-vous d'analyse à CHF 155.-. Permanence joignable 24h/24 · 7j/7.
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <NuxtLink to="/contact" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-900 bg-white hover:bg-slate-100 rounded-md">Demander un rendez-vous</NuxtLink>

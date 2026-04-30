@@ -33,9 +33,9 @@ export const locations: Record<LocationKey, Location> = {
     geo: { latitude: 46.1871, longitude: 6.1296 },
     hours: [
       {
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '08:30',
-        closes: '18:00',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '00:00',
+        closes: '23:59',
       },
     ],
     areaServed: [
@@ -79,9 +79,9 @@ export const locations: Record<LocationKey, Location> = {
     geo: { latitude: 46.5197, longitude: 6.6322 },
     hours: [
       {
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '08:30',
-        closes: '18:00',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '00:00',
+        closes: '23:59',
       },
     ],
     areaServed: [

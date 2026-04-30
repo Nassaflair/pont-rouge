@@ -53,8 +53,8 @@ const loc = locations[props.city]
       </a>
     </p>
 
-    <p v-if="loc.hours.length" class="text-xs text-slate-500 pt-1">
-      Lundi-Vendredi · {{ loc.hours[0].opens }} - {{ loc.hours[0].closes }}
+    <p class="text-xs font-medium text-emerald-700 pt-1">
+      Permanence 24h/24 · 7j/7
     </p>
   </address>
 </template>

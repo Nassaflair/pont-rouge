@@ -79,7 +79,7 @@ useLocalSeo(
             </span>
             <span class="inline-flex items-center gap-1.5 text-slate-700">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <strong>Lundi-Vendredi 8h30-18h00</strong>
+              <strong>Permanence 24h/24 · 7j/7</strong>
             </span>
           </div>
 
@@ -155,7 +155,7 @@ useLocalSeo(
               <p>
                 Email : <a href="mailto:info@clegal-avocats.ch" class="text-red-900 hover:underline" itemprop="email">info@clegal-avocats.ch</a>
               </p>
-              <p class="text-sm text-slate-500 pt-2">Lundi-Vendredi · 8h30-18h00</p>
+              <p class="text-sm font-medium text-emerald-700 pt-2">Permanence 24h/24 · 7j/7</p>
             </address>
             <p class="text-sm text-slate-600 mt-4">
               À 5 minutes à pied de la gare de Lausanne (CFF + métro M2). Centre-ville, accès direct depuis l'autoroute A1

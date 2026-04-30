@@ -89,6 +89,38 @@ Pour mettre à jour le site en ligne [`clegal-avocats.ch`](https://clegal-avocat
 2.  Accédez à la rubrique **"Node.js"** ou **"Applications Web"**.
 3.  Cliquez sur le bouton **"Construire"** puis **"Exécuter"** (ou "Relancer l'app").
 
+### 🔹 Étape C : Purger le cache Cloudflare (⚠️ obligatoire)
+
+> Sans cette étape, les visiteurs continuent de voir l'ancienne version du site pendant **jusqu'à 4 heures** (TTL du cache Cloudflare). C'est trompeur : Infomaniak sert bien la nouvelle version, mais Cloudflare la masque.
+
+1.  Connectez-vous à **[Cloudflare](https://dash.cloudflare.com)**.
+2.  Sélectionnez le domaine **`clegal-avocats.ch`**.
+3.  Dans la sidebar gauche : **Caching** → **Configuration**.
+4.  Section "Purge Cache" → cliquez sur **Purge Everything** → confirmez.
+
+> *Effet immédiat : les visiteurs voient la nouvelle version dès leur prochain refresh.*
+
+### ✅ Vérification
+
+Pour confirmer que le déploiement est bien live, testez l'en-tête HTTP :
+```bash
+curl -sI https://clegal-avocats.ch/ | grep -i "cf-cache-status\|age"
+```
+- `cf-cache-status: MISS` ou `REVALIDATED` juste après la purge → bon signe
+- `age: 0` ou très petit → cache fraîchement reconstruit
+
+---
+
+## 🔄 Récap : Procédure complète d'un déploiement
+
+```
+1. Modifs locales → git add . → git commit -m "..." → git push origin main
+2. SSH Infomaniak → cd /sites/clegal-avocats && git pull
+3. Dashboard Infomaniak → Node.js → Construire → Exécuter
+4. Cloudflare → Caching → Purge Everything
+5. Vérifier en navigation privée : https://clegal-avocats.ch
+```
+
 ---
 <div align="center">
   <sub>Pont-Rouge by Clegal-Avocats - Tous droits réservés.</sub>

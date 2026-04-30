@@ -890,7 +890,7 @@ useLocalSeo(
       },
       {
         question: 'Comment prendre rendez-vous avec un avocat à Genève ?',
-        answer: 'Appelez le 022 512 10 50 (du lundi au vendredi, 8h30-18h00) ou utilisez le formulaire de contact sur notre site. Réponse sous 24h ouvrables. Premier rendez-vous d\'analyse à CHF 155.- — 60 minutes pour évaluer le dossier et proposer un plan d\'action concret.',
+        answer: 'Appelez le 022 512 10 50 — permanence 24h/24, 7 jours sur 7 (gardes à vue, urgences pénales, urgences droit des étrangers). Pour les rendez-vous au bureau ou les questions non urgentes, utilisez aussi le formulaire de contact (réponse sous 24h ouvrables). Premier rendez-vous d\'analyse à CHF 155.- — 60 minutes pour évaluer le dossier et proposer un plan d\'action concret.',
       },
       {
         question: 'Quelles juridictions genevoises couvrez-vous ?',
