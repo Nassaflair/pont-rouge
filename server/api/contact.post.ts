@@ -12,6 +12,9 @@ const contactSchema = z.object({
   lastname: z.string().min(2, { message: "Le nom doit contenir au moins 2 caractères" }),
   email: z.string().email({ message: "Email invalide" }),
   phone: z.string().min(10, { message: "Numéro de téléphone invalide" }),
+  office: z.enum(['geneve', 'lausanne'], {
+    message: "Veuillez sélectionner le bureau (Genève ou Lausanne)",
+  }),
   message: z.string().min(10, { message: "Message trop court" }),
   subject: z.string().min(5, { message: "Sujet requis" }),
   hasDeadline: z.enum(['oui', 'non']).optional(),
@@ -132,7 +135,10 @@ export default defineEventHandler(async (event) => {
       });
     }
 
-    const { firstname, lastname, email, phone, subject, message, hasDeadline, deadlineDate, recaptchaToken } = result.data as ContactData;
+    const { firstname, lastname, email, phone, office, subject, message, hasDeadline, deadlineDate, recaptchaToken } = result.data as ContactData;
+
+    const officeLabel = office === 'lausanne' ? 'Lausanne' : 'Genève';
+    const officeAddress = office === 'lausanne' ? 'Rue Saint-Pierre 2, 1003 Lausanne' : 'Route des Jeunes 9, 1227 Les Acacias';
 
     /**
      * c0) Vérification Recaptcha
@@ -172,7 +178,7 @@ export default defineEventHandler(async (event) => {
       from: `"Clegal Avocats" <${FIRM_EMAIL}>`,
       to: FIRM_EMAIL,
       replyTo: email,
-      subject: `Nouveau Lead: ${lastname} ${firstname}`,
+      subject: `Nouveau Lead [${officeLabel.toUpperCase()}]: ${lastname} ${firstname}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -223,6 +229,14 @@ export default defineEventHandler(async (event) => {
                 <tr>
                   <td style="padding-bottom: 16px; width: 30%; color: #64748b; font-size: 14px; font-weight: 500;">Téléphone</td>
                   <td style="padding-bottom: 16px; color: #0f172a; font-size: 15px;">${phone}</td>
+                </tr>
+
+                <tr>
+                  <td style="padding-bottom: 16px; width: 30%; color: #64748b; font-size: 14px; font-weight: 500;">Bureau souhaité</td>
+                  <td style="padding-bottom: 16px;">
+                    <span style="display: inline-block; background-color: #fef2f2; color: #b91c1c; padding: 4px 12px; border-radius: 9999px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.025em;">${officeLabel}</span>
+                    <span style="display: block; color: #64748b; font-size: 13px; margin-top: 4px;">${officeAddress}</span>
+                  </td>
                 </tr>
 
                 <tr>
@@ -305,9 +319,15 @@ L'équipe Clegal Avocats`,
               Chère Madame, cher Monsieur,
             </p>
             
-            <p style="color: #334155; line-height: 1.7; margin-bottom: 32px; font-size: 16px;">
+            <p style="color: #334155; line-height: 1.7; margin-bottom: 24px; font-size: 16px;">
               Nous accusons bonne réception de votre demande concernant <strong style="color: #0f172a;">"${subject}"</strong> et vous en remercions.
             </p>
+
+            <div style="background-color: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 14px 18px; margin-bottom: 32px;">
+              <p style="color: #7f1d1d; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 4px 0;">Bureau souhaité</p>
+              <p style="color: #0f172a; font-size: 15px; font-weight: 600; margin: 0;">${officeLabel}</p>
+              <p style="color: #64748b; font-size: 13px; margin: 2px 0 0 0;">${officeAddress}</p>
+            </div>
 
             <div style="background-color: #f8fafc; border-left: 4px solid #7f1d1d; padding: 20px 24px; border-radius: 0 8px 8px 0; margin-bottom: 32px; color: #475569; font-style: italic; line-height: 1.6;">
               "${message}"

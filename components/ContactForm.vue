@@ -138,6 +138,73 @@
                             </div>
                         </div>
 
+                        <!-- Choix du bureau -->
+                        <div class="space-y-3">
+                            <label class="block text-sm font-medium text-slate-700">Où souhaitez-vous être reçu(e) ? <span class="text-red-500">*</span></label>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <label
+                                    :class="[
+                                        'relative flex flex-col gap-1 p-4 rounded-xl border-2 cursor-pointer transition-all',
+                                        form.office === 'geneve'
+                                            ? 'border-red-900 bg-red-50/50 ring-4 ring-red-900/10'
+                                            : 'border-slate-200 bg-white hover:border-slate-300',
+                                        fieldErrors.office && !form.office ? '!border-red-300' : '',
+                                    ]"
+                                >
+                                    <input
+                                        type="radio"
+                                        name="office"
+                                        value="geneve"
+                                        v-model="form.office"
+                                        @change="clearError('office')"
+                                        class="sr-only"
+                                    >
+                                    <span class="flex items-center justify-between">
+                                        <span class="text-base font-semibold text-slate-900">Bureau de Genève</span>
+                                        <span
+                                            v-if="form.office === 'geneve'"
+                                            class="inline-flex items-center justify-center h-5 w-5 rounded-full bg-red-900 text-white"
+                                            aria-hidden="true"
+                                        >
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                        </span>
+                                    </span>
+                                    <span class="text-xs text-slate-600">Route des Jeunes 9, 1227 Les Acacias</span>
+                                </label>
+
+                                <label
+                                    :class="[
+                                        'relative flex flex-col gap-1 p-4 rounded-xl border-2 cursor-pointer transition-all',
+                                        form.office === 'lausanne'
+                                            ? 'border-red-900 bg-red-50/50 ring-4 ring-red-900/10'
+                                            : 'border-slate-200 bg-white hover:border-slate-300',
+                                        fieldErrors.office && !form.office ? '!border-red-300' : '',
+                                    ]"
+                                >
+                                    <input
+                                        type="radio"
+                                        name="office"
+                                        value="lausanne"
+                                        v-model="form.office"
+                                        @change="clearError('office')"
+                                        class="sr-only"
+                                    >
+                                    <span class="flex items-center justify-between">
+                                        <span class="text-base font-semibold text-slate-900">Bureau de Lausanne</span>
+                                        <span
+                                            v-if="form.office === 'lausanne'"
+                                            class="inline-flex items-center justify-center h-5 w-5 rounded-full bg-red-900 text-white"
+                                            aria-hidden="true"
+                                        >
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                        </span>
+                                    </span>
+                                    <span class="text-xs text-slate-600">Rue Saint-Pierre 2, 1003 Lausanne</span>
+                                </label>
+                            </div>
+                            <p v-if="fieldErrors.office" class="text-sm text-red-600 ml-1">{{ fieldErrors.office }}</p>
+                        </div>
+
                         <div class="space-y-2">
                             <label for="message" class="block text-sm font-medium text-slate-700">Votre affaire en quelques mots <span class="text-red-500">*</span></label>
                             <textarea 
@@ -312,6 +379,7 @@ const form = reactive({
     lastname: '',
     email: '',
     phone: '',
+    office: '' as '' | 'geneve' | 'lausanne',
     message: '',
     hasDeadline: 'non',
     deadlineDate: '',
@@ -361,6 +429,11 @@ const validateForm = () => {
 
     if (!form.phone || form.phone.length < 10) {
         fieldErrors.phone = "Un numéro de téléphone valide est requis";
+        isValid = false;
+    }
+
+    if (form.office !== 'geneve' && form.office !== 'lausanne') {
+        fieldErrors.office = "Veuillez sélectionner le bureau (Genève ou Lausanne)";
         isValid = false;
     }
 
@@ -428,6 +501,7 @@ const submitForm = async () => {
         form.lastname = '';
         form.email = '';
         form.phone = '';
+        form.office = '';
         form.message = '';
         form.hasDeadline = 'non';
         form.deadlineDate = '';
