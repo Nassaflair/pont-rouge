@@ -144,11 +144,11 @@
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                 <label
                                     :class="[
-                                        'relative flex flex-col gap-1 p-4 rounded-xl border-2 cursor-pointer transition-all',
+                                        'relative flex items-start gap-3 p-4 rounded-xl border-2 cursor-pointer transition-all',
                                         form.office === 'geneve'
-                                            ? 'border-red-900 bg-red-50/50 ring-4 ring-red-900/10'
-                                            : 'border-slate-200 bg-white hover:border-slate-300',
-                                        fieldErrors.office && !form.office ? '!border-red-300' : '',
+                                            ? 'border-red-900 bg-red-50/50 ring-4 ring-red-900/10 shadow-sm'
+                                            : 'border-slate-200 bg-white hover:border-slate-400 hover:bg-slate-50',
+                                        fieldErrors.office && !form.office ? '!border-red-300 !bg-red-50/30' : '',
                                     ]"
                                 >
                                     <input
@@ -159,26 +159,31 @@
                                         @change="clearError('office')"
                                         class="sr-only"
                                     >
-                                    <span class="flex items-center justify-between">
-                                        <span class="text-base font-semibold text-slate-900">Bureau de Genève</span>
-                                        <span
-                                            v-if="form.office === 'geneve'"
-                                            class="inline-flex items-center justify-center h-5 w-5 rounded-full bg-red-900 text-white"
-                                            aria-hidden="true"
-                                        >
-                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                                        </span>
+                                    <!-- Radio visual indicator -->
+                                    <span
+                                        :class="[
+                                            'flex-shrink-0 mt-0.5 inline-flex items-center justify-center h-5 w-5 rounded-full border-2 transition-all',
+                                            form.office === 'geneve'
+                                                ? 'border-red-900 bg-red-900'
+                                                : 'border-slate-300 bg-white',
+                                        ]"
+                                        aria-hidden="true"
+                                    >
+                                        <span v-if="form.office === 'geneve'" class="h-2 w-2 rounded-full bg-white"></span>
                                     </span>
-                                    <span class="text-xs text-slate-600">Route des Jeunes 9, 1227 Les Acacias</span>
+                                    <span class="flex-1">
+                                        <span class="block text-base font-semibold text-slate-900">Bureau de Genève</span>
+                                        <span class="block text-xs text-slate-600 mt-0.5">Route des Jeunes 9, 1227 Les Acacias</span>
+                                    </span>
                                 </label>
 
                                 <label
                                     :class="[
-                                        'relative flex flex-col gap-1 p-4 rounded-xl border-2 cursor-pointer transition-all',
+                                        'relative flex items-start gap-3 p-4 rounded-xl border-2 cursor-pointer transition-all',
                                         form.office === 'lausanne'
-                                            ? 'border-red-900 bg-red-50/50 ring-4 ring-red-900/10'
-                                            : 'border-slate-200 bg-white hover:border-slate-300',
-                                        fieldErrors.office && !form.office ? '!border-red-300' : '',
+                                            ? 'border-red-900 bg-red-50/50 ring-4 ring-red-900/10 shadow-sm'
+                                            : 'border-slate-200 bg-white hover:border-slate-400 hover:bg-slate-50',
+                                        fieldErrors.office && !form.office ? '!border-red-300 !bg-red-50/30' : '',
                                     ]"
                                 >
                                     <input
@@ -189,17 +194,22 @@
                                         @change="clearError('office')"
                                         class="sr-only"
                                     >
-                                    <span class="flex items-center justify-between">
-                                        <span class="text-base font-semibold text-slate-900">Bureau de Lausanne</span>
-                                        <span
-                                            v-if="form.office === 'lausanne'"
-                                            class="inline-flex items-center justify-center h-5 w-5 rounded-full bg-red-900 text-white"
-                                            aria-hidden="true"
-                                        >
-                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                                        </span>
+                                    <!-- Radio visual indicator -->
+                                    <span
+                                        :class="[
+                                            'flex-shrink-0 mt-0.5 inline-flex items-center justify-center h-5 w-5 rounded-full border-2 transition-all',
+                                            form.office === 'lausanne'
+                                                ? 'border-red-900 bg-red-900'
+                                                : 'border-slate-300 bg-white',
+                                        ]"
+                                        aria-hidden="true"
+                                    >
+                                        <span v-if="form.office === 'lausanne'" class="h-2 w-2 rounded-full bg-white"></span>
                                     </span>
-                                    <span class="text-xs text-slate-600">Rue Saint-Pierre 2, 1003 Lausanne</span>
+                                    <span class="flex-1">
+                                        <span class="block text-base font-semibold text-slate-900">Bureau de Lausanne</span>
+                                        <span class="block text-xs text-slate-600 mt-0.5">Rue Saint-Pierre 2, 1003 Lausanne</span>
+                                    </span>
                                 </label>
                             </div>
                             <p v-if="fieldErrors.office" class="text-sm text-red-600 ml-1">{{ fieldErrors.office }}</p>
