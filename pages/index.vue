@@ -33,11 +33,10 @@
               <span class="text-xs font-medium text-slate-600 uppercase tracking-wide">Cabinet d'avocats Genève · Lausanne</span>
             </div>
 
-            <h1 class="lg:text-5xl leading-tight text-4xl font-semibold text-slate-900 tracking-tight mb-2">
-              Cabinet d'avocats à Genève et Lausanne <br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">Droit pénal, famille, travail, étrangers, bail, affaires</span>
+            <h1 class="lg:text-5xl leading-tight text-4xl font-semibold text-slate-900 tracking-tight mb-3">
+              Cabinet d'avocats à Genève et Lausanne
             </h1>
-            <p class="text-sm font-medium text-slate-400 tracking-wide mb-4">Notre équipe au service du Barreau de Genève et du canton de Vaud — Premier rendez-vous d'analyse à CHF 155.-</p>
+            <p class="text-sm font-medium text-slate-500 tracking-wide mb-4">Nos avocats sont membres du Barreau de Genève et pratiquent dans les cantons de Vaud et Genève — Premier rendez-vous d'analyse à CHF 155.-</p>
 
             <!-- Mobile Price Banner - visible only on mobile -->
             <div class="lg:hidden mb-6 space-y-3">
@@ -483,7 +482,7 @@
             <NuxtLink to="/droit-penal" class="text-red-900 hover:underline">droit pénal</NuxtLink>
             (défense des prévenus, représentation des victimes LAVI, ordonnances pénales),
             <NuxtLink to="/droit-travail" class="text-red-900 hover:underline">droit du travail</NuxtLink>
-            (licenciement abusif, Tribunal des prud'hommes — gratuit jusqu'à CHF 75'000),
+            (licenciement abusif, Tribunal des prud'hommes),
             <NuxtLink to="/droit-etrangers" class="text-red-900 hover:underline">droit des étrangers</NuxtLink>
             (permis B/C, regroupement familial, recours OCPM),
             <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="text-red-900 hover:underline">droit du bail</NuxtLink>
@@ -600,19 +599,19 @@
           </div>
           <div class="bg-white border border-slate-200 rounded-lg p-4">
             <p class="text-sm font-semibold text-slate-900">Cour de justice de Genève</p>
-            <p class="text-xs text-slate-500 mt-1">Place du Bourg-de-Four — appel civil et pénal</p>
+            <p class="text-xs text-slate-500 mt-1">Place du Bourg-de-Four — appel civil, pénal et administratif</p>
           </div>
           <div class="bg-white border border-slate-200 rounded-lg p-4">
             <p class="text-sm font-semibold text-slate-900">Ministère public</p>
             <p class="text-xs text-slate-500 mt-1">Place du Bourg-de-Four 3 — instruction pénale</p>
           </div>
           <div class="bg-white border border-slate-200 rounded-lg p-4">
-            <p class="text-sm font-semibold text-slate-900">Tribunal correctionnel & Tribunal de police</p>
+            <p class="text-sm font-semibold text-slate-900">Tribunal pénal</p>
             <p class="text-xs text-slate-500 mt-1">Jugement pénal de première instance</p>
           </div>
           <div class="bg-white border border-slate-200 rounded-lg p-4">
             <p class="text-sm font-semibold text-slate-900">Tribunal des prud'hommes de Genève</p>
-            <p class="text-xs text-slate-500 mt-1">Litiges du travail — gratuit jusqu'à CHF 75'000</p>
+            <p class="text-xs text-slate-500 mt-1">Litiges du travail</p>
           </div>
           <div class="bg-white border border-slate-200 rounded-lg p-4">
             <p class="text-sm font-semibold text-slate-900">Tribunal des baux et loyers</p>
@@ -621,10 +620,6 @@
           <div class="bg-white border border-slate-200 rounded-lg p-4">
             <p class="text-sm font-semibold text-slate-900">Tribunal administratif de première instance (TAPI)</p>
             <p class="text-xs text-slate-500 mt-1">Décisions administratives, OCPM, recours</p>
-          </div>
-          <div class="bg-white border border-slate-200 rounded-lg p-4">
-            <p class="text-sm font-semibold text-slate-900">Chambre administrative de la Cour de justice</p>
-            <p class="text-xs text-slate-500 mt-1">Appel administratif</p>
           </div>
           <div class="bg-white border border-slate-200 rounded-lg p-4">
             <p class="text-sm font-semibold text-slate-900">Chambre des assurances sociales</p>
@@ -882,7 +877,7 @@ useLocalSeo(
       },
       {
         question: 'Quels domaines du droit pratiquez-vous à Genève ?',
-        answer: 'Clegal Avocats à Genève couvre huit domaines : droit de la famille (divorce, séparation, garde, pension, succession), droit du travail (licenciement, Tribunal des prud\'hommes), droit pénal (Ministère public, Tribunal correctionnel, défense LAVI), droit des étrangers (OCPM, permis B/C, regroupement familial), droit immobilier (bail, expulsion), droit des affaires (Sàrl, SA, contrats), droit administratif et droit des assurances.',
+        answer: 'Clegal Avocats à Genève couvre huit domaines : droit de la famille (divorce, séparation, garde, pension, succession), droit du travail (licenciement, Tribunal des prud\'hommes), droit pénal (Ministère public, Tribunal pénal, défense LAVI), droit des étrangers (OCPM, permis B/C, regroupement familial), droit immobilier (bail, expulsion), droit des affaires (Sàrl, SA, contrats), droit administratif et droit des assurances.',
       },
       {
         question: 'Où se trouve votre cabinet d\'avocats à Genève ?',
@@ -894,7 +889,7 @@ useLocalSeo(
       },
       {
         question: 'Quelles juridictions genevoises couvrez-vous ?',
-        answer: 'Toutes les juridictions du canton de Genève : Tribunal de première instance (Rue de l\'Athénée 6/8), Cour de justice (Place du Bourg-de-Four), Ministère public, Tribunal correctionnel, Tribunal des prud\'hommes, Tribunal des baux et loyers, Tribunal administratif de première instance (TAPI), Chambre administrative de la Cour de justice, Conseil d\'État, Chambre des assurances sociales du Tribunal cantonal.',
+        answer: 'Toutes les juridictions du canton de Genève : Tribunal de première instance (Rue de l\'Athénée 6/8), Cour de justice (Place du Bourg-de-Four — appel civil, pénal et administratif), Ministère public, Tribunal pénal, Tribunal des prud\'hommes, Tribunal des baux et loyers, Tribunal administratif de première instance (TAPI), Conseil d\'État, Chambre des assurances sociales du Tribunal cantonal.',
       },
       {
         question: 'Quels quartiers de Genève desservez-vous ?',

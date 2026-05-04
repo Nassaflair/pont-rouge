@@ -318,7 +318,7 @@
                         
                         <div class="flex items-center justify-center gap-2 mt-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-slate-400/80"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-                            <span class="text-xs font-medium text-slate-400 uppercase tracking-widest">Paiement sécurisé sur place ou par facture</span>
+                            <span class="text-xs font-medium text-slate-400 uppercase tracking-widest">Paiement sécurisé sur place</span>
                         </div>
                     </form>
                 </div>

@@ -53,11 +53,11 @@ export const locations: Record<LocationKey, Location> = {
     ],
     courts: [
       'Tribunal de première instance de Genève',
-      'Cour de justice de Genève',
+      'Cour de justice de Genève (appel civil, pénal et administratif)',
+      'Tribunal pénal',
       'Tribunal des prud\'hommes de Genève',
       'Tribunal des baux et loyers',
       'Tribunal administratif de première instance (TAPI)',
-      'Chambre administrative de la Cour de justice',
       'Ministère public',
       'Conseil d\'État de Genève',
       'Chambre des assurances sociales du Tribunal cantonal',

@@ -56,7 +56,7 @@ useLocalSeo(
             </NuxtLink>
             <NuxtLink to="/droit-penal" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
               <h3 class="font-semibold text-slate-900">Avocat pénaliste Eaux-Vives</h3>
-              <p class="text-sm text-slate-600 mt-2">Défense devant le Ministère public et le Tribunal correctionnel — Place du Bourg-de-Four à 8 min.</p>
+              <p class="text-sm text-slate-600 mt-2">Défense devant le Ministère public et le Tribunal pénal — Place du Bourg-de-Four à 8 min.</p>
             </NuxtLink>
             <NuxtLink to="/droit-affaires" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
               <h3 class="font-semibold text-slate-900">Avocat affaires Eaux-Vives</h3>
@@ -68,7 +68,7 @@ useLocalSeo(
             </NuxtLink>
             <NuxtLink to="/droit-travail/avocat-licenciement" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
               <h3 class="font-semibold text-slate-900">Avocat travail Eaux-Vives</h3>
-              <p class="text-sm text-slate-600 mt-2">Licenciement, conflits, Tribunal des prud'hommes (gratuit jusqu'à CHF 75'000).</p>
+              <p class="text-sm text-slate-600 mt-2">Licenciement, conflits, Tribunal des prud'hommes.</p>
             </NuxtLink>
             <NuxtLink to="/droit-etrangers/avocat-permis-sejour" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
               <h3 class="font-semibold text-slate-900">Avocat étrangers Eaux-Vives</h3>
