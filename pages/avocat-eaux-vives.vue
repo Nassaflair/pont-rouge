@@ -62,7 +62,7 @@ useLocalSeo(
               <h3 class="font-semibold text-slate-900">Avocat affaires Eaux-Vives</h3>
               <p class="text-sm text-slate-600 mt-2">Constitution de société, contrats commerciaux, contentieux pour les entreprises du quartier.</p>
             </NuxtLink>
-            <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
+            <NuxtLink to="/droit-bail" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
               <h3 class="font-semibold text-slate-900">Avocat bail Eaux-Vives</h3>
               <p class="text-sm text-slate-600 mt-2">Loyer, congé, expulsion. Tribunal des baux et loyers de Genève.</p>
             </NuxtLink>

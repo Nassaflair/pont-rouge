@@ -46,11 +46,11 @@
 
                         <div class="mt-10 flex flex-wrap gap-6 text-xs text-slate-500 font-medium">
                             <span class="flex items-center gap-1.5"><i data-lucide="check-circle"
-                                    class="w-4 h-4 text-emerald-600"></i> Construction & Vente</span>
+                                    class="w-4 h-4 text-emerald-600"></i> Vente & Construction</span>
                             <span class="flex items-center gap-1.5"><i data-lucide="check-circle"
-                                    class="w-4 h-4 text-emerald-600"></i> Litiges Voisinage</span>
+                                    class="w-4 h-4 text-emerald-600"></i> Copropriété (PPE)</span>
                             <span class="flex items-center gap-1.5"><i data-lucide="check-circle"
-                                    class="w-4 h-4 text-emerald-600"></i> Droit du Bail</span>
+                                    class="w-4 h-4 text-emerald-600"></i> Voisinage & Servitudes</span>
                         </div>
                     </div>
 
@@ -133,7 +133,7 @@
                             <div class="w-10 h-10 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mb-4 mx-auto md:mx-0 shadow-lg shadow-slate-900/20">1</div>
                             <h4 class="text-lg font-bold text-slate-900 mb-3">Analyse & Stratégie</h4>
                             <p class="text-sm text-slate-600 leading-relaxed">
-                                Analyse du dossier (Bail, Contrat de vente, Voisinage). 1er RDV à <strong class="text-red-900">CHF 155.-</strong> pour définir la stratégie juridique (arrangement vs procès).
+                                Analyse du dossier (Contrat de vente, copropriété, voisinage, construction). 1er RDV à <strong class="text-red-900">CHF 155.-</strong> pour définir la stratégie juridique (arrangement vs procès).
                             </p>
                         </div>
 
@@ -210,16 +210,17 @@
                         </p>
                     </div>
 
-                    <!-- 4. Cadre Légal Specifique -->
-                    <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:border-red-900/20 hover:shadow-md transition-all group">
-                        <div class="h-12 w-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900 group-hover:bg-red-100 transition-colors">
-                            <i data-lucide="book-open" class="w-6 h-6"></i>
+                    <!-- 4. Vous cherchez le droit du bail ? -->
+                    <NuxtLink to="/droit-bail" class="bg-red-50 rounded-2xl p-8 border-2 border-red-100 hover:border-red-300 hover:shadow-md transition-all group">
+                        <div class="h-12 w-12 bg-red-900 text-white rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-800 transition-colors">
+                            <i data-lucide="key" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Distinction Clé</h3>
-                        <p class="text-slate-600 leading-relaxed">
-                            <strong class="text-slate-900">Attention :</strong> Le droit du bail n'est pas du droit immobilier "pur" et dispose d'une procédure spécifique. Nous traitons ces deux domaines avec la même expertise.
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Vous cherchez le droit du bail ?</h3>
+                        <p class="text-slate-700 leading-relaxed">
+                            Le droit du bail (loyers, résiliation, expulsion) <strong>n'est pas</strong> du droit immobilier — il a sa propre procédure (Commission de conciliation, Tribunal des baux et loyers).
+                            <span class="block mt-2 text-red-900 font-semibold">→ Voir notre page dédiée Droit du Bail</span>
                         </p>
-                    </div>
+                    </NuxtLink>
                 </div>
             </div>
         </section>
@@ -274,14 +275,14 @@
                         <p class="text-sm text-slate-400">Page actuelle.</p>
                     </div>
 
-                    <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="group block p-6 bg-slate-50 rounded-xl border border-slate-200 hover:border-red-900/30 hover:shadow-md transition-all">
+                    <NuxtLink to="/droit-bail" class="group block p-6 bg-slate-50 rounded-xl border border-slate-200 hover:border-red-900/30 hover:shadow-md transition-all">
                         <div class="flex items-center gap-3 mb-3">
                             <div class="p-2 bg-white rounded-lg text-red-900 shadow-sm group-hover:bg-red-900 group-hover:text-white transition-colors">
                                 <i data-lucide="key" class="w-5 h-5"></i>
                             </div>
                             <h3 class="font-bold text-slate-900">Droit du Bail</h3>
                         </div>
-                        <p class="text-sm text-slate-600">Résiliation, loyers et litiges régie.</p>
+                        <p class="text-sm text-slate-600">Résiliation, loyers et litiges régie. Domaine séparé avec procédure propre.</p>
                     </NuxtLink>
                 </div>
             </div>
@@ -303,31 +304,31 @@
 <script setup lang="ts">
 
 
-const immoQuickAnswer = `Un <strong>avocat immobilier à Genève</strong> intervient devant le <strong>Tribunal des baux et loyers</strong> (litiges locatifs) et le Tribunal de première instance (vente, copropriété). Conciliation préalable obligatoire en matière de bail. Tarif horaire : <strong>CHF 350-500/h</strong>. Premier rendez-vous d'analyse à CHF 155.-.`
+const immoQuickAnswer = `Un <strong>avocat immobilier à Genève</strong> intervient en matière de transactions (achat/vente, vices cachés, cédules hypothécaires), copropriété (PPE), litiges de voisinage, servitudes, construction et zonage. Procédure devant le <strong>Tribunal de première instance</strong>. Pour les litiges locataire/bailleur, voir notre page dédiée <a href="/droit-bail" class="text-red-900 underline">droit du bail</a>. Tarif horaire : <strong>CHF 350-500/h</strong>. Premier rendez-vous d'analyse à CHF 155.-.`
 
 const immoTable = {
   title: 'Coûts et délais en droit immobilier à Genève',
   columns: ['Type de litige', 'Honoraires avocat', 'Durée'],
   rows: [
-    ['Conciliation baux (préalable)', `CHF 800 - 2'000`, '1-3 mois'],
-    ['Contestation hausse de loyer', `CHF 2'000 - 4'500`, '4-8 mois'],
-    ['Annulation de congé / résiliation', `CHF 2'500 - 6'000`, '6-12 mois'],
-    [`Procédure d'évacuation`, `CHF 3'000 - 7'500`, '4-9 mois'],
-    ['Litige construction / chantier', `CHF 5'000 - 20'000+`, '12-36 mois'],
+    ['Vente immobilière (vices cachés)', `CHF 4'000 - 12'000`, '6-18 mois'],
     ['Litige PPE / copropriété', `CHF 3'000 - 10'000+`, '6-18 mois'],
+    ['Litige construction / chantier', `CHF 5'000 - 20'000+`, '12-36 mois'],
+    ['Conflit de voisinage / servitude', `CHF 2'500 - 8'000`, '6-15 mois'],
+    ['Recours LCI / permis de construire', `CHF 3'000 - 9'000`, '6-18 mois'],
+    ['Cédule hypothécaire (litige)', `CHF 2'500 - 7'500`, '4-12 mois'],
   ],
-  note: 'Tribunal des baux et loyers de Genève. Procédure conciliation obligatoire. Aide juridictionnelle possible.',
+  note: 'Tribunal de première instance de Genève. Aide juridictionnelle possible. Le droit du bail est un domaine séparé (Tribunal des baux et loyers).',
 }
 
 const immoLinks = [
-  { label: 'Avocat droit du bail à Genève', url: '/droit-immobilier/avocat-droit-bail' },
+  { label: 'Avocat droit du bail à Genève (page dédiée)', url: '/droit-bail' },
   { label: 'Glossaire — Assistance judiciaire', url: '/glossaire/assistance-judiciaire-geneve' },
   { label: 'Honoraires Clegal Avocats', url: '/honoraires' },
 ]
 
 useLocalSeo(
-  'Avocat Immobilier Genève | Construction & Litiges – Clegal Avocats',
-  'Avocat droit immobilier à Genève. Construction, voisinage, vente, zonage. Tribunal d\'arrondissement. 1er RDV à 155.-. Clegal Avocats.',
+  'Avocat Immobilier Genève | Vente, Construction, PPE – Clegal Avocats',
+  'Avocat droit immobilier à Genève : vente/achat, copropriété (PPE), construction, voisinage, servitudes. Tribunal 1ère instance. 1er RDV à 155.-.',
   {
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
@@ -336,7 +337,7 @@ useLocalSeo(
       {
         name: 'Avocat droit immobilier à Genève',
         serviceType: 'Droit immobilier',
-        description: 'Litiges immobiliers à Genève : droit du bail (loyer, résiliation, expulsion devant le Tribunal des baux et loyers), construction, voisinage, vente, zonage, copropriété (PPE).',
+        description: 'Droit immobilier à Genève : transactions (achat/vente, vices cachés), copropriété (PPE), construction, voisinage, servitudes, zonage, cédules hypothécaires. Tribunal de première instance. Le droit du bail dispose d\'une page dédiée.',
         url: 'https://clegal-avocats.ch/droit-immobilier',
         category: 'Droit immobilier',
       },

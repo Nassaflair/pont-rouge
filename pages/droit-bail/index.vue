@@ -14,12 +14,11 @@
                     <!-- Content Left -->
                     <div class="text-left relative z-10">
                         <Breadcrumb :links="[
-                            { name: 'Droit Immobilier', path: '/droit-immobilier' },
-                            { name: 'Droit du Bail', path: '/droit-immobilier/avocat-droit-bail' }
+                            { name: 'Droit du Bail', path: '/droit-bail' }
                         ]" />
 
                         <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight mb-6 leading-[1.1] text-balance">
-                            Avocat Expert en Droit du Bail à Genève<br>
+                            Avocat en Droit du Bail à Genève<br>
                         </h1>
 
                         <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
@@ -70,7 +69,7 @@
                     <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-4">Pourquoi faire appel à un avocat en droit du bail ?</h2>
                     <p class="text-lg text-slate-600">Le droit du bail est formel et strict. Une erreur de délai peut être fatale.</p>
                 </div>
-                
+
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
                         <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-6 text-red-900">
@@ -209,13 +208,17 @@
                         </h4>
                         <p class="text-sm text-slate-600 pl-7">Un avocat peut vous représenter devant les tribunaux, négocier des accords de conciliation, et vous conseiller sur vos droits et obligations selon les <strong>articles 257-273 CO</strong> et <strong>253-274b CC</strong>.</p>
                     </div>
+                    <div class="border-b border-slate-200 pb-4">
+                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
+                            Le droit du bail et le droit immobilier, c'est pareil ?
+                        </h4>
+                        <p class="text-sm text-slate-600 pl-7">Non. Le <strong>droit du bail</strong> régit les relations locataire/bailleur (CO 253 et ss.) et obéit à une procédure spécifique avec conciliation préalable obligatoire. Le <NuxtLink to="/droit-immobilier" class="text-red-900 hover:underline"><strong>droit immobilier</strong></NuxtLink> couvre les transactions (achat/vente, copropriété, cédules hypothécaires, droit foncier) et passe par le Tribunal de première instance. Nous traitons les deux.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-
-        <!-- Related Services -->
-        <SiloLinks silo="immobilier" currentPath="/droit-immobilier/avocat-droit-bail" />
 
         <!-- Form Section -->
         <section id="formulaire" class="py-20 bg-white border-t border-slate-200">
@@ -238,8 +241,7 @@ useLocalSeo(
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
     breadcrumbs: [
-      { name: 'Droit Immobilier', url: 'https://clegal-avocats.ch/droit-immobilier' },
-      { name: 'Avocat Droit du Bail', url: 'https://clegal-avocats.ch/droit-immobilier/avocat-droit-bail' }
+      { name: 'Droit du Bail', url: 'https://clegal-avocats.ch/droit-bail' }
     ]
   }
 )

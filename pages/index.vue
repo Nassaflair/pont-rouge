@@ -349,7 +349,7 @@
           </NuxtLink>
 
           <!-- Droit du bail -->
-          <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="group p-6 bg-white rounded-lg border border-slate-200 hover:border-red-900/20 hover:shadow-md transition-all duration-300">
+          <NuxtLink to="/droit-bail" class="group p-6 bg-white rounded-lg border border-slate-200 hover:border-red-900/20 hover:shadow-md transition-all duration-300">
             <div class="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-slate-700"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"></path><path d="m21 2-9.6 9.6"></path><circle cx="7.5" cy="15.5" r="5.5"></circle></svg>
             </div>
@@ -485,7 +485,7 @@
             (licenciement abusif, Tribunal des prud'hommes),
             <NuxtLink to="/droit-etrangers" class="text-red-900 hover:underline">droit des étrangers</NuxtLink>
             (permis B/C, regroupement familial, recours OCPM),
-            <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="text-red-900 hover:underline">droit du bail</NuxtLink>
+            <NuxtLink to="/droit-bail" class="text-red-900 hover:underline">droit du bail</NuxtLink>
             (loyer, résiliation, expulsion),
             <NuxtLink to="/droit-affaires" class="text-red-900 hover:underline">droit des affaires</NuxtLink>
             (Sàrl, SA, contrats), <NuxtLink to="/droit-administratif" class="text-red-900 hover:underline">droit

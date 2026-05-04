@@ -108,20 +108,31 @@
                                         </ul>
                                     </div>
 
-                                    <!-- Droit Immobilier -->
+                                    <!-- Droit du Bail -->
                                     <div>
-                                        <NuxtLink to="/droit-immobilier" class="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-3 hover:text-red-900 transition-colors border-b border-slate-100 pb-1">
-                                            Droit Immobilier
+                                        <NuxtLink to="/droit-bail" class="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-3 hover:text-red-900 transition-colors border-b border-slate-100 pb-1">
+                                            Droit du Bail
                                         </NuxtLink>
                                         <ul class="space-y-3">
                                             <li>
-                                                <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="flex items-start gap-3 group/link p-2 -mx-2 hover:bg-slate-50 rounded-lg transition-colors">
+                                                <NuxtLink to="/droit-bail" class="flex items-start gap-3 group/link p-2 -mx-2 hover:bg-slate-50 rounded-lg transition-colors">
                                                     <div class="p-1.5 bg-red-50 text-red-900 rounded-md group-hover/link:bg-red-100 transition-colors">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.5-1.5M21 21l-1.5-1.5M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg>
+                                                    </div>
+                                                    <div>
+                                                        <span class="block text-sm font-semibold text-slate-900 group-hover/link:text-red-900">Loyers & Résiliation</span>
+                                                        <span class="block text-xs text-slate-500 mt-0.5">Tribunal des baux</span>
+                                                    </div>
+                                                </NuxtLink>
+                                            </li>
+                                            <li>
+                                                <NuxtLink to="/droit-immobilier" class="flex items-start gap-3 group/link p-2 -mx-2 hover:bg-slate-50 rounded-lg transition-colors">
+                                                    <div class="p-1.5 bg-slate-50 text-slate-700 rounded-md group-hover/link:bg-slate-100 transition-colors">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
                                                     </div>
                                                     <div>
-                                                        <span class="block text-sm font-semibold text-slate-900 group-hover/link:text-red-900">Droit du Bail</span>
-                                                        <span class="block text-xs text-slate-500 mt-0.5">Loyer & Expulsion</span>
+                                                        <span class="block text-sm font-semibold text-slate-900 group-hover/link:text-red-900">Droit Immobilier</span>
+                                                        <span class="block text-xs text-slate-500 mt-0.5">Vente, PPE, voisinage</span>
                                                     </div>
                                                 </NuxtLink>
                                             </li>
@@ -258,13 +269,14 @@
                     </div>
                  </div>
 
-                 <!-- Mobile Immobilier (Split) -->
+                 <!-- Mobile Bail (Split) -->
                  <div class="pl-4 border-l-2 border-slate-100 ml-1 mt-4">
-                    <NuxtLink to="/droit-immobilier" @click="toggleMobileMenu" class="block text-xs uppercase font-bold text-slate-900 mb-2 hover:text-red-900">
-                        Droit Immobilier
+                    <NuxtLink to="/droit-bail" @click="toggleMobileMenu" class="block text-xs uppercase font-bold text-slate-900 mb-2 hover:text-red-900">
+                        Droit du Bail
                     </NuxtLink>
                     <div class="flex flex-col gap-3 text-base">
-                        <NuxtLink to="/droit-immobilier/avocat-droit-bail" @click="handleSamePageReload('/droit-immobilier/avocat-droit-bail', $event)" class="hover:text-red-900">Droit du Bail</NuxtLink>
+                        <NuxtLink to="/droit-bail" @click="handleSamePageReload('/droit-bail', $event)" class="hover:text-red-900">Loyers & résiliation</NuxtLink>
+                        <NuxtLink to="/droit-immobilier" @click="handleSamePageReload('/droit-immobilier', $event)" class="hover:text-red-900">Droit immobilier (vente, PPE)</NuxtLink>
                     </div>
                  </div>
 

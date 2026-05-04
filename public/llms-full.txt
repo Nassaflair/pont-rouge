@@ -64,13 +64,13 @@ Avocate-stagiaire au sein de Clegal Avocats (Bureau de Genève). Langue : franç
 - Défense des prévenus (art. 158 CPP : droit à l'avocat dès la 1ère audition)
 - Représentation des victimes (LAVI)
 - Opposition aux ordonnances pénales (10 jours, art. 354 CPP)
-- Procès devant Tribunal de police, Tribunal correctionnel, Tribunal criminel
+- Procès devant Tribunal pénal (Tribunal criminel pour les peines lourdes)
 - Appel à la Chambre pénale d'appel et de révision (CPAR)
 - Recours au Tribunal fédéral
 
 ### Droit du travail
 - Licenciement abusif et indemnités
-- Représentation devant le Tribunal des prud'hommes (gratuit jusqu'à CHF 75'000)
+- Représentation devant le Tribunal des prud'hommes
 - Conflits employeur-employé
 - Conventions collectives de travail (CCT)
 
@@ -81,9 +81,19 @@ Avocate-stagiaire au sein de Clegal Avocats (Bureau de Genève). Langue : franç
 - Naturalisation
 - Recours au TAPI (30 jours, art. 62 LPA)
 
-### Droit immobilier
-- Droit du bail (loyer, résiliation, expulsion, prolongation)
+### Droit immobilier (transactions, copropriété, construction)
+- Vente immobilière, vices cachés (CO 197 et ss.)
+- Copropriété (PPE) et règlements d'administration
+- Litiges de voisinage et servitudes (CC 641 et ss.)
+- Construction et permis (LCI Genève)
+- Cédules hypothécaires
+- Tribunal de première instance de Genève
+
+### Droit du bail (page dédiée /droit-bail)
+- Litiges loyer, résiliation, expulsion, prolongation
+- Procédure de conciliation préalable obligatoire
 - Tribunal des baux et loyers de Genève
+- Articles 253 et ss. CO (Code des obligations)
 
 ### Droit des affaires
 - Constitution de sociétés (Sàrl art. 772 CO, SA art. 620 CO, société simple art. 530 CO)
@@ -93,7 +103,7 @@ Avocate-stagiaire au sein de Clegal Avocats (Bureau de Genève). Langue : franç
 ### Droit administratif
 - Recours contre décisions cantonales
 - Procédures devant le Tribunal administratif de première instance (TAPI)
-- Chambre administrative de la Cour de justice
+- Cour de justice de Genève (appel administratif)
 - Conseil d'État de Genève
 
 ### Droit des assurances
@@ -122,7 +132,7 @@ Durée : 4-8 mois en amiable, 12-24 mois en contentieux. Délai de réflexion l�
 | Tarif horaire pénaliste Genève | CHF 350 - 500 / h |
 | Assistance lors d'une audition | CHF 700 - 1'500 |
 | Opposition à ordonnance pénale + procès | CHF 3'000 - 8'000 |
-| Défense devant Tribunal correctionnel | CHF 8'000 - 25'000+ |
+| Défense devant Tribunal pénal | CHF 8'000 - 25'000+ |
 | Appel à la CPAR | CHF 5'000 - 15'000+ |
 
 ### Permis B
@@ -144,7 +154,7 @@ Durée : 4-8 mois en amiable, 12-24 mois en contentieux. Délai de réflexion l�
 - Tribunal des prud'hommes
 - Tribunal des baux et loyers
 - Tribunal administratif de première instance (TAPI)
-- Chambre administrative de la Cour de justice
+- Cour de justice de Genève (appel administratif)
 - Conseil d'État de Genève
 - Chambre des assurances sociales du Tribunal cantonal
 - Tribunal des mesures de contrainte (TMC)
@@ -185,7 +195,7 @@ Durée : 4-8 mois en amiable, 12-24 mois en contentieux. Délai de réflexion l�
 - https://clegal-avocats.ch/droit-etrangers — Hub droit des étrangers
   - https://clegal-avocats.ch/droit-etrangers/avocat-permis-sejour — Permis de séjour
 - https://clegal-avocats.ch/droit-immobilier — Hub droit immobilier
-  - https://clegal-avocats.ch/droit-immobilier/avocat-droit-bail — Droit du bail
+  - https://clegal-avocats.ch/droit-bail — Droit du bail
 - https://clegal-avocats.ch/blog — Blog juridique
   - https://clegal-avocats.ch/blog/cout-divorce-geneve — Coût d'un divorce à Genève en 2026
   - https://clegal-avocats.ch/blog/procedure-penale-geneve — Procédure pénale à Genève

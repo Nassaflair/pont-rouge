@@ -54,7 +54,7 @@ defineProps<{
                 { url: '/droit-penal', t: `Avocat pénaliste pour ${quartier}`, d: 'Défense pénale, victimes, ordonnances pénales.' },
                 { url: '/droit-travail', t: `Avocat travail ${quartier}`, d: 'Licenciement, conflits, prud\'hommes.' },
                 { url: '/droit-etrangers', t: `Avocat étrangers ${quartier}`, d: 'Permis B/C, regroupement familial, recours.' },
-                { url: '/droit-immobilier/avocat-droit-bail', t: `Avocat bail ${quartier}`, d: 'Loyer, résiliation, expulsion.' },
+                { url: '/droit-bail', t: `Avocat bail ${quartier}`, d: 'Loyer, résiliation, expulsion.' },
                 { url: '/droit-affaires', t: `Avocat affaires ${quartier}`, d: 'Constitution Sàrl/SA, contrats, contentieux.' },
               ]"
               :key="d.url"

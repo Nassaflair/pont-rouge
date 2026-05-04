@@ -93,7 +93,7 @@ const links = {
   immobilier: [
     {
       title: 'Droit du Bail',
-      path: '/droit-immobilier/avocat-droit-bail',
+      path: '/droit-bail',
       icon: Home,
       description: 'Litiges locataires et bailleurs.'
     },

@@ -59,7 +59,7 @@ export default defineNuxtConfig({
       '/droit-etrangers',
       '/droit-etrangers/avocat-permis-sejour',
       '/droit-immobilier',
-      '/droit-immobilier/avocat-droit-bail',
+      '/droit-bail',
       '/blog',
       '/blog/travailler-suisse-hors-ue',
       '/blog/cout-divorce-geneve',

@@ -101,7 +101,7 @@ useLocalSeo(
               <h3 class="font-semibold text-slate-900">Avocat étrangers Carouge</h3>
               <p class="text-sm text-slate-600 mt-2">Permis B, C, regroupement familial. OCPM (Onex) à 8 minutes de Carouge.</p>
             </NuxtLink>
-            <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="block bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
+            <NuxtLink to="/droit-bail" class="block bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
               <h3 class="font-semibold text-slate-900">Avocat bail Carouge</h3>
               <p class="text-sm text-slate-600 mt-2">Conflits locatifs : loyer, résiliation, expulsion. Tribunal des baux à Genève.</p>
             </NuxtLink>

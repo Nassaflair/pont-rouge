@@ -1,6 +1,6 @@
 # Clegal Avocats
 
-> Cabinet d'avocats généraliste à Genève et à Lausanne. Équipe spécialisée en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit immobilier, droit des affaires, droit administratif et droit des assurances. Premier rendez-vous d'analyse à CHF 155.-.
+> Cabinet d'avocats généraliste à Genève et à Lausanne. Équipe spécialisée en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit du bail, droit immobilier, droit des affaires, droit administratif et droit des assurances. Premier rendez-vous d'analyse à CHF 155.-.
 
 Cabinet fondé par Me Mansour A. Cheema. Deux bureaux : Genève (Route des Jeunes 9, 1227 Les Acacias) où exercent les associés et stagiaires, et Lausanne (Rue Saint-Pierre 2, 1003 Lausanne) où Me Mansour Cheema reçoit les clients vaudois. Tél : 022 512 10 50 — permanence 24h/24, 7j/7 (urgences pénales, gardes à vue, urgences droit des étrangers). Email : info@clegal-avocats.ch.
 
@@ -37,10 +37,13 @@ Cabinet fondé par Me Mansour A. Cheema. Deux bureaux : Genève (Route des Jeune
 - [Droit des étrangers](https://clegal-avocats.ch/droit-etrangers) : Immigration, naturalisation
 - [Avocat permis de séjour](https://clegal-avocats.ch/droit-etrangers/avocat-permis-sejour) : Permis B, C, L, asile
 
+### Droit du bail
+
+- [Avocat droit du bail à Genève](https://clegal-avocats.ch/droit-bail) : Litiges locataire/bailleur, résiliation, hausse de loyer, expulsion, défauts du logement. Tribunal des baux et loyers, Commission de conciliation. Articles 253 et ss. CO.
+
 ### Droit immobilier
 
-- [Droit immobilier](https://clegal-avocats.ch/droit-immobilier)
-- [Avocat droit du bail](https://clegal-avocats.ch/droit-immobilier/avocat-droit-bail) : Loyer, expulsion, résiliation
+- [Avocat droit immobilier à Genève](https://clegal-avocats.ch/droit-immobilier) : Vente/achat (vices cachés), copropriété (PPE), litiges de voisinage, servitudes, construction, zonage, cédules hypothécaires. Tribunal de première instance.
 
 ### Autres domaines
 

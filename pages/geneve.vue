@@ -208,7 +208,7 @@ useLocalSeo(
               <h3 class="text-sm font-semibold text-slate-900">Avocat étrangers à Genève</h3>
               <p class="text-xs text-slate-500 mt-2">Permis B/C, regroupement, OCPM, recours.</p>
             </NuxtLink>
-            <NuxtLink to="/droit-immobilier/avocat-droit-bail" class="block bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
+            <NuxtLink to="/droit-bail" class="block bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
               <h3 class="text-sm font-semibold text-slate-900">Avocat bail à Genève</h3>
               <p class="text-xs text-slate-500 mt-2">Loyer, résiliation, expulsion.</p>
             </NuxtLink>
