@@ -481,28 +481,13 @@ const submitForm = async () => {
     error.value = '';
 
     try {
-        const { data, error: fetchError } = await useFetch('/api/contact', {
+        await $fetch('/api/contact', {
             method: 'POST',
-            body: { 
-                ...form, 
-                recaptchaToken: recaptchaToken.value 
+            body: {
+                ...form,
+                recaptchaToken: recaptchaToken.value
             }
         });
-
-        if (fetchError.value) {
-            // Handle specific validation errors from backend if available
-            if (fetchError.value.data?.data) {
-                 // Map backend Zod errors to frontend fields if structure matches
-                 const backendErrors = fetchError.value.data.data;
-                 if (typeof backendErrors === 'object') {
-                     Object.keys(backendErrors).forEach(key => {
-                         fieldErrors[key] = backendErrors[key][0];
-                     });
-                 }
-                 throw new Error("Veuillez vérifier les champs indiqués.");
-            }
-            throw new Error(fetchError.value.statusMessage || fetchError.value.message);
-        }
 
         success.value = true;
         
@@ -524,8 +509,34 @@ const submitForm = async () => {
         }
 
     } catch (e: any) {
-        console.error(e);
-        error.value = e.message || "Une erreur est survenue lors de l'envoi. Veuillez réessayer.";
+        console.error('[ContactForm] submit error', e);
+
+        // Récupérer les erreurs de validation Zod renvoyées par le backend
+        const backendErrors = e?.data?.data;
+        if (backendErrors && typeof backendErrors === 'object') {
+            Object.keys(backendErrors).forEach((key) => {
+                if (Array.isArray(backendErrors[key]) && backendErrors[key][0]) {
+                    fieldErrors[key] = backendErrors[key][0];
+                }
+            });
+            error.value = "Veuillez vérifier les champs indiqués.";
+        } else {
+            // Erreur générique (réseau, 500, recaptcha, rate limit, SMTP…)
+            const status = e?.statusCode || e?.status;
+            const msg = e?.data?.message || e?.statusMessage || e?.message;
+
+            if (status === 429) {
+                error.value = msg || "Trop de tentatives. Patientez quelques secondes avant de réessayer.";
+            } else if (status === 503) {
+                error.value = "Service de messagerie temporairement indisponible. Vous pouvez nous appeler au 022 512 10 50 (24h/24).";
+            } else if (status === 400 && msg?.includes('anti-robot')) {
+                error.value = "Validation anti-robot échouée. Veuillez recocher la case puis réessayer.";
+                if (window.grecaptcha) window.grecaptcha.reset();
+                recaptchaToken.value = '';
+            } else {
+                error.value = msg || "Une erreur est survenue lors de l'envoi. Vous pouvez nous appeler au 022 512 10 50 (24h/24).";
+            }
+        }
     } finally {
         loading.value = false;
     }

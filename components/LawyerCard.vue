@@ -27,6 +27,13 @@ defineProps<{
         itemprop="image"
         class="w-full h-full object-cover filter saturate-0 group-hover:saturate-100 group-hover:scale-105 transition-all duration-500"
       />
+      <div
+        v-else
+        class="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 text-slate-500 p-3 text-center"
+      >
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mb-2 opacity-60"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span class="text-xs font-medium uppercase tracking-wider">Photo à venir</span>
+      </div>
     </div>
 
     <div class="p-4 flex-1 flex flex-col">
