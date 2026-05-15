@@ -364,10 +364,15 @@
                 <div>
                     <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mb-4">Contact</h3>
                     <address class="not-italic text-sm text-slate-500 space-y-2">
-                        <p>Route des Jeunes 9</p>
-                        <p>1227 Les Acacias / Genève</p>
-                        <p class="pt-2">Mail : <a href="mailto:info@clegal-avocats.ch" class="hover:text-slate-900 transition-colors underline">info@clegal-avocats.ch</a></p>
+                        <p class="font-medium text-slate-700">Bureau de Genève</p>
+                        <p>Route des Jeunes 9, 1227 Les Acacias</p>
                         <p>Tél : <a href="tel:0225121050" class="hover:text-slate-900 transition-colors underline">022 512 10 50</a></p>
+
+                        <p class="font-medium text-slate-700 pt-3">Bureau de Lausanne</p>
+                        <p>Rue Saint-Pierre 2, 1003 Lausanne</p>
+                        <p>Tél : <a href="tel:0215121025" class="hover:text-slate-900 transition-colors underline">021 512 10 25</a></p>
+
+                        <p class="pt-3">Mail : <a href="mailto:info@clegal-avocats.ch" class="hover:text-slate-900 transition-colors underline">info@clegal-avocats.ch</a></p>
                     </address>
                 </div>
             </div>

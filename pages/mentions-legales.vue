@@ -25,9 +25,8 @@ useLocalSeo(
           <h2>Éditeur du site</h2>
           <p>
             <strong>Clegal Avocats</strong><br>
-            Bureau de Genève — Route des Jeunes 9, 1227 Les Acacias, Suisse<br>
-            Bureau de Lausanne — Rue Saint-Pierre 2, 1003 Lausanne, Suisse<br>
-            Téléphone : <a href="tel:0225121050">022 512 10 50</a><br>
+            Bureau de Genève — Route des Jeunes 9, 1227 Les Acacias, Suisse — Tél : <a href="tel:0225121050">022 512 10 50</a><br>
+            Bureau de Lausanne — Rue Saint-Pierre 2, 1003 Lausanne, Suisse — Tél : <a href="tel:0215121025">021 512 10 25</a><br>
             Email : <a href="mailto:info@clegal-avocats.ch">info@clegal-avocats.ch</a>
           </p>
 
@@ -84,8 +83,9 @@ useLocalSeo(
 
           <h2>Contact</h2>
           <p>
-            Pour toute question relative à ce site ou à nos services, contactez-nous au
-            <a href="tel:0225121050">022 512 10 50</a> ou par email à
+            Pour toute question relative à ce site ou à nos services, contactez le bureau de Genève au
+            <a href="tel:0225121050">022 512 10 50</a>, le bureau de Lausanne au
+            <a href="tel:0215121025">021 512 10 25</a> ou par email à
             <a href="mailto:info@clegal-avocats.ch">info@clegal-avocats.ch</a>.
           </p>
         </div>
