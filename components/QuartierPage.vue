@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { LocationKey } from '~/data/locations'
 
-defineProps<{
+const props = defineProps<{
   city: LocationKey
   quartier: string
   slug: string
@@ -10,6 +11,9 @@ defineProps<{
   juridictions: string[]
   proximite?: string
 }>()
+
+const phoneRaw = computed(() => (props.city === 'lausanne' ? '0215121025' : '0225121050'))
+const phoneDisplay = computed(() => (props.city === 'lausanne' ? '021 512 10 25' : '022 512 10 50'))
 </script>
 
 <template>
@@ -30,8 +34,8 @@ defineProps<{
             <NuxtLink to="/contact" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-slate-900 hover:bg-red-900 rounded-md transition-all shadow-sm">
               Prendre rendez-vous
             </NuxtLink>
-            <a href="tel:0225121050" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-md transition-all">
-              022 512 10 50
+            <a :href="`tel:${phoneRaw}`" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-md transition-all">
+              {{ phoneDisplay }}
             </a>
           </div>
         </div>
@@ -94,7 +98,7 @@ defineProps<{
           <p class="mt-3 text-slate-300">Premier rendez-vous d'analyse à CHF 155.-.</p>
           <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <NuxtLink to="/contact" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-900 bg-white hover:bg-slate-100 rounded-md">Demander un rendez-vous</NuxtLink>
-            <a href="tel:0225121050" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white border border-white/20 hover:bg-white/10 rounded-md">022 512 10 50</a>
+            <a :href="`tel:${phoneRaw}`" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white border border-white/20 hover:bg-white/10 rounded-md">{{ phoneDisplay }}</a>
           </div>
         </div>
       </section>

@@ -130,8 +130,8 @@
                                 </div>
                                 <div>
                                     <h2 class="text-sm font-medium text-slate-500 uppercase tracking-wide mb-1">Téléphone</h2>
-                                    <a href="tel:0225121050" class="text-base font-semibold text-slate-900 hover:text-red-900 transition-colors" itemprop="telephone">022 512 10 50</a>
-                                    <p class="text-xs text-slate-400 mt-1">Numéro unifié pour les deux bureaux</p>
+                                    <a href="tel:0215121025" class="text-base font-semibold text-slate-900 hover:text-red-900 transition-colors" itemprop="telephone">021 512 10 25</a>
+                                    <p class="text-xs font-medium text-emerald-700 mt-1">Ligne directe Lausanne · Permanence 24h/24</p>
                                 </div>
                             </div>
 

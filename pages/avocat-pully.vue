@@ -15,7 +15,7 @@ useLocalSeo(
     faq: [
       {
         question: 'Y a-t-il un avocat Clegal pour Pully ?',
-        answer: 'Oui. Clegal Avocats dispose d\'un bureau à Lausanne accessible aux Pulliérans. Pour un rendez-vous, contactez-nous au 022 512 10 50 ou via notre formulaire. Premier rendez-vous d\'analyse à CHF 155.-.',
+        answer: 'Oui. Clegal Avocats dispose d\'un bureau à Lausanne accessible aux Pulliérans. Pour un rendez-vous, contactez-nous au 021 512 10 25 ou via notre formulaire. Premier rendez-vous d\'analyse à CHF 155.-.',
       },
       {
         question: 'Quelles juridictions compétentes pour Pully ?',
@@ -50,7 +50,7 @@ useLocalSeo(
 
           <div class="mt-8 flex flex-col sm:flex-row gap-3">
             <NuxtLink to="/contact" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-slate-900 hover:bg-red-900 rounded-md transition-all shadow-sm">Prendre rendez-vous</NuxtLink>
-            <a href="tel:0225121050" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-md transition-all">022 512 10 50</a>
+            <a href="tel:0215121025" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-md transition-all">021 512 10 25</a>
           </div>
         </div>
       </section>
@@ -110,7 +110,7 @@ useLocalSeo(
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <NuxtLink to="/contact" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-900 bg-white hover:bg-slate-100 rounded-md">Demander un rendez-vous</NuxtLink>
-            <a href="tel:0225121050" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white border border-white/20 hover:bg-white/10 rounded-md">022 512 10 50</a>
+            <a href="tel:0215121025" class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white border border-white/20 hover:bg-white/10 rounded-md">021 512 10 25</a>
           </div>
         </div>
       </section>

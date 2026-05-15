@@ -73,8 +73,8 @@ export const locations: Record<LocationKey, Location> = {
     postalCode: '1003',
     addressRegion: 'Vaud',
     addressCountry: 'CH',
-    // Numéro unifié avec Genève (cabinet unique, deux bureaux).
-    telephone: '+41225121050',
+    // Ligne dédiée Lausanne (Vaud).
+    telephone: '+41215121025',
     email: 'info@clegal-avocats.ch',
     geo: { latitude: 46.5197, longitude: 6.6322 },
     hours: [

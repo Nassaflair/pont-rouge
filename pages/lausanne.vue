@@ -23,7 +23,7 @@ useLocalSeo(
     faq: [
       {
         question: 'Où se trouve Clegal Avocats à Lausanne ?',
-        answer: 'Clegal Avocats Lausanne est situé Rue Saint-Pierre 2, 1003 Lausanne — au cœur du centre-ville, à 5 minutes à pied de la gare de Lausanne. Téléphone 022 512 10 50. Premier rendez-vous d\'analyse à CHF 155.-.',
+        answer: 'Clegal Avocats Lausanne est situé Rue Saint-Pierre 2, 1003 Lausanne — au cœur du centre-ville, à 5 minutes à pied de la gare de Lausanne. Téléphone 021 512 10 25. Premier rendez-vous d\'analyse à CHF 155.-.',
       },
       {
         question: 'Quelles juridictions vaudoises couvrez-vous depuis Lausanne ?',
@@ -75,8 +75,8 @@ useLocalSeo(
             </span>
             <span class="inline-flex items-center gap-1.5 text-slate-700">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <a href="tel:0225121050" class="hover:text-red-900"><strong>022 512 10 50</strong></a>
-              <span class="text-xs text-slate-500 font-medium">· Ligne unique Genève + Lausanne</span>
+              <a href="tel:0215121025" class="hover:text-red-900"><strong>021 512 10 25</strong></a>
+              <span class="text-xs text-slate-500 font-medium">· Ligne directe Lausanne</span>
             </span>
             <span class="inline-flex items-center gap-1.5 text-slate-700">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-900"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -92,10 +92,10 @@ useLocalSeo(
               Prendre rendez-vous à Lausanne
             </NuxtLink>
             <a
-              href="tel:0225121050"
+              href="tel:0215121025"
               class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-md transition-all"
             >
-              022 512 10 50
+              021 512 10 25
             </a>
           </div>
         </div>
@@ -151,7 +151,7 @@ useLocalSeo(
                 <meta itemprop="addressCountry" content="CH" />
               </p>
               <p>
-                Tél : <a :href="'tel:0225121050'" class="text-red-900 hover:underline" itemprop="telephone">022 512 10 50</a>
+                Tél : <a :href="'tel:0215121025'" class="text-red-900 hover:underline" itemprop="telephone">021 512 10 25</a>
               </p>
               <p>
                 Email : <a href="mailto:info@clegal-avocats.ch" class="text-red-900 hover:underline" itemprop="email">info@clegal-avocats.ch</a>
@@ -300,10 +300,10 @@ useLocalSeo(
               Prendre rendez-vous
             </NuxtLink>
             <a
-              href="tel:0225121050"
+              href="tel:0215121025"
               class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white border border-white/20 hover:bg-white/10 rounded-md"
             >
-              022 512 10 50
+              021 512 10 25
             </a>
           </div>
         </div>

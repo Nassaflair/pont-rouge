@@ -79,7 +79,7 @@ Pour mettre à jour le site en ligne [`clegal-avocats.ch`](https://clegal-avocat
 4.  **Commande de mise à jour** :
     Dans le terminal, exécutez :
     ```bash
-    cd /sites/clegal-avocats
+    cd /srv/customer/sites/clegal-avocats.ch
     git pull
     ```
     > *Cela télécharge la dernière version de votre code que vous venez de "push".*
@@ -115,7 +115,7 @@ curl -sI https://clegal-avocats.ch/ | grep -i "cf-cache-status\|age"
 
 ```
 1. Modifs locales → git add . → git commit -m "..." → git push origin main
-2. SSH Infomaniak → cd /sites/clegal-avocats && git pull
+2. SSH Infomaniak → cd /srv/customer/sites/clegal-avocats.ch && git pull
 3. Dashboard Infomaniak → Node.js → Construire → Exécuter
 4. Cloudflare → Caching → Purge Everything
 5. Vérifier en navigation privée : https://clegal-avocats.ch
