@@ -81,7 +81,7 @@ useLocalSeo(
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 class="text-2xl font-semibold text-slate-900 mb-3">Domaines du droit pour les Carougeois</h2>
           <p class="text-slate-600 mb-8">
-            Nos notre équipe à Genève couvrent tous les domaines du droit suisse devant les juridictions genevoises dont relève Carouge.
+            Notre équipe à Genève couvre tous les domaines du droit suisse devant les juridictions genevoises dont relève Carouge.
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">

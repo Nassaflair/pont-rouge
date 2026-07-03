@@ -55,43 +55,38 @@ useLocalSeo(
   {
     city: 'geneve',
     breadcrumbs: [{ name: 'Avis clients', url: 'https://clegal-avocats.ch/avis-clients' }],
-    aggregateRating: {
-      ratingValue: aggregateRating.ratingValue,
-      ratingCount: aggregateRating.reviewCount,
-    },
   },
 )
 
+// Pas d'AggregateRating auto-attribué (self-serving, guidelines Google) : la note
+// officielle vit sur les fiches Google Business. Ici, simple liste des témoignages.
 useHead({
   script: [
     {
       type: 'application/ld+json',
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
-        '@type': 'LegalService',
-        '@id': 'https://clegal-avocats.ch/#avis-reviews',
-        name: 'Clegal Avocats',
-        url: 'https://clegal-avocats.ch',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: aggregateRating.ratingValue,
-          reviewCount: aggregateRating.reviewCount,
-          bestRating: aggregateRating.bestRating,
-          worstRating: aggregateRating.worstRating,
+        '@type': 'WebPage',
+        '@id': 'https://clegal-avocats.ch/avis-clients',
+        name: 'Avis clients – Clegal Avocats',
+        about: { '@id': 'https://clegal-avocats.ch/#organization' },
+        mainEntity: {
+          '@type': 'ItemList',
+          itemListElement: reviews.map((r, index) => ({
+            '@type': 'Review',
+            position: index + 1,
+            author: { '@type': 'Person', name: r.author },
+            datePublished: r.date,
+            reviewBody: r.text,
+            reviewRating: {
+              '@type': 'Rating',
+              ratingValue: String(r.rating),
+              bestRating: '5',
+              worstRating: '1',
+            },
+            itemReviewed: { '@id': 'https://clegal-avocats.ch/#organization' },
+          })),
         },
-        review: reviews.map((r) => ({
-          '@type': 'Review',
-          author: { '@type': 'Person', name: r.author },
-          datePublished: r.date,
-          reviewBody: r.text,
-          reviewRating: {
-            '@type': 'Rating',
-            ratingValue: String(r.rating),
-            bestRating: '5',
-            worstRating: '1',
-          },
-          itemReviewed: { '@type': 'LegalService', name: 'Clegal Avocats' },
-        })),
       }),
     },
   ],
@@ -137,7 +132,7 @@ useHead({
           </p>
 
           <a
-            href="https://share.google/QFbFusfEbqJIMUoNF"
+            href="https://share.google/xuVGlNI4RwNY7wE3Z"
             target="_blank"
             rel="noopener"
             class="inline-flex items-center gap-2 mt-6 text-sm text-red-900 hover:text-red-700 font-medium"
@@ -153,15 +148,8 @@ useHead({
           <article
             v-for="review in reviews"
             :key="review.author + review.date"
-            :itemscope="true"
-            itemtype="https://schema.org/Review"
             class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-sm transition-all"
           >
-            <meta itemprop="datePublished" :content="review.date" />
-            <div :itemscope="true" itemprop="itemReviewed" itemtype="https://schema.org/LegalService" class="hidden">
-              <meta itemprop="name" content="Clegal Avocats" />
-            </div>
-
             <div class="flex items-start justify-between gap-4">
               <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-full bg-red-50 text-red-900 flex items-center justify-center font-bold text-sm">
@@ -169,18 +157,14 @@ useHead({
                 </div>
                 <div>
                   <p class="text-sm font-semibold text-slate-900">
-                    <span :itemscope="true" itemprop="author" itemtype="https://schema.org/Person">
-                      <span itemprop="name">{{ review.author }}</span>
-                    </span>
+                    {{ review.author }}
                   </p>
                   <p class="text-xs text-slate-500">
                     {{ review.domain }} · {{ review.location }}
                   </p>
                 </div>
               </div>
-              <div class="flex" :itemscope="true" itemprop="reviewRating" itemtype="https://schema.org/Rating">
-                <meta itemprop="ratingValue" :content="String(review.rating)" />
-                <meta itemprop="bestRating" content="5" />
+              <div class="flex">
                 <svg
                   v-for="i in review.rating"
                   :key="i"
@@ -194,7 +178,7 @@ useHead({
               </div>
             </div>
 
-            <p class="text-slate-700 mt-4 leading-relaxed" itemprop="reviewBody">
+            <p class="text-slate-700 mt-4 leading-relaxed">
               «&nbsp;{{ review.text }}&nbsp;»
             </p>
           </article>

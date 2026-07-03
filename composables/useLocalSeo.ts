@@ -14,18 +14,32 @@ export interface LawyerSchemaInput {
   sameAs?: string[]
 }
 
+// Fiches Google Business Profile officielles (liens de partage générés depuis chaque fiche)
+export const GBP_PROFILE_URLS: Record<string, string> = {
+  geneve: 'https://share.google/xuVGlNI4RwNY7wE3Z',
+  lausanne: 'https://share.google/Sn5qYRWw5TdBy8jqO',
+}
+
+// Entités Google Knowledge Graph des deux bureaux (kgmid stables, machine-readable)
+export const KGMID_URLS: Record<string, string> = {
+  geneve: 'https://www.google.com/search?kgmid=/g/11kr80wp4s&q=Clegal+Avocats',
+  lausanne: 'https://www.google.com/search?kgmid=/g/11zb49qxb_&q=Clegal+Avocats',
+}
+
+// Profils communs aux deux bureaux (désambiguïsation d'entité vs homonymes type "CLegal" FR)
 export const SAME_AS_DEFAULT = [
-  'https://share.google/QFbFusfEbqJIMUoNF',
+  'https://odage.ch/fr/annuaire-des-etudes/clegal-avocats',
+  'https://www.instagram.com/clegal.avocats/',
+  'https://www.tiktok.com/@clegal.avocats',
+  'https://www.youtube.com/channel/UC0KuCTzq2X4rNpwPLATgOaw',
   // À compléter au fil de la stratégie linkbuilding (M1-M4) :
   // 'https://www.linkedin.com/company/clegal-avocats/',
-  // 'https://www.facebook.com/clegalavocats/',
-  // 'https://odage.ch/<id-cabinet>',
 ]
 
-// URL Google Maps officielle pour chaque bureau (hasMap = signal local fort)
+// hasMap = la fiche Google Business officielle de chaque bureau (signal local fort)
 export const GOOGLE_MAPS_URLS: Record<string, string> = {
-  geneve: 'https://www.google.com/maps?q=Clegal+Avocats+Route+des+Jeunes+9+1227+Les+Acacias',
-  lausanne: 'https://www.google.com/maps?q=Clegal+Avocats+Rue+Saint-Pierre+2+1003+Lausanne',
+  geneve: GBP_PROFILE_URLS.geneve,
+  lausanne: GBP_PROFILE_URLS.lausanne,
 }
 
 // Rayon de service par succursale (en mètres) pour GeoCircle
@@ -34,13 +48,9 @@ export const SERVICE_RADIUS: Record<string, number> = {
   lausanne: 30000, // canton de Vaud + arc lémanique vaudois
 }
 
-export const AGGREGATE_RATING_DEFAULT = {
-  ratingValue: '5.0',
-  bestRating: '5',
-  worstRating: '1',
-  // ratingCount à mettre à jour mensuellement depuis Google Business Profile
-  ratingCount: '12',
-}
+// Pas d'AggregateRating par défaut : les avis auto-hébergés sur sa propre entité
+// LocalBusiness sont "self-serving" (guidelines Google, sept. 2019) — la note vit
+// sur les fiches Google Business, référencées via hasMap/sameAs.
 
 export interface ServiceSchemaInput {
   name: string
@@ -74,7 +84,7 @@ export const useLocalSeo = (
     breadcrumbs = [],
     city = 'geneve',
     lawyerSlugs = [],
-    aggregateRating = AGGREGATE_RATING_DEFAULT,
+    aggregateRating = false,
     sameAs = SAME_AS_DEFAULT,
     services = [],
   } = options
@@ -159,8 +169,10 @@ export const useLocalSeo = (
     },
   }
 
-  if (sameAs.length > 0) {
-    localBusinessSchema.sameAs = sameAs
+  // sameAs de l'entité = sa fiche Google + son entité Knowledge Graph + profils communs
+  const entitySameAs = [GBP_PROFILE_URLS[city], KGMID_URLS[city], ...sameAs].filter(Boolean)
+  if (entitySameAs.length > 0) {
+    localBusinessSchema.sameAs = entitySameAs
   }
 
   if (aggregateRating) {

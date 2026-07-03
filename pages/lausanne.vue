@@ -124,7 +124,7 @@ useLocalSeo(
               <h2 class="text-xs uppercase tracking-widest font-bold text-red-900 mb-4">Bureau de Lausanne</h2>
               <LocalNAP city="lausanne" variant="card" />
               <a
-                href="https://www.google.com/maps?q=Rue+Saint-Pierre+2+1003+Lausanne"
+                href="https://share.google/Sn5qYRWw5TdBy8jqO"
                 target="_blank"
                 rel="noopener"
                 class="inline-flex items-center gap-2 mt-4 text-sm text-red-900 hover:text-red-700 font-medium"
@@ -162,7 +162,7 @@ useLocalSeo(
               À 5 minutes à pied de la gare de Lausanne (CFF + métro M2). Centre-ville, accès direct depuis l'autoroute A1
               (sortie Lausanne-Sud) et l'ensemble du canton de Vaud.
             </p>
-            <a href="https://www.google.com/maps?q=Rue+Saint-Pierre+2+1003+Lausanne" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-sm font-medium text-red-900 hover:text-red-700">
+            <a href="https://share.google/Sn5qYRWw5TdBy8jqO" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-sm font-medium text-red-900 hover:text-red-700">
               Itinéraire sur Google Maps →
             </a>
           </div>

@@ -80,7 +80,7 @@
 
                         <!-- Map Embed -->
                         <div class="h-64 w-full bg-slate-100 border-t border-slate-200 relative grayscale hover:grayscale-0 transition-all duration-500">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.8893456789!2d6.123456789!3d46.191234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b2e12345678%3A0x123456789abcdef!2sRoute%20des%20Jeunes%209%2C%201227%20Carouge!5e0!3m2!1sfr!2sch!4v1620000000000!5m2!1sfr!2sch" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps?q=Route+des+Jeunes+9+1227+Les+Acacias&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Bureau Clegal Avocats Genève – Route des Jeunes 9, 1227 Les Acacias"></iframe>
                         </div>
                         
                         <!-- Access Note -->
@@ -93,6 +93,14 @@
                                 <i data-lucide="train" class="w-4 h-4"></i>
                                 <span>Accès direct via Gare Lancy-Pont-Rouge (Léman Express) et TPG (Tram 15, 17).</span>
                             </div>
+                            <a
+                                href="https://share.google/xuVGlNI4RwNY7wE3Z"
+                                target="_blank"
+                                rel="noopener"
+                                class="inline-flex items-center gap-2 text-xs text-red-900 hover:text-red-700 font-medium mt-3"
+                            >
+                                Voir le bureau de Genève sur Google →
+                            </a>
                         </div>
                     </div>
 
@@ -146,14 +154,19 @@
                             </div>
                         </div>
 
+                        <!-- Map Embed -->
+                        <div class="h-64 w-full bg-slate-100 border-t border-slate-200 relative grayscale hover:grayscale-0 transition-all duration-500">
+                            <iframe src="https://www.google.com/maps?q=Rue+Saint-Pierre+2+1003+Lausanne&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Bureau Clegal Avocats Lausanne – Rue Saint-Pierre 2, 1003 Lausanne"></iframe>
+                        </div>
+
                         <div class="bg-slate-50 p-4 border-t border-slate-200">
                             <a
-                                href="https://www.google.com/maps?q=Rue+Saint-Pierre+2+1003+Lausanne"
+                                href="https://share.google/Sn5qYRWw5TdBy8jqO"
                                 target="_blank"
                                 rel="noopener"
                                 class="inline-flex items-center gap-2 text-xs text-red-900 hover:text-red-700 font-medium"
                             >
-                                Voir le bureau de Lausanne sur Google Maps →
+                                Voir le bureau de Lausanne sur Google →
                             </a>
                         </div>
                     </div>

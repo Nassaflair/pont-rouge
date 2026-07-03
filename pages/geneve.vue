@@ -130,7 +130,7 @@ useLocalSeo(
               <h2 class="text-xs uppercase tracking-widest font-bold text-red-900 mb-4">Bureau de Genève</h2>
               <LocalNAP city="geneve" variant="card" />
               <a
-                href="https://www.google.com/maps?q=Route+des+Jeunes+9+1227+Les+Acacias"
+                href="https://share.google/xuVGlNI4RwNY7wE3Z"
                 target="_blank"
                 rel="noopener"
                 class="inline-flex items-center gap-2 mt-4 text-sm text-red-900 hover:text-red-700 font-medium"
@@ -168,7 +168,7 @@ useLocalSeo(
               Quartier d'affaires de Lancy-Pont-Rouge. Tram 12, 15, 17, 18 (arrêts Pont-Rouge ou Acacias) · Léman Express
               (gare Lancy-Pont-Rouge) · Parking visiteurs au Centre Commercial La Praille.
             </p>
-            <a href="https://www.google.com/maps?q=Route+des+Jeunes+9+1227+Les+Acacias" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-sm font-medium text-red-900 hover:text-red-700">
+            <a href="https://share.google/xuVGlNI4RwNY7wE3Z" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-sm font-medium text-red-900 hover:text-red-700">
               Itinéraire sur Google Maps →
             </a>
           </div>

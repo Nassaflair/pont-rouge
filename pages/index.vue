@@ -53,7 +53,7 @@
               </div>
 
               <!-- Google Rating Card -->
-              <a href="https://share.google/QFbFusfEbqJIMUoNF" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 bg-white/90 backdrop-blur-sm rounded-lg p-3 border border-slate-200 shadow-sm">
+              <a href="https://share.google/xuVGlNI4RwNY7wE3Z" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 bg-white/90 backdrop-blur-sm rounded-lg p-3 border border-slate-200 shadow-sm">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6">
                   <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
                   <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
@@ -177,7 +177,7 @@
                   </div>
                 </div>
                 <a
-                  href="https://share.google/QFbFusfEbqJIMUoNF"
+                  href="https://share.google/xuVGlNI4RwNY7wE3Z"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-xs font-medium text-red-800 hover:text-red-900 hover:underline"
@@ -995,6 +995,13 @@ useHead({
         description: 'Cabinet d\'avocats généraliste fondé à Genève. Équipe spécialisée en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit immobilier, droit des affaires, droit administratif et droit des assurances.',
         founder: { '@type': 'Person', name: 'Me Mansour A. Cheema' },
         numberOfEmployees: { '@type': 'QuantitativeValue', value: 7 },
+        sameAs: [
+          GBP_PROFILE_URLS.geneve,
+          GBP_PROFILE_URLS.lausanne,
+          KGMID_URLS.geneve,
+          KGMID_URLS.lausanne,
+          ...SAME_AS_DEFAULT,
+        ],
         department: [
           {
             '@type': 'LegalService',
@@ -1023,21 +1030,38 @@ useHead({
               opens: h.opens,
               closes: h.closes,
             })),
+            hasMap: GBP_PROFILE_URLS.geneve,
+            sameAs: [GBP_PROFILE_URLS.geneve, KGMID_URLS.geneve],
           },
           {
             '@type': 'LegalService',
             '@id': 'https://clegal-avocats.ch/#lausanne',
             name: locations.lausanne.name,
             url: 'https://clegal-avocats.ch/lausanne',
+            telephone: locations.lausanne.telephone,
             email: locations.lausanne.email,
             address: {
               '@type': 'PostalAddress',
+              streetAddress: locations.lausanne.streetAddress,
               addressLocality: locations.lausanne.addressLocality,
               postalCode: locations.lausanne.postalCode,
               addressRegion: locations.lausanne.addressRegion,
               addressCountry: locations.lausanne.addressCountry,
             },
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: locations.lausanne.geo.latitude,
+              longitude: locations.lausanne.geo.longitude,
+            },
             areaServed: locations.lausanne.areaServed.map((c) => ({ '@type': 'City', name: c })),
+            openingHoursSpecification: locations.lausanne.hours.map((h) => ({
+              '@type': 'OpeningHoursSpecification',
+              dayOfWeek: h.dayOfWeek,
+              opens: h.opens,
+              closes: h.closes,
+            })),
+            hasMap: GBP_PROFILE_URLS.lausanne,
+            sameAs: [GBP_PROFILE_URLS.lausanne, KGMID_URLS.lausanne],
           },
         ],
       }),

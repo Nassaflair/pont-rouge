@@ -85,7 +85,7 @@
                         </div>
                         <div class="">
                             <div class="text-3xl font-semibold text-slate-900 tracking-tight">100%</div>
-                            <div class="text-sm text-slate-500 mt-1">de clients statisfaits</div>
+                            <div class="text-sm text-slate-500 mt-1">de clients satisfaits</div>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="text-white absolute right-6 bottom-6 left-6">
                             <p class="text-sm font-medium opacity-90">Rigueur &amp; pragmatisme</p>
-                            <p class="text-xs opacity-70 mt-1">Nos compétences et notre expériences sont le socle de nos
+                            <p class="text-xs opacity-70 mt-1">Nos compétences et notre expérience sont le socle de nos
                                 victoires</p>
                         </div>
                     </div>
@@ -259,7 +259,7 @@
                     <p class="text-sm text-slate-600 mb-4">"Me Mansour Cheema a fait preuve de professionnalisme,
                         d’écoute et de réactivité tout au long de mon dossier. Je recommande vivement ses services !"
                     </p>
-                    <p class="text-xs font-semibold text-slate-900">SB - Droit du travail, Genève</p>
+                    <p class="text-xs font-semibold text-slate-900">CR - Droit de la famille, Genève</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
                     <div class="flex text-red-800 mb-3">
@@ -274,7 +274,7 @@
                     <p class="text-sm text-slate-600 mb-4">"Professionnel, dynamique, réactif. Efficient (pas de
                         conversations interminables) "Droit" au but. Je recommande vivement même à nouveau si besoin.
                         Tarifs abordables ..."</p>
-                    <p class="text-xs font-semibold text-slate-900">CR - Droit de la famille, Genève</p>
+                    <p class="text-xs font-semibold text-slate-900">MD - Droit du travail, Genève</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
                     <div class="flex text-red-800 mb-3">
