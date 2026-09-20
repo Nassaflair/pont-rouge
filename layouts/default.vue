@@ -355,6 +355,8 @@
                     <h3 class="text-xs font-semibold text-slate-900 uppercase tracking-wider mt-6 mb-4">Avocat à Lausanne</h3>
                     <ul class="space-y-2 text-sm text-slate-500">
                         <li><NuxtLink to="/lausanne" class="hover:text-red-900">Bureau de Lausanne</NuxtLink></li>
+                        <li><NuxtLink to="/droit-penal-lausanne" class="hover:text-red-900">Avocat pénal Lausanne</NuxtLink></li>
+                        <li><NuxtLink to="/droit-famille/avocat-divorce-lausanne" class="hover:text-red-900">Avocat divorce Lausanne</NuxtLink></li>
                         <li><NuxtLink to="/avocat-pully" class="hover:text-red-900">Avocat à Pully</NuxtLink></li>
                         <li><NuxtLink to="/avocat-morges" class="hover:text-red-900">Avocat à Morges</NuxtLink></li>
                         <li><NuxtLink to="/avocat-renens" class="hover:text-red-900">Avocat à Renens</NuxtLink></li>

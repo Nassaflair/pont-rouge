@@ -53,8 +53,8 @@ useLocalSeo(
       { url: '/droit-bail', titre: 'Baux commerciaux à Morges', description: 'Commerces de centre-ville, résiliations, hausses de loyer, défauts de la chose louée.' },
       { url: '/droit-travail', titre: 'Droit du travail — frontière Morges/Lausanne', description: 'Le tribunal compétent dépend du lieu de travail, pas du domicile. Licenciement, heures supplémentaires, certificat.' },
       { url: '/droit-affaires', titre: 'PME et indépendants morgiens', description: 'Constitution de Sàrl, pactes d\'associés, contentieux contractuel, recouvrement.' },
-      { url: '/droit-famille', titre: 'Famille — Tribunal de La Côte', description: 'Divorce, mesures protectrices et garde devant le tribunal de Nyon.' },
-      { url: '/droit-penal', titre: 'Défense pénale sur La Côte', description: 'Ministère public de l\'arrondissement de La Côte, ordonnances pénales, permanence 24h/24.' },
+      { url: '/droit-famille/avocat-divorce-lausanne', titre: 'Divorce — Tribunal de La Côte', description: 'Divorce et mesures protectrices devant le tribunal de Nyon : procédure vaudoise détaillée.' },
+      { url: '/droit-penal-lausanne', titre: 'Défense pénale sur La Côte', description: 'Ministère public de l\'arrondissement de La Côte, opposition en 10 jours, permanence 24h/24.' },
       { url: '/droit-etrangers', titre: 'Permis et situations transfrontalières', description: 'Frontaliers, permis B et C, regroupement familial, double domicile.' },
     ]"
     trajet="Morges est reliée à Lausanne par le train en 15 minutes (plusieurs liaisons par heure) et par l'autoroute A1 en une vingtaine de minutes. Notre bureau, Rue Saint-Pierre 2, se trouve à 5 minutes à pied de la gare de Lausanne — le trajet porte-à-porte depuis Morges prend donc une demi-heure environ en transports publics. Pour les audiences à Nyon, nous nous déplaçons directement au tribunal."

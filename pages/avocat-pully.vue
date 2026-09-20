@@ -109,6 +109,35 @@ useLocalSeo(
         </div>
       </section>
 
+      <!-- Domaines traités selon la procédure vaudoise -->
+      <section class="py-16 bg-white border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-2xl font-semibold text-slate-900 mb-3">Nos domaines pour Pully</h2>
+          <p class="text-slate-600 mb-8">
+            Pully relevant de l'arrondissement de l'Est vaudois, la procédure applicable est vaudoise.
+            Ces pages la détaillent.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <NuxtLink to="/droit-famille/avocat-divorce-lausanne" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
+              <h3 class="font-semibold text-slate-900">Divorce — procédure vaudoise</h3>
+              <p class="text-sm text-slate-600 mt-2">Tribunaux d'arrondissement, mesures protectrices devant le président, assistance judiciaire vaudoise.</p>
+            </NuxtLink>
+            <NuxtLink to="/droit-penal-lausanne" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
+              <h3 class="font-semibold text-slate-900">Défense pénale dans le canton de Vaud</h3>
+              <p class="text-sm text-slate-600 mt-2">Garde à vue, opposition en 10 jours, juridictions vaudoises. Permanence 24h/24.</p>
+            </NuxtLink>
+            <NuxtLink to="/droit-bail" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
+              <h3 class="font-semibold text-slate-900">Droit du bail</h3>
+              <p class="text-sm text-slate-600 mt-2">Hausses de loyer, résiliations, défauts de la chose louée devant le Tribunal des baux vaudois.</p>
+            </NuxtLink>
+            <NuxtLink to="/droit-travail" class="block bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all">
+              <h3 class="font-semibold text-slate-900">Droit du travail</h3>
+              <p class="text-sm text-slate-600 mt-2">Licenciement, heures supplémentaires, certificat de travail, prud'hommes vaudois.</p>
+            </NuxtLink>
+          </div>
+        </div>
+      </section>
+
       <section class="py-16 bg-slate-900 text-white">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 class="text-3xl font-semibold tracking-tight">Avocat pour les Pulliérans</h2>

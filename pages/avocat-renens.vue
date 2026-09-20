@@ -49,8 +49,8 @@ useLocalSeo(
       { url: '/droit-etrangers', titre: 'Droit des étrangers à Renens', description: 'Permis B et C, regroupement familial, recours SPOP, cas de rigueur, naturalisation.' },
       { url: '/droit-bail', titre: 'Hausses de loyer et congés-rénovation', description: 'Contestation dans les 30 jours, travaux à plus-value, frais accessoires, expulsion.' },
       { url: '/droit-travail', titre: 'Prud\'hommes — Ouest lausannois', description: 'Licenciement, heures supplémentaires, CDD en chaîne. Procédure gratuite jusqu\'à CHF 30\'000.' },
-      { url: '/droit-famille', titre: 'Famille — Tribunal de Lausanne', description: 'Divorce, mesures protectrices, garde et pensions devant la juridiction lausannoise.' },
-      { url: '/droit-penal', titre: 'Défense pénale', description: 'Ministère public de l\'arrondissement de Lausanne, ordonnances pénales, permanence 24h/24.' },
+      { url: '/droit-famille/avocat-divorce-lausanne', titre: 'Divorce — Tribunal de Lausanne', description: 'Divorce et mesures protectrices devant la juridiction lausannoise : procédure vaudoise détaillée.' },
+      { url: '/droit-penal-lausanne', titre: 'Défense pénale vaudoise', description: 'Ministère public de l\'arrondissement de Lausanne, opposition en 10 jours, permanence 24h/24.' },
       { url: '/droit-assurance', titre: 'Assurances sociales', description: 'AI, LAA, chômage : recours contre les décisions et expertises médicales.' },
     ]"
     trajet="Renens est reliée au centre de Lausanne par le métro M1 (environ 10 minutes jusqu'à la gare) et par le RER vaudois. Notre bureau, Rue Saint-Pierre 2, se trouve à 5 minutes à pied de la gare de Lausanne. En voiture, comptez un quart d'heure hors heures de pointe, avec les parkings du centre-ville à proximité."
