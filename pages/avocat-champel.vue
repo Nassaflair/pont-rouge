@@ -30,7 +30,7 @@ useLocalSeo(
     slug="avocat-champel"
     :tribunal="{
       nom: 'Tribunal de première instance de Genève',
-      siege: 'Rue de l\'Athénée 6-8, 1206 Genève',
+      siege: 'Rue de l\'Athénée 6-8, 1205 Genève',
       precision: 'Le canton de Genève ne connaît pas de découpage en arrondissements judiciaires : toutes les communes, Champel compris, relèvent des mêmes juridictions cantonales. Ce qui change d\'un quartier à l\'autre, ce n\'est donc pas le tribunal, mais la nature des litiges qui s\'y présentent.',
     }"
     :contexte-local="{

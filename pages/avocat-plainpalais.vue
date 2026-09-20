@@ -30,7 +30,7 @@ useLocalSeo(
     slug="avocat-plainpalais"
     :tribunal="{
       nom: 'Tribunal de première instance de Genève',
-      siege: 'Rue de l\'Athénée 6-8, 1206 Genève',
+      siege: 'Rue de l\'Athénée 6-8, 1205 Genève',
       precision: 'Les juridictions genevoises siègent à quelques minutes de Plainpalais. Le canton n\'étant pas divisé en arrondissements, les habitants du quartier relèvent des mêmes tribunaux que l\'ensemble du canton.',
     }"
     :contexte-local="{

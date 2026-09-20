@@ -30,7 +30,7 @@ useLocalSeo(
     slug="avocat-lancy"
     :tribunal="{
       nom: 'Tribunal de première instance de Genève',
-      siege: 'Rue de l\'Athénée 6-8, 1206 Genève',
+      siege: 'Rue de l\'Athénée 6-8, 1205 Genève',
       precision: 'Notre cabinet est lui-même situé sur le territoire de la commune de Lancy, Route des Jeunes 9. Les juridictions compétentes sont les juridictions cantonales genevoises, identiques pour toutes les communes du canton.',
     }"
     :contexte-local="{
