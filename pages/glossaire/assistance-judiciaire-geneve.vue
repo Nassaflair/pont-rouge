@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const faq = [
+    {
+      question: 'Qui peut bénéficier de l\'assistance judiciaire à Genève ?',
+      answer: 'Toute personne dont les revenus et la fortune sont insuffisants pour couvrir les frais de procédure et d\'avocat. À Genève, en pratique, un revenu inférieur à CHF 4\'000 par mois (célibataire) ou CHF 6\'000 (couple), sans fortune significative, ouvre généralement le droit (évaluation au cas par cas par le Tribunal).',
+    },
+    {
+      question: 'Faut-il rembourser l\'assistance judiciaire ?',
+      answer: 'Oui, si votre situation s\'améliore dans les 10 ans (art. 123 CPC). L\'État avance les frais et peut en exiger le remboursement total ou partiel si votre patrimoine ou vos revenus le permettent ultérieurement.',
+    },
+  ]
+
 useLocalSeo(
   'Assistance judiciaire à Genève : conditions, demande, montants',
   'Assistance judiciaire (AJ) à Genève : aide étatique aux personnes sans moyens suffisants. Conditions, requête au Tribunal civil, art. 117 CPC.',
@@ -8,16 +19,8 @@ useLocalSeo(
       { name: 'Glossaire', url: 'https://clegal-avocats.ch/glossaire' },
       { name: 'Assistance judiciaire', url: 'https://clegal-avocats.ch/glossaire/assistance-judiciaire-geneve' },
     ],
-    faq: [
-      {
-        question: 'Qui peut bénéficier de l\'assistance judiciaire à Genève ?',
-        answer: 'Toute personne dont les revenus et la fortune sont insuffisants pour couvrir les frais de procédure et d\'avocat. À Genève, en pratique, un revenu inférieur à CHF 4\'000 par mois (célibataire) ou CHF 6\'000 (couple), sans fortune significative, ouvre généralement le droit (évaluation au cas par cas par le Tribunal).',
-      },
-      {
-        question: 'Faut-il rembourser l\'assistance judiciaire ?',
-        answer: 'Oui, si votre situation s\'améliore dans les 10 ans (art. 123 CPC). L\'État avance les frais et peut en exiger le remboursement total ou partiel si votre patrimoine ou vos revenus le permettent ultérieurement.',
-      },
-    ],
+    faq,
+
   },
 )
 
@@ -45,6 +48,7 @@ const body = [
 
 <template>
   <GlossaryEntry
+    :faq="faq"
     category="Procédure"
     term="Assistance judiciaire (aide juridictionnelle)"
     slug="assistance-judiciaire-geneve"

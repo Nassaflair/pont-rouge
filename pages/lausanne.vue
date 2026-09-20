@@ -4,6 +4,25 @@ import { getLawyersByCity } from '~/data/team'
 // Avocats avec connexion Lausanne (UNIL, expérience VD, etc.)
 const lausanneLawyers = getLawyersByCity('lausanne')
 
+const faq = [
+    {
+      question: 'Où se trouve Clegal Avocats à Lausanne ?',
+      answer: 'Clegal Avocats Lausanne est situé Rue Saint-Pierre 2, 1003 Lausanne — au cœur du centre-ville, à 5 minutes à pied de la gare de Lausanne. Téléphone 021 512 10 25. Premier rendez-vous d\'analyse à CHF 155.-.',
+    },
+    {
+      question: 'Quelles juridictions vaudoises couvrez-vous depuis Lausanne ?',
+      answer: 'Tribunal cantonal vaudois, Cour civile, Cour d\'appel pénale, Cour de droit administratif et public (CDAP), Tribunal d\'arrondissement de Lausanne, Justice de paix de Lausanne, Tribunal des baux, Tribunal de prud\'hommes du canton de Vaud, Chambre des avocats du canton de Vaud.',
+    },
+    {
+      question: 'Vos avocats connaissent-ils le droit vaudois ?',
+      answer: 'Oui. Me Mansour Cheema, qui pratique au bureau de Lausanne, est titulaire d\'un Bachelor en droit délivré par l\'Université de Lausanne (UNIL) ainsi que d\'un Master conjoint UNIL/Université de Zurich avec mention magna cum laude. Il maîtrise les juridictions vaudoises et la pratique cantonale.',
+    },
+    {
+      question: 'Quel tarif pour un avocat à Lausanne ?',
+      answer: 'Les tarifs des avocats vaudois et genevois sont similaires : CHF 300 à CHF 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles (divorce amiable, dépôts administratifs) et accepte l\'assistance judiciaire vaudoise.',
+    },
+  ]
+
 useLocalSeo(
   'Avocat à Lausanne (Rue Saint-Pierre 2) | Clegal Avocats – Dès 155.-',
   'Avocat à Lausanne — Rue Saint-Pierre 2, 1003 Lausanne. Notre équipe pour le canton de Vaud : pénal, famille, travail, étrangers, bail. 1er RDV CHF 155.-.',
@@ -20,24 +39,8 @@ useLocalSeo(
         category: 'Services juridiques',
       },
     ],
-    faq: [
-      {
-        question: 'Où se trouve Clegal Avocats à Lausanne ?',
-        answer: 'Clegal Avocats Lausanne est situé Rue Saint-Pierre 2, 1003 Lausanne — au cœur du centre-ville, à 5 minutes à pied de la gare de Lausanne. Téléphone 021 512 10 25. Premier rendez-vous d\'analyse à CHF 155.-.',
-      },
-      {
-        question: 'Quelles juridictions vaudoises couvrez-vous depuis Lausanne ?',
-        answer: 'Tribunal cantonal vaudois, Cour civile, Cour d\'appel pénale, Cour de droit administratif et public (CDAP), Tribunal d\'arrondissement de Lausanne, Justice de paix de Lausanne, Tribunal des baux, Tribunal de prud\'hommes du canton de Vaud, Chambre des avocats du canton de Vaud.',
-      },
-      {
-        question: 'Vos avocats connaissent-ils le droit vaudois ?',
-        answer: 'Oui. Me Mansour Cheema, qui pratique au bureau de Lausanne, est titulaire d\'un Bachelor en droit délivré par l\'Université de Lausanne (UNIL) ainsi que d\'un Master conjoint UNIL/Université de Zurich avec mention magna cum laude. Il maîtrise les juridictions vaudoises et la pratique cantonale.',
-      },
-      {
-        question: 'Quel tarif pour un avocat à Lausanne ?',
-        answer: 'Les tarifs des avocats vaudois et genevois sont similaires : CHF 300 à CHF 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles (divorce amiable, dépôts administratifs) et accepte l\'assistance judiciaire vaudoise.',
-      },
-    ],
+    faq,
+
   },
 )
 </script>
@@ -260,24 +263,61 @@ useLocalSeo(
             Nos avocats reçoivent les clients de l'ensemble du canton de Vaud, avec une couverture prioritaire sur :
           </p>
           <div class="flex flex-wrap gap-2">
-            <span
-              v-for="commune in [
-                'Lausanne',
-                'Pully',
-                'Renens',
-                'Ecublens',
-                'Prilly',
-                'Morges',
-                'Vevey',
-                'Montreux',
-                'Yverdon-les-Bains',
-                'Nyon',
+            <component
+              v-for="c in [
+                { nom: 'Lausanne' },
+                { nom: 'Pully', url: '/avocat-pully' },
+                { nom: 'Renens', url: '/avocat-renens' },
+                { nom: 'Morges', url: '/avocat-morges' },
+                { nom: 'Ecublens' },
+                { nom: 'Prilly' },
+                { nom: 'Vevey' },
+                { nom: 'Montreux' },
+                { nom: 'Yverdon-les-Bains' },
+                { nom: 'Nyon' },
               ]"
-              :key="commune"
-              class="px-3 py-1.5 bg-slate-100 text-slate-700 text-sm rounded-full"
+              :is="c.url ? 'NuxtLink' : 'span'"
+              :key="c.nom"
+              :to="c.url"
+              :class="c.url
+                ? 'px-3 py-1.5 bg-red-50 text-red-900 text-sm rounded-full hover:bg-red-100 transition-colors font-medium'
+                : 'px-3 py-1.5 bg-slate-100 text-slate-700 text-sm rounded-full'"
             >
-              {{ commune }}
-            </span>
+              {{ c.nom }}
+            </component>
+          </div>
+        </div>
+      </section>
+
+      <!-- Domaines traités dans le canton de Vaud : évite que les pages vaudoises soient orphelines -->
+      <section class="py-16 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-2xl font-semibold text-slate-900 mb-3">Nos domaines dans le canton de Vaud</h2>
+          <p class="text-slate-600 mb-8">
+            La procédure vaudoise a ses propres tribunaux et ses propres règles. Ces pages traitent
+            spécifiquement de la pratique cantonale.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <NuxtLink
+              to="/droit-famille/avocat-divorce-lausanne"
+              class="block bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all"
+            >
+              <h3 class="font-semibold text-slate-900">Divorce dans le canton de Vaud</h3>
+              <p class="text-sm text-slate-600 mt-2">
+                Les quatre tribunaux d'arrondissement, les mesures protectrices devant le président,
+                l'assistance judiciaire vaudoise.
+              </p>
+            </NuxtLink>
+            <NuxtLink
+              to="/droit-penal-lausanne"
+              class="block bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all"
+            >
+              <h3 class="font-semibold text-slate-900">Droit pénal dans le canton de Vaud</h3>
+              <p class="text-sm text-slate-600 mt-2">
+                Garde à vue et avocat de la première heure, opposition à ordonnance pénale,
+                juridictions vaudoises. Permanence 24h/24.
+              </p>
+            </NuxtLink>
           </div>
         </div>
       </section>
@@ -308,5 +348,7 @@ useLocalSeo(
           </div>
         </div>
       </section>
+    <FaqSection :items="faq" />
+
     </main>
 </template>

@@ -222,35 +222,7 @@
             </div>
         </section>
 
-        <!-- FAQ -->
-        <section id="faq" class="py-16 bg-white border-t border-slate-100">
-            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h3 class="text-xl font-bold text-slate-900 mb-8 text-center">FAQ (Droit des Affaires)</h3>
-                <div class="space-y-6">
-                    <div class="border-b border-slate-100 pb-4">
-                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
-                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Quels sont les coûts d'un avocat d'affaires ?
-                        </h4>
-                        <p class="text-sm text-slate-600 pl-7">Nos honoraires horaires sont transparents : entre <strong>CHF 350.- et 450.- / heure</strong>. Pour des mandats forfaits, comptez généralement entre CHF 3'000 et 5'000 selon la complexité du cas.</p>
-                    </div>
-                    <div class="border-b border-slate-100 pb-4">
-                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
-                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Comment prévenir les litiges commerciaux ?
-                        </h4>
-                        <p class="text-sm text-slate-600 pl-7">La prévention passe par des contrats solides (Actionnaires, CGV, Travail). Nous structurons vos accords en amont pour minimiser les risques, grâce à notre connaissance du tissu économique régional.</p>
-                    </div>
-                    <div class="pb-4">
-                        <h4 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
-                            <i data-lucide="help-circle" class="w-5 h-5 text-red-800 mt-0.5 shrink-0"></i>
-                            Pourquoi choisir un avocat local à Genève ?
-                        </h4>
-                        <p class="text-sm text-slate-600 pl-7">Pour la défense efficace de vos intérêts. Comprendre les spécificités du Tribunal de première instance de Genève est un avantage compétitif majeur lors d'un contentieux.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <FaqSection :items="faq" title="FAQ — Droit des affaires" />
 
         <!-- Use Form Component -->
         <section id="formulaire" class="py-20 bg-slate-50 border-t border-slate-200">
@@ -288,6 +260,25 @@ const affairesLinks = [
   { label: 'Cas clients (Genève)', url: '/cas-clients' },
 ]
 
+const faq = [
+    {
+      question: 'Quels sont les coûts d\'un avocat d\'affaires à Genève ?',
+      answer: 'Les honoraires horaires d\'un avocat d\'affaires à Genève se situent entre CHF 350.- et CHF 450.- de l\'heure. Pour des mandats forfaitaires (rédaction de contrats, due diligence, constitution de société), comptez entre CHF 3\'000 et CHF 5\'000 selon la complexité du dossier.',
+    },
+    {
+      question: 'Comment prévenir les litiges commerciaux ?',
+      answer: 'La prévention passe par des contrats solides (pacte d\'actionnaires, CGV, contrats de travail) rédigés en amont. Une analyse régulière de la conformité (CO, Code des sociétés, droit fiscal) et un audit des risques juridiques sont également des bonnes pratiques pour minimiser les contentieux.',
+    },
+    {
+      question: 'Pourquoi choisir un avocat local à Genève pour son entreprise ?',
+      answer: 'Connaître les spécificités du Tribunal de première instance de Genève (Rue de l\'Athénée 6/8) et de la Cour de justice est un avantage compétitif majeur lors d\'un contentieux commercial. La connaissance du tissu économique régional, des registres genevois et des pratiques locales facilite aussi les transactions et la résolution amiable.',
+    },
+    {
+      question: 'Quelles formes juridiques de société existent en Suisse ?',
+      answer: 'Le Code des Obligations suisse prévoit principalement : la raison individuelle, la société simple (art. 530 CO), la société en nom collectif (SNC), la société à responsabilité limitée (Sàrl, art. 772 CO), la société anonyme (SA, art. 620 CO) et la coopérative. Le choix dépend du capital, du nombre d\'associés, du régime de responsabilité et de la fiscalité visée.',
+    },
+  ]
+
 useLocalSeo(
   'Avocat Droit des Affaires Genève | Entreprises – Clegal Avocats',
   'Avocat droit des affaires à Genève. Conseil aux entreprises, contrats commerciaux, litiges sociétaires. Clegal Avocats.',
@@ -304,24 +295,8 @@ useLocalSeo(
         category: 'Droit des affaires',
       },
     ],
-    faq: [
-      {
-        question: 'Quels sont les coûts d\'un avocat d\'affaires à Genève ?',
-        answer: 'Les honoraires horaires d\'un avocat d\'affaires à Genève se situent entre CHF 350.- et CHF 450.- de l\'heure. Pour des mandats forfaitaires (rédaction de contrats, due diligence, constitution de société), comptez entre CHF 3\'000 et CHF 5\'000 selon la complexité du dossier.',
-      },
-      {
-        question: 'Comment prévenir les litiges commerciaux ?',
-        answer: 'La prévention passe par des contrats solides (pacte d\'actionnaires, CGV, contrats de travail) rédigés en amont. Une analyse régulière de la conformité (CO, Code des sociétés, droit fiscal) et un audit des risques juridiques sont également des bonnes pratiques pour minimiser les contentieux.',
-      },
-      {
-        question: 'Pourquoi choisir un avocat local à Genève pour son entreprise ?',
-        answer: 'Connaître les spécificités du Tribunal de première instance de Genève (Rue de l\'Athénée 6/8) et de la Cour de justice est un avantage compétitif majeur lors d\'un contentieux commercial. La connaissance du tissu économique régional, des registres genevois et des pratiques locales facilite aussi les transactions et la résolution amiable.',
-      },
-      {
-        question: 'Quelles formes juridiques de société existent en Suisse ?',
-        answer: 'Le Code des Obligations suisse prévoit principalement : la raison individuelle, la société simple (art. 530 CO), la société en nom collectif (SNC), la société à responsabilité limitée (Sàrl, art. 772 CO), la société anonyme (SA, art. 620 CO) et la coopérative. Le choix dépend du capital, du nombre d\'associés, du régime de responsabilité et de la fiscalité visée.',
-      },
-    ],
+    faq,
+
   }
 )
 </script>

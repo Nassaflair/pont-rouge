@@ -42,11 +42,12 @@ const reviews = [
   },
 ]
 
+// Note affichée à titre informatif uniquement (elle n'est plus déclarée en JSON-LD :
+// un AggregateRating auto-hébergé sur sa propre entité est "self-serving" et ignoré
+// par Google). À tenir à jour manuellement depuis la fiche Google Business.
 const aggregateRating = {
   ratingValue: '5.0',
-  reviewCount: '12',
   bestRating: '5',
-  worstRating: '1',
 }
 
 useLocalSeo(
@@ -69,7 +70,14 @@ useHead({
         '@type': 'WebPage',
         '@id': 'https://clegal-avocats.ch/avis-clients',
         name: 'Avis clients – Clegal Avocats',
-        about: { '@id': 'https://clegal-avocats.ch/#organization' },
+        // L'entité #organization n'est définie que sur la page d'accueil : sans ce nœud
+        // minimal, les références ci-dessous pointeraient dans le vide sur cette page.
+        about: {
+          '@type': 'Organization',
+          '@id': 'https://clegal-avocats.ch/#organization',
+          name: 'Clegal Avocats',
+          url: 'https://clegal-avocats.ch',
+        },
         mainEntity: {
           '@type': 'ItemList',
           itemListElement: reviews.map((r, index) => ({
@@ -122,7 +130,7 @@ useHead({
             <p class="text-slate-700">
               <span class="text-2xl font-bold text-slate-900">{{ aggregateRating.ratingValue }}</span>
               <span class="text-sm">/ {{ aggregateRating.bestRating }}</span>
-              <span class="text-sm text-slate-500 ml-2">— basé sur {{ aggregateRating.reviewCount }} avis Google</span>
+              <span class="text-sm text-slate-500 ml-2">— sur Google ({{ reviews.length }} témoignages reproduits ci-dessous)</span>
             </p>
           </div>
 

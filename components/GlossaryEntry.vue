@@ -6,6 +6,7 @@ defineProps<{
   quickDef: string
   body: { heading: string; content: string }[]
   relatedLink?: { label: string; url: string }
+  faq?: { question: string; answer: string }[]
 }>()
 </script>
 
@@ -41,5 +42,7 @@ defineProps<{
           </div>
         </div>
       </section>
+      <FaqSection v-if="faq" :items="faq" />
+
     </main>
 </template>

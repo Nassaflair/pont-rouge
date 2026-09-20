@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const faq = [
+    {
+      question: 'Combien de temps dure une procédure MPUC à Genève ?',
+      answer: 'À Genève, une procédure MPUC dure entre 2 et 6 mois selon la complexité (présence d\'enfants mineurs, désaccord sur les contributions). En cas d\'urgence (violences), des mesures superprovisionnelles peuvent être ordonnées en quelques jours.',
+    },
+    {
+      question: 'Faut-il un avocat pour une MPUC ?',
+      answer: 'Pas obligatoire mais fortement recommandé : la décision MPUC fixe le cadre de la séparation (parfois pour des années avant le divorce). Un avocat sécurise vos droits sur le logement, la garde, les contributions et la prévoyance.',
+    },
+  ]
+
 useLocalSeo(
   'MPUC Genève : mesures protectrices de l\'union conjugale',
   'MPUC à Genève : décision du Tribunal de première instance pour organiser la séparation provisoire des époux. Domicile, garde, contributions, durée.',
@@ -8,16 +19,8 @@ useLocalSeo(
       { name: 'Glossaire', url: 'https://clegal-avocats.ch/glossaire' },
       { name: 'MPUC', url: 'https://clegal-avocats.ch/glossaire/mpuc-geneve' },
     ],
-    faq: [
-      {
-        question: 'Combien de temps dure une procédure MPUC à Genève ?',
-        answer: 'À Genève, une procédure MPUC dure entre 2 et 6 mois selon la complexité (présence d\'enfants mineurs, désaccord sur les contributions). En cas d\'urgence (violences), des mesures superprovisionnelles peuvent être ordonnées en quelques jours.',
-      },
-      {
-        question: 'Faut-il un avocat pour une MPUC ?',
-        answer: 'Pas obligatoire mais fortement recommandé : la décision MPUC fixe le cadre de la séparation (parfois pour des années avant le divorce). Un avocat sécurise vos droits sur le logement, la garde, les contributions et la prévoyance.',
-      },
-    ],
+    faq,
+
   },
 )
 
@@ -41,6 +44,7 @@ const body = [
 
 <template>
   <GlossaryEntry
+    :faq="faq"
     category="Droit de la famille"
     term="MPUC — Mesures protectrices de l'union conjugale"
     slug="mpuc-geneve"

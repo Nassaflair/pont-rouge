@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const faq = [
+    {
+      question: 'Que faire si je reçois une ordonnance pénale à Genève ?',
+      answer: 'Vous avez 10 jours dès la notification pour faire opposition (art. 354 CPP). L\'opposition est gratuite, n\'a pas besoin d\'être motivée, et entraîne le renvoi devant le Tribunal de police ou correctionnel. Sans opposition, l\'ordonnance devient définitive et entre au casier judiciaire.',
+    },
+    {
+      question: 'Qui prononce une ordonnance pénale ?',
+      answer: 'Le Ministère public (Place du Bourg-de-Four 3, 1204 Genève) à Genève. La peine maximale possible est de 180 jours-amende ou 6 mois de privation de liberté avec sursis (art. 352 CPP).',
+    },
+  ]
+
 useLocalSeo(
   'Ordonnance pénale à Genève : définition, opposition, délai',
   'Ordonnance pénale à Genève : décision du Ministère public, peine ≤ 180 jours-amende, opposition sous 10 jours (art. 354 CPP). Définition juridique complète.',
@@ -8,16 +19,8 @@ useLocalSeo(
       { name: 'Glossaire', url: 'https://clegal-avocats.ch/glossaire' },
       { name: 'Ordonnance pénale', url: 'https://clegal-avocats.ch/glossaire/ordonnance-penale-geneve' },
     ],
-    faq: [
-      {
-        question: 'Que faire si je reçois une ordonnance pénale à Genève ?',
-        answer: 'Vous avez 10 jours dès la notification pour faire opposition (art. 354 CPP). L\'opposition est gratuite, n\'a pas besoin d\'être motivée, et entraîne le renvoi devant le Tribunal de police ou correctionnel. Sans opposition, l\'ordonnance devient définitive et entre au casier judiciaire.',
-      },
-      {
-        question: 'Qui prononce une ordonnance pénale ?',
-        answer: 'Le Ministère public (Place du Bourg-de-Four 3, 1204 Genève) à Genève. La peine maximale possible est de 180 jours-amende ou 6 mois de privation de liberté avec sursis (art. 352 CPP).',
-      },
-    ],
+    faq,
+
   },
 )
 </script>
@@ -75,5 +78,7 @@ useLocalSeo(
           </div>
         </div>
       </section>
+    <FaqSection :items="faq" />
+
     </main>
 </template>

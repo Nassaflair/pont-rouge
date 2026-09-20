@@ -775,6 +775,8 @@
     </section>
 
     <!-- Main Conversion Section (Formulaire) -->
+    <FaqSection :items="faq" />
+
     <ContactForm />
 
     <!-- Access & Map Section (SEO Local) -->
@@ -862,6 +864,41 @@ import { locations } from '~/data/locations';
 const ContactForm = defineAsyncComponent(() => import('@/components/ContactForm.vue'));
 const PartnerPopup = defineAsyncComponent(() => import('@/components/PartnerPopup.vue'));
 
+const faq = [
+    {
+      question: 'Combien coûte un avocat à Genève ?',
+      answer: 'À Genève, les honoraires d\'avocat varient entre CHF 300 et CHF 500 de l\'heure selon le domaine et l\'expérience. Chez Clegal Avocats, le premier rendez-vous d\'analyse est forfaitaire à CHF 155.- (60 minutes). Pour les procédures prévisibles (divorce amiable, dépôt OCPM, constitution de société), nous proposons des forfaits. L\'aide juridictionnelle (art. 117 CPC) est acceptée pour les clients éligibles.',
+    },
+    {
+      question: 'Quels domaines du droit pratiquez-vous à Genève ?',
+      answer: 'Clegal Avocats à Genève couvre huit domaines : droit de la famille (divorce, séparation, garde, pension, succession), droit du travail (licenciement, Tribunal des prud\'hommes), droit pénal (Ministère public, Tribunal pénal, défense LAVI), droit des étrangers (OCPM, permis B/C, regroupement familial), droit immobilier (bail, expulsion), droit des affaires (Sàrl, SA, contrats), droit administratif et droit des assurances.',
+    },
+    {
+      question: 'Où se trouve votre cabinet d\'avocats à Genève ?',
+      answer: 'Notre cabinet de Genève est situé Route des Jeunes 9, 1227 Les Acacias, dans le quartier d\'affaires de Lancy-Pont-Rouge. Accès en 5 minutes en tram (lignes 12, 15, 17, 18 — arrêts Pont-Rouge ou Acacias), bus, voiture (parking visiteurs Centre Commercial La Praille) ou Léman Express (gare Lancy-Pont-Rouge).',
+    },
+    {
+      question: 'Comment prendre rendez-vous avec un avocat à Genève ?',
+      answer: 'Appelez le 022 512 10 50 — permanence 24h/24, 7 jours sur 7 (gardes à vue, urgences pénales, urgences droit des étrangers). Pour les rendez-vous au bureau ou les questions non urgentes, utilisez aussi le formulaire de contact (réponse sous 24h ouvrables). Premier rendez-vous d\'analyse à CHF 155.- — 60 minutes pour évaluer le dossier et proposer un plan d\'action concret.',
+    },
+    {
+      question: 'Quelles juridictions genevoises couvrez-vous ?',
+      answer: 'Toutes les juridictions du canton de Genève : Tribunal de première instance (Rue de l\'Athénée 6/8), Cour de justice (Place du Bourg-de-Four — appel civil, pénal et administratif), Ministère public, Tribunal pénal, Tribunal des prud\'hommes, Tribunal des baux et loyers, Tribunal administratif de première instance (TAPI), Conseil d\'État, Chambre des assurances sociales du Tribunal cantonal.',
+    },
+    {
+      question: 'Quels quartiers de Genève desservez-vous ?',
+      answer: 'Notre cabinet aux Acacias accueille les clients de l\'ensemble du canton : Genève (centre, Plainpalais, Eaux-Vives, Champel), Carouge, Lancy, Vernier, Meyrin, Onex, Versoix, Plan-les-Ouates, Chêne-Bougeries, Cologny, Veyrier. Pages dédiées : /avocat-carouge, /avocat-eaux-vives.',
+    },
+    {
+      question: 'L\'aide juridictionnelle est-elle acceptée à Genève ?',
+      answer: 'Oui. À Genève, l\'assistance judiciaire (art. 117 CPC) est accordée par le Tribunal civil ou pénal aux personnes dont les revenus et la fortune sont insuffisants. Clegal Avocats accepte les mandats sous assistance judiciaire et accompagne les clients dans la constitution de la requête.',
+    },
+    {
+      question: 'Clegal Avocats est-il aussi présent à Lausanne ?',
+      answer: 'Oui. Clegal Avocats dispose de deux bureaux : Genève (Route des Jeunes 9, 1227 Les Acacias) et Lausanne (Rue Saint-Pierre 2, 1003 Lausanne). Nos avocats interviennent devant les juridictions vaudoises (Tribunal cantonal vaudois, Tribunal d\'arrondissement de Lausanne, Justice de paix, CDAP). Plusieurs membres de l\'équipe sont formés à l\'UNIL ou ont exercé en VD — voir la page /lausanne.',
+    },
+  ]
+
 useLocalSeo(
   'Avocat à Genève & Lausanne | Clegal Avocats – Dès 155.-',
   'Cabinet d\'avocats à Genève (Acacias) et Lausanne. Notre équipe : droit pénal, famille, travail, étrangers, bail, affaires. 1er RDV d\'analyse à CHF 155.-.',
@@ -870,40 +907,8 @@ useLocalSeo(
     type: 'LegalService',
     priceRange: 'Dès CHF 155.-',
     lawyerSlugs: lawyers.map((l) => l.slug),
-    faq: [
-      {
-        question: 'Combien coûte un avocat à Genève ?',
-        answer: 'À Genève, les honoraires d\'avocat varient entre CHF 300 et CHF 500 de l\'heure selon le domaine et l\'expérience. Chez Clegal Avocats, le premier rendez-vous d\'analyse est forfaitaire à CHF 155.- (60 minutes). Pour les procédures prévisibles (divorce amiable, dépôt OCPM, constitution de société), nous proposons des forfaits. L\'aide juridictionnelle (art. 117 CPC) est acceptée pour les clients éligibles.',
-      },
-      {
-        question: 'Quels domaines du droit pratiquez-vous à Genève ?',
-        answer: 'Clegal Avocats à Genève couvre huit domaines : droit de la famille (divorce, séparation, garde, pension, succession), droit du travail (licenciement, Tribunal des prud\'hommes), droit pénal (Ministère public, Tribunal pénal, défense LAVI), droit des étrangers (OCPM, permis B/C, regroupement familial), droit immobilier (bail, expulsion), droit des affaires (Sàrl, SA, contrats), droit administratif et droit des assurances.',
-      },
-      {
-        question: 'Où se trouve votre cabinet d\'avocats à Genève ?',
-        answer: 'Notre cabinet de Genève est situé Route des Jeunes 9, 1227 Les Acacias, dans le quartier d\'affaires de Lancy-Pont-Rouge. Accès en 5 minutes en tram (lignes 12, 15, 17, 18 — arrêts Pont-Rouge ou Acacias), bus, voiture (parking visiteurs Centre Commercial La Praille) ou Léman Express (gare Lancy-Pont-Rouge).',
-      },
-      {
-        question: 'Comment prendre rendez-vous avec un avocat à Genève ?',
-        answer: 'Appelez le 022 512 10 50 — permanence 24h/24, 7 jours sur 7 (gardes à vue, urgences pénales, urgences droit des étrangers). Pour les rendez-vous au bureau ou les questions non urgentes, utilisez aussi le formulaire de contact (réponse sous 24h ouvrables). Premier rendez-vous d\'analyse à CHF 155.- — 60 minutes pour évaluer le dossier et proposer un plan d\'action concret.',
-      },
-      {
-        question: 'Quelles juridictions genevoises couvrez-vous ?',
-        answer: 'Toutes les juridictions du canton de Genève : Tribunal de première instance (Rue de l\'Athénée 6/8), Cour de justice (Place du Bourg-de-Four — appel civil, pénal et administratif), Ministère public, Tribunal pénal, Tribunal des prud\'hommes, Tribunal des baux et loyers, Tribunal administratif de première instance (TAPI), Conseil d\'État, Chambre des assurances sociales du Tribunal cantonal.',
-      },
-      {
-        question: 'Quels quartiers de Genève desservez-vous ?',
-        answer: 'Notre cabinet aux Acacias accueille les clients de l\'ensemble du canton : Genève (centre, Plainpalais, Eaux-Vives, Champel), Carouge, Lancy, Vernier, Meyrin, Onex, Versoix, Plan-les-Ouates, Chêne-Bougeries, Cologny, Veyrier. Pages dédiées : /avocat-carouge, /avocat-eaux-vives.',
-      },
-      {
-        question: 'L\'aide juridictionnelle est-elle acceptée à Genève ?',
-        answer: 'Oui. À Genève, l\'assistance judiciaire (art. 117 CPC) est accordée par le Tribunal civil ou pénal aux personnes dont les revenus et la fortune sont insuffisants. Clegal Avocats accepte les mandats sous assistance judiciaire et accompagne les clients dans la constitution de la requête.',
-      },
-      {
-        question: 'Clegal Avocats est-il aussi présent à Lausanne ?',
-        answer: 'Oui. Clegal Avocats dispose de deux bureaux : Genève (Route des Jeunes 9, 1227 Les Acacias) et Lausanne (Rue Saint-Pierre 2, 1003 Lausanne). Nos avocats interviennent devant les juridictions vaudoises (Tribunal cantonal vaudois, Tribunal d\'arrondissement de Lausanne, Justice de paix, CDAP). Plusieurs membres de l\'équipe sont formés à l\'UNIL ou ont exercé en VD — voir la page /lausanne.',
-      },
-    ],
+    faq,
+
   }
 );
 
@@ -995,9 +1000,9 @@ useHead({
         description: 'Cabinet d\'avocats généraliste fondé à Genève. Équipe spécialisée en droit pénal, droit de la famille, droit du travail, droit des étrangers, droit immobilier, droit des affaires, droit administratif et droit des assurances.',
         founder: { '@type': 'Person', name: 'Me Mansour A. Cheema' },
         numberOfEmployees: { '@type': 'QuantitativeValue', value: 7 },
+        // Les entités Knowledge Graph des deux bureaux + les profils communs.
+        // Pas de lien share.google ici : il redirige vers ces mêmes entités.
         sameAs: [
-          GBP_PROFILE_URLS.geneve,
-          GBP_PROFILE_URLS.lausanne,
           KGMID_URLS.geneve,
           KGMID_URLS.lausanne,
           ...SAME_AS_DEFAULT,
@@ -1007,7 +1012,7 @@ useHead({
             '@type': 'LegalService',
             '@id': 'https://clegal-avocats.ch/#geneve',
             name: locations.geneve.name,
-            url: 'https://clegal-avocats.ch',
+            url: ENTITY_URLS.geneve,
             telephone: locations.geneve.telephone,
             email: locations.geneve.email,
             address: {
@@ -1030,14 +1035,14 @@ useHead({
               opens: h.opens,
               closes: h.closes,
             })),
-            hasMap: GBP_PROFILE_URLS.geneve,
-            sameAs: [GBP_PROFILE_URLS.geneve, KGMID_URLS.geneve],
+            hasMap: GOOGLE_MAPS_URLS.geneve,
+            sameAs: [KGMID_URLS.geneve],
           },
           {
             '@type': 'LegalService',
             '@id': 'https://clegal-avocats.ch/#lausanne',
             name: locations.lausanne.name,
-            url: 'https://clegal-avocats.ch/lausanne',
+            url: ENTITY_URLS.lausanne,
             telephone: locations.lausanne.telephone,
             email: locations.lausanne.email,
             address: {
@@ -1060,8 +1065,8 @@ useHead({
               opens: h.opens,
               closes: h.closes,
             })),
-            hasMap: GBP_PROFILE_URLS.lausanne,
-            sameAs: [GBP_PROFILE_URLS.lausanne, KGMID_URLS.lausanne],
+            hasMap: GOOGLE_MAPS_URLS.lausanne,
+            sameAs: [KGMID_URLS.lausanne],
           },
         ],
       }),

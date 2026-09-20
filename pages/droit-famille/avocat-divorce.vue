@@ -243,6 +243,17 @@
         <SiloLinks silo="famille" currentPath="/droit-famille/avocat-divorce" />
 
         <!-- Form Section -->
+        <!-- Renvoi cantonal -->
+        <section class="py-8 bg-white border-t border-slate-100">
+            <div class="max-w-3xl mx-auto px-4">
+                <p class="text-slate-700">
+                    Votre divorce relève du canton de Vaud ?
+                    <NuxtLink to="/droit-famille/avocat-divorce-lausanne" class="text-red-900 hover:underline font-medium">Consultez notre page sur le divorce vaudois</NuxtLink> —
+                    quatre tribunaux d'arrondissement et une procédure de mesures protectrices distincte.
+                </p>
+            </div>
+        </section>
+
         <section id="formulaire" class="py-20 bg-white border-t border-slate-200">
             <div class="max-w-3xl mx-auto px-4">
                 <div class="mb-12 text-center">

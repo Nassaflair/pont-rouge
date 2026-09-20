@@ -3,6 +3,29 @@ import { getLawyersByCity } from '~/data/team'
 
 const vdLawyers = getLawyersByCity('lausanne')
 
+const faq = [
+    {
+      question: 'Y a-t-il un avocat Clegal pour Pully ?',
+      answer: 'Oui. Clegal Avocats dispose d\'un bureau à Lausanne accessible aux Pulliérans. Pour un rendez-vous, contactez-nous au 021 512 10 25 ou via notre formulaire. Premier rendez-vous d\'analyse à CHF 155.-.',
+    },
+    {
+      question: 'Quelles juridictions compétentes pour Pully ?',
+      answer: 'Attention à une confusion fréquente : Pully appartient au district de Lavaux-Oron, rattaché au Tribunal d\'arrondissement de l\'Est vaudois, dont le siège est à Vevey (Rue du Simplon 22) — et non au Tribunal d\'arrondissement de Lausanne, malgré la proximité immédiate de la capitale vaudoise. En appel, c\'est le Tribunal cantonal vaudois à Lausanne qui statue. Pour l\'administratif, la Cour de droit administratif et public (CDAP) ; pour la protection de l\'adulte et de l\'enfant, la Justice de paix du district de Lavaux-Oron ; pour les baux, le Tribunal des baux vaudois.',
+    },
+    {
+      question: 'Quel tarif pour un avocat à Pully ?',
+      answer: 'Les tarifs des avocats vaudois et genevois sont similaires : CHF 300 à CHF 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles et accepte l\'assistance judiciaire vaudoise.',
+    },
+    {
+      question: 'Où déposer une requête de mesures protectrices si j\'habite Pully ?',
+      answer: 'Auprès du Président du Tribunal d\'arrondissement de l\'Est vaudois, à Vevey. Le formulaire vaudois s\'imprime, se signe et s\'envoie en deux exemplaires par courrier, avec le certificat de famille, une fiche de salaire par époux, une copie du bail et l\'attestation des primes d\'assurance maladie. Le tribunal du domicile de l\'un ou l\'autre époux est compétent, au choix — ce qui peut ouvrir une option si votre conjoint réside dans un autre arrondissement.',
+    },
+    {
+      question: 'Vos avocats connaissent-ils le droit vaudois ?',
+      answer: 'Oui. Plusieurs membres de notre équipe ont étudié à l\'Université de Lausanne (Me Cheema, Me Amberger, Me Rodrigues). Me Léa Rodrigues a notamment été greffière ad hoc auprès de la Chambre pénale du Tribunal d\'arrondissement de Lausanne. Me Cyril-Marc Amberger a pratiqué chez Reymond, Ulmann & Associés à Lausanne.',
+    },
+  ]
+
 useLocalSeo(
   'Avocat à Pully | Clegal Avocats Lausanne – Dès 155.- le 1er RDV',
   'Avocat à Pully ? Clegal Avocats vous reçoit à son bureau de Lausanne. Tribunal cantonal vaudois, Justice de paix, CDAP. Premier rendez-vous d\'analyse à CHF 155.-.',
@@ -12,24 +35,8 @@ useLocalSeo(
       { name: 'Avocat à Pully', url: 'https://clegal-avocats.ch/avocat-pully' },
     ],
     lawyerSlugs: vdLawyers.map((l) => l.slug),
-    faq: [
-      {
-        question: 'Y a-t-il un avocat Clegal pour Pully ?',
-        answer: 'Oui. Clegal Avocats dispose d\'un bureau à Lausanne accessible aux Pulliérans. Pour un rendez-vous, contactez-nous au 021 512 10 25 ou via notre formulaire. Premier rendez-vous d\'analyse à CHF 155.-.',
-      },
-      {
-        question: 'Quelles juridictions compétentes pour Pully ?',
-        answer: 'Pully dépend du canton de Vaud : Tribunal d\'arrondissement de Lausanne (civil et pénal de première instance), Tribunal cantonal vaudois (appel), Cour de droit administratif et public (CDAP) pour l\'administratif, Justice de paix de Lausanne pour la famille (mesures protectrices, autorité parentale), Tribunal des baux et loyers vaudois.',
-      },
-      {
-        question: 'Quel tarif pour un avocat à Pully ?',
-        answer: 'Les tarifs des avocats vaudois et genevois sont similaires : CHF 300 à CHF 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles et accepte l\'assistance judiciaire vaudoise.',
-      },
-      {
-        question: 'Vos avocats connaissent-ils le droit vaudois ?',
-        answer: 'Oui. Plusieurs membres de notre équipe ont étudié à l\'Université de Lausanne (Me Cheema, Me Amberger, Me Rodrigues). Me Léa Rodrigues a notamment été greffière ad hoc auprès de la Chambre pénale du Tribunal d\'arrondissement de Lausanne. Me Cyril-Marc Amberger a pratiqué chez Reymond, Ulmann & Associés à Lausanne.',
-      },
-    ],
+    faq,
+
   },
 )
 </script>
@@ -64,7 +71,7 @@ useLocalSeo(
           <ul class="space-y-3 text-slate-700">
             <li class="flex gap-3">
               <span class="text-red-900 font-bold">›</span>
-              <span><strong>Tribunal d'arrondissement de Lausanne</strong> — civil et pénal de première instance</span>
+              <span><strong>Tribunal d'arrondissement de l'Est vaudois</strong> (Vevey) — civil et pénal de première instance. Pully relève du district de Lavaux-Oron, non de l'arrondissement de Lausanne.</span>
             </li>
             <li class="flex gap-3">
               <span class="text-red-900 font-bold">›</span>
@@ -114,5 +121,7 @@ useLocalSeo(
           </div>
         </div>
       </section>
+    <FaqSection :items="faq" />
+
     </main>
 </template>
