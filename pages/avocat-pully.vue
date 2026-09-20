@@ -14,7 +14,7 @@ const faq = [
     },
     {
       question: 'Quel tarif pour un avocat à Pully ?',
-      answer: 'Les tarifs des avocats vaudois et genevois sont similaires : CHF 300 à CHF 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles et accepte l\'assistance judiciaire vaudoise.',
+      answer: 'Entre CHF 300 et CHF 500 de l\'heure, comme dans l\'ensemble du canton. Un point propre aux dossiers pulliérans : lorsque l\'affaire se juge à Vevey, au Tribunal d\'arrondissement de l\'Est vaudois, les déplacements en audience sont facturés — nous les limitons aux comparutions où votre présence est requise. Premier rendez-vous d\'analyse forfaitaire à CHF 155.-, forfaits pour les procédures prévisibles, assistance judiciaire vaudoise acceptée.',
     },
     {
       question: 'Où déposer une requête de mesures protectrices si j\'habite Pully ?',
