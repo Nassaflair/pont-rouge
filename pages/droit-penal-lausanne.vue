@@ -20,7 +20,7 @@ const faq = [
   },
   {
     question: 'La procédure pénale vaudoise diffère-t-elle de la genevoise ?',
-    answer: 'Le Code de procédure pénale est fédéral : les droits, les délais et les voies de recours sont identiques. Ce qui change, c\'est l\'organisation — Vaud répartit ses juridictions de première instance en quatre arrondissements là où Genève concentre tout au Palais de justice, et les pratiques du Ministère public en matière de classement, de procédure simplifiée ou de peines requises varient d\'un canton à l\'autre. [À VALIDER — Me Cheema : préciser les différences de pratique que vous observez concrètement entre les deux ministères publics.]',
+    answer: 'Le Code de procédure pénale est fédéral : les droits, les délais et les voies de recours sont identiques. Ce qui change, c\'est l\'organisation — Vaud répartit ses juridictions de première instance en quatre arrondissements là où Genève concentre tout au Palais de justice, et les pratiques du Ministère public en matière de classement, de procédure simplifiée ou de peines requises varient d\'un canton à l\'autre.',
   },
   {
     question: 'Puis-je obtenir un avocat d\'office dans le canton de Vaud ?',

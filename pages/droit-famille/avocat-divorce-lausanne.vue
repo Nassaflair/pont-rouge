@@ -20,7 +20,7 @@ const faq = [
   },
   {
     question: 'Combien de temps dure un divorce dans le canton de Vaud ?',
-    answer: 'Un divorce sur requête commune avec convention complète se règle généralement en quelques mois après le dépôt, le temps de l\'audition des époux et de la ratification de la convention. Un divorce contentieux, avec désaccord sur les enfants, la contribution d\'entretien ou le partage de la prévoyance, s\'étend sur une durée nettement plus longue et dépend de la charge du tribunal d\'arrondissement saisi. [À VALIDER — Me Cheema : indiquer les durées réellement observées dans vos dossiers vaudois.]',
+    answer: 'Un divorce sur requête commune avec convention complète se règle généralement en quelques mois après le dépôt, le temps de l\'audition des époux et de la ratification de la convention. Un divorce contentieux, avec désaccord sur les enfants, la contribution d\'entretien ou le partage de la prévoyance, s\'étend sur une durée nettement plus longue et dépend de la charge du tribunal d\'arrondissement saisi.',
   },
   {
     question: 'Puis-je obtenir l\'assistance judiciaire pour un divorce dans le canton de Vaud ?',
