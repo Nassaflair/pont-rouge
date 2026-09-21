@@ -658,7 +658,12 @@
               @click="openPopup(partner)"
             >
               <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <NuxtImg :src="partner.image.replace('.png', '.jpg')" :alt="partner.name + ' - Avocat à Genève'" format="webp" width="300" height="400" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
+                <!-- Sans ce garde, un membre sans photo produit un srcset vide et une requête /1x en 404 à chaque chargement -->
+                <NuxtImg v-if="partner.image" :src="partner.image.replace('.png', '.jpg')" :alt="partner.name + ' - Avocat à Genève'" format="webp" width="300" height="400" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
+                <div v-else class="w-full aspect-[3/4] flex flex-col items-center justify-center text-slate-400" :aria-label="partner.name + ' — photo à venir'">
+                  <span class="text-3xl font-semibold tracking-wide">{{ partner.name.replace('Me ', '').split(' ').map(w => w[0]).join('').slice(0, 2) }}</span>
+                  <span class="text-xs mt-2">Photo à venir</span>
+                </div>
               </div>
               <div class="text-center">
                 <h4 class="text-sm font-semibold text-slate-900">{{ partner.name }}</h4>
@@ -684,7 +689,11 @@
               @click="openPopup(intern)"
             >
               <div class="block relative mb-4 overflow-hidden rounded-xl bg-slate-200">
-                <NuxtImg :src="intern.image.replace('.png', '.jpg')" :alt="intern.name + ' - Avocat stagiaire Genève'" format="webp" width="300" height="400" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
+                <NuxtImg v-if="intern.image" :src="intern.image.replace('.png', '.jpg')" :alt="intern.name + ' - Avocat stagiaire Genève'" format="webp" width="300" height="400" loading="lazy" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition-transform duration-500 filter saturate-0 group-hover:saturate-100" />
+                <div v-else class="w-full aspect-[3/4] flex flex-col items-center justify-center text-slate-400" :aria-label="intern.name + ' — photo à venir'">
+                  <span class="text-3xl font-semibold tracking-wide">{{ intern.name.replace('Me ', '').split(' ').map(w => w[0]).join('').slice(0, 2) }}</span>
+                  <span class="text-xs mt-2">Photo à venir</span>
+                </div>
               </div>
               <div class="text-center">
                 <h4 class="text-sm font-semibold text-slate-900">{{ intern.name }}</h4>
