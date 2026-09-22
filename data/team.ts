@@ -14,6 +14,8 @@ export interface Lawyer {
   affiliations?: string[]
   alumniOf?: string[]
   sameAs?: string[]
+  /** Page auteur sur le site, quand elle existe — rend la carte cliquable. */
+  profileUrl?: string
   knowsAbout?: string[]
   knowsLanguage?: string[]
 }
@@ -22,6 +24,7 @@ export const lawyers: Lawyer[] = [
   {
     slug: 'mansour-cheema',
     name: 'Me Mansour Cheema',
+    profileUrl: '/auteur/mansour-cheema',
     jobTitle: 'Avocat au Barreau – Associé fondateur',
     role: 'partner',
     email: 'm.cheema@clegal-avocats.ch',

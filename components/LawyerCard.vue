@@ -1,10 +1,15 @@
 <script setup lang="ts">
+import { resolveComponent } from 'vue'
 import type { Lawyer } from '~/data/team'
 
 defineProps<{
   lawyer: Lawyer
   variant?: 'compact' | 'full'
 }>()
+
+// La photo devient un lien uniquement quand l'avocat a une page auteur (profileUrl) :
+// on évite ainsi de dupliquer tout le bloc image en v-if / v-else.
+const NuxtLink = resolveComponent('NuxtLink')
 </script>
 
 <template>
@@ -13,9 +18,13 @@ defineProps<{
     itemtype="https://schema.org/Person"
     class="group relative flex flex-col bg-white border border-slate-200 rounded-xl overflow-hidden hover:border-red-900/30 hover:shadow-lg transition-all duration-300"
   >
-    <link itemprop="url" :href="`https://clegal-avocats.ch/equipe#${lawyer.slug}`" />
+    <link itemprop="url" :href="lawyer.profileUrl ? `https://clegal-avocats.ch${lawyer.profileUrl}` : `https://clegal-avocats.ch/equipe#${lawyer.slug}`" />
 
-    <div class="relative aspect-[3/4] overflow-hidden bg-slate-100">
+    <component
+      :is="lawyer.profileUrl ? NuxtLink : 'div'"
+      v-bind="lawyer.profileUrl ? { to: lawyer.profileUrl, 'aria-label': `Profil de ${lawyer.name}` } : {}"
+      class="block relative aspect-[3/4] overflow-hidden bg-slate-100"
+    >
       <NuxtImg
         v-if="lawyer.image"
         :src="lawyer.image.replace('.png', '.jpg')"
@@ -34,10 +43,13 @@ defineProps<{
         <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mb-2 opacity-60"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         <span class="text-xs font-medium uppercase tracking-wider">Photo à venir</span>
       </div>
-    </div>
+    </component>
 
     <div class="p-4 flex-1 flex flex-col">
-      <h3 class="text-sm font-semibold text-slate-900" itemprop="name">{{ lawyer.name }}</h3>
+      <h3 class="text-sm font-semibold text-slate-900" itemprop="name">
+        <NuxtLink v-if="lawyer.profileUrl" :to="lawyer.profileUrl" class="hover:text-red-900 transition-colors">{{ lawyer.name }}</NuxtLink>
+        <template v-else>{{ lawyer.name }}</template>
+      </h3>
       <p class="text-xs text-slate-500 mt-1" itemprop="jobTitle">{{ lawyer.jobTitle }}</p>
 
       <p v-if="variant === 'full'" class="text-sm text-slate-600 mt-3 line-clamp-4" itemprop="description">
