@@ -293,9 +293,13 @@
 
                         <div class="py-0">
                              <ClientOnly>
-                                <VueRecaptcha 
+                                <!-- Monté seulement quand le formulaire approche de l'écran ou reçoit le focus :
+                                     vue-recaptcha injecte son script au montage (loadRecaptchaScript vaut true par
+                                     défaut), ce qui coûtait 11 requêtes et ~360 ms de CPU à chaque visiteur dès 0,3 s. -->
+                                <VueRecaptcha
+                                    v-if="showRecaptcha"
                                     :sitekey="siteKey"
-                                    @verify="onVerify" 
+                                    @verify="onVerify"
                                     @expired="onExpired"
                                 />
                             </ClientOnly>
@@ -333,50 +337,30 @@ import { VueRecaptcha } from 'vue-recaptcha';
 
 const config = useRuntimeConfig();
 const siteKey = config.public.recaptchaSiteKey;
-const recaptchaLoaded = ref(false);
-
-const loadRecaptcha = () => {
-    if (recaptchaLoaded.value) return;
-    
-    // Check if script is already present
-    if (document.querySelector('script[src*="recaptcha/api.js"]')) {
-        recaptchaLoaded.value = true;
-        return;
-    }
-
-    const script = document.createElement('script');
-    script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
-    script.async = true;
-    script.defer = true;
-    script.onload = () => {
-        recaptchaLoaded.value = true;
-    };
-    document.head.appendChild(script);
-};
+// Le widget (et son script Google) n'est monté qu'au moment où il peut servir.
+// Un chargement sur simple mousemove ou dès le montage revient à le charger pour tout
+// le monde ; ici, seuls les visiteurs qui s'approchent du formulaire le paient.
+const showRecaptcha = ref(false);
+const revealRecaptcha = () => { showRecaptcha.value = true; };
 
 onMounted(() => {
-    // Lazy load on intersection (when form becomes visible)
+    const contactSection = document.getElementById('contact');
+    if (!contactSection || !('IntersectionObserver' in window)) {
+        revealRecaptcha();
+        return;
+    }
+    // 400 px d'avance : le widget est prêt avant que l'utilisateur atteigne le bouton d'envoi
     const observer = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting) {
-            loadRecaptcha();
+        if (entries.some((e) => e.isIntersecting)) {
+            revealRecaptcha();
             observer.disconnect();
         }
-    });
-    
-    const contactSection = document.getElementById('contact');
-    if (contactSection) {
-        observer.observe(contactSection);
-    }
-    
-    // Fallback: load on user interaction (mousemove or touch) just in case
-    const onInteraction = () => {
-        loadRecaptcha();
-        window.removeEventListener('mousemove', onInteraction);
-        window.removeEventListener('touchstart', onInteraction);
-    };
-    
-    window.addEventListener('mousemove', onInteraction, { once: true });
-    window.addEventListener('touchstart', onInteraction, { once: true });
+    }, { rootMargin: '400px 0px' });
+    observer.observe(contactSection);
+
+    // Et dès la première intention claire d'utiliser le formulaire
+    contactSection.addEventListener('focusin', revealRecaptcha, { once: true });
+    contactSection.addEventListener('pointerdown', revealRecaptcha, { once: true });
 });
 
 const loading = ref(false);
