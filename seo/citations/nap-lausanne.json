@@ -1,0 +1,16 @@
+{
+  "nom": "Clegal Avocats",
+  "rue": "Rue Saint-Pierre 2",
+  "npa": "1003",
+  "localite": "Lausanne",
+  "canton": "VD",
+  "pays": "CH",
+  "telephone": "+41215121025",
+  "email": "info@clegal-avocats.ch",
+  "site": "https://clegal-avocats.ch/lausanne",
+  "categorie_principale": "Avocat",
+  "categories_secondaires": ["Avocat pénaliste", "Avocat spécialisé en droit de la famille", "Avocat en droit du travail", "Avocat en droit des étrangers"],
+  "secteur": "juridique",
+  "langue": "fr",
+  "_notes": "Bureau vaudois. Permanence 24h/24. Fiche Google kgmid /g/11zb49qxb_, 7 avis."
+}

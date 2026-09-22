@@ -214,6 +214,17 @@
             </div>
         </section>
 
+        <!-- Renvoi cantonal : évite la confusion Genève / Vaud -->
+        <section class="py-8 bg-white border-t border-slate-100">
+            <div class="max-w-3xl mx-auto px-4">
+                <p class="text-slate-700">
+                    Affaire pénale dans le canton de Vaud ?
+                    <NuxtLink to="/droit-penal-lausanne" class="text-red-900 hover:underline font-medium">Voir notre page sur le droit pénal vaudois</NuxtLink> —
+                    juridictions, garde à vue et permanence 24h/24 au 021 512 10 25.
+                </p>
+            </div>
+        </section>
+
         <!-- Form Section -->
         <section id="formulaire" class="py-20 bg-slate-50 border-t border-slate-200">
             <div class="max-w-3xl mx-auto px-4">

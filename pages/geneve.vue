@@ -3,6 +3,29 @@ import { getLawyersByCity } from '~/data/team'
 
 const geneveLawyers = getLawyersByCity('geneve')
 
+const faq = [
+    {
+      question: 'Où se trouve votre cabinet d\'avocats à Genève ?',
+      answer: 'Notre cabinet est situé Route des Jeunes 9, 1227 Les Acacias, dans le quartier d\'affaires de Lancy-Pont-Rouge. Accès en 5 minutes depuis le centre-ville de Genève par tram (lignes 12, 15, 17, 18 — arrêts Pont-Rouge ou Acacias), Léman Express (gare Lancy-Pont-Rouge), bus ou voiture (parking visiteurs Centre Commercial La Praille).',
+    },
+    {
+      question: 'Combien coûte un avocat à Genève ?',
+      answer: 'Les tarifs horaires des avocats à Genève varient entre CHF 300 et CHF 500. Chez Clegal Avocats, le premier rendez-vous d\'analyse est forfaitaire à CHF 155.- (60 minutes). Pour les procédures prévisibles, des forfaits sont possibles. L\'aide juridictionnelle (art. 117 CPC) est acceptée pour les clients éligibles.',
+    },
+    {
+      question: 'Quels domaines du droit pratiquez-vous à Genève ?',
+      answer: 'Tous les domaines du droit suisse pertinents : droit de la famille (divorce, séparation, garde, pension, succession), droit pénal (Ministère public, Tribunal correctionnel, défense LAVI), droit du travail (Tribunal des prud\'hommes), droit des étrangers (OCPM, permis B/C), droit immobilier (bail), droit des affaires (Sàrl, SA, contrats), droit administratif et droit des assurances.',
+    },
+    {
+      question: 'Êtes-vous inscrits au Barreau de Genève ?',
+      answer: 'Oui. Tous les avocats associés du cabinet sont inscrits au Barreau de Genève (Ordre des avocats de Genève — ODA). Me Tano Barth est même membre suppléant de la Commission du barreau (autorité de surveillance des avocats). Me Rémy Bucheler a été élu juge suppléant au Tribunal civil de Genève en 2025.',
+    },
+    {
+      question: 'Quels quartiers et communes du canton desservez-vous ?',
+      answer: 'Notre cabinet d\'avocats à Genève accueille les clients de tout le canton : Genève centre, Plainpalais, Eaux-Vives, Champel, Carouge, Lancy, Vernier, Meyrin, Onex, Versoix, Plan-les-Ouates, Chêne-Bougeries, Cologny, Veyrier. Pages dédiées : /avocat-carouge, /avocat-eaux-vives.',
+    },
+  ]
+
 useLocalSeo(
   'Avocat à Genève (Route des Jeunes 9, Acacias) | Clegal Avocats',
   'Avocat à Genève — Route des Jeunes 9, 1227 Les Acacias. Notre équipe au Barreau de Genève : pénal, famille, travail, étrangers, bail. 1er RDV CHF 155.-.',
@@ -19,28 +42,8 @@ useLocalSeo(
         category: 'Services juridiques',
       },
     ],
-    faq: [
-      {
-        question: 'Où se trouve votre cabinet d\'avocats à Genève ?',
-        answer: 'Notre cabinet est situé Route des Jeunes 9, 1227 Les Acacias, dans le quartier d\'affaires de Lancy-Pont-Rouge. Accès en 5 minutes depuis le centre-ville de Genève par tram (lignes 12, 15, 17, 18 — arrêts Pont-Rouge ou Acacias), Léman Express (gare Lancy-Pont-Rouge), bus ou voiture (parking visiteurs Centre Commercial La Praille).',
-      },
-      {
-        question: 'Combien coûte un avocat à Genève ?',
-        answer: 'Les tarifs horaires des avocats à Genève varient entre CHF 300 et CHF 500. Chez Clegal Avocats, le premier rendez-vous d\'analyse est forfaitaire à CHF 155.- (60 minutes). Pour les procédures prévisibles, des forfaits sont possibles. L\'aide juridictionnelle (art. 117 CPC) est acceptée pour les clients éligibles.',
-      },
-      {
-        question: 'Quels domaines du droit pratiquez-vous à Genève ?',
-        answer: 'Tous les domaines du droit suisse pertinents : droit de la famille (divorce, séparation, garde, pension, succession), droit pénal (Ministère public, Tribunal correctionnel, défense LAVI), droit du travail (Tribunal des prud\'hommes), droit des étrangers (OCPM, permis B/C), droit immobilier (bail), droit des affaires (Sàrl, SA, contrats), droit administratif et droit des assurances.',
-      },
-      {
-        question: 'Êtes-vous inscrits au Barreau de Genève ?',
-        answer: 'Oui. Tous les avocats associés du cabinet sont inscrits au Barreau de Genève (Ordre des avocats de Genève — ODA). Me Tano Barth est même membre suppléant de la Commission du barreau (autorité de surveillance des avocats). Me Rémy Bucheler a été élu juge suppléant au Tribunal civil de Genève en 2025.',
-      },
-      {
-        question: 'Quels quartiers et communes du canton desservez-vous ?',
-        answer: 'Notre cabinet d\'avocats à Genève accueille les clients de tout le canton : Genève centre, Plainpalais, Eaux-Vives, Champel, Carouge, Lancy, Vernier, Meyrin, Onex, Versoix, Plan-les-Ouates, Chêne-Bougeries, Cologny, Veyrier. Pages dédiées : /avocat-carouge, /avocat-eaux-vives.',
-      },
-    ],
+    faq,
+
   },
 )
 </script>
@@ -307,5 +310,7 @@ useLocalSeo(
           </div>
         </div>
       </section>
+    <FaqSection :items="faq" />
+
     </main>
 </template>

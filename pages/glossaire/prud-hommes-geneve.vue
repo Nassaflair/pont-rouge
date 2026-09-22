@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const faq = [
+    {
+      question: 'Le Tribunal des prud\'hommes à Genève est-il vraiment gratuit ?',
+      answer: 'Oui, gratuit jusqu\'à CHF 75\'000 de valeur litigieuse (art. 114 CPC) : pas de frais de procédure pour le justiciable. Au-delà de ce montant ou en appel, des frais s\'appliquent. Les honoraires d\'avocat restent à la charge de chaque partie (sauf condamnation aux dépens).',
+    },
+    {
+      question: 'Combien de temps dure une procédure prud\'homale à Genève ?',
+      answer: 'Première instance à Genève : 6 à 12 mois en moyenne. Une tentative de conciliation obligatoire précède la procédure (1-3 mois). En cas d\'appel à la Cour de justice (Chambre des prud\'hommes), comptez 6-12 mois supplémentaires.',
+    },
+  ]
+
 useLocalSeo(
   'Tribunal des prud\'hommes Genève : compétence, gratuité, procédure',
   'Tribunal des prud\'hommes de Genève : juridiction du droit du travail. Gratuit jusqu\'à CHF 75\'000 (art. 114 CPC). Procédure, délais, recours.',
@@ -8,16 +19,8 @@ useLocalSeo(
       { name: 'Glossaire', url: 'https://clegal-avocats.ch/glossaire' },
       { name: 'Prud\'hommes', url: 'https://clegal-avocats.ch/glossaire/prud-hommes-geneve' },
     ],
-    faq: [
-      {
-        question: 'Le Tribunal des prud\'hommes à Genève est-il vraiment gratuit ?',
-        answer: 'Oui, gratuit jusqu\'à CHF 75\'000 de valeur litigieuse (art. 114 CPC) : pas de frais de procédure pour le justiciable. Au-delà de ce montant ou en appel, des frais s\'appliquent. Les honoraires d\'avocat restent à la charge de chaque partie (sauf condamnation aux dépens).',
-      },
-      {
-        question: 'Combien de temps dure une procédure prud\'homale à Genève ?',
-        answer: 'Première instance à Genève : 6 à 12 mois en moyenne. Une tentative de conciliation obligatoire précède la procédure (1-3 mois). En cas d\'appel à la Cour de justice (Chambre des prud\'hommes), comptez 6-12 mois supplémentaires.',
-      },
-    ],
+    faq,
+
   },
 )
 
@@ -45,6 +48,7 @@ const body = [
 
 <template>
   <GlossaryEntry
+    :faq="faq"
     category="Droit du travail"
     term="Tribunal des prud'hommes de Genève"
     slug="prud-hommes-geneve"

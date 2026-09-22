@@ -1,4 +1,19 @@
 <script setup lang="ts">
+const faq = [
+    {
+      question: 'Quel avocat pour le quartier des Eaux-Vives à Genève ?',
+      answer: 'Clegal Avocats est l\'un des cabinets d\'avocats à Genève les plus accessibles depuis les Eaux-Vives : 10 minutes en voiture par le pont du Mont-Blanc et le quai des Acacias, ou 12 minutes en tram (lignes 12 et 17). Notre étude est située Route des Jeunes 9, 1227 Les Acacias. Premier rendez-vous d\'analyse à CHF 155.-.',
+    },
+    {
+      question: 'Quel tribunal compétent pour les Eaux-Vives ?',
+      answer: 'Les Eaux-Vives, quartier de la Ville de Genève, dépendent des juridictions genevoises ordinaires : Tribunal de première instance, Cour de justice, Ministère public (Place du Bourg-de-Four — à 8 minutes des Eaux-Vives), Tribunal des prud\'hommes, Tribunal des baux et loyers, TAPI.',
+    },
+    {
+      question: 'Combien coûte un avocat aux Eaux-Vives ?',
+      answer: 'Les tarifs d\'un avocat à Genève (Eaux-Vives compris) varient entre CHF 300 et 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles et accepte l\'aide juridictionnelle pour les clients éligibles.',
+    },
+  ]
+
 useLocalSeo(
   'Avocat Eaux-Vives Genève | Clegal Avocats – Dès 155.- le 1er RDV',
   'Avocat aux Eaux-Vives à Genève. Clegal Avocats reçoit aux Acacias, à 10 min du quartier. Pénal, famille, affaires, étrangers. 1er RDV CHF 155.-.',
@@ -7,20 +22,8 @@ useLocalSeo(
     breadcrumbs: [
       { name: 'Avocat Eaux-Vives', url: 'https://clegal-avocats.ch/avocat-eaux-vives' },
     ],
-    faq: [
-      {
-        question: 'Quel avocat pour le quartier des Eaux-Vives à Genève ?',
-        answer: 'Clegal Avocats est l\'un des cabinets d\'avocats à Genève les plus accessibles depuis les Eaux-Vives : 10 minutes en voiture par le pont du Mont-Blanc et le quai des Acacias, ou 12 minutes en tram (lignes 12 et 17). Notre étude est située Route des Jeunes 9, 1227 Les Acacias. Premier rendez-vous d\'analyse à CHF 155.-.',
-      },
-      {
-        question: 'Quel tribunal compétent pour les Eaux-Vives ?',
-        answer: 'Les Eaux-Vives, quartier de la Ville de Genève, dépendent des juridictions genevoises ordinaires : Tribunal de première instance, Cour de justice, Ministère public (Place du Bourg-de-Four — à 8 minutes des Eaux-Vives), Tribunal des prud\'hommes, Tribunal des baux et loyers, TAPI.',
-      },
-      {
-        question: 'Combien coûte un avocat aux Eaux-Vives ?',
-        answer: 'Les tarifs d\'un avocat à Genève (Eaux-Vives compris) varient entre CHF 300 et 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles et accepte l\'aide juridictionnelle pour les clients éligibles.',
-      },
-    ],
+    faq,
+
   },
 )
 </script>
@@ -90,5 +93,7 @@ useLocalSeo(
           </div>
         </div>
       </section>
+    <FaqSection :items="faq" />
+
     </main>
 </template>

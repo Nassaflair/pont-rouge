@@ -1,0 +1,16 @@
+{
+  "nom": "Clegal Avocats",
+  "rue": "Route des Jeunes 9",
+  "npa": "1227",
+  "localite": "Les Acacias",
+  "canton": "GE",
+  "pays": "CH",
+  "telephone": "+41225121050",
+  "email": "info@clegal-avocats.ch",
+  "site": "https://clegal-avocats.ch/geneve",
+  "categorie_principale": "Avocat",
+  "categories_secondaires": ["Avocat pénaliste", "Avocat spécialisé en droit de la famille", "Avocat en droit du travail", "Avocat en droit des étrangers"],
+  "secteur": "juridique",
+  "langue": "fr",
+  "_notes": "Bureau principal. Permanence 24h/24. Fiche Google kgmid /g/11kr80wp4s."
+}

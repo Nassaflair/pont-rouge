@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const faq = [
+    {
+      question: 'Où se trouve l\'OCPM à Genève ?',
+      answer: 'L\'Office cantonal de la population et des migrations est situé Route de Chancy 88, 1213 Onex. Accès en bus (lignes TPG 2, 19, K, L) ou en voiture (parking visiteurs). Les démarches en ligne se font via le portail e-démarches de l\'OCPM.',
+    },
+    {
+      question: 'Comment faire recours contre une décision de l\'OCPM ?',
+      answer: 'Une décision négative de l\'OCPM (refus de permis, non-renouvellement, révocation) peut être contestée devant le Tribunal administratif de première instance (TAPI) dans les 30 jours dès notification (art. 62 LPA). Un avocat en droit des étrangers est essentiel pour analyser les motifs et préparer le recours.',
+    },
+  ]
+
 useLocalSeo(
   'OCPM Genève : Office cantonal de la population et des migrations',
   'OCPM Genève : adresse, démarches (permis B/C, regroupement, naturalisation), recours au TAPI. Office situé à Onex.',
@@ -8,22 +19,15 @@ useLocalSeo(
       { name: 'Glossaire', url: 'https://clegal-avocats.ch/glossaire' },
       { name: 'OCPM', url: 'https://clegal-avocats.ch/glossaire/ocpm-geneve' },
     ],
-    faq: [
-      {
-        question: 'Où se trouve l\'OCPM à Genève ?',
-        answer: 'L\'Office cantonal de la population et des migrations est situé Route de Chancy 88, 1213 Onex. Accès en bus (lignes TPG 2, 19, K, L) ou en voiture (parking visiteurs). Les démarches en ligne se font via le portail e-démarches de l\'OCPM.',
-      },
-      {
-        question: 'Comment faire recours contre une décision de l\'OCPM ?',
-        answer: 'Une décision négative de l\'OCPM (refus de permis, non-renouvellement, révocation) peut être contestée devant le Tribunal administratif de première instance (TAPI) dans les 30 jours dès notification (art. 62 LPA). Un avocat en droit des étrangers est essentiel pour analyser les motifs et préparer le recours.',
-      },
-    ],
+    faq,
+
   },
 )
 </script>
 
 <template>
   <GlossaryEntry
+    :faq="faq"
     category="Droit des étrangers"
     term="OCPM — Office cantonal de la population et des migrations"
     slug="ocpm-geneve"

@@ -10,7 +10,27 @@ const props = defineProps<{
   trajet: string
   juridictions: string[]
   proximite?: string
+  faq?: { question: string; answer: string }[]
+  /**
+   * Ce qui rend la page non interchangeable. Sans ces trois props, toutes les pages
+   * de quartier racontent la même chose à un nom près — c'est la définition d'une
+   * doorway page, et Google la sanctionne comme telle.
+   */
+  tribunal?: { nom: string; siege: string; precision?: string }
+  contexteLocal?: { titre: string; paragraphes: string[] }
+  domaines?: { url: string; titre: string; description: string }[]
 }>()
+
+// Les domaines mis en avant varient selon le profil de la commune : un quartier
+// résidentiel n'a pas les mêmes besoins juridiques qu'un pôle d'affaires.
+const domainesAffiches = computed(() => props.domaines ?? [
+  { url: '/droit-famille', titre: `Avocat famille à ${props.quartier}`, description: 'Divorce, séparation, garde, pension, succession.' },
+  { url: '/droit-penal', titre: `Avocat pénaliste pour ${props.quartier}`, description: 'Défense pénale, victimes, ordonnances pénales.' },
+  { url: '/droit-travail', titre: `Avocat travail ${props.quartier}`, description: 'Licenciement, conflits, prud\'hommes.' },
+  { url: '/droit-etrangers', titre: `Avocat étrangers ${props.quartier}`, description: 'Permis B/C, regroupement familial, recours.' },
+  { url: '/droit-bail', titre: `Avocat bail ${props.quartier}`, description: 'Loyer, résiliation, expulsion.' },
+  { url: '/droit-affaires', titre: `Avocat affaires ${props.quartier}`, description: 'Constitution Sàrl/SA, contrats, contentieux.' },
+])
 
 const phoneRaw = computed(() => (props.city === 'lausanne' ? '0215121025' : '0225121050'))
 const phoneDisplay = computed(() => (props.city === 'lausanne' ? '021 512 10 25' : '022 512 10 50'))
@@ -41,7 +61,33 @@ const phoneDisplay = computed(() => (props.city === 'lausanne' ? '021 512 10 25'
         </div>
       </section>
 
-      <section class="py-16 bg-white">
+      <section v-if="tribunal" class="py-12 bg-white border-b border-slate-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="bg-slate-50 border-l-4 border-red-900 rounded-r-xl p-6">
+            <p class="text-xs uppercase tracking-widest font-bold text-red-900 mb-2">
+              Juridiction compétente pour {{ quartier }}
+            </p>
+            <p class="text-lg font-semibold text-slate-900">{{ tribunal.nom }}</p>
+            <p class="text-sm text-slate-600 mt-1">Siège : {{ tribunal.siege }}</p>
+            <p v-if="tribunal.precision" class="text-sm text-slate-700 mt-3 leading-relaxed">
+              {{ tribunal.precision }}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section v-if="contexteLocal" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-2xl font-semibold text-slate-900 mb-6">{{ contexteLocal.titre }}</h2>
+          <p
+            v-for="(par, i) in contexteLocal.paragraphes"
+            :key="i"
+            class="text-slate-700 leading-relaxed mb-4"
+          >{{ par }}</p>
+        </div>
+      </section>
+
+      <section class="py-16 bg-white border-t border-slate-100">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 class="text-2xl font-semibold text-slate-900 mb-6">Trajet jusqu'à notre cabinet</h2>
           <p class="text-slate-700 leading-relaxed">{{ trajet }}</p>
@@ -53,20 +99,13 @@ const phoneDisplay = computed(() => (props.city === 'lausanne' ? '021 512 10 25'
           <h2 class="text-2xl font-semibold text-slate-900 mb-6">Domaines pour les habitants de {{ quartier }}</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <NuxtLink
-              v-for="d in [
-                { url: '/droit-famille', t: `Avocat famille à ${quartier}`, d: 'Divorce, séparation, garde, pension, succession.' },
-                { url: '/droit-penal', t: `Avocat pénaliste pour ${quartier}`, d: 'Défense pénale, victimes, ordonnances pénales.' },
-                { url: '/droit-travail', t: `Avocat travail ${quartier}`, d: 'Licenciement, conflits, prud\'hommes.' },
-                { url: '/droit-etrangers', t: `Avocat étrangers ${quartier}`, d: 'Permis B/C, regroupement familial, recours.' },
-                { url: '/droit-bail', t: `Avocat bail ${quartier}`, d: 'Loyer, résiliation, expulsion.' },
-                { url: '/droit-affaires', t: `Avocat affaires ${quartier}`, d: 'Constitution Sàrl/SA, contrats, contentieux.' },
-              ]"
+              v-for="d in domainesAffiches"
               :key="d.url"
               :to="d.url"
               class="block bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all"
             >
-              <h3 class="font-semibold text-slate-900">{{ d.t }}</h3>
-              <p class="text-sm text-slate-600 mt-2">{{ d.d }}</p>
+              <h3 class="font-semibold text-slate-900">{{ d.titre }}</h3>
+              <p class="text-sm text-slate-600 mt-2">{{ d.description }}</p>
             </NuxtLink>
           </div>
         </div>
@@ -102,5 +141,7 @@ const phoneDisplay = computed(() => (props.city === 'lausanne' ? '021 512 10 25'
           </div>
         </div>
       </section>
+      <FaqSection v-if="faq" :items="faq" />
+
     </main>
 </template>

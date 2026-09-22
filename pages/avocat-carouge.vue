@@ -1,4 +1,23 @@
 <script setup lang="ts">
+const faq = [
+    {
+      question: 'Y a-t-il un cabinet d\'avocats à Carouge ?',
+      answer: 'Clegal Avocats reçoit régulièrement des clients carougeois depuis son cabinet de Genève situé Route des Jeunes 9, 1227 Les Acacias — à 5 minutes en tram (ligne 12 ou 18) ou en voiture de la Place du Marché de Carouge. Premier rendez-vous d\'analyse à CHF 155.-.',
+    },
+    {
+      question: 'Quel tribunal compétent pour Carouge ?',
+      answer: 'Carouge dépend du Tribunal de première instance de Genève (Rue de l\'Athénée 6/8, 1205 Genève) pour le civil, du Ministère public et du Tribunal correctionnel pour le pénal, du Tribunal des prud\'hommes pour le travail, du Tribunal des baux et loyers pour le logement. Carouge n\'a pas de juridiction propre — elle est intégrée à l\'organisation judiciaire genevoise.',
+    },
+    {
+      question: 'Combien coûte un avocat à Carouge ?',
+      answer: 'Les tarifs d\'un avocat à Carouge / Genève varient entre CHF 300 et 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles (divorce amiable, dépôt OCPM) et accepte l\'aide juridictionnelle.',
+    },
+    {
+      question: 'Quels domaines du droit pratiquez-vous pour les Carougeois ?',
+      answer: 'Tous les domaines : droit de la famille (divorce, séparation, garde, pension), droit pénal, droit du travail (Tribunal des prud\'hommes), droit des étrangers (OCPM Onex), droit du bail, droit des affaires, droit administratif et droit des assurances.',
+    },
+  ]
+
 useLocalSeo(
   'Avocat à Carouge | Clegal Avocats Genève – Dès 155.- le 1er RDV',
   'Avocat à Carouge ? Clegal Avocats vous reçoit aux Acacias, à 5 minutes de la Place du Marché. Droit pénal, famille, travail, étrangers, bail. 1er RDV à CHF 155.-.',
@@ -7,24 +26,8 @@ useLocalSeo(
     breadcrumbs: [
       { name: 'Avocat à Carouge', url: 'https://clegal-avocats.ch/avocat-carouge' },
     ],
-    faq: [
-      {
-        question: 'Y a-t-il un cabinet d\'avocats à Carouge ?',
-        answer: 'Clegal Avocats reçoit régulièrement des clients carougeois depuis son cabinet de Genève situé Route des Jeunes 9, 1227 Les Acacias — à 5 minutes en tram (ligne 12 ou 18) ou en voiture de la Place du Marché de Carouge. Premier rendez-vous d\'analyse à CHF 155.-.',
-      },
-      {
-        question: 'Quel tribunal compétent pour Carouge ?',
-        answer: 'Carouge dépend du Tribunal de première instance de Genève (Rue de l\'Athénée 6/8, 1205 Genève) pour le civil, du Ministère public et du Tribunal correctionnel pour le pénal, du Tribunal des prud\'hommes pour le travail, du Tribunal des baux et loyers pour le logement. Carouge n\'a pas de juridiction propre — elle est intégrée à l\'organisation judiciaire genevoise.',
-      },
-      {
-        question: 'Combien coûte un avocat à Carouge ?',
-        answer: 'Les tarifs d\'un avocat à Carouge / Genève varient entre CHF 300 et 500 de l\'heure. Clegal Avocats propose un premier rendez-vous d\'analyse forfaitaire à CHF 155.-, des forfaits pour les procédures prévisibles (divorce amiable, dépôt OCPM) et accepte l\'aide juridictionnelle.',
-      },
-      {
-        question: 'Quels domaines du droit pratiquez-vous pour les Carougeois ?',
-        answer: 'Tous les domaines : droit de la famille (divorce, séparation, garde, pension), droit pénal, droit du travail (Tribunal des prud\'hommes), droit des étrangers (OCPM Onex), droit du bail, droit des affaires, droit administratif et droit des assurances.',
-      },
-    ],
+    faq,
+
   },
 )
 </script>
@@ -164,5 +167,7 @@ useLocalSeo(
           </div>
         </div>
       </section>
+    <FaqSection :items="faq" />
+
     </main>
 </template>

@@ -36,10 +36,20 @@ export const SAME_AS_DEFAULT = [
   // 'https://www.linkedin.com/company/clegal-avocats/',
 ]
 
-// hasMap = la fiche Google Business officielle de chaque bureau (signal local fort)
+// hasMap attend une URL de CARTE. Les liens share.google redirigent vers une page de
+// recherche Google, pas vers une carte : on utilise ici l'URL Maps documentée par Google
+// (Maps URLs API), stable dans le temps et sans clé d'API.
 export const GOOGLE_MAPS_URLS: Record<string, string> = {
-  geneve: GBP_PROFILE_URLS.geneve,
-  lausanne: GBP_PROFILE_URLS.lausanne,
+  geneve: 'https://www.google.com/maps/search/?api=1&query=Clegal+Avocats%2C+Route+des+Jeunes+9%2C+1227+Les+Acacias',
+  lausanne: 'https://www.google.com/maps/search/?api=1&query=Clegal+Avocats%2C+Rue+Saint-Pierre+2%2C+1003+Lausanne',
+}
+
+// URL canonique de chaque entité : la page qui décrit ce bureau précis.
+// Sans ça, l'entité #lausanne pointe vers la page d'accueil et se confond avec le cabinet
+// dans son ensemble — exactement ce que l'audit de schema avait relevé.
+export const ENTITY_URLS: Record<string, string> = {
+  geneve: 'https://clegal-avocats.ch/geneve',
+  lausanne: 'https://clegal-avocats.ch/lausanne',
 }
 
 // Rayon de service par succursale (en mètres) pour GeoCircle
@@ -124,7 +134,7 @@ export const useLocalSeo = (
     '@id': `https://clegal-avocats.ch/#${city}`,
     name: location.name,
     image,
-    url: 'https://clegal-avocats.ch',
+    url: ENTITY_URLS[city] ?? 'https://clegal-avocats.ch',
     email: location.email,
     ...(isPlaceholder(location.telephone) ? {} : { telephone: location.telephone }),
     address,
@@ -169,8 +179,11 @@ export const useLocalSeo = (
     },
   }
 
-  // sameAs de l'entité = sa fiche Google + son entité Knowledge Graph + profils communs
-  const entitySameAs = [GBP_PROFILE_URLS[city], KGMID_URLS[city], ...sameAs].filter(Boolean)
+  // sameAs de l'entité = son entité Knowledge Graph + les profils communs.
+  // On n'y met PAS le lien share.google : il redirige vers cette même entité Knowledge
+  // Graph, ce serait donc la même ressource déclarée deux fois. Les liens de partage
+  // restent pour les visiteurs, dans le contenu des pages.
+  const entitySameAs = [...new Set([KGMID_URLS[city], ...sameAs].filter(Boolean))]
   if (entitySameAs.length > 0) {
     localBusinessSchema.sameAs = entitySameAs
   }
