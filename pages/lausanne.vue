@@ -189,23 +189,26 @@ useLocalSeo(
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 class="text-2xl font-semibold text-slate-900 mb-8">Domaines couverts à Lausanne</h2>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div
+            <!-- Cartes cliquables, comme sur /geneve : famille et pénal renvoient vers les pages
+                 vaudoises (procédure cantonale), les autres vers la page du domaine. -->
+            <NuxtLink
               v-for="domain in [
-                { title: 'Droit de la famille', desc: 'Divorce, séparation, garde, pension, succession' },
-                { title: 'Droit pénal', desc: 'Défense, victimes, ordonnances pénales' },
-                { title: 'Droit du travail', desc: 'Licenciement, conflits employeur-employé' },
-                { title: 'Droit des étrangers', desc: 'Permis B, regroupement familial, recours' },
-                { title: 'Droit du bail', desc: 'Loyer, résiliation, expulsion (Tribunal des baux VD)' },
-                { title: 'Droit des affaires', desc: 'Sociétés, contrats, contentieux' },
-                { title: 'Droit administratif', desc: 'Décisions cantonales, recours CDAP' },
-                { title: 'Droit des assurances', desc: 'Contentieux LAA, AI, prévoyance' },
+                { to: '/droit-famille/avocat-divorce-lausanne', title: 'Droit de la famille', desc: 'Divorce, séparation, garde, pension, succession' },
+                { to: '/droit-penal-lausanne', title: 'Droit pénal', desc: 'Défense, victimes, ordonnances pénales' },
+                { to: '/droit-travail', title: 'Droit du travail', desc: 'Licenciement, conflits employeur-employé' },
+                { to: '/droit-etrangers', title: 'Droit des étrangers', desc: 'Permis B, regroupement familial, recours' },
+                { to: '/droit-bail', title: 'Droit du bail', desc: 'Loyer, résiliation, expulsion (Tribunal des baux VD)' },
+                { to: '/droit-affaires', title: 'Droit des affaires', desc: 'Sociétés, contrats, contentieux' },
+                { to: '/droit-administratif', title: 'Droit administratif', desc: 'Décisions cantonales, recours CDAP' },
+                { to: '/droit-assurance', title: 'Droit des assurances', desc: 'Contentieux LAA, AI, prévoyance' },
               ]"
               :key="domain.title"
-              class="bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all"
+              :to="domain.to"
+              class="block bg-white border border-slate-200 rounded-xl p-5 hover:border-red-900/30 hover:shadow-sm transition-all"
             >
               <h3 class="text-sm font-semibold text-slate-900">{{ domain.title }}</h3>
               <p class="text-xs text-slate-500 mt-2">{{ domain.desc }}</p>
-            </div>
+            </NuxtLink>
           </div>
         </div>
       </section>
