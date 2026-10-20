@@ -91,7 +91,7 @@
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-4">Avantages d'un avocat local dans les litiges d'assurance</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Choisir un avocat local permet de bénéficier d'une représentation juridique qui comprend les nuances régionales, y compris les pratiques spécifiques de la <strong>Chambre des assurances sociales du Tribunal cantonal</strong>. Cela augmente significativement les chances de succès dans les litiges d'assurance.
+                            Choisir un avocat local permet de bénéficier d'une représentation juridique qui comprend les nuances régionales, y compris les pratiques spécifiques de la <strong>Chambre des assurances sociales du Tribunal cantonal</strong>. Cela augmente significativement les chances de succès dans les litiges d'assurance. Contester une décision AI, LAA ou chômage relève du <NuxtLink to="/droit-administratif" class="text-red-900 hover:underline">droit administratif</NuxtLink> : le délai de recours y est court et il n'est pas prolongeable.
                         </p>
                     </div>
                 </div>

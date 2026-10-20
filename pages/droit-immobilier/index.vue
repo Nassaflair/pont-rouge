@@ -108,7 +108,7 @@
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie du système juridique</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Nous maîtrisons les lois locales comme la <strong>Loi d’application genevoise de la loi fédérale sur l’aménagement du territoire</strong>, ainsi que le Code Civil (CC) et le Code des Obligations (CO). Cette expertise est cruciale pour naviguer dans les complexités administratives de Genève.
+                            Nous maîtrisons les lois locales comme la <strong>Loi d’application genevoise de la loi fédérale sur l’aménagement du territoire</strong>, ainsi que le Code Civil (CC) et le Code des Obligations (CO). Cette expertise est cruciale pour naviguer dans les complexités administratives de Genève. Une opposition à une autorisation de construire ou un recours LCI se plaident en <NuxtLink to="/droit-administratif" class="text-red-900 hover:underline">droit administratif</NuxtLink>, devant le Tribunal administratif de première instance.
                         </p>
                     </div>
                 </div>

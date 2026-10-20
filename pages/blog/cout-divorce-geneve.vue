@@ -298,6 +298,9 @@ useHead({
               <NuxtLink to="/droit-famille/avocat-divorce" class="text-red-900 hover:underline">→ Notre page dédiée à l'avocat divorce à Genève</NuxtLink>
             </li>
             <li>
+              <NuxtLink to="/geneve" class="text-red-900 hover:underline">→ Notre cabinet d'avocats à Genève : adresse, accès et domaines couverts</NuxtLink>
+            </li>
+            <li>
               <NuxtLink to="/droit-famille/avocat-pension-alimentaire" class="text-red-900 hover:underline">→ Calcul des pensions alimentaires (art. 276 CC)</NuxtLink>
             </li>
             <li>

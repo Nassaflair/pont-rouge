@@ -99,7 +99,7 @@
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie du système juridique</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            La maîtrise des spécificités du <strong>Tribunal administratif de première instance de Genève</strong> (Rue Ami-Lullin 4) est essentielle pour influencer positivement les résultats des recours. La connaissance des tendances des juges locaux est déterminante.
+                            La maîtrise des spécificités du <strong>Tribunal administratif de première instance de Genève</strong> (Rue Ami-Lullin 4) est essentielle pour influencer positivement les résultats des recours. La connaissance des tendances des juges locaux est déterminante. Nous recevons sur rendez-vous dans notre <NuxtLink to="/geneve" class="text-red-900 hover:underline">cabinet d'avocats à Genève</NuxtLink>, à dix minutes de l'OCPM.
                         </p>
                     </div>
 
@@ -152,7 +152,7 @@
                             <div class="w-10 h-10 bg-red-900 text-white rounded-full flex items-center justify-center font-bold mb-4 mx-auto md:mx-0 shadow-lg shadow-red-900/20">3</div>
                             <h4 class="text-lg font-bold text-slate-900 mb-3">Recours (Si Refus)</h4>
                             <p class="text-sm text-slate-600 leading-relaxed">
-                                En cas de décision négative, nous déposons un recours au <strong>Tribunal administratif de première instance</strong> pour faire valoir vos droits.
+                                En cas de décision négative, nous déposons un recours au <strong>Tribunal administratif de première instance</strong> pour faire valoir vos droits. C'est une procédure de <NuxtLink to="/droit-administratif" class="text-red-900 hover:underline">droit administratif</NuxtLink>, soumise à ses propres délais et à ses propres exigences de forme.
                             </p>
                         </div>
                     </div>

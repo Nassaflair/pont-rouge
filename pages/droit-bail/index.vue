@@ -77,7 +77,7 @@
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 mb-4">Connaissance approfondie du cadre juridique local</h3>
                         <p class="text-slate-600 leading-relaxed">
-                            Un avocat spécialisé en droit du bail à Genève possède une connaissance approfondie des <strong>articles 253 et suivants du Code des Obligations (CO)</strong>, qui régissent spécifiquement les contrats de bail à loyer. Cette expertise est cruciale pour naviguer efficacement dans les complexités des lois et obtenir les meilleurs résultats pour les clients.
+                            Un avocat spécialisé en droit du bail à Genève possède une connaissance approfondie des <strong>articles 253 et suivants du Code des Obligations (CO)</strong>, qui régissent spécifiquement les contrats de bail à loyer. Cette expertise est cruciale pour naviguer efficacement dans les complexités des lois et obtenir les meilleurs résultats pour les clients. Notre <NuxtLink to="/geneve" class="text-red-900 hover:underline">cabinet d'avocats à Genève</NuxtLink> plaide régulièrement devant la Commission de conciliation et le Tribunal des baux et loyers.
                         </p>
                     </div>
 
