@@ -14,7 +14,10 @@ export default defineNuxtConfig({
     name: 'Clegal Avocats',
   },
   sitemap: {
-    autoLastmod: true,
+    // 20.10.2026 : autoLastmod tamponnait les 50 URL a l'heure du build, donc une date
+    // identique partout a chaque deploiement. Google ignore un lastmod non fiable, et il
+    // vaut mieux ne rien declarer que declarer faux (recommandation sitemaps.org).
+    autoLastmod: false,
     xsl: false,
     urls: [
       '/',

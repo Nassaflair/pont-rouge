@@ -28,7 +28,11 @@ export const KGMID_URLS: Record<string, string> = {
 
 // Profils communs aux deux bureaux (désambiguïsation d'entité vs homonymes type "CLegal" FR)
 export const SAME_AS_DEFAULT = [
-  'https://odage.ch/fr/annuaire-des-etudes/clegal-avocats',
+  // RETIRE le 20.10.2026 : 'https://odage.ch/fr/annuaire-des-etudes/clegal-avocats' repondait 404.
+  // L'etude n'est pas inscrite a l'annuaire des etudes de l'Ordre ; seule la fiche MEMBRE de
+  // Me Cheema existe (odage.ch/fr/annuaire-des-membres/mansour-cheema, 200). Declarer une URL
+  // morte dans sameAs envoie Google vers une page inexistante sur les 50 pages du site.
+  // A remettre le jour ou l'inscription de l'etude est obtenue (action A8 du plan).
   'https://www.instagram.com/clegal.avocats/',
   'https://www.tiktok.com/@clegal.avocats',
   'https://www.youtube.com/channel/UC0KuCTzq2X4rNpwPLATgOaw',

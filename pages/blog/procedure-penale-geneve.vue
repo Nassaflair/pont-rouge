@@ -287,6 +287,7 @@ useHead({
             <li><NuxtLink to="/droit-penal" class="text-red-900 hover:underline">→ Notre page Avocat Droit Pénal Genève</NuxtLink></li>
             <li><NuxtLink to="/droit-etrangers/avocat-permis-sejour" class="text-red-900 hover:underline">→ Conséquences d'une condamnation sur le permis de séjour</NuxtLink></li>
             <li><NuxtLink to="/honoraires" class="text-red-900 hover:underline">→ Tous nos honoraires</NuxtLink></li>
+            <li><NuxtLink to="/geneve" class="text-red-900 hover:underline">→ Notre cabinet d'avocats à Genève : adresse, accès et domaines couverts</NuxtLink></li>
           </ul>
 
           <div class="mt-12 p-6 bg-slate-900 text-white rounded-xl">
