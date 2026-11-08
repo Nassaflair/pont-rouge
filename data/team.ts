@@ -30,12 +30,18 @@ export const lawyers: Lawyer[] = [
     email: 'm.cheema@clegal-avocats.ch',
     image: '/images/mansour_cheema.png',
     languages: 'Français, Anglais, Hindi, Urdu, Punjabi',
-    bio: 'Mansour Cheema est titulaire d’un Bachelor en droit délivré par l’Université de Lausanne et d’un Master mention magna cum laude délivré conjointement par les Universités de Lausanne et Zurich et d’un Certificat de spécialisation en matière d’avocature. Durant ses études, il s’est intéressé aux questions migratoires en travaillant pour le Service d’Aide Juridique aux Exilés (SAJE). Il a ensuite accompagné l’application de la nouvelle loi sur l’asile en travaillant en qualité de représentant juridique pour Caritas au sein des Centres fédéraux pour requérants d’asile. Il a effectué son stage au sein d’une Étude de la place genevoise reconnue pour son expertise en droit pénal et en droit de la famille. Après avoir fondé son Étude, Me Mansour Cheema a rejoint Clegal Avocats en qualité d’associé. Il pratique aujourd’hui la représentation dans tous les domaines du droit et bénéficie d’une expertise reconnue en droit des étrangers.',
+    bio: 'Mansour Cheema est titulaire d’un Bachelor en droit délivré par l’Université de Lausanne et d’un Master mention magna cum laude délivré conjointement par les Universités de Lausanne et Zurich et d’un Certificat de spécialisation en matière d’avocature. Durant ses études, il s’est intéressé aux questions migratoires en travaillant pour le Service d’Aide Juridique aux Exilés (SAJE). Il a ensuite accompagné l’application de la nouvelle loi sur l’asile en travaillant en qualité de représentant juridique pour Caritas au sein des Centres fédéraux pour requérants d’asile. Il a effectué son stage au sein d’une Étude de la place genevoise reconnue pour son expertise en droit pénal et en droit de la famille. Après avoir fondé son Étude, Me Mansour Cheema a rejoint Clegal Avocats en qualité d’associé. Il pratique aujourd’hui la représentation dans tous les domaines du droit et bénéficie d’une expertise reconnue en droit des étrangers. Par ailleurs, il est le fondateur de Swiss Immigration Journal, revue spécialisée en droit des étrangers et de l’immigration en Suisse.',
     cities: ['lausanne'],
+    affiliations: [
+      'Ordre des avocats de Genève (ODA)',
+      'Fédération suisse des avocats (FSA)',
+    ],
     alumniOf: ['Université de Lausanne', 'Université de Zurich'],
     knowsAbout: ['Droit des étrangers', 'Droit pénal', 'Droit de la famille', 'Droit d’asile'],
     knowsLanguage: ['fr', 'en', 'hi', 'ur', 'pa'],
-    sameAs: [],
+    // Revue qu'il a fondee : reference d'identite verifiee le 08.11.2026 (HTTP 200,
+    // « Swiss Immigration Journal - Revue de droit des etrangers », cite Me Cheema).
+    sameAs: ['https://swissimmigrationjournal.ch/'],
   },
   {
     slug: 'cyril-marc-amberger',

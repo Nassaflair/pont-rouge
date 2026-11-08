@@ -31,6 +31,8 @@ useHead({
         email: cheema.email,
         worksFor: { '@type': 'LegalService', name: 'Clegal Avocats Genève' },
         alumniOf: cheema.alumniOf?.map((a) => ({ '@type': 'EducationalOrganization', name: a })),
+        affiliation: cheema.affiliations?.map((a) => ({ '@type': 'Organization', name: a })),
+        sameAs: cheema.sameAs?.length ? cheema.sameAs : undefined,
         knowsAbout: cheema.knowsAbout,
         knowsLanguage: cheema.knowsLanguage,
         description: cheema.bio,
@@ -106,6 +108,18 @@ const articles = [
                 <div>
                   <dt class="font-semibold text-slate-500 uppercase tracking-wider text-xs">Langues</dt>
                   <dd class="text-slate-700 mt-1">{{ cheema.languages }}</dd>
+                </div>
+                <div v-if="cheema.affiliations?.length">
+                  <dt class="font-semibold text-slate-500 uppercase tracking-wider text-xs">Affiliations</dt>
+                  <dd class="text-slate-700 mt-1">{{ cheema.affiliations.join(', ') }}</dd>
+                </div>
+                <div>
+                  <dt class="font-semibold text-slate-500 uppercase tracking-wider text-xs">Publication</dt>
+                  <dd class="text-slate-700 mt-1">
+                    Fondateur de
+                    <a href="https://swissimmigrationjournal.ch/" class="text-red-900 hover:underline" rel="noopener">Swiss Immigration Journal</a>,
+                    revue de droit des étrangers
+                  </dd>
                 </div>
                 <div>
                   <dt class="font-semibold text-slate-500 uppercase tracking-wider text-xs">Email</dt>
