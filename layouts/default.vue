@@ -186,9 +186,31 @@
                                                 </div>
                                             </NuxtLink>
                                         </li>
+                                        <li>
+                                            <NuxtLink to="/droit-assurance" class="flex items-start gap-3 group/link p-2 -mx-2 hover:bg-slate-50 rounded-lg transition-colors">
+                                                <div class="p-1.5 bg-red-50 text-red-900 rounded-md group-hover/link:bg-red-100 transition-colors">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                                                </div>
+                                                <div>
+                                                    <span class="block text-sm font-semibold text-slate-900 group-hover/link:text-red-900">Droit des Assurances</span>
+                                                    <span class="block text-xs text-slate-500 mt-0.5">AI, LAA & Sinistres</span>
+                                                </div>
+                                            </NuxtLink>
+                                        </li>
+                                        <li>
+                                            <NuxtLink to="/droit-administratif" class="flex items-start gap-3 group/link p-2 -mx-2 hover:bg-slate-50 rounded-lg transition-colors">
+                                                <div class="p-1.5 bg-red-50 text-red-900 rounded-md group-hover/link:bg-red-100 transition-colors">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>
+                                                </div>
+                                                <div>
+                                                    <span class="block text-sm font-semibold text-slate-900 group-hover/link:text-red-900">Droit Administratif</span>
+                                                    <span class="block text-xs text-slate-500 mt-0.5">Recours contre l'État</span>
+                                                </div>
+                                            </NuxtLink>
+                                        </li>
                                         <!-- Call to Action in Menu -->
                                         <li class="mt-4 pt-4 border-t border-slate-100">
-                                             <NuxtLink to="/contact" class="flex items-center justify-center w-full px-4 py-2 text-xs font-medium text-white bg-slate-900 hover:bg-red-900 rounded-md transition-all">
+                                             <NuxtLink to="/domaine-de-competence" class="flex items-center justify-center w-full px-4 py-2 text-xs font-medium text-white bg-slate-900 hover:bg-red-900 rounded-md transition-all">
                                                 Voir tous les domaines →
                                             </NuxtLink>
                                         </li>
@@ -296,6 +318,9 @@
                      <div class="flex flex-col gap-3 text-base">
                         <NuxtLink to="/droit-penal" @click="handleSamePageReload('/droit-penal', $event)" class="hover:text-red-900">Droit Pénal</NuxtLink>
                         <NuxtLink to="/droit-affaires" @click="handleSamePageReload('/droit-affaires', $event)" class="hover:text-red-900">Droit des Affaires</NuxtLink>
+                        <NuxtLink to="/droit-assurance" @click="handleSamePageReload('/droit-assurance', $event)" class="hover:text-red-900">Droit des Assurances</NuxtLink>
+                        <NuxtLink to="/droit-administratif" @click="handleSamePageReload('/droit-administratif', $event)" class="hover:text-red-900">Droit Administratif</NuxtLink>
+                        <NuxtLink to="/domaine-de-competence" @click="handleSamePageReload('/domaine-de-competence', $event)" class="hover:text-red-900">Tous les domaines</NuxtLink>
                      </div>
                  </div>
             </div>

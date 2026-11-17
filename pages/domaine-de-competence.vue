@@ -77,9 +77,9 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Naturalisation facilitée/ordinaire
                             </li>
                         </ul>
-                        <a href="#contact" class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
                             Consulter un avocat immigration <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                        </a>
+                        </span>
                     </div>
                     </NuxtLink>
                     
@@ -107,9 +107,9 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Contribution d'entretien
                             </li>
                         </ul>
-                        <a href="#contact" class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
                             Consulter un avocat divorce <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                        </a>
+                        </span>
                     </div>
                     </NuxtLink>
 
@@ -137,9 +137,9 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Dépôt de plainte &amp; Victimes
                             </li>
                         </ul>
-                        <a href="#contact" class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
                             Consulter un pénaliste <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                        </a>
+                        </span>
                     </div>
                     </NuxtLink>
 
@@ -167,9 +167,9 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Conflits salariaux
                             </li>
                         </ul>
-                        <a href="#contact" class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
                             Consulter un avocat droit du travail <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                        </a>
+                        </span>
                     </div>
                     </NuxtLink>
 
@@ -197,9 +197,9 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Expulsion (recours)
                             </li>
                         </ul>
-                        <a href="#contact" class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
                             Consulter un avocat bail <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                        </a>
+                        </span>
                     </div>
                     </NuxtLink>
 
@@ -227,14 +227,14 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Création de SA/SARL
                             </li>
                         </ul>
-                        <a href="#contact" class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
                             Consulter un avocat affaires <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                        </a>
+                        </span>
                     </div>
                     </NuxtLink>
 
-                    <!-- 7. Droit des Assurances (New) -->
-                    <NuxtLink to="/contact">
+                    <!-- 7. Droit des Assurances -->
+                    <NuxtLink to="/droit-assurance">
                     <div class="group relative bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-red-900/30 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
                         <div class="absolute top-8 right-8 text-slate-200 group-hover:text-red-100 transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-alert"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -257,14 +257,14 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Responsabilité civile (RC)
                             </li>
                         </ul>
-                        <a href="#contact" class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
                             Consulter un avocat assurances <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                        </a>
+                        </span>
                     </div>
                     </NuxtLink>
 
-                    <!-- 8. Droit Administratif (New) -->
-                    <NuxtLink to="/contact">
+                    <!-- 8. Droit Administratif -->
+                    <NuxtLink to="/droit-administratif">
                     <div class="group relative bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-red-900/30 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
                         <div class="absolute top-8 right-8 text-slate-200 group-hover:text-red-100 transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-landmark"><line x1="3" x2="21" y1="22" y2="22"></line><line x1="6" x2="6" y1="18" y2="11"></line><line x1="10" x2="10" y1="18" y2="11"></line><line x1="14" x2="14" y1="18" y2="11" class=""></line><line x1="18" x2="18" y1="18" y2="11"></line><polygon points="12 2 20 7 4 7"></polygon></svg>
@@ -287,9 +287,38 @@
                                 <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Fonction publique
                             </li>
                         </ul>
-                        <a href="#contact" class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
                             Consulter un avocat administratif <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                        </a>
+                        </span>
+                    </div>
+                    </NuxtLink>
+                    <!-- 9. Droit Immobilier -->
+                    <NuxtLink to="/droit-immobilier">
+                    <div class="group relative bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-red-900/30 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+                        <div class="absolute top-8 right-8 text-slate-200 group-hover:text-red-100 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-slate-900 mb-4 flex items-center gap-2">
+                            Droit Immobilier
+                        </h3>
+                        <p class="text-sm font-medium text-red-800 mb-4 uppercase tracking-wide text-[11px]">Propriétaires &amp; Acquéreurs</p>
+                        <p class="text-slate-600 mb-6 leading-relaxed">
+                            Achat et vente d'un bien, défauts de construction, copropriété (PPE), voisinage et servitudes. Le droit du bail dispose d'une page dédiée.
+                        </p>
+                        <ul class="space-y-2 mb-8">
+                            <li class="flex items-center text-sm text-slate-700">
+                                <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Vente et vices cachés
+                            </li>
+                            <li class="flex items-center text-sm text-slate-700">
+                                <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Copropriété (PPE)
+                            </li>
+                            <li class="flex items-center text-sm text-slate-700">
+                                <span class="w-1.5 h-1.5 rounded-full bg-red-600 mr-2"></span>Construction et voisinage
+                            </li>
+                        </ul>
+                        <span class="inline-flex items-center text-sm font-medium text-slate-900 hover:text-red-800 transition-colors">
+                            Consulter un avocat immobilier <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </span>
                     </div>
                     </NuxtLink>
                 </div>
